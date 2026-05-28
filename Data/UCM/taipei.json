@@ -1,0 +1,51 @@
+{
+    "class": "Taipei",
+    "type": "Missile Frigate",
+    "points": 40,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "2-6",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "UF-2200 Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Name": "Piranha Missile Turrets",
+            "Arc": "F/S",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Surprise",
+        "Undaunted",
+        "Assasin's Blade",
+        "Blackjack"
+    ],
+    "flavour": "The Taipei class missile frigate is a dedicated close assault vessel, designed for first wave attacks, flanking operations and supply interdiction missions. The class excels at bringing firepower to bear that belies its small size at the expense of range. As such, the Taipei must use its superior speed to attain close action range before it can strike with the full force of its Piranha missile system. Its attacks can be blocked by point defence so this class is most potent as a pack hunter, where the sheer volume of munitions can overcome these measures. It is also adept at hunting smaller vessels and non-combat ships, which often feature inferior point defence capabilities.\nSuch an offensive mission profile clearly suits the bravest of captains who are ready to take risks and happy to operate far from the main fleet. Such attributes are necessary as regrettably, survival rates for the Taipei class are among the worst of all UCMF ships. The repair docks of Niccolum are littered with Taipei's sporting horrific damage that have limped back to safety in defiance of all odds."
+}

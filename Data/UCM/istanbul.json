@@ -1,0 +1,55 @@
+{
+    "class": "Istanbul",
+    "type": "Monitor",
+    "points": 50,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 4,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1-3",
+        "Special": [
+            "Monitor"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "UF-B-9000s (Anti-Ship)",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Alt-1"
+            ]
+        },
+        {
+            "Name": "UF-B-9000s (Bombardment)",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Alt-1",
+                "Bombardment"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Fist of Osman",
+        "Suliman",
+        "Loyal Janissary"
+    ],
+    "flavour": "The Istanbul is a typical naval defence monitor. Frigate-sized, it features armour as thick as a battleship's and low speed to match. UCM Monitors achieve this through dispensing with Foldspace capability; they must be brought into system by tugs - large vessels under the auspices of the Fleet Logistical Corps. Once in system, its undersized, overstretched sublight thrusters slowly get the monitor into position.\nThis massive sacrifice of mobility also frees up considerable power for weapons, allowing the Istanbul to be over-gunned for its relatively small size. It features a massive UF-B-9000 mass-driver, in a unique, rotating mount; supporting its defensive role. This allows the Istanbul to easily engage targets in higher orbital layers or directed towards the surface for bombardment."
+}

@@ -1,0 +1,48 @@
+{
+    "class": "New Orleans",
+    "type": "Strike Carrier",
+    "points": 45,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "UF-2200 Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Avenger",
+        "Aurum's Grace",
+        "Ocean",
+        "Everblade"
+    ],
+    "flavour": "The New Orleans class strike carrier is a first wave planetary assault vessel designed to deliver ground troops to hot combat zones. The class is a mainstay of almost all UCM fleets and is one of the most common vessels of frigate tonnage to see service in the Reconquest, with almost a thousand operational by 2672. It is a relatively new class as its specifications were laid down late in the development of the UCM military machine to allow for the designs for its cargo to fully mature.\nThe New Orleans' formidable payload of armoured units and mechanised infantry are deployed by agile dropships, making it ideally suited to fluid, early stage combat operations where heavy enemy action is anticipated. It is one of the largest vessels the UCM has that is capable of atmospheric operations – an essential feature as most UCM dropships cannot operate in the void and must be deployed in atmosphere."
+}

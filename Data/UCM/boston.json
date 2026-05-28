@@ -1,0 +1,45 @@
+{
+    "class": "Boston",
+    "type": "Light Cruiser",
+    "points": 75,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 8,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Piranha Missile Turrets",
+            "Arc": "F/S",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Medium Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-1"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

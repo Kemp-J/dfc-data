@@ -1,0 +1,60 @@
+{
+    "class": "Lysander",
+    "type": "Stealth Lighter",
+    "points": 25,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 6,
+        "Sig": 0,
+        "Hull": 2,
+        "ES": "6+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Descent",
+            "Cloak-1",
+            "Rare",
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Barracuda Missile Bays",
+            "Arc": "F/S/R",
+            "Att": 2,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Stealth Drop",
+            "Text": "When this Group launches its Dropships, 2 Dropships are needed to place 1 Battalion. If this Group contains a single ship, each Dropship only places a Battalion on a roll of a 4+."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Hope's Spark",
+        "Blue Shade",
+        "Eternal Darkness",
+        "Azure Night",
+        "Leprechaun",
+        "Silent Blade"
+    ],
+    "flavour": "The Lysander class Lighter has been a lynchpin in the UCM's covert ops since it entered service in 2669. It is the UCMF's first fully cloaked warship, pushing multiple 1st gen classified stealth systems to their current limits of scale. The class is equipped for extended infiltrations including limited surface landings to scout potential invasion sites and support Resistance groups.\nInitially the class was Level-6 classified and generally reserved for Marine Force Black - the UCM's most elite troops under the Office of Naval Intelligence. Rumours circulated among the admiralty, where demands for access to such a tool grew from whispers into shouts. As the Battle for Earth loomed, the Lysander's existence was confirmed and production ramped up. While still precious assets, limited numbers are now available to support regular frontline operations and first strike incursions."
+}

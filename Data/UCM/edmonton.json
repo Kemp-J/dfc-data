@@ -1,0 +1,56 @@
+{
+    "class": "Edmonton",
+    "type": "Heavy Carrier",
+    "points": 135,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 12,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "6+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Cobra Heavy Laser",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-1",
+                "Flash-1",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "UF-6400 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Critical-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

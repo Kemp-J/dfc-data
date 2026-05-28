@@ -1,0 +1,59 @@
+{
+    "class": "Vilnius",
+    "type": "Heavy Cruiser",
+    "points": 115,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 12,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "6+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "UF-6400 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Critical-1"
+            ]
+        },
+        {
+            "Name": "UF-6400 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Critical-1"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

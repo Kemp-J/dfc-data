@@ -1,0 +1,42 @@
+{
+    "class": "Toulon",
+    "type": "Frigate",
+    "points": 30,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "UF-2200 Mass Driver Turret Triad",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Drake",
+        "Levant",
+        "Constellation",
+        "Titania Sunrise"
+    ],
+    "flavour": "The Toulon class frigate is the standard combat frigate of the UCMF and has been for many years. This class has been the first command of many successful captains, making it an ideal posting for the young and ambitious. It was the first class to use the familiar hull design now utilised in most colonial frigates and has been perfected over many decades. It is a dependable, cost effective vessel with reasonable firepower for its size and is more than capable of taking on its equivalents in enemy fleets. When deployed in numbers this unglamorous class can take on the largest of opponents.\nThe Toulon is armed with nine UF-2200 'Foe Hammer' mass drivers in triple turret configuration, giving it excellent all round targeting capability and flexibility. These turrets are standard on almost all UCM frigates, offering excellent dependability and common parts, following the efficient design doctrine of the Colonies. The UCMF has close to 400 of these mainstay ships in its register, making it an essential part of the Colonial Fleet for many years to come."
+}

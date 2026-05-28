@@ -1,0 +1,124 @@
+{
+    "class": "Byzantium",
+    "type": "Super Battleship",
+    "points": 325,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 10,
+        "Sig": 10,
+        "Hull": 20,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Python Super Heavy Laser",
+            "Arc": "FN",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Bloom-2",
+                "Burnthrough-2",
+                "Flash-1",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "UF-B-8000 Bombardment Turrets",
+            "Arc": "F/S/R",
+            "Att": 12,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Bombardment",
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        },
+        {
+            "Name": "Cobra Heavy Laser Pair",
+            "Arc": "FN",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Flash-2",
+                "Focused"
+            ],
+            "Cost": 5,
+            "Replaces": [
+                "UF-4200 Mass Driver Turrets",
+                "UF-4200 Mass Driver Turrets"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 4,
+            "Special": [
+                "Alt-1"
+            ]
+        },
+        {
+            "Load": "Heavy Bombers",
+            "Launch": 3,
+            "Special": [
+                "Alt-1"
+            ]
+        },
+        {
+            "Load": "Medium Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-2"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Laser Refit",
+            "Text": "This Ship may take a Laser Refit for +5 points, replacing both of its UF-4200 Mass Driver Turrets with a single Cobra Heavy Laser Pair."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Byzantium",
+        "Constantine",
+        "Saladin",
+        "Basilic"
+    ],
+    "flavour": "The Byzantium super battleship was designed to spearhead anti-surface operations. The class has substantial bombardment capabilities coupled with enough firepower to annihilate any foe it might encounter, including torpedoes and a Python super-heavy laser. Once at its firing station, it can use its substantial fleet carrier capabilities to send waves of fighters and bombers further afield to secure the battlespace."
+}

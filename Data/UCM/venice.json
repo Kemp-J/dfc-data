@@ -1,0 +1,57 @@
+{
+    "class": "Venice",
+    "type": "Command Battlecruiser",
+    "points": 185,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 14,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Command Ship-2",
+            "Marines-1",
+            "Vanguard-4\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "UCMF Battlenet",
+            "Text": "An admiral assigned to this ship gains the following Command Abilities:\nTelemetry Link (2AP): When you activate another friendly Group in Orbit, that Group increases its total movement (after orders) by 4\" this round.\nOrder to Fire (2AP): When you activate another friendly Group in Orbit, pick one of the following options:\n• While that Group is on the General Quarters, Course Change, or Damage Control orders, each Ship may attack with an additional weapon.\n• While that Group is on the General Quarters or Weapons Free orders, you may attack with a single allowed Weapon System before turning and moving any Ships in that Group. That Weapon System cannot be used for the rest of the Group's activation."
+        }
+    ],
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Telemetry Link",
+            "Effect": "When you activate another friendly Group in Orbit, that Group increases its total movement (after orders) by 4\" this round."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Order to Fire",
+            "Effect": "When you activate another friendly Group in Orbit, pick one of the following options:\n• While that Group is on the General Quarters, Course Change, or Damage Control orders, each Ship may attack with an additional weapon.\n• While that Group is on the General Quarters or Weapons Free orders, you may attack with a single allowed Weapon System before turning and moving any Ships in that Group. That Weapon System cannot be used for the rest of the Group's activation."
+        }
+    ],
+    "famous_ships": [],
+    "flavour": ""
+}

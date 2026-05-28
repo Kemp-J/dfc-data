@@ -1,0 +1,14 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Aegis Platform",
+        "ES": "6+",
+        "KS": "4+",
+        "Special": [
+            "Aegis-4"
+        ]
+    },
+    "weapons": [],
+    "load": [],
+    "rules": "Each friendly Aegis Platform counts as a separate friendly Group for the purposes of its Aegis-X special rule. While this feature is deployed to a Dropsite, friendly groups treat the Dropsite as if it were a friendly Ship with Aegis-4 on the same Orbital Layer for the purposes of enemy close action and bomber attacks.\nThis Feature's Aegis special rule affects friendly Ships in Orbit in addition to Atmosphere.\nAfter enemy assets end their movement within 4\", are placed within 4\" of, or are deployed to this Dropsite, roll a dice for each of those assets. For each result of a 5+, remove one of those assets. Enemy Features are only removed on a result of a 6+. Only one Aegis Platform can be used this way for each Asset and any Battalions already on the Dropsite are ignored."
+}

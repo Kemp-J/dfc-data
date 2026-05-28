@@ -1,0 +1,54 @@
+{
+    "class": "Madrid",
+    "type": "Cruiser",
+    "points": 86,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 10,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "UF-B-8000 Bombardment Turret Pair",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Bombardment",
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Punisher",
+        "Righteous Revenge",
+        "Death's Shadow",
+        "Hammer of Justice"
+    ],
+    "flavour": "The Madrid class cruiser has long been an essential part of the UCM's Reconquest plan since the first hull was laid down in 2642. This class is the most common capital ship in the UCMF dedicated to the orbital bombardment role – a crucial component in any planetary assault. Its primary armament is a pair of turreted UF/B-8000 bombard cannons - massive calibre conventional weapons capable of hurling heavy shells towards a planet's surface to inflict biblical damage on ground targets. These weapons are also surprisingly crude and thus inexpensive to produce which is vital, since the UCM is always in need of their services.\nWhile it also carries some ship-to-ship weapons, the Madrid requires close protection against enemy vessels above frigate tonnage since its bombardment cannons are useless against void targets. In its intended role, the Madrid can level whole districts in minutes by accurately targeting key areas while leaving the majority of the city intact for later capture. The captaincy of such a vessel is not for the faint hearted or those with a classical sense of honour, who would surely blanch at the idea of visiting ruin on hapless multitudes from orbit."
+}

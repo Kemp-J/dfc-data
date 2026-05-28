@@ -1,0 +1,57 @@
+{
+    "class": "Siam",
+    "type": "Battlecruiser",
+    "points": 180,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 14,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Vanguard-4\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Elapid Laser Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Arowana Missile Turrets",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

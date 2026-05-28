@@ -1,0 +1,46 @@
+{
+    "class": "Santiago",
+    "type": "Corvette",
+    "points": 20,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 6,
+        "Sig": 2,
+        "Hull": 2,
+        "ES": "5+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Descent",
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Stingray Missile Bays",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Air to Air",
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Jolly Roger",
+        "Queen Anne's Revenge",
+        "Flying Dragon",
+        "Golden Hind"
+    ],
+    "flavour": "The Santiago class corvette is a small, atmospheric-capable vessel of sub-frigate tonnage. These nimble, fast ships were designed for a single purpose - hunting down enemy atmospheric fleet assets. They are armed with a potent array of air-to-air missiles, utterly lethal to the frigate sized vessels that are its favourite prey. In particular, strike carriers and their precious cargo are prime targets since these strategically vital ships are shielded from the majority of enemy fire while operating in atmosphere.\nSantiagos are favoured by the most aggressive captains fresh from Niccolum's Naval Academy. Atmospheric combat is not for the faint of heart as it must be fought only at close range where the small Santiago is always vulnerable to return fire. The uniquely challenging nature of these operations is a fiery crucible from which many budding captains do not return, but those that do are often destined for greatness in the future."
+}

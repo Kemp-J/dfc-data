@@ -1,0 +1,55 @@
+{
+    "class": "Berlin",
+    "type": "Cruiser",
+    "points": 80,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 10,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Cobra Heavy Laser",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-1",
+                "Flash-1",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Aurora",
+        "Spear of Destiny",
+        "Surefire",
+        "Ardent"
+    ],
+    "flavour": "The Berlin class cruiser was developed in the 2650's as the first cruiser-tonnage platform to bear the formidable Cobra anti-ship laser. This weapon had previously only been mounted on larger ships, where its colossal power requirements would be more manageable. With the constant advances in technology that characterises the build up to the Reconquest, it became possible to use the weapon on smaller ships. The marriage of the Cobra and a more agile hull proved highly effective and the Berlin class quickly became a mainstay of the fleet, although demand from the Admiralty has always outstripped supply from Niccolum's shipyards.\nThe Berlin is a highly effective vanguard unit, capable of taking significant punishment while responding with a range of weapons systems against multiple threats. The Cobra laser itself is most often employed against high value assets where its focused devastation can prove decisive. The weapon also has the useful side-effect of heating the hull of the target ship, making it far easier for the rest of the fleet to achieve accurate target locks."
+}

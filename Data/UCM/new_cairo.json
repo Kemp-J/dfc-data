@@ -1,0 +1,44 @@
+{
+    "class": "New Cairo",
+    "type": "Light Cruiser",
+    "points": 70,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 8,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Cobra Heavy Laser",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-1",
+                "Flash-1",
+                "Focused"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Sunstar",
+        "Excalibur",
+        "True Arrow",
+        "Firebrand"
+    ],
+    "flavour": "The New Cairo class light cruiser is a recent development of the Osaka class that only entered service in 2669, making it one of the newest types in the UCMF. The New Cairo is armed with a single Cobra heavy laser, a powerful weapon capable of cutting to the core of an enemy capital ship and more than capable of slicing a frigate in half in a single burn. However, its utility is limited to a narrow arc in front of the ship, making the New Cairo an even more focused tool than the Osaka in an Admiral's arsenal. Primarily, it excels at hunter-killer missions against priority targets where it can use its superior combat speed to attain a firing position. Much like other light cruisers, the New Cairo is less effective in general engagements or in the heart of the battle, where its lack of flexible firepower is telling.\nNew Cairos tend to attract captains with a focused zeal on the mission at the expense of all surrounding distractions, verging on the single-minded. A ridged adherence to orders coupled with aggression is also essential as these attack dogs must strike decisively and quickly if they are to prevail in the maelstrom of combat."
+}

@@ -1,0 +1,50 @@
+{
+    "class": "Caracas",
+    "type": "Heavy Destroyer",
+    "points": 65,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 6,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Orca Missile Bays",
+            "Arc": "F/S/R",
+            "Att": 7,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Critical-2"
+            ]
+        },
+        {
+            "Name": "HB-8800 Bombardment Spikes",
+            "Arc": "F/S/R",
+            "Att": 2,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Bombardment",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

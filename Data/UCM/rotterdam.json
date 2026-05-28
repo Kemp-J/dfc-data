@@ -1,0 +1,81 @@
+{
+    "class": "Rotterdam",
+    "type": "Pocket Battleship",
+    "points": 195,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 15,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Command Ship-2"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Taipan Laser Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-2"
+            ]
+        },
+        {
+            "Name": "Taipan Laser Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-2"
+            ]
+        },
+        {
+            "Name": "Swordfish Missile Bays",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Feature Carrier",
+            "Text": "At the start of the game, before the first planning phase, choose one Deployable Feature from the UCM Deployable Features List. This Ship starts the game carrying that Deployable Feature."
+        },
+        {
+            "Name": "UCMA Battlenet",
+            "Text": "An Admiral assigned to this ship gains the following Command Abilities:\nDouble Time Bulk Line (2AP): When you activate another friendly Group in Orbit, until the end of its activation, that Group may launch its Bulk Landers as if the target Dropsite has no enemy Battalions.\nFeet First into Hell (2AP): When you activate another friendly Group in atmosphere, until the end of its activation, that Group can launch its Dropships or Drop Pods with a range of 6\". Drop Pods launched due to this rule ignore the Alt-Launch rule."
+        }
+    ],
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Double Time Bulk Line",
+            "Effect": "When you activate another friendly Group in Orbit, until the end of its activation, that Group may launch its Bulk Landers as if the target Dropsite has no enemy Battalions."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Feet First into Hell",
+            "Effect": "When you activate another friendly Group in atmosphere, until the end of its activation, that Group can launch its Dropships or Drop Pods with a range of 6\". Drop Pods launched due to this rule ignore the Alt-Launch rule."
+        }
+    ],
+    "famous_ships": [],
+    "flavour": ""
+}

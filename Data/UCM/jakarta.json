@@ -1,0 +1,55 @@
+{
+    "class": "Jakarta",
+    "type": "Aegis Frigate",
+    "points": 42,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Aegis-2"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "UF-2200 Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Name": "Aegis-V Array",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 0,
+            "Type": "E",
+            "Special": [
+                "Anti-Wing",
+                "Close Action",
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Aegis",
+        "Shield of Ferrum",
+        "Congress",
+        "Noble Squire"
+    ],
+    "flavour": "The Jakarta class aegis frigate was designed solely for close protection and escort missions around larger ships. While it is equipped with minimal offensive firepower, its real value comes from an impressive array of Aegis-V point defence lasers that equal those on much larger vessels. Crucially, the Jakarta can lend this protection to other ships, guarding them from enemy close action fire and bomber attack. As a high speed frigate, this shield can be directed to where it's needed, increasing efficiency and reducing redundancy. Since Scourge close action weapons are frighteningly effective, the development of this class was a priority from the early planning stages of the Reconquest.\nJakartas tend to attract solid, reliable captains that prefer to work towards the greater good with the minimum of self-aggrandisement. This is just as well, as opportunities for personal glory are few and far between on such a defensively-oriented class. However, the Admiralty recognises these qualities in a ship's captain and after a few tours, such leaders may graduate to the command of a troopship or a high level posting in logistics, where a level-headed team player is prized above any firebrand."
+}

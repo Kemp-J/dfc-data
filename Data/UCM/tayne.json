@@ -1,0 +1,65 @@
+{
+    "admiral": "Tayne",
+    "admiral_level": 2,
+    "class": "Warsaw",
+    "type": "Heavy Cruiser",
+    "admiral_points": 45,
+    "ship_points": 110,
+    "points": 155,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 12,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "6+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Cobra Heavy Laser Pair",
+            "Arc": "FN",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Flash-2",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Stressful Manoeuvre",
+            "Text": "When firing its Cobra Heavy Laser Pair, this Admiral's Flagship may suffer 1 point of damage to change the Arc of its Cobra Heavy Laser Pair to F."
+        }
+    ],
+    "fleet_admiral_abilities": 1,
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Close Quarter Battle",
+            "Effect": "When a friendly Group moves, each ship in it suffers 1 point of Damage and gains Vectored until the end of the round."
+        }
+    ],
+    "flavour": "Commodore Tobias Tayne is one of the UCMF's rising stars. An aggressive admiral that has seen through many engagements in command of one of the original run of Warsaw Heavy Cruisers. He played a pivotal role in the defence of Ferrum from the Scourge's surprise attack; his Battlegroup protected half a continent from Scourge attack and ensured the safety of several important Ferrum Motors factories.\nDespite his valiant efforts, his original Warsaw, the Aurum Eyes was irreparably damaged and consigned to scrap. For his efforts he was given a promotion to Commodore and assigned a new ship. Retaining most of his original crew, they settled into this latest-gen cruiser, the Aurum Eyes II.\nHaving spent the battle over Ferrum pushing the Aurum Eyes to its absolute limit and beyond, Tayne and his crew know exactly what the class is capable of. Due to this, they're a lot more willing to push the ship to the point just before structural failure to ensure their Cobra Lasers have the enemy in their sights."
+}

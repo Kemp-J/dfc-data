@@ -1,0 +1,20 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Torpedo Platform",
+        "ES": "5+",
+        "KS": "5+",
+        "Special": []
+    },
+    "weapons": [],
+    "load": [
+        {
+            "Load": "Medium Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-4"
+            ]
+        }
+    ],
+    "rules": "When an attacking Group or Asset/s attack would cause this feature to be removed, if it has any remaining Torpedoes, the attacking opponent may remove one additional Feature and any Battalions assigned to it from this Dropsite."
+}

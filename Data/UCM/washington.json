@@ -1,0 +1,110 @@
+{
+    "class": "Washington",
+    "type": "Supercarrier",
+    "points": 530,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 14,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Aegis-6",
+            "Command Ship-2",
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "UF-9000 Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "UF-9000 Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turret Core Battery",
+            "Arc": "F/S",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-3",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Leviathan Missile Bays",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 6,
+            "Special": [
+                "Alt-1"
+            ]
+        },
+        {
+            "Load": "Heavy Bombers",
+            "Launch": 4,
+            "Special": [
+                "Alt-1"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Washington",
+        "Eisenhower",
+        "Nimitz",
+        "Our Will",
+        "Shield of Aurum"
+    ],
+    "flavour": "The Washington is the largest military starship in UCMF. Examples include the Shield of Aurum, the UCMF's flagship and Our Will, the most decorated Colonial vessel.\nIts mass drivers match any battleship, but its strength lies in its launch compliment, more than an entire strike group—pivotal, if deployed skilfully. Just one of these monstrosities can throw up an impenetrable fighter screen or a wave of bombers dense enough to cripple a battleship in one blow."
+}

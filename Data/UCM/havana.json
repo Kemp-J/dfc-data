@@ -1,0 +1,51 @@
+{
+    "class": "Havana",
+    "type": "Destroyer",
+    "points": 45,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": [
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Shark Missile Bays",
+            "Arc": "F/S/R",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Light Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-2"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Mjolnir",
+        "Black Prince",
+        "Vengeance"
+    ],
+    "flavour": "The Havana is the earliest type of destroyer currently in service with the UCMF, having first seen combat with the Shaltari in 2596. Its design stems from older and largely outmoded naval strategies revolving around the use of torpedoes as primary weapons. Since the 2620s, the Admiralty shifted away from the idea of these colossal munitions due to their very limited capacity and a tendency towards overkill. Both traits make them unreliable and expensive weapons compared to mass drivers.\nAs the vast naval build-up to the Reconquest gathered steam, it was deemed that torpedoes should not consume precious resources for anything other than large vessels. As such, production of the Havana more or less ceased. Those that remain (and have survived the first few years of carnage) are now highly prized assets, able to deliver stunning amounts of damage to any target, disproportionate to their size. While the Havana may be a dinosaur in the modern fleet, old school admirals greatly covet the spectacle of the swift and violent hammer blow that only a 200m long explosive can provide."
+}

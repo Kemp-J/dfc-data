@@ -1,0 +1,46 @@
+{
+    "class": "Nuuk",
+    "type": "EM Harasser",
+    "points": 35,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": [
+            "Vectored",
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Haywire Blaster",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 0,
+            "Type": "E",
+            "Special": [
+                "Status"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Blizzard",
+        "Shard of Ice",
+        "Frostblade",
+        "Harpoon",
+        "Nuuk"
+    ],
+    "flavour": "The Nuuk is a unique support vessel based on the UCMF's newest cutter, the Reykjavik; a specialist platform to begin with, it offers extreme speed at the expense of survivability. The UCMS Nuuk was built by Battlefleet Eden using a Reykjavik damaged during a combat trial. By simply refitting the power-hungry mass drivers for a satellite-grade EM Haywire Blaster, they created a tool that the Admiralty was quick to appreciate. Such was the tactical potential that many hulls intended to be Reykjaviks were converted to Nuuks at the construction stage.\nThe Nuuk's ability to directly damage an opponent is limited, but a concentrated, close-range blast from its beamer can render an enemy ship confused and unable to compute complex tasks, such as plotting firing solutions for all weapons.\nThis is devastatingly effective at hobbling capital ships, although Nuuk captains must use their speed to get behind their targets before their small ship is vaporised by a vengeful giant."
+}

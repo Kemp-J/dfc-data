@@ -1,0 +1,42 @@
+{
+    "class": "Kyiv",
+    "type": "Heavy Destroyer",
+    "points": 60,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 6,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "UF-9000 Twin Mass Driver",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Fusillade-1",
+                "Re-Entry"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Aleksy the Great",
+        "Green Square",
+        "Wrathful"
+    ],
+    "flavour": "The Kiev is an interesting vessel, in that it features a pair of super-heavy, UF-9000 series mass drivers in a fixed position. These impressive weapons are heavier gauge than those mounted in almost any other UCMF warship, save the mighty dreadnoughts. The mission role of Kiev class is to hunt and kill the most heavily armoured enemy vessels with swift brutality. They are unsubtle sledgehammers and the bane of enemy flagships. Many an enemy admiral has met their ignominious deaths at the hands of this smaller adversary since its inception in the 2640s.\nThese weapons are also large enough in gauge to fire new and experimental munitions featuring molecular repulsion technology. These can cut through atmosphere and reach targets normally safe from the attentions of orbiting spacecraft.\nIt is also an unusual ship due to its triple-hull configuration, borrowing core superstructure elements from standard UCMF destroyers, although with reinforced armour superior to that of most other light vessels. Although artificial gravity creates the comforting illusion of \"up and down\" as usual, the fact that other segments of the ship are oriented differently never ceases to confuse fresh crew members!"
+}

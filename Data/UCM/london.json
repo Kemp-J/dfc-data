@@ -1,0 +1,117 @@
+{
+    "class": "London",
+    "type": "Dreadnought",
+    "points": 435,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 14,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Aegis-6",
+            "Command Ship-2",
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "UF-9000 Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "UF-9000 Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "UF-6400 Mass Driver Turret Battery",
+            "Arc": "F/S",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Critical-1"
+            ]
+        },
+        {
+            "Name": "UF-6400 Mass Driver Turret Battery",
+            "Arc": "F/S",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Critical-1"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turret Core Battery",
+            "Arc": "F/S",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-3",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Leviathan Missile Bays",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "London",
+        "Robert A Bernard",
+        "Destiny",
+        "Sceptered Empress",
+        "Triumph"
+    ],
+    "flavour": "Triple the displacement of a Battleship, the London is one of the most powerful warships ever produced by mankind, armed with fifty mass drivers in various gauges. One may annihilate an entire fleet, unassisted.\nIt takes an entire orbital yard sector three years to lay down the hull of one of these ships. The sheer resources to outfit crew and maintain the ship reserves its use for the direst circumstances, commanded by the UCMF's most decorated Admirals. Each is a legend in its own right."
+}

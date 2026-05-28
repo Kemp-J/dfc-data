@@ -1,0 +1,42 @@
+{
+    "class": "Reykjavik",
+    "type": "Cutter",
+    "points": 45,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": [
+            "Vectored"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "UF-9000-S Twin Mass Driver",
+            "Arc": "FN",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": []
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Arrow",
+        "Lancelot",
+        "Harpoon",
+        "North Star"
+    ],
+    "flavour": "Cutters have been a specialist part of the UCMF since its inception. The concept is simple: a fast ship near frigate tonnage designed to chase and slay already fast enemy scouts, outliers and support vessels. The Reykjavik is the newest of these, having only entered widespread service early in the Reconquest. The vessel is state of the art, crew-centric and one of the fastest ships in the fleet through the simple expedient of a bloated drive bank more suited to a cruiser.\nReykjaviks generally operate ahead of the main fleet and are often tasked with making the first small but crucial kills in an engagement. The class is well equipped to achieve this, packing a pair of fixed UF- 9000-S mass drivers: short-barrelled versions of those found on dreadnought turrets. These weapons are powerful enough to worry anything, though cutter captains would do well to consider the fragility and specialist role of their ships before tackling larger prey."
+}

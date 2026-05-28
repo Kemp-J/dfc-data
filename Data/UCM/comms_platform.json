@@ -1,0 +1,12 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Comms Platform",
+        "ES": "5+",
+        "KS": "5+",
+        "Special": []
+    },
+    "weapons": [],
+    "load": [],
+    "rules": "Friendly Ships with the Command Ship-X ability within 8\" of one or more Dropsites with a friendly Comms Platform improve the X value of that rule by 1 when generating AP.\nFriendly Ships within 8\" of this Feature's Dropsite ignore the effects of any Scanners Offline token."
+}

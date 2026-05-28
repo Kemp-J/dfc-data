@@ -1,0 +1,43 @@
+{
+    "class": "Lima",
+    "type": "Detector Frigate",
+    "points": 40,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Detector",
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "UF-2200 Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Pharos",
+        "Guiding Light",
+        "Nostradamus",
+        "Virgil"
+    ],
+    "flavour": "The Lima class frigate is equipped with an extremely potent electronic warfare suite and detector array. Its highly focused mission parameters revolve around active scanning the engagement zone for enemy presence and assisting in accurate target acquisition for the main fleet. The presence of Lima's in a UCM formation can increase the effective range of the entire fleet, providing the crucial opportunity of hitting first.\nUnfortunately, these systems proved costly and slow to produce during the Lima's construction, greatly limiting the numbers available at the launch of the Reconquest. As of 2672, only 97 are in the register, making it a precious asset given its usefulness. Admirals are under orders to preserve these ships as much as possible and are usually given limited access to the class. Fortunately, it operates best from the rear of any fleet action, giving it a good chance of survival in most engagements."
+}

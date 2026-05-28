@@ -1,0 +1,113 @@
+{
+    "class": "Tokyo",
+    "type": "Battleship",
+    "points": 225,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 10,
+        "Sig": 10,
+        "Hull": 20,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Python Super Heavy Laser",
+            "Arc": "FN",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Bloom-2",
+                "Burnthrough-2",
+                "Flash-1",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "UF-B-8000 Bombardment Turrets",
+            "Arc": "F/S/R",
+            "Att": 12,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Bombardment",
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        },
+        {
+            "Name": "UF-4200 Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        },
+        {
+            "Name": "Cobra Heavy Laser Pair",
+            "Arc": "FN",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Flash-2",
+                "Focused"
+            ],
+            "Cost": 5,
+            "Replaces": [
+                "UF-4200 Mass Driver Turrets",
+                "UF-4200 Mass Driver Turrets"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [
+        {
+            "Name": "Drive Refit",
+            "Cost": "45",
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 3
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Drive Refit",
+            "Text": "This Ship may take a Drive Refit for +45 points, increasing its Thrust by 3\"."
+        },
+        {
+            "Name": "Laser Refit",
+            "Text": "This Ship may take a Laser Refit for +5 points, replacing both of its UF-4200 Mass Driver Turrets with a single Cobra Heavy Laser Pair."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}
