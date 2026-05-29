@@ -72,7 +72,7 @@
     "equipment": [
         {
             "Name": "Drive Refit",
-            "Cost": "45",
+            "Cost": 45,
             "Effects": [
                 {
                     "Target": "Thrust",
