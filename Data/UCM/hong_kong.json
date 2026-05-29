@@ -70,7 +70,7 @@
     "rules": [
         {
             "Name": "Feature Carrier",
-            "Text": "At the start of the game, before the first planning phase, choose one Deployable Feature from the UCM Deployable Features List. This Ship starts the game carrying that Deployable Feature."
+            "Text": "At the start of the game, before players deploy, choose one Deployable Feature from the UCM Deployable Features List. This Ship starts the game carrying that Deployable Feature."
         }
     ],
     "admiral_abilities": [],

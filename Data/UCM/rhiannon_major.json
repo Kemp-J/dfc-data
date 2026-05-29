@@ -1,0 +1,71 @@
+{
+    "hero": "Rhiannon Major",
+    "ship": "Leaden Triad",
+    "type": "Heavy Destroyer",
+    "points": 71,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 6,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Hero",
+            "Unique"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Artillery Cannon",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Fusillade-1",
+                "Low Power"
+            ]
+        },
+        {
+            "Name": "Artillery Cannon",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Fusillade-1",
+                "Low Power"
+            ]
+        },
+        {
+            "Name": "Artillery Cannon",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Fusillade-1",
+                "Low Power"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "- Leaden Triad"
+    ],
+    "flavour": "Leaden Triad is a new, experimental vessel designed and built by the restored Eden Drive Yards Corporation. This pre-war colossus was ended by the Scourge invasion, but this reincarnation is based in its recaptured shipyards, and the new corporation has all the recovered tech of its predecessor, including its work on the largest chemical guns ever built. Though they never got a chance to enter service, three prototypes were recovered and have been installed aboard a unique heavy destroyer hull.\nCaptain Rhiannon Major, already the UCM's finest naval gunnery officer at just 34 years of age, has been given command. Though not a natural leader, her icy bravery and uncanny intelligence are the natural fit to shepherd this project into combat testing. Already, she has demonstrated the devastating power of this antique technology when writ large by deftly annihilating two Bioficer battlecruisers. These guns hurl house-sized shells at vast muzzle energy with negligible power drain, allowing full manoeuvrability and systems use while firing weapons far exceeding this ship's tonnage grade. However, despite Major's calculations and brilliant heat management, frequent and ultra-costly barrel changes seem inevitable."
+}

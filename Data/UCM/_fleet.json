@@ -1,5 +1,5 @@
 {
-    "source_date": "260327",
+    "source_date": "260529",
     "abilities": [
         {
             "Cost": "2AP",
@@ -145,6 +145,9 @@
         "weaver.json",
         "havelock.json",
         "granite_halsey.json"
+    ],
+    "heroes": [
+        "rhiannon_major.json"
     ],
     "ships": [
         "santiago.json",

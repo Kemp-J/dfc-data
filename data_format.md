@@ -21,6 +21,7 @@ Within each fleet folder is a file `_fleet.json` which provides an entry point t
 - "launch_assets": A list of Launch Asset stat line dictionaries. Each dictionary has one of two sets of keys. Fighter type launch assets have keys of "Load" (string), "Thrust" (integer), and "Rerolls" (integer). All other launch assets have keys of "Load" (string), "Thrust" (integer), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings).
 - "deployable_features": A list of filenames for the data files containing Deployable Feature data.
 - "famous_admirals": A list of filenames for the data files containing Famous Admiral data.
+- "heroes": A list of filenames for the data files containing Hero ship data.
 - "ships": A list of filenames for the data files containing ship data.
 
 Example:
@@ -44,7 +45,9 @@ Example:
     "famous_admirals": [
         "granite_halsey.json"
     ],
-    
+    "heroes": [
+        "rhiannon_major.json"
+    ],
     "ships": [
         "santiago.json",
         "lysander.json"
@@ -195,13 +198,64 @@ The following is an example data file for the Admiral named "Granite" Halsey:
     ],
     "equipment": [],
     "rules": [
-        {"Name": "Fighter Command", "Text": "Fighters, Bombers, & Heavy Bombers launched from this ship may be placed up to 8" away instead of 6"."}
+        {"Name": "Fighter Command", "Text": "Fighters, Bombers, & Heavy Bombers launched from this ship may be placed up to 8\" away instead of 6\"."}
     ],
     "fleet_admiral_abilities": 2,
     "admiral_abilities": [
         {"Cost": 4, "Name": "Master Tactician", "Effect": "At the end of this Group’s activation, discard a Pass Token and target another friendly Group of L or M Tonnage. If you do, that Group may turn up to 45 degrees, then move up to a quarter of its Thrust, and then each Ship in it may attack with a single weapon."}
     ],
     "flavour": "Head of the most powerful institution mankind has ever known, Supreme Admiral Jacob 'Granite' Halsey is famous for his steely, brisk, borderline-offensive, flare. His rank grants him a permanent seat on the High Council, but his record there is of extensive truancy, not that anyone dares raise that. A career-sailor, his career began as a teenage rating aboard the ageing grand battleship UCMS Virginia, which he would, thirty-two years later, captain. His remaining on the bridge to the last as the venerable ship was wrecked by Shaltari privateers earned him a promotion to commodore, along with facial scarring and a lifetime's hatred for the 'filthy rotten stinking echidnas'. After another two decade's service as the UCMF's most battlehardened, pre-Reconquest commander, he attained mastery of the entire UCMF.\nPreferring to lead from the front, Halsey was present in the opening hours of the Battle for Earth, where, for the ninth time in his career, he had his CIC destroyed around him. Forced to command from the Shield of Aurum's auxiliary CIC, he remained a pivotal force in that titanic engagement, personally scoring nineteen capital ship kills in the first forty-eight hours.\nHalsey is a fixture on whichever frontline is hottest, and although he's burst some more blood vessels on his pockmarked face, he's at the razor's edge of command."
+}
+```
+
+## Hero data file
+
+Each Hero has its own data file in json format. The file is named the same as the Hero's name, in lowercase with spaces replaced by underscores and all characters that are invalid for filenames removed.
+
+The file is structured the same as for ships, with the following additions to the top-level dictionary:
+
+- "hero": The Hero name as a string.
+- "ship": The ship name as a string.
+
+The "class" key is not present and is replaced by the above two keys.
+
+The following is an example data file for the Hero named Rhiannon Major:
+
+```json
+{
+    "hero": "Rhiannon Major",
+    "ship": "Leaden Triad",
+    "type": "Heavy Destroyer",
+    "points": 71,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 6,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Hero",
+            "Unique"
+        ]
+    },
+    "weapons": [
+        {"Name": "Artillery Cannon", "Arc": "F", "Att": 1, "Lock": "4+", "DMG": 2, "Type": "K", "Special": ["Calibre-H/C", "Fusillade-1", "Low Power"]},
+        {"Name": "Artillery Cannon", "Arc": "F", "Att": 1, "Lock": "4+", "DMG": 2, "Type": "K", "Special": ["Calibre-H/C", "Fusillade-1", "Low Power"]},
+        {"Name": "Artillery Cannon", "Arc": "F", "Att": 1, "Lock": "4+", "DMG": 2, "Type": "K", "Special": ["Calibre-H/C", "Fusillade-1", "Low Power"]}
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "- Leaden Triad"
+    ],
+    "flavour": "Leaden Triad is a new, experimental vessel designed and built by the restored Eden Drive Yards Corporation. This pre-war colossus was ended by the Scourge invasion, but this reincarnation is based in its recaptured shipyards, and the new corporation has all the recovered tech of its predecessor, including its work on the largest chemical guns ever built. Though they never got a chance to enter service, three prototypes were recovered and have been installed aboard a unique heavy destroyer hull.\nCaptain Rhiannon Major, already the UCM's finest naval gunnery officer at just 34 years of age, has been given command. Though not a natural leader, her icy bravery and uncanny intelligence are the natural fit to shepherd this project into combat testing. Already, she has demonstrated the devastating power of this antique technology when writ large by deftly annihilating two Bioficer battlecruisers. These guns hurl house-sized shells at vast muzzle energy with negligible power drain, allowing full manoeuvrability and systems use while firing weapons far exceeding this ship's tonnage grade. However, despite Major's calculations and brilliant heat management, frequent and ultra-costly barrel changes seem inevitable."
 }
 ```
 
