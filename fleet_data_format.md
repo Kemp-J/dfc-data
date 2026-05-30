@@ -1,4 +1,4 @@
-# Exported data format
+# Exported fleet data format
 
 ## Folder structure
 
@@ -15,7 +15,7 @@ There is a folder for each fleet PDF. The fleets are:
 
 Within each fleet folder is a file `_fleet.json` which provides an entry point to that fleet's data. This is a json format file containing the following:
 
-- "source_date": The date that the PDF was released (taken from the PDF filename).
+- "source_version": The version of the fleet PDF (taken from the PDF filename). This is a date formatted as YYMMDD.
 - "abilities": The abilities available to Fleet and Famous Admirals. This is a list of dictionaries with keys of "Cost" (string - see 'Ability cost format'), "Name" (string), and "Effect" (string).
 - "fleet_admirals": The Fleet Admirals available to the fleet. This is a list of dictionaries with keys of "Name" (string), "Level" (integer), "Cost" (integer), "FleetAbilities" (integer), and "Abilities" (list of dictionaries with content as per the "abilities" key above).
 - "launch_assets": A list of Launch Asset stat line dictionaries. Each dictionary has one of two sets of keys. Fighter type launch assets have keys of "Load" (string), "Thrust" (integer), and "Rerolls" (integer). All other launch assets have keys of "Load" (string), "Thrust" (integer), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings).
@@ -28,7 +28,7 @@ Example:
 
 ```json
 {
-    "source_date": "260327",
+    "source_version": "260327",
     "abilities": [
         {"Cost": 2, "Name": "Colonial Legions", "Effect": "After the Battalion Combat step of the Asset Phase, target a Dropsite or Feature. If any enemy Battalions completely removed any friendly Battalions from that Dropsite or Feature, place 1 Battalion on that Dropsite or Feature."}
     ],
@@ -105,7 +105,9 @@ The file contains the following:
 - "profile": A dictionary containing "Thrust" (integer, unit: inches), "Scan" (integer, unit: inches), "Sig" (integer, unit: inches), "Hull" (integer), "ES" (string), "KS" (string), "BS" (string), "G" (string, "X" or "X-Y", where X and Y are integers), and "Special" (list of strings). Example: `{"Thrust": 12, "Scan": 6, "Sig": 0, "Hull": 2, "ES": "6+", "KS": "6+", "BS": "-", "G": "2-4", "Special": ["Descent", "Cloak-1", "Rare", "Vanguard-6\""]}`.
 - "weapons": A list of dictionaries, each containing "Name" (string), "Arc" (string: one or more of "F", "S", "R", "SL", "SR", "FN", "RN", and "B", separated by slashes), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `[{"Name": "Barracuda Missile Bays", "Arc": "F/S/R", "Att": 2, "Lock": "4+", "DMG": 1, "Type: "K", "Special": ["Close Action"]}]`. Weapon entries may optionally have "Cost" and/or "Replaces" attributes. Cost specified a cost to take that weapon and Replaces specifies the names of weapons that it replaces if taken.
 - "load": A list of dictionaries, each containing "Load" (string), "Launch" (integer), and "Special" (list of strings). Example: `[{"Load": "Dropships", "Launch": 1, "Special": []}]`. Load entries may optionally have "Cost" and/or "Replaces" attributes. Cost specified a cost to take that load and Replaces specifies the names of load that it replaces if taken.
-- "equipment": A list of dictionaries, each containing "Name" (string), "Cost" (integer), and "Effects" (list of stat modifiers, see 'Stat modifiers').
+- "equipment": A list of equipment entries. Each entry is one of:
+  - A plain equipment item: a dictionary containing "Name" (string), "Cost" (integer), and "Effects" (list of stat modifiers, see 'Stat modifiers'). The ship may independently choose whether to take this item.
+  - A choice group: a dictionary containing "min" (integer), "max" (integer), and "options" (list of plain equipment item dictionaries). The ship must pick at least "min" and at most "max" options from the group. Example: `{"min": 0, "max": 1, "options": [{"Name": "Cloaking Keel", "Cost": 15, "Effects": [...]}, {"Name": "Engine Upgrade", "Cost": 25, "Effects": [...]}]}` means the ship may take at most one of the listed options.
 - "rules": A list of dictionaries, each containing "Name" and "Text", both strings. Example: `[{"Name": "Stealth Drop", "Text": "When this Group launches its Dropships, 2 Dropships are needed to place 1 Battalion. If this Group contains a single ship, each Dropship only places a Battalion on a roll of a 4+."}]`.
 - "admiral_abilities": A list of dictionaries, each containing "Cost" (string — see 'Ability cost format'), "Name" (string), and "Effect" (string). Example: `[{"Cost": "2AP", "Name": "Telemetry Link", "Effect": "When you activate another friendly Group in Orbit, that Group increases its total movement (after orders) by 4\" this round."}]`.
 - "famous_ships": A list of strings.
@@ -271,4 +273,8 @@ The `"Cost"` field on ability dictionaries (in both `"abilities"` and `"admiral_
 
 ## Profile modifiers
 
-A profile modifier is a dictionary consisting of "Target" (string), "Type" (string, one of "add", "subtract", "replace", "append"), and "Value" (integer or string). "Target" is the name of a profile field ("Thrust", "Scan", "Sig", "Hull", "ES", "KS", "BS", "G", "Special"). Integer values are compatible with the "add", "subtract", and "replace" types. String values are compatible with the "replace" and "append" types. ES, KS, and BS are treated numerically without the "+" suffix for the purpose of "add" and "subtract". Thrust, Scan, and Sig are treated numerically without the inches suffix for the purposes of "add" and "subtract". For example, if the ship has an ES stat of "5+" and a profile modifier of `{"Target": "ES", "Type": "subtract", "Value": 1}` then the new ES value is "4+".
+A profile modifier is a dictionary consisting of "Target" (string), "Type" (string, one of "add", "subtract", "replace", "append"), and "Value" (integer or string). "Target" is the name of a profile field ("Thrust", "Scan", "Sig", "Hull", "ES", "KS", "BS", "G", "Special"). Integer values are compatible with the "add", "subtract", and "replace" types. String values are compatible with the "replace" and "append" types.
+
+ES, KS, and BS are treated numerically without the "+" suffix for the purpose of "add" and "subtract". Thrust, Scan, and Sig are treated numerically without the inches suffix for the purposes of "add" and "subtract". For example, if the ship has an ES stat of "5+" and a profile modifier of `{"Target": "ES", "Type": "subtract", "Value": 1}` then the new ES value is "4+".
+
+The Special field should be treated as if it were a comma-separated list of values for the purpose of "append", with a value of "-" indicating an empty list. This means that if Special were "-" and an "append" is applied then the appended value would become the only value in Special. For example, given a Special of "-" and a modifier that appends "Stealth", the new Special would be "Stealth", not "-, Stealth".
