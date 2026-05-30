@@ -1,0 +1,37 @@
+{
+    "class": "Ourania",
+    "type": "Swiftlink",
+    "points": 35,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Rare"
+        ]
+    },
+    "weapons": [],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Targeting Link",
+            "Text": "Friendly Ships within their Scan range of this Ship may use it as a spotter when they attack. If they do, before assigning weapons to targets, choose any amount of the attacking Ship's weapons. When assigning targets to those weapons, measure Weapons Range from this Ship, using this Ship's Scan. Attacks made this way must still be in Arc and line of sight of the attacking Ship. This rule has no effect on Close Action Weapons and weapons already benefiting from this rule"
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Eye of the Sphere",
+        "Ornithes Areioi",
+        "Nightsun",
+        "Fargaze"
+    ],
+    "flavour": "The Ourania is a highly-specialised, unarmed vessel designed for frontline spearhead operations. In combat, the Ourania can use its great speed to get ahead of the rest of the fleet and close with priority targets. It then uses its oversized, advanced targeting link to relay gunnery information to larger ships towards the rear, greatly increasing their effective range. A single Ourania might dart forward early in an engagement, suddenly allowing a dreadnought to plot a firing solution from an unexpected position. The Ourania has always been hated by the UCMF's Admiralty, something not forgotten in these days of fragile cooperation.\nBeing unarmed and not much tougher than a frigate, such a role requires a crew with zealous devotion to the Republic and the White Sphere, as well as the skill to use the Ourania's small signature and massive engines to evade return fire."
+}

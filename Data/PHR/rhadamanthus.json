@@ -1,0 +1,68 @@
+{
+    "class": "Rhadamanthus",
+    "type": "Battleship",
+    "points": 220,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 10,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Calibre Broadside",
+            "Arc": "B",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Neutron Missiles",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Crippling",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Hornet Drone Cluster",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Silencer",
+        "Expeditious Judgement",
+        "Code Enforcer",
+        "Lightning Tree"
+    ],
+    "flavour": "This class has been operating since just prior to the opening salvos of the Battle For Earth. The UCMF previously gave this a unique superstructure designation, which it now shares with the Kairos and Sarpedon. However, unlike those vessels, the Rhadamanthus uses the PHR's older power core structure, most likely because it simply wasn't needed or because it was rushed into service. Augmenting the fearsome neutron missiles with even more close action weaponry, this is the PHR's most aggressive battleship, since these weapon's low power consumption allow it to achieve the same blistering thrust as the Kairos.\nThe class has been observed on multiple occasions at the head of so-called 'javelin' strikes - lightning assaults on certain, enigmatic surface positions before rapid and unexplained retreats. Some suggest that limited ammunition payload may explain this, but senior operatives of the Office of Naval Intelligence suspect that's just wishful thinking."
+}

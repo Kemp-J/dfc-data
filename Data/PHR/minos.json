@@ -1,0 +1,65 @@
+{
+    "class": "Minos",
+    "type": "Battleship",
+    "points": 255,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 10,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Calibre Triple Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Neutron Missiles",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Crippling",
+                "Penetrator"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-2"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Progress",
+        "Revelations",
+        "Great Axiom",
+        "Truth's Instrument"
+    ],
+    "flavour": "The Minos Class battleship is just as formidably vast and deadly as its related class, the Heracles. It mounts the same extensive heavy calibre broadside, making it just as dangerous against the largest enemies. However, the Minos features an entirely different prow armament. Primarily and most obviously, it carries a pair of Nightfish torpedoes, massive ordnance the size of small ships designed to resist all point defence with sheer armour thickness and mass. These peerless weapons may be loosed independently or simultaneously - the latter being the most awe-inspiring, as hits from a pair of these behemoths may be enough to cripple a mighty battleship outright.\nOnce its torpedoes are launched, the Minos usually adopts an ultra-aggressive approach in order to bring its secondary prow weapons into play. These are the ultra-advanced neutron missiles, perhaps the most dangerous close action weapons yet encountered by the UCM. These are designed to inflict appalling carnage once an enemy ship is penetrated, damaging core systems and causing crippling effects that would normally only be encountered with massive hull damage. These missiles are probably fiendishly difficult to produce, even for the Republic, reserving them for use on mighty ships such as the Minos."
+}

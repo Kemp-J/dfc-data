@@ -1,0 +1,89 @@
+{
+    "class": "Augustus",
+    "type": "Super Battleship",
+    "points": 245,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 10,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Regenerate-2"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Energy Glaives",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Energy Glaives",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Neutron Missiles",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Crippling",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Black Nano Drones",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Penetrator"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-2"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Might of Pearlescent",
+        "Imperator",
+        "Victorius"
+    ],
+    "flavour": "The Augustus class was the first of the Republic's new super battleships. A design centred on aggressive firepower, captains of this devastating vessel may drive it into enemy formations like a thrust to the heart. While its bulk and armour shrugs off defensive fire, its Black Nano Drones and Neutron Missiles annihilate close victims already pummelled by its torpedoes, all while its Energy Glaive broadsides destroy oblique targets."
+}

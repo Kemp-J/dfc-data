@@ -1,0 +1,52 @@
+{
+    "class": "Philonoe",
+    "type": "Torpedo Monitor",
+    "points": 65,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 10,
+        "Sig": 4,
+        "Hull": 5,
+        "ES": "2+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Monitor"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Wasp Drones",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 3,
+            "Special": [
+                "Limited-3"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Catapult Launcher",
+            "Text": "When you launch Torpedoes from this Ship, if it launches a single Torpedo, you may launch that Torpedo up to 9\" away instead of 6\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

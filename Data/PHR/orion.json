@@ -1,0 +1,64 @@
+{
+    "class": "Orion",
+    "type": "Cruiser",
+    "points": 105,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 11,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Medium Calibre Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Fusillade-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Medium Calibre Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Fusillade-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Medium Calibre Turret",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": []
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Mind of Asimov",
+        "Aristotle",
+        "Marathon",
+        "Journeyman"
+    ],
+    "flavour": "The Orion class is the standard ship of the line for the Republic's Grand Fleet and is the most common cruiser-level vessel in its arsenal. Its primary armament is completely made up of medium calibre mass drivers, excellent all-round anti-ship weapons capable of engaging a wide range of opponents. Most of these formidable weapons are laid out in a twin broadside configuration, with an additional turret mounted array at the prow. This gives the Orion excellent capability, flexibility and lethality.\nLike almost all PHR cruisers, the Orion is substantially tougher and heavier than its equivalents from other races, highlighting the Republic's intention to make every life count to the maximum in the crucible of combat. This aim normally takes precedence over a warship's speed, allowing an opponent to assume this as their only meaningful advantage in battle. This doctrine is probably central to the PHR's plans in this war, as most UCM analysts agree that the post-humans are likely to be sorely lacking in manpower when compared to the Colonies."
+}

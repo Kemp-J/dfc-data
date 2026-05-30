@@ -1,0 +1,50 @@
+{
+    "class": "Medea",
+    "type": "Strike Carrier",
+    "points": 50,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 8,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Bombardment Turret",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Bombardment"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Castor",
+        "Homeshell",
+        "Hellbringer",
+        "Alesia"
+    ],
+    "flavour": "The Medea class strike carrier is a first wave assault vessel and the primary means of planetfall for the PHR's dropships. These small craft are deployed into the upper atmosphere, delivering the PHR's armoured forces direct to the frontline. They excel at attacking redoubts and routing out enemy ground troops. Most notably, the vast majority of the highly advanced type 1-5 Battle Walkers that are so infamous deploy in this manner.\nIn addition, the Medea features a small but effective pair of under-slung mass drivers to support its ground forces directly. While not as devastating as true bombardment weapons, these guns can nevertheless be called upon to for close support missions, dropping precision ordnance on the foes of the Republic. It is designed to stay on station for some time after its drop is complete, assisting the PHR's perennially outnumbered forces."
+}

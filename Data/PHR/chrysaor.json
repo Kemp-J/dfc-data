@@ -1,0 +1,38 @@
+{
+    "class": "Chrysaor",
+    "type": "Cutter",
+    "points": 40,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Long Heavy Calibres",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Penetrator"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

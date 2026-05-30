@@ -1,0 +1,56 @@
+{
+    "class": "Jason",
+    "type": "Blockade Runner",
+    "points": 55,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 8,
+        "Sig": 2,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Twin Heavy Calibres",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Kingfisher Drones",
+            "Arc": "F/S/R",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Re-Entry"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Ghost Warrior",
+        "Longship",
+        "Carl Sagan"
+    ],
+    "flavour": "The blockade runner is a type of ship almost unique to the PHR and a staple feature in their shadowy and mysterious operations. Although based on a destroyer type hull, blockade runners feature reduced armament in favour of expansive and powerful drives. This makes them abnormally fast - so much so that they leave almost anything else in space in their wake. This contrasts starkly with most PHR ships and proves that the Republic is perfectly capable of building ships that can outrun almost anything, but simply choose to focus on firepower predominantly. Blockade runners also dispense with the heavy armour common on PHR ships in favour of a subcutaneous layer of spectrum dampers, reducing its signature to that of a much smaller ship.\nThe Jason class is not poorly armed however, featuring as it does a pair of heavy mass drivers and especially advanced anti-atmospheric close action weaponry. Coupled with its incredible speed, this makes it an ideal infiltration and early strike vessel, capable of slipping past vastly superior forces to get to its target. So impressive has been the Jason's performance that the Admiralty has tasked its naval architects to deliver an equivalent to the UCMF."
+}

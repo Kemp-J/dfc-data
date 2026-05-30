@@ -1,0 +1,65 @@
+{
+    "class": "Achilles",
+    "type": "Heavy Cruiser",
+    "points": 142,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 13,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Calibre Broadside",
+            "Arc": "B",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Heavy Calibre Broadside",
+            "Arc": "B",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H",
+                "Penetrator",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-1"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Gailileo",
+        "Iliad",
+        "Unheeled",
+        "Titan's Ire"
+    ],
+    "flavour": "The Achilles class heavy cruiser utilises the same basic hull configuration as its cousin the Hector although its weapons loadout gives it a more specialised role. The vessel's main broadsides are made up of four massive heavy mass drivers each – weapons focused on maximum lethality against the largest of ships. Their massive high velocity projectiles can inflict frightening damage against heavy armour, although their cumbersome nature makes them less effective against smaller, more nimble targets. The Achilles is also equipped with a single, gigantic torpedo - ordnance the size of a small ship designed to explode internally, causing catastrophic hull damage to the target.\nThis weapons configuration lends the Achilles its primary mission parameter which is to hunt down and destroy the largest and most dangerous enemy ships. This aim is often set to be achieved early on in an engagement, as once its devastating torpedo has been fired, the Achilles is somewhat under- gunned compared to the Hector, which is perhaps better suited to protracted engagements against regular enemies. However, eight heavy mass drivers are of course a threat no enemy admiral can ignore."
+}

@@ -1,0 +1,50 @@
+{
+    "class": "Odysseus",
+    "type": "Blockade Runner",
+    "points": 63,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 8,
+        "Sig": 2,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Kingfisher Drones",
+            "Arc": "F/S/R",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Re-Entry"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Bulk Landers",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "Pathfinder"
+    ],
+    "flavour": "The Odysseus is, unusually for the PHR, a very focused and inflexible design. Its only mission profile is high speed and low-observable insertion of bulk infantry formations, supplies and defence batteries to advance targets. It achieves this through incredible combat speed, low signature and capacity for bulk landers, at the expense of almost all offensive capability save close action weaponry. It is not designed to face any significant combat, but rather to break past it and get to unguarded targets of opportunity.\nThey are typically employed to establish remote beachheads and to bolster existing ones. The latter has been especially relevant of late to the beleaguered forces of Aurelia Felix on the Cradle World of Shangri-La. Trapped behind enemy lines and with a UCMF blockade fleet in place, only these lightning fast ships have thus far succeeded in keeping her forces resupplied significantly. Although the PHR has smaller and stealthier ships, the ability to the Odysseus to bring down bulk tonnage to a secure landing zone has been instrumental in her force's survival thus far."
+}

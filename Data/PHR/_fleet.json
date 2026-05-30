@@ -1,0 +1,174 @@
+{
+    "source_date": "260429",
+    "abilities": [
+        {
+            "Cost": "1AP",
+            "Name": "Countermeasures Hack",
+            "Effect": "At the start of a friendly Group's activation, target an enemy Group that a friendly Admiral can draw line of sight to. Until the end of the activation, that Group cannot use its Backup Save, cannot gain the benefits of Aegis, and cannot gain the benefits of Fighters' Close Protection. If this Ability targets a H or C tonnage Group, this Ability costs 2AP."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Weapons Hack",
+            "Effect": "Once per round, at the start of an enemy Group's activation, choose one of that Group's Weapon Systems. Until the end of that Group's activation, each of that Weapon System's attack dice results of a 1 causes the attacking Ship to lose the weapon's unmodified Damage value in hull points."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Ship Of The Line",
+            "Effect": "When you assign targets to a Group's weapons, that Group's Broadside Arc weapons that have the Fusillade-X special rule gain the benefit of their Fusillade rule regardless of the Group's Order for its attacks this activation. If the attacking Group is on the Weapons Free order, it instead doubles the Fusillade value of those weapons for that attack."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Drive Hack",
+            "Effect": "Once per round, at the end of the Planning Phase, target an enemy Group that a friendly Admiral can draw line of sight to. At the start of that Group's activation, it must make a single Backup save. If it fails (or has no) Backup save, that Group cannot go on the Course Change and Max Thrust orders."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Repair Drone Squadron",
+            "Effect": "At the end of the Repair step of the End Phase, target a friendly Ship. That Ship recovers D3 lost Hull Points."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Elite Ground Forces",
+            "Effect": "At the start of the Battalion Combat step of the Asset Phase, choose a Feature containing friendly Battalions. Until the end of the Battalion Combat step, those Battalions remove 2 enemy Battalions instead of 1 and may also be used to remove enemy Battalions from anywhere on that Dropsite in the 3rd step of the combat sequence."
+        }
+    ],
+    "fleet_admirals": [
+        {
+            "Name": "PHR Vizier",
+            "Level": 1,
+            "Cost": 25,
+            "FleetAbilities": 1,
+            "Abilities": [
+                {
+                    "Cost": "1AP",
+                    "Name": "Akira Manoeuvre",
+                    "Effect": "When you activate a Group of a single Ship, that Group must go on General Quarters this activation. That Group only removes a single Spike and does not turn before its movement. After its movement, the Group must turn between 45 and 90 degrees, then continue its activation as normal."
+                }
+            ]
+        },
+        {
+            "Name": "PHR Vice Director",
+            "Level": 3,
+            "Cost": 65,
+            "FleetAbilities": 1,
+            "Abilities": [
+                {
+                    "Cost": "1AP",
+                    "Name": "Re-route Systems",
+                    "Effect": "At the start of a friendly Group's activation, remove one Crippling Effect token (of any type) from that Group."
+                },
+                {
+                    "Cost": "3AP",
+                    "Name": "Ranked Fire",
+                    "Effect": "When you assign targets to Broadside Arc weapons, select one of those weapons with the Volley-X special rule. That weapon does not need to alternate arcs due to its Volley-X special rule (so can attack the same target in the same arc using each Volley attack)for that attack."
+                }
+            ]
+        }
+    ],
+    "launch_assets": [
+        {
+            "Load": "Torpedo",
+            "Thrust": 6,
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Penetrator"
+            ]
+        },
+        {
+            "Load": "Bombers",
+            "Thrust": 9,
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Load": "Mines",
+            "Thrust": 4,
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Load": "Fighters",
+            "Thrust": 12,
+            "Rerolls": 2
+        }
+    ],
+    "deployable_features": [
+        "heavy_calibre_orbital_gun.json",
+        "shield_platform.json",
+        "scanner_tower.json"
+    ],
+    "famous_admirals": [
+        "javelin.json",
+        "helena_of_asgard.json",
+        "claudia_rhee.json",
+        "gaius_chau.json"
+    ],
+    "heroes": [],
+    "ships": [
+        "echo.json",
+        "harpocrates.json",
+        "europa.json",
+        "pandora.json",
+        "calypso.json",
+        "andromeda.json",
+        "medea.json",
+        "castor.json",
+        "pollux.json",
+        "philonoe.json",
+        "pegasus.json",
+        "ourania.json",
+        "chrysaor.json",
+        "electra.json",
+        "ariadne.json",
+        "cadmus.json",
+        "jason.json",
+        "odysseus.json",
+        "meleager.json",
+        "theseus.json",
+        "otera.json",
+        "ajax.json",
+        "perseus.json",
+        "orion.json",
+        "ikarus.json",
+        "teucer.json",
+        "achilles.json",
+        "bellerophon.json",
+        "hector.json",
+        "sysyphus.json",
+        "orpheus.json",
+        "ganymede.json",
+        "ptolemy.json",
+        "seleucus.json",
+        "antigonus.json",
+        "leonnatus.json",
+        "agamemnon.json",
+        "priam.json",
+        "pompeius.json",
+        "agrippa.json",
+        "brutus.json",
+        "cato.json",
+        "antony.json",
+        "heracles.json",
+        "minos.json",
+        "sarpedon.json",
+        "kairos.json",
+        "rhadamanthus.json",
+        "amphion.json",
+        "memnon.json",
+        "trajan.json",
+        "augustus.json",
+        "caesar.json",
+        "octavius.json",
+        "romulus.json",
+        "remus.json"
+    ]
+}

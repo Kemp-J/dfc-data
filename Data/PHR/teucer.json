@@ -1,0 +1,64 @@
+{
+    "class": "Teucer",
+    "type": "Cruiser",
+    "points": 130,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 11,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Medium Calibre Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Fusillade-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Heavy Calibre Broadside",
+            "Arc": "B",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Supernova Laser",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-1",
+                "Flash-1",
+                "Focused"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

@@ -1,0 +1,77 @@
+{
+    "class": "Octavius",
+    "type": "Super Battleship",
+    "points": 300,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 10,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Calibre Triple Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Neutron Missiles",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Crippling",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Dark Matter Cannon",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Critical-1",
+                "Crippling",
+                "Penetrator"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-2"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Actium",
+        "Cleopatra's Bane",
+        "Long Reign"
+    ],
+    "flavour": "The Octavius class super battleship features a broad array of gunnery designed to devastate large targets. A heavy calibre broadside, torpedoes, Neutron Missiles, and the dreaded Dark Matter Cannon all combine to make this one of the most fearsome non-dreadnought vessels in the cosmos."
+}

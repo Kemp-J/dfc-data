@@ -1,0 +1,37 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Heavy Calibre Orbital Gun",
+        "ES": "5+",
+        "KS": "3+",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Calibre Orbital Gun (Mounted)",
+            "Scan": null,
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C"
+            ]
+        },
+        {
+            "Name": "Heavy Calibre Orbital Gun (Deployed)",
+            "Scan": 8,
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Critical-2",
+                "Escape Velocity"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": "While a Ship is carrying this feature, it has the Heavy Calibre Orbital Gun (Mounted) Weapon System in addition to its normal Weapon Systems, using the carrying Ship's Scan with an Arc of FN.\nThis feature cannot use the Heavy Calibre Orbital Gun (Mounted) weapon profile."
+}

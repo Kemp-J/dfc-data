@@ -1,0 +1,54 @@
+{
+    "class": "Memnon",
+    "type": "Supercarrier",
+    "points": 320,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 10,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Hornet Drones",
+            "Arc": "F/S/R",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 8,
+            "Special": []
+        },
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-2"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Mount Olympus",
+        "Valhalla",
+        "Majesty"
+    ],
+    "flavour": "The Memnon class supercarrier leverages this new superstructure's increased modularity by removing more of the ships' generators to create further space of flights of launch assets. This vessel carries a more substantial fighter and bomber compliment than any other known PHR vessel in addition to torpedoes and hornet drones."
+}

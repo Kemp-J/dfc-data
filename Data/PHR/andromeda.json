@@ -1,0 +1,50 @@
+{
+    "class": "Andromeda",
+    "type": "Escort Carrier",
+    "points": 60,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 8,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Escort"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Wasp Drones",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Young Mother",
+        "Columbus",
+        "Wright Flyer",
+        "Shoal Princess"
+    ],
+    "flavour": "The Andromeda class escort carrier is a vessel of frigate tonnage which features a launch hangar for strike craft, an unusual feature for such a small ship. Its role in battle is usually to seek out and destroy enemy rearguard assets with waves of lethal bombers through their longer range and by gaining an advantageous launch position with its superior speed over larger PHR fleet carriers. Its secondary role is to provide close protection fighter screens for friendly ships as required.\nThe creation of such a vessel stems for the Republic's smaller reserve of manpower and seemingly focused mission in this war, sometimes calling for small, elite strike forces on occasions where sheer might is unnecessary. Andromedas are a frequent fixture in PHR raiding parties which normally only consist of small ships. In these missions, the escort carriers are able to keep up with the other vessels in the taskforce while providing a vital support and long range strike role."
+}

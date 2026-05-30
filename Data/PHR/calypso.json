@@ -1,0 +1,49 @@
+{
+    "class": "Calypso",
+    "type": "Frigate",
+    "points": 40,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 8,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Wasp Drones",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Advanced ECM Suite",
+            "Text": "When a friendly Group (including this Ship's Group) within 4\" of this Ship is attacked, you may have this Ship use its Advanced ECM Suite. If you do, after all weapons have been assigned, reduce the Lock of weapons belonging to one of the attacking Ships by 1 for the rest of the round. The attacking group must be on the same orbital layer as this ship. A Ship can be affected multiple times each round by this rule but each Ship with this rule can only use it once per round."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Foe Confounded",
+        "Deep Blue",
+        "Waves of Lamarr",
+        "Inviolate"
+    ],
+    "flavour": "The Calypso class frigate is a highly unusual vessel and one of the most effective demonstrations of the Republic's mastery of electronic warfare, in this case through the use of a highly advanced ECM suite. This system is designed to confuse and disrupt an enemy's targeting equipment, causing substantial loss of accuracy. This effect can be leveraged against a single enemy ship firing at the Calypso or more importantly, a ship in the vicinity of the Calypso. This makes it an excellent escort vessel for larger, high value targets such as flagships and carriers.\nThe downside to this system is that it takes up a considerable amount of hull space. Indeed, its underslung emitter plates are highly visible, making this ship easy to identify, if not to deal with. As a result, it carries few weapons of its own. Most admirals agree though that this is a small price to pay for reducing the effectiveness of enemy fire and potentially rendering a mighty battleship's primary weapon impotent at a crucial moment in the battle."
+}

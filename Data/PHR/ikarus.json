@@ -1,0 +1,74 @@
+{
+    "class": "Ikarus",
+    "type": "Vanguard Carrier",
+    "points": 125,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 11,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Vanguard-4\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Medium Calibre Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Fusillade-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Medium Calibre Turret",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": []
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 2,
+            "Special": []
+        },
+        {
+            "Load": "Mines",
+            "Launch": 2,
+            "Special": [],
+            "Cost": 10,
+            "Replaces": [
+                "Fighters & Bombers"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Minelayer",
+            "Text": "This ship may replace its Fighters & Bombers with Mines for +10 pts."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Red Cliffs",
+        "Plato",
+        "Tower of Knowledge",
+        "Dark Prince"
+    ],
+    "flavour": "The Ikarus class is an unusual ship as it carries the rare designation of vanguard carrier, a variant of the more common fleet carrier. Vessels of this designation have a strike craft launch capacity but are more often found at the front and centre of a battle line rather than at the rear, since they also carry significant regular firepower. The Ikarus includes two reduced medium mass driver broadsides in addition to a traversable front turret – weapons chosen for their universally dangerous output.\nWhile unleashing its many mass drivers against enemy ships, the Ikarus can also launch waves of fighters and bombers. Its typically forward position allows these long range assets to strike at enemy rearguard elements, making the class a highly useful tool much prized by PHR admirals. A vanguard positioning also makes it ideal for deploying fighter screens to protect ships in the forefront of the formation. Its lower launch capacity also allows the usually limited number of available pilots to be spread more evenly throughout a fleet rather than concentrated in dedicated carriers, if the battle plan calls for it."
+}

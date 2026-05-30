@@ -1,0 +1,73 @@
+{
+    "admiral": "Claudia Rhee",
+    "admiral_level": 4,
+    "class": "Heracles",
+    "type": "Battleship",
+    "admiral_points": 75,
+    "ship_points": 235,
+    "points": 310,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 10,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Calibre Triple Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Dark Matter Cannon",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Crippling",
+                "Critical-1",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Hornet Drones",
+            "Arc": "F/S/R",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "fleet_admiral_abilities": 2,
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "High-G Manouevre",
+            "Effect": "When a friendly Group is given a Max Thrust order, it may turn as if it was on General Quarters."
+        }
+    ],
+    "flavour": "Claudia Rhee is a rarity amongst the PHR. Once a Siren, her tactical aptitude and control over countless Familiars gained her a place as a Medusa, one of the most elite members of the already elite Siren Corps. She earned her place in the captains chair when her ship was ambushed by Shaltari pirates. Their initial volley had struck right through the ship's CIC, killing many of the command crew and leaving vital systems unmanned. Acting immediately, Claudia networked her Familiars with the ships' systems, restored order and brought weapons to bear. Her quick thinking saved the lives of many that day and while the ship itself was unsalvageable, Claudia was approached with an offer that would one day see her commanding not only her own ship, but an entire fleet.\nAs the daughter of Octavia Rhee, there has been high expectations of her since the day she was born. Fortunately for her she has exceeded every single one of them. She was able to control multiple Familiars by the time her peers were only just able to operate a single Familiar. She aced every single combat proficiency test thrown at her and her field operation record is impeccable.\nThough despite all of this she still lives in her mother's shadow, made even darker by her recent sacrifice in the Shangri-La system. While Claudia is determined to make those responsible pay, the alliances made before the Battle of Earth make this a difficult prospect as of late. It is only a matter of time, however, before that all breaks down, countless simulations calculated by her Familiars have shown her that over and over again."
+}

@@ -1,0 +1,56 @@
+{
+    "class": "Theseus",
+    "type": "Light Cruiser",
+    "points": 88,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 9,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Light Calibre Broadside",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Calibre-L",
+                "Re-entry",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Medium Calibre Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Fusillade-1",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Hypatia",
+        "Phaeton",
+        "Voltaire",
+        "Bright Mind"
+    ],
+    "flavour": "The Theseus class is one of the few examples of its designation in the Republic's Grand Fleet as light cruisers appear not to be in vogue among PHR naval architects. However, the Theseus has proven capable and has successfully carved itself a niche in the Republic's strategies. Its lack of prow weapon is compensated for by improved speed, allowing it to keep pace with the lighter ships typically employed in PHR raiding parties and flanking formations.\nThe Theseus carries a mixed-calibre payload, matching banks of light mass drivers with medium ones. This gives the class enhanced flexibility at the expense of ultimate firepower. This loadout is also configured to be independently targeting, allowing it to engage multiple targets with a single broadside while on the move. This enhances its peripheral role on the battlefield as it can engage the multiple small ships most likely sent to thwart its formation's mission."
+}

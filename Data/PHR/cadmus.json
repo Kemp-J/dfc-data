@@ -1,0 +1,49 @@
+{
+    "class": "Cadmus",
+    "type": "Destroyer",
+    "points": 60,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 4,
+        "Hull": 7,
+        "ES": "3+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Twin Heavy Calibres",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Energy Glaive Pair",
+            "Arc": "FN",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

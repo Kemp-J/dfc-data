@@ -1,0 +1,60 @@
+{
+    "class": "Priam",
+    "type": "Battlecruiser",
+    "points": 195,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 15,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Vanguard-4\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Light Calibre Broadside",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Calibre-L",
+                "Re-Entry",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Light Calibre Broadside",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Calibre-L",
+                "Re-Entry",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

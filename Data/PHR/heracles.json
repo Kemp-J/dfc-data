@@ -1,0 +1,57 @@
+{
+    "class": "Heracles",
+    "type": "Battleship",
+    "points": 235,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 10,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Calibre Triple Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Dark Matter Cannon",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Critical-1",
+                "Crippling",
+                "Penetrator"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Enlightenment",
+        "Renaissance",
+        "Queen Boudicca",
+        "Code Eternal"
+    ],
+    "flavour": "The Heracles Class battleship is a truly awesome vessel and one of the most resilient battleships yet encountered in the Reconquest. Its vast and stocky hull is built around an enormous broadside array of heavy calibre mass drivers, its beam wide enough to conceal these massive weapons within. The ship's characteristic and ominous silhouette is increased by a complex series of manoeuvre fins, lending this leviathan a surprisingly graceful appearance for such a brutal tool of destruction.\nIn addition to its broadsides, the Heracles also features the dreaded Dark Matter Cannon, an enormous prow mounted weapon as monumentally destructive as it is advanced. In addition to the extensive damage it can inflict, a single shot is dangerous enough to cause crippling effects to the largest of vessels, making it an awesome foil to enemy battleships. The Heracles also sports superlative levels of point defence in addition to close action weapons of extreme potency. The combination of these attributes makes this ship an obvious choice as flagship for admirals lucky enough to have access to one, if not a rock around which a full scale attack can be based."
+}

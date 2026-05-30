@@ -1,0 +1,63 @@
+{
+    "class": "Sysyphus",
+    "type": "Heavy Cruiser",
+    "points": 122,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 13,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Bombardment Battery",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Bombardment"
+            ]
+        },
+        {
+            "Name": "Light Calibre Broadside",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Calibre-L",
+                "Re-entry",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-1"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Old Boulder",
+        "Ruined King",
+        "Ephyra's Fist",
+        "Hubris"
+    ],
+    "flavour": "Along with the clandestine Prototype cruisers witnessed by the UCM, an additional cruiser type has been seen amongst posthuman fleets. Though not quite as obvious as the Prototype vessels, it seems that this class has been seeing trials to evaluate its performance. Currently it has been witnessed accompanying Strike Carriers and Troopships, clearing a dropsite and threatening smaller ships that try to make it close. Current PHR tactics are to use the ship to bully its enemies away from critical locations with its anti-capital torpedo, and bombardment of emplaced ground formations.\nIt's unknown what brought on the development of this cruiser, perhaps the PHR is getting increasingly more interested in holding ground than they have been in the past. Possibly due to the increasing amount of ground they intent to capture and keep. Indeed, these ships are being seen in increasingly large numbers whenever the PHR want to dig their heels into a new location currently occupied by light amounts of enemy ships and personnel."
+}

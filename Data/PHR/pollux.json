@@ -1,0 +1,57 @@
+{
+    "class": "Pollux",
+    "type": "Escort Frigate",
+    "points": 65,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 4,
+        "Hull": 5,
+        "ES": "2+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Aegis-2",
+            "Escort"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Wasp Drones",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        },
+        {
+            "Name": "Point Defence Array",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti-Wing",
+                "Close Action",
+                "Fusillade-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Conferred Divinity",
+        "Halo Nine",
+        "Aegis"
+    ],
+    "flavour": "Although based on the Castor class monitor's superstructure, thie Pollux is officially classified as an escort frigate, due to its mission profile. This class was designed exclusively for close-protection missions around bulky, high value targets, where its low speed would still be sufficient to keep up. Typically they protect battleships, though occasionally heavy cruisers or assault ships, if they can afford to let off some speed.\nThe Pollux excels at this mission through extensive point-defence arrays – enough to make it extremely difficult for any strike craft or close action attacks to get through. These differ from standard, sub-cutaneous PHR types in that they are physically visible, illustrating their increased potency. Due to the large power consumption of the arrays, the Pollux relies on close action missiles for offensive armament."
+}

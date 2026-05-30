@@ -1,0 +1,44 @@
+{
+    "class": "Pegasus",
+    "type": "Nano-Hive Cutter",
+    "points": 58,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Regenerate-4"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Nano Drones",
+            "Arc": "F/S",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Pegasus",
+        "Righteous Blade",
+        "Huntress",
+        "Mercury"
+    ],
+    "flavour": "The Pegasus is unusual for a Republic vessel in that it offers extreme speed and can only strike at close range. It makes its kills though deploying swarms of armed nano-drones, quick and tiny enough to be difficult for point defences to counter. The unmanned drones have a very limited envelope though, making this behave like a conventional close action weapon rather than a carrier.\nOn paper this highly aggressive combatant suits the PHR's most hot-headed captains, but the vessel's support role requires anything but.\nMore than almost any other Republic vessel, the Pegasus is infamous for operating far from any friendly ships to prey on outliers and merchantmen, especially in the days before the Triumvirate. The vessel is apt for long deployments far from repair facilities since its drones can also regenerate the Pegasus' sleek hull.\nA careful, patient captain can use its great speed to make choice kills then lie in wait while their ship regains full potency."
+}

@@ -1,0 +1,50 @@
+{
+    "class": "Bellerophon",
+    "type": "Heavy Cruiser",
+    "points": 185,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 13,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Twin Supernova Laser",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Flash-2",
+                "Focused"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Alexander's Ambition",
+        "Socrates",
+        "Fireheart",
+        "Salamis"
+    ],
+    "flavour": "The Bellerophon is the closest the PHR currently has to a conventional, dedicated fleet carrier in its arsenal. However, it is heavier, tougher and better armed that most equivalents, making it a truly formidable threat on the battlefield. A pair of prow mounted Supernova lasers grants the Bellerophon an anti-ship armament that equals most cruiser's primary weapons by slicing through the thickest of armour to the core of a capital ship.\nHowever, this is not what makes the Bellerophon most dangerous but rather its strike craft launch capacity. Its capacious internal hangars house row upon row of highly advanced PHR fighters and bombers, presenting a deadly threat or effective shield to any ship within their impressive range. These craft are some of the most effective yet encountered in the Reconquest, the bombers in particular posing a grave threat to all ships with less than top of the line point defence capability or a significant fighter CAP. Besides the Bellerophon's low combat speed, its only real disadvantage is its high cost both in resources and manpower, making it a thankfully uncommon sight in PHR fleets."
+}

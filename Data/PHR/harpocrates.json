@@ -1,0 +1,44 @@
+{
+    "class": "Harpocrates",
+    "type": "Guerilla Lighter",
+    "points": 20,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 2,
+        "Hull": 2,
+        "ES": "5+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "EM Warfare Suite",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Crippling-Weapons Offline"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "The Veil",
+        "Labyrinth 1",
+        "2 and 3",
+        "Retiaritus"
+    ],
+    "flavour": "The PHR's new Harpocrates Lighter takes Post-human mastery of electronic warfare and builds a whole ship around it. It has a single role: to render a target ship deaf, blind and hobbled without firing a shot.\nAt close range only, its powerful EM field projection panels can be focused to lash an enemy ship so severely that its targeting systems wash out and its core goes into low yield standalone mode lest it collapse, forcing the drives to idle state. The only downside is that the collapse in the target's warfighting stance makes it difficult to target, necessitating this as a specialist weapon for where preserving precious Republic souls matter more than reducing the enemy to scrap from afar."
+}

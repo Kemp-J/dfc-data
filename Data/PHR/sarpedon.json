@@ -1,0 +1,58 @@
+{
+    "class": "Sarpedon",
+    "type": "Battleship",
+    "points": 235,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 10,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Meganova Laser",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Penetrator",
+                "Flash-2",
+                "Focused",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Laser Multi-Lance",
+            "Arc": "F",
+            "Att": 7,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Calibre-L",
+                "Reave-1",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Triumvir",
+        "Four Suns",
+        "Shining Path",
+        "Dawnglaive"
+    ],
+    "flavour": "Following the same deign ethos as their dreadnoughts, all of the Sarpedon battleship's main weapons are energy-based. One of the Republic Grand Fleet's latest creations, scans suggest that this class features a state of the art, single-unit power core with an output/volume ratio twice that of anything the UCMF can field. This allows the mounting of four, colossal energy weapons. Firstly, a linked pair of Meganova lasers provide superlative ship-slicing capability - even another battleship may be crippled by a single, sustained burn. Secondly, two hull-mounted multi-lance lasers can bracket and pulverise smaller ships with frightening ease.\nIn the limited time that the UCMF have been able to observe this class, it seems it's only weakness may be extreme heat buildup over sustained combat, although this is only an issue if any adversaries remain to return fire."
+}

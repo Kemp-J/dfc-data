@@ -1,0 +1,82 @@
+{
+    "class": "Romulus",
+    "type": "Dreadnought",
+    "points": 450,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 14,
+        "Hull": 25,
+        "ES": "2+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Hypernova Laser",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "C",
+            "Special": [
+                "Critical-1",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "Energy Glaive Battery",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Energy Glaive Battery",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Energy Glaive Battery",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Starheart",
+        "Hammer of Purpose",
+        "Deus Ex Machina",
+        "Forgefire",
+        "Atom's Mistress"
+    ],
+    "flavour": "PHR Dreadnoughts are colossal enough to accommodate a fully intermeshed power management system, encompassing virtually all of its weapons, core functions and drives.\nThe Romulus packs kilometre-long, double-decker broadsides of Energy Glaives: next-gen directed energy weapons. At standard power they may discharge simultaneously, but on overcharge a single system's lethality is doubled, overcoming fire arc limitations against a single target. Its enormous prow Hypernova Laser may also be overcharged, to devastating, ship-melting effect."
+}

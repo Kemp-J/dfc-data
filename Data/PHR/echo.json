@@ -1,0 +1,55 @@
+{
+    "class": "Echo",
+    "type": "Corvette",
+    "points": 28,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 8,
+        "Sig": 2,
+        "Hull": 2,
+        "ES": "4+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1-4",
+        "Special": [
+            "Descent",
+            "Stealth"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Medium Calibre Turret",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Name": "Vespa Drones",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Air to Air",
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Silence",
+        "Isolator",
+        "Cloudhunter",
+        "Mist Cleaver"
+    ],
+    "flavour": "The Echo class corvette is a small, atmospheric-capable vessel of sub-frigate tonnage designed to prow the atmosphere for vulnerable prey, such as strike carriers. Armed with a heavy missile payload, the Echo is adept at decimating the larger targets which it hunts. It is also armed with a pair of mass drivers buried within its streamlined hull, making it a threat to enemy ships at range when fighting in the void. In combination, this makes the Echo more heavily armed than any equivalent ship of another race.\nIt is also rare among PHR ships in that it is designed with stealth in mind. This means that Echo's can fire some of their weapons while silent running, making them capable void operators due to their mass driver armament, which can be fired at ranges from which the enemy cannot hope to return fire."
+}

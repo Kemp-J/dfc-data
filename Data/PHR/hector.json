@@ -1,0 +1,68 @@
+{
+    "class": "Hector",
+    "type": "Heavy Cruiser",
+    "points": 134,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 13,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Medium Calibre Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Fusillade-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Medium Calibre Broadside",
+            "Arc": "B",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Fusillade-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Twin Supernova Laser",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Flash-2",
+                "Focused"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Einstein's Equation",
+        "Odyssey",
+        "Am Become Death",
+        "Cicero"
+    ],
+    "flavour": "The Hector class heavy cruiser is the standard ship of its classification in the Grand Fleet and a formidable foe for anything but a battleship to face. It is armed primarily with 20 medium calibre mass drivers in double broadside layout, giving the Hector excellent all-round anti-ship capability when positioned with skill. In addition, it is equipped with a pair of prow mounted Supernova lasers, giving the vessel a powerful forward facing attack that makes the Hector far more dangerous than most PHR ships from the forward quarter.\nLike other PHR heavy cruisers, the Hector also features a reinforced and enhanced hull design, giving it a survivability above that of standard cruisers as well as enemy equivalents, which can rarely match Republic ships for toughness. Besides the need for careful manoeuvre coupled with a lack of speed, the Hector has few weaknesses and can generally be expected to deal with most opposition and emerge victorious, making it a staple of full scale PHR taskforces across the Reconquest."
+}

@@ -1,0 +1,91 @@
+{
+    "admiral": "Gaius Chau",
+    "admiral_level": 5,
+    "class": "Romulus",
+    "type": "Dreadnought",
+    "admiral_points": 105,
+    "ship_points": 450,
+    "points": 555,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 14,
+        "Hull": 25,
+        "ES": "2+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Hypernova Laser",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "C",
+            "Special": [
+                "Critical-1",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "Energy Glaive Battery",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Energy Glaive Battery",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Energy Glaive Battery",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Cutting Power",
+            "Text": "If you attack with and do not Overcharge any of this Flagship's Energy Glaive Batteries, they gain Reave-2 for their attacks this activation."
+        }
+    ],
+    "fleet_admiral_abilities": 2,
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Backup Systems Engaged",
+            "Effect": "When a friendly ship would roll for Crippling Damage, roll a dice. On a 4+ that Ship does not roll on the Crippling Damage table but is still Crippled."
+        }
+    ],
+    "flavour": ""
+}

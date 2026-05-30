@@ -1,0 +1,12 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Shield Platform",
+        "ES": "4+",
+        "KS": "4+",
+        "Special": []
+    },
+    "weapons": [],
+    "load": [],
+    "rules": "Friendly Groups in coherency within 6\" of this Dropsite gain the Reinforced Armour special rule.\nThis Dropsite counts as having the Reinforced Armour special rule against enemy attacks. Reduce the Lock of enemy weapons targeting this Dropsite by 1."
+}

@@ -1,0 +1,44 @@
+{
+    "class": "Castor",
+    "type": "Monitor",
+    "points": 55,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 10,
+        "Sig": 4,
+        "Hull": 5,
+        "ES": "2+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Monitor"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Quad Battery",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Cogent Reason",
+        "Bedrock",
+        "Moonshield"
+    ],
+    "flavour": "The general performance profile of a typical defence monitors would seem to fit the PHR well – that of high armour, low speed. However, since the PHR have almost exclusively been on the offensive thus far, very few of them have been seen in action. Most of what the UCM knew of PHR monitors was gleaned from spies over the Tlalocan Moons, where the PHR has now established a permanent base, which naturally needs defending. After beachheads were established in the Battle for Earth, the PHR brought in Castor class monitors to defend their landing zones, illustrating that the PHR were behind their warnings that this war would be a longer-haul than the UCM were hoping for.\nThe Castor, much like its Colonial opposite number - the Istanbul - features heavy calibre mass drivers, able to lay down considerable cross-orbital defensive fire. Its vertical hull is quite unusual for a PHR ship, and allows these weapons to pivot around a central arc."
+}

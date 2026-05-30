@@ -1,0 +1,89 @@
+{
+    "class": "Remus",
+    "type": "Dreadnought",
+    "points": 455,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 14,
+        "Hull": 25,
+        "ES": "2+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Apocalypse Cannon",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Bombardment",
+                "Overcharge"
+            ]
+        },
+        {
+            "Name": "Energy Glaive Battery",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Energy Glaive Battery",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Hornet Drone Hive",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 4,
+            "Special": [
+                "Limited-4"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Purity of Power",
+        "Deliverance",
+        "Heaven's Judgement",
+        "Queen of Ends",
+        "Apocalypse"
+    ],
+    "flavour": "The Remus's Apocalypse Cannon is one of the most potent bombardment weapons in existence. Unlike nukes, there is no stopping this behemoth from reducing whole cities to glass. Using its power management system, the entire Dreadnought's output can be unleashed through the barrels of this cruiser-sized weapon, guaranteeing the removal of anything from the map."
+}
