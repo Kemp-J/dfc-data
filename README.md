@@ -2,4 +2,4 @@
 
 Export of fleet data from the Dropfleet Commander PDFs.
 
-See the [data format description](data_format.md) for details of how to consume the data files.
+See the [fleet](fleet_data_format.md) and [system](system_data_format.md) data format descriptions for details of how to consume the data files.
