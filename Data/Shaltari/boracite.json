@@ -1,0 +1,63 @@
+{
+    "class": "Boracite",
+    "type": "Pocket Battleship",
+    "points": 200,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 14,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disintegrator Battery Pair",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Volley-2",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Thermal Lance Cannon Pair",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Bloom-1",
+                "Burnthrough-1",
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Feature Carrier",
+            "Text": "At the start of the game, before players deploy, choose two Deployable Features from the Shaltari Deployable Features List (duplicates are allowed). This Ship starts the game carrying those Deployable Features."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Starlance",
+        "Journeyman",
+        "New Death",
+        "Portent's Handmaiden"
+    ],
+    "flavour": "A sister class of the Euclase, the Boracite is configured for pure ship-ship combat through increased firepower. Here, the Euclase's launch bays are replaced with a linked pair of disintegrator batteries. Coupled with the twinned Thermal Lance Cannons, this ship is at its most deadly when its captain, who must possess time-honed skill, can manoeuvre into an optimal firing position prior to unleashing all weapons, pushing the ship's enhanced power matrix to the limit.\nThis killing power is supplemented by a standard feature, thus far, of all Shaltari pocket battleships –launch clamps for self-deploying surface assets. On the Boracite, these are often employed as launch and forget assets while en-route to the next kill, although if targets are plentiful, the Boracite may remain on station of unleash salvos of annihilating energy at its foes."
+}

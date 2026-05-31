@@ -1,0 +1,50 @@
+{
+    "class": "Opal",
+    "type": "Shielding Frigate",
+    "points": 45,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 10,
+        "Sig": 4,
+        "Hull": 4,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Shield-5+",
+            "Vanguard-4\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Harpoon Strike",
+            "Arc": "F/S/R",
+            "Att": 2,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Shield Booster",
+            "Text": "While this Ship's Group is in coherency, when another friendly Group within 6\" of this Ship uses its Shield Save, you may improve that Group's Shield-X special rule by 1 for that Save, to a maximum of 3+ (so Shield-6+ would become Shield-5+). If you do, this Ship's Group gains a Spike. Each Shield Save can only be affected by this rule once and Ships with this special rule are unaffected.\nThis rule can only be used while this Ship's Group has fewer than 4 Spikes."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Stark Lantern",
+        "Talisman",
+        "Immortaliser",
+        "Endless Dominion"
+    ],
+    "flavour": "The Opal class frigate is a highly specialised ship and thankfully for the UCM, rarely encountered. It carries minimal offensive weapons since its role is defensive in nature. Most of its internal structures are interlaced with a complex eldritch projection system designed to boost the effectiveness of the shields of a nearby vessel, as long as those shields are raised. This makes the Opal a highly effective escort ship for larger vessels.\nAs almost all Shaltari elders are obsessed with and focused on the continuation of their ancient lives and as such these ships are highly valued as escorts for flagships. It seems however that despite the Shaltari's obvious mastery of technology, this vessel is very difficult to produce, making it a particularly appealing prize whenever the tribal fleets fight each other, as it has few weapons of its own to defend itself with."
+}

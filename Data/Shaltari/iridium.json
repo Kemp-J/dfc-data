@@ -1,0 +1,50 @@
+{
+    "class": "Iridium",
+    "type": "Destroyer",
+    "points": 60,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 5,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Shield-5+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disruption Beamers",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Fusillade-1"
+            ]
+        },
+        {
+            "Name": "Kinetic Lance",
+            "Arc": "FN",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Status"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

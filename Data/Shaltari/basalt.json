@@ -1,0 +1,62 @@
+{
+    "class": "Basalt",
+    "type": "Fleet Carrier",
+    "points": 108,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 9,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1",
+        "Special": [
+            "Shield-5+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disruptor Pair",
+            "Arc": "FN",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": []
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 2,
+            "Special": []
+        },
+        {
+            "Load": "Mines",
+            "Launch": 2,
+            "Special": [],
+            "Cost": 10,
+            "Replaces": [
+                "Fighters & Bombers"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Minelayer",
+            "Text": "This ship may replace its Fighters & Bombers with Mines for +10 pts."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Limitless",
+        "Sanctity of Sekhmet",
+        "Verdant",
+        "Fatebringer"
+    ],
+    "flavour": "The Basalt class fleet carrier is the Shaltari tribes primary launch vessel for strike craft such as fighters and bombers. As a dedicated carrier, it tends to operate towards the rear of an engagement, utilising the superior effective range of its charges to stay out of harm's way while inflicting appalling damage on the enemy. It also carries a reasonable ship-ship armament in the form of a pair of disruptors, allowing it to defend itself directly if called upon to do so.\nWhile Shaltari bombers are undoubtedly dangerous, it's often the fighters than fulfil the most useful role within a tribal fleet. Since Shaltari point defence is inoperable when a ship's shields are up, they are often the only counter to enemy close action attack and enemy bombers, especially if they are able to close with the Shaltari and survive the approach. As such, the Basalt is crucial pillar around which many of the bloodiest engagements are planned – a powerful factor, since Shaltari fighters are some of the fastest and most potent known to mankind."
+}

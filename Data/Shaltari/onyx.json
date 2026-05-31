@@ -1,0 +1,66 @@
+{
+    "class": "Onyx",
+    "type": "Heavy Cruiser",
+    "points": 125,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 11,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1",
+        "Special": [
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Unending",
+        "Folly of Death",
+        "Doomsayer",
+        "Scythe of Ages"
+    ],
+    "flavour": "The Onyx class is the most commonly encountered Shaltari heavy cruiser type. Command of one is frequently the stepping stone to greatness for Starchiefs, since it offers all the awesome destructive power needed to score the choicest kills. Its hull is bulker than a standard cruiser, leading to greater resilience at the expense of speed. However, it is less tough than its equivalents from other races although it compensates for this small shortcoming with superlative scan range, advanced energy shields and fantastic point defence abilities when shields are down.\nThe Onyx is armed with three banks of disruptors. These energy based weapons are more dangerous than standard guns, albeit at the expense of more limited fire arc than turreted armaments. By far, the Onyx is at its most deadly when unleashing all three of these lethal batteries, although it cannot manoeuvre while doing so, making it best suited for action in the heart of the battle where targets are plentiful."
+}

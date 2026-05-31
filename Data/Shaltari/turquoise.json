@@ -1,0 +1,57 @@
+{
+    "class": "Turquoise",
+    "type": "Cruiser",
+    "points": 90,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 9,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Shield-5+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Ion Aura",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Ion Storm",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Bombardment",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Stormcrow",
+        "Sundered Sky",
+        "Nomad",
+        "Tsunami"
+    ],
+    "flavour": "The Turquoise class cruiser is a highly unusual vessel as it is designed for both close action assault against other ships as well as orbital bombardment and is equally as dangerous in both roles. It has no equivalent in the fleets of other races and opponents must judge this class on its own unique merits without familiar comparison. Its dual role lends it best to first wave sorties against defended positions, where shock and awe is at its most potent. Typically, the Turquoise will close at full speed with the enemy to destroy opposition immediately above a bombardment site before proceeding to lay waste to the surface. This also allows a single ship to enact this task rather than two, making best use of the Shaltari's small numbers.\nIts unusual mission profile is facilitated by its armament – twin banks of ion storm generators. As with its more all-round and larger cousin the Jet class, these weapons can unleash savage waves of energy against both ships and surface targets at close distances. However, unlike the Jet it does not feature any other main armaments, making it a more focused tool for up-close and personal destruction."
+}

@@ -1,0 +1,49 @@
+{
+    "class": "Mesolite",
+    "type": "Supercruiser",
+    "points": 180,
+    "tonnage": "M",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 12,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Twin Hyperwave Cannon",
+            "Arc": "F",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Crippling-2xFire"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Feature Carrier",
+            "Text": "At the start of the game, before players deploy, choose two Deployable Features from the Shaltari Deployable Features List (duplicates are allowed). This Ship starts the game carrying those Deployable Features."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Black Pyramid",
+        "Aten's Chariot",
+        "Invader",
+        "Sun Queen"
+    ],
+    "flavour": "While Shaltari battlecruisers are regrettably familiar, some of their latest, lightest derivatives are not. Classified as supercruisers, these ships appear to be brand new. The alien's choice to increase battlecruiser production and variety suggests a development, but whether that's the strain or war or simply innovation is unknown.\nThe first Shaltari supercruiser sighting, early in 2679, was the Mesolite. This svelte ship-killer is armed with a twin Hyperwave Cannon, matching the primary armament of the heavier Goethite class. It foregoes other capabilities though in favour of a mount for two stacked self-deploying surface instillations. These vary from the Stellargate, which brings starship-grade teleport technology to the surface, to the Electrowave Caster, a devilish weapons instillation capable of inflicting crippling damage on orbiting starships. The most awe-inspiring and outlandish is the Worldstrider – by far the largest known walker-type construct, thus far. This city block-spanning monstrosity smashes whole instillations beneath its six, tungsten-sheaved legs."
+}

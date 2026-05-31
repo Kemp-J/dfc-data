@@ -1,0 +1,85 @@
+{
+    "class": "Platinum",
+    "type": "Supercarrier",
+    "points": 280,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 8,
+        "Hull": 18,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Mothership",
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Harpoon Deluge",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 1,
+            "Special": []
+        },
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 5,
+            "Special": []
+        }
+    ],
+    "equipment": [
+        {
+            "Name": "Drive Augmentation",
+            "Cost": 35,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 3
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Drive Augmentation",
+            "Text": "This Ship may take a Drive Augmentation for +35 points, increasing its Thrust by 3\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Aten",
+        "Crimson Monolith",
+        "Eternal Nightfall",
+        "Ancient Solace"
+    ],
+    "flavour": "The Platinum Class shares the same basic hull design as the Diamond class, but its internal space and vast upper levels are dominated by an enormous flight deck, making this vessel a supercarrier by UCM reckoning. The Platinum class can unleash swarms of fighters and bombers in an unstoppable tide of destruction, in volumes and quality that few other ships can match. In addition (and like its cousin the Diamond) it also serves the secondary function of mothership, carrying a small number of ground troops to supplement surface landings.\nShips of this class are among the most ancient vessels ever encountered by mankind. Indeed, the very first non-human ship to make contact with humanity on the now famous exploration frigate Endurance was the Platinum class Supercarrier Aten. During the then cordial relations between Shaltari and Human, the Starchief at the helm of the mighty ship proudly proclaimed that it was over 7000 Earth years of age, and that was well over 300 years ago. Their continued survival over the millennia is due in part to their scale, but mostly to the extended combat range granted by its strike craft, ensuring that finally ending one of these behemoths is a challenging task in the extreme."
+}

@@ -1,0 +1,18 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Stellargate",
+        "ES": "4+",
+        "KS": "4+",
+        "Special": []
+    },
+    "weapons": [],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "rules": "After Battalion combat on this Feature's Dropsite, if it contains any number of friendly Stellargates, deploy one Battalion to that Dropsite. A Dropsite can only have a single Battalion deployed to it this way each round.\nWhile you have one or more Stellargates on a Dropsite, that Dropsite counts as a Controlled Dropsite with Gateship-X for the purposes of the Mothership special rule, where X is the total number of friendly Stellargates on that Dropsite. Additionally, the Dropsite forms a part of a Gateship chain with friendly Gateships and Motherships within 18\".\nThis feature only requires 3 or more Battalions to be removed during Battalion Combat and 3 damage to remove due to attacks."
+}

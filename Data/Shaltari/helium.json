@@ -1,0 +1,52 @@
+{
+    "class": "Helium",
+    "type": "Voidflyer",
+    "points": 29,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 16,
+        "Scan": 8,
+        "Sig": 1,
+        "Hull": 2,
+        "ES": "6+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Descent",
+            "Shield-5+",
+            "Vectored"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Pulse Blaster",
+            "Arc": "F/S",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Penetrator"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Void Skip",
+            "Text": "If this ship goes on General Quarters when within 6\" of a Ship with the Gateship special rule, rather than making a normal move, you may place it within 6\" of any other Gateship in that Gateship's chain (within 18\" of each other as normal), facing any direction. If it does, it gains a Spike. It may be put in either Orbit or Atmosphere, regardless of the Voidgate it is placed by. When doing this, the whole group must move together."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Mist Warrior",
+        "Auru's Ghost",
+        "Sudden Lash",
+        "Ether Rider"
+    ],
+    "flavour": "The Helium Voidflyer is a slippery adversary and a worrying technological twist in Shaltari naval combat. Troops on the ground are sadly familiar with the aliens' capricious ability to teleport battlefield-level vehicles in and out of hot zones via their gate network. On a strategic level, naval planers have considered this tech limited to deployment of smaller constructs - not so, it seems.\nThe Helium can leverage the existing voidgate network to teleport across the battlespace instantaneously. That the Helium is orders of magnitude larger than anything previously known to possess this ability has raised concerns at the highest level as to what it means for the future - is this new tech, or have the aliens simply deigned to switch tactics? Either way, the prospect of whole starships vanishing and appearing at will likely chill the blood of any captain, despite the small size and short ranged weapons of this new threat."
+}

@@ -1,0 +1,57 @@
+{
+    "class": "Aquamarine",
+    "type": "Light Cruiser",
+    "points": 74,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 7,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": [
+            "Shield-5+",
+            "Vanguard-6\"",
+            "Vectored"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Gravity Coil Pair",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Impel-2"
+            ]
+        },
+        {
+            "Name": "Harpoon Cascade",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Aeons Asunder",
+        "Mirrored Gaze",
+        "Infinity Circle",
+        "Waxing Moon"
+    ],
+    "flavour": "The Aquamarine class light cruiser shares the same basic hull and engine setup of its cousin the Azurite. As a result, this ship is just as blisteringly fast and capable in manoeuvre as its sister class, ensuring that it can weave through the battlefield to seek its target and bite at the soft underbelly of its enemy.\nUnlike the more general purpose Azurite though, the Aquamarine has a very specific mission profile, possibly unique to the Shaltari and granted by its highly unorthodox main armament, the Gravity Coils. This pair of weapons emits a narrow beam of gravitic disturbance, dealing focused damage to the victim and playing havoc with its inertia. In turn, this allows the target to be re-vectored as the Shaltari wish, diverting thousands of tons of sharship as if it had been pushed by the invisible hand of a divine being. The Aquamarine therefore has a unique support role as it can repulse enemy ships from friendly ones or place them in an unfavourable position, ready for the Shaltari onslaught."
+}

@@ -1,0 +1,86 @@
+{
+    "class": "Bronze",
+    "type": "Battleship",
+    "points": 230,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 8,
+        "Hull": 18,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Ion Cannonade",
+            "Arc": "F",
+            "Att": 10,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Crippling-Navigation Offline"
+            ]
+        },
+        {
+            "Name": "Microwave Array Bank",
+            "Arc": "S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Scald-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Gravitic Beamer",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Impel-1",
+                "Re-Entry"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [
+        {
+            "Name": "Drive Augmentation",
+            "Cost": 35,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 3
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Drive Augmentation",
+            "Text": "This Ship may take a Drive Augmentation for +35 points, increasing its Thrust by 3\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Great Vex",
+        "Brazen Khopesh",
+        "Elemental",
+        "Eternal Master"
+    ],
+    "flavour": "Although many Shaltari ships can be considered unusual, the Bronze class battleship is especially so. At the prow, it mounts the fearsome Ion Cannonade - two vast rows of ion weapons with an excessive rate of fire. Like all ion weapons, these can cause havoc to a ship's power systems before battering it to shreds with a hail of energy pulses. On the ship's back, it mounts a Gravitic Beamer. While damaging enough on a basic level, this weapon's real threat comes from its effectiveness against ships in atmosphere and its tendency to literally shove ships forward, often into unfortunate places. Lastly, the ship mounts twin broadside crescents of microwave emitters for close-in killing power.\nUnlike other, more focused battleships, this class requires a Starchief with flexible cunning to achieve its maximum lethality while frustrating enemy operations."
+}

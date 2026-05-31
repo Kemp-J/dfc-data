@@ -1,0 +1,190 @@
+{
+    "source_version": "260327",
+    "abilities": [
+        {
+            "Cost": "1AP",
+            "Name": "Impel Mines",
+            "Effect": "When a friendly Carrier with H or C Tonnage launches assets, it may launch a single Impel Mine in addition to its normal Assets this round."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Advanced Picket Ships",
+            "Effect": "When you use a Group's Shield-X special rule, roll a dice. On a 4+ do not gain a Spike from that use of the Shield-X special rule (other uses are unaffected)."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Misdirection",
+            "Effect": "At the start of the Asset Phase, pick a Dropsite. You may redistribute the allocation of all friendly Assets in that Dropsite and its Features."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Navigational Mastery",
+            "Effect": "At the start of a friendly Group's activation, that Group increases its Thrust by D3\" until the end of its activation."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Power to the Weapons",
+            "Effect": "At the start of a friendly Group's activation that Group may fire any number of its Weapons on General Quarters but may not use Shield Saves until the end of the round."
+        },
+        {
+            "Cost": "*AP",
+            "Name": "Lives of Experience",
+            "Effect": "At the start of each round, pick one Ability from any other Admiral on the table. This Ability becomes a copy of that Ability until the end of the round."
+        }
+    ],
+    "fleet_admirals": [
+        {
+            "Name": "Shaltari Skychief",
+            "Level": 1,
+            "Cost": 25,
+            "FleetAbilities": 1,
+            "Abilities": [
+                {
+                    "Cost": "1AP",
+                    "Name": "Voidgate Redeployment",
+                    "Effect": "At the start of the Asset Phase, before Battalion Combat, select a Dropsite or Feature containing friendly Battalions. If that Dropsite/Feature is within 3\" of a friendly Ship with the Gateship special rule, you may move a number of friendly Battalions assigned to the selected Dropsite or Feature to another Dropsite or one of its Features within 3\" of another Ship in the same Gateship chain. You cannot move more Battalions than the Gateship-X value of the final Ship or Dropsite used in the Gateship Chain."
+                }
+            ]
+        },
+        {
+            "Name": "Shaltari Starchief",
+            "Level": 3,
+            "Cost": 65,
+            "FleetAbilities": 1,
+            "Abilities": [
+                {
+                    "Cost": "2AP",
+                    "Name": "Overclock Gates",
+                    "Effect": "At the start of the Activation Phase, pick a friendly Ship with the Gateship-X rule. That Ship doubles its X value until the end of the round. A Ship can only be affected by this Ability once each round."
+                },
+                {
+                    "Cost": "3AP",
+                    "Name": "Espionage",
+                    "Effect": "When an opponent declares the use of an Ability, negate that use of that Ability (AP is still spent as usual and subsequent uses are unaffected)."
+                }
+            ]
+        }
+    ],
+    "launch_assets": [
+        {
+            "Load": "Torpedo",
+            "Thrust": 6,
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 3,
+            "Type": "C",
+            "Special": [
+                "Flash-2"
+            ]
+        },
+        {
+            "Load": "Bombers",
+            "Thrust": 13,
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": []
+        },
+        {
+            "Load": "Fire Ships",
+            "Thrust": 7,
+            "Att": 4,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Load": "Mines",
+            "Thrust": 6,
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": []
+        },
+        {
+            "Load": "Impel Mines",
+            "Thrust": 6,
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Arrest-4",
+                "Impel-1"
+            ]
+        },
+        {
+            "Load": "Fighters",
+            "Thrust": 16,
+            "Rerolls": 1
+        }
+    ],
+    "deployable_features": [
+        "stellargate.json",
+        "electrosurge_torus.json",
+        "worldstrider.json"
+    ],
+    "famous_admirals": [
+        "twins_of_aaru.json",
+        "seth.json",
+        "mergen_the_learned.json",
+        "quetzalcoatl.json"
+    ],
+    "heroes": [],
+    "ships": [
+        "voidgate.json",
+        "glass.json",
+        "helium.json",
+        "topaz.json",
+        "jade.json",
+        "opal.json",
+        "amethyst.json",
+        "silicon.json",
+        "selenium.json",
+        "strontium.json",
+        "caesium.json",
+        "gallium.json",
+        "chromium.json",
+        "iridium.json",
+        "mercury.json",
+        "cobalt.json",
+        "aquamarine.json",
+        "azurite.json",
+        "amber.json",
+        "granite.json",
+        "turquoise.json",
+        "basalt.json",
+        "emerald.json",
+        "citrine.json",
+        "jet.json",
+        "obsidian.json",
+        "onyx.json",
+        "scoria.json",
+        "mesolite.json",
+        "natrolite.json",
+        "ruby.json",
+        "sapphire.json",
+        "hematite.json",
+        "goethite.json",
+        "spinel.json",
+        "painite.json",
+        "euclase.json",
+        "boracite.json",
+        "diamond.json",
+        "platinum.json",
+        "gold.json",
+        "silver.json",
+        "bronze.json",
+        "copper.json",
+        "iron.json",
+        "actinium.json",
+        "lanthanum.json",
+        "cerium.json",
+        "thorium.json",
+        "plutonium.json",
+        "uranium.json"
+    ]
+}

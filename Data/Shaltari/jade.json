@@ -1,0 +1,43 @@
+{
+    "class": "Jade",
+    "type": "Frigate",
+    "points": 50,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 10,
+        "Sig": 4,
+        "Hull": 4,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Shield-5+",
+            "Vanguard-4\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Particle Lance",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": []
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Corona",
+        "Years Behind",
+        "Lamenter",
+        "Emancipator"
+    ],
+    "flavour": "The Jade class frigate is a more focused design than its cousin, the Topaz. While using the same basic hull, this vessel mounts a single highly dangerous, if restrictive, particle lance. This weapon's effective fire arc is very narrow, forcing the Jade's captain to be very deliberate about engaging the enemy. Typically, these fast vessels are assigned to flanking operations against rearguard targets or to attack specific, high value assets in the early stages of a battle. The Jade class is also a favoured choice for small Shaltari raiding parties since isolated targets are picked off with speed and precision before any response can be brought to bear.\nIts particle lance has a lower destructive power than the weapons of most other Shaltari frigates, but what it lacks in damage potential, it makes up for in armour penetrating ability. Its highly focused and devastating beam can slice through any known armour with contemptuous ease, almost always causing meaningful damage with a successful hit. As a result, it is often used against a heavily armoured opponent, whose protections are meaningless against the Jade's attentions."
+}

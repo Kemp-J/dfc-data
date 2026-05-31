@@ -1,0 +1,99 @@
+{
+    "class": "Plutonium",
+    "type": "Dreadnought",
+    "points": 435,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 14,
+        "Sig": 12,
+        "Hull": 22,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Mothership",
+            "Shield-3+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Distortion Cannons",
+            "Arc": "F",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Critical-2",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Twin Particle Lance Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Critical-1"
+            ]
+        },
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Harpoon Deluge",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Aztec King",
+        "Mongol Heart",
+        "Cheyenne Supreme",
+        "Blade of Infinity",
+        "Deathstone"
+    ],
+    "flavour": "The Plutonium is the largest vessel employed by the enigmatic Shaltari. Incredibly rare, opponents are seldom left alive to pass on intel. Sleeker than crude equivalents, their energy shields and scanners are peerless, and their vast array of weapons lethal.\nOnly the grandest individuals command such mighty ships: supreme tribal leaders often utilise a Dreadnought as their mobile court. Given their capacity for surface troops, a Starchief may wage an entire campaign personally with almost no support, should they will it."
+}

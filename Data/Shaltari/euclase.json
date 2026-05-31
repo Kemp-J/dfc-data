@@ -1,0 +1,57 @@
+{
+    "class": "Euclase",
+    "type": "Pocket Battleship",
+    "points": 220,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 14,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Thermal Lance Cannon Pair",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Bloom-1",
+                "Burnthrough-1",
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 3,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Feature Carrier",
+            "Text": "At the start of the game, before players deploy, choose two Deployable Features from the Shaltari Deployable Features List (duplicates are allowed). This Ship starts the game carrying those Deployable Features."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Bestride the Universe",
+        "Fate's Hand",
+        "Sublime Orbit",
+        "Sky Kraken"
+    ],
+    "flavour": "The new Euclase class pocket battleship is among the alien's most powerful capital ships below full battleship tonnage. Offensively, it mounts twinned Thermal Lance Cannons. These forward-facing weapons are devastating enough, but once the Euclase is in an optimal firing position, the full might of the ship's cores can be focused though them, increasing firepower at the expense of manoeuvres.\nGiven the drain on the power matrix, the Euclase's other offensive capabilities are low drain launch options. A substantial fight deck accommodates swarms of fighters and bombers, while the vessel's enhanced superstructure permits the carrying of self-deploying surface assets. Against the Euclase, enemies of the Shaltari are safe nowhere."
+}

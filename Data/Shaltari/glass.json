@@ -1,0 +1,46 @@
+{
+    "class": "Glass",
+    "type": "Cloudflyer",
+    "points": 20,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 16,
+        "Scan": 8,
+        "Sig": 1,
+        "Hull": 1,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Descent",
+            "Shield-5+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Ion Lance",
+            "Arc": "F",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Air to Air",
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Aetherwind",
+        "Rainmaker",
+        "Sharp Spear",
+        "Dreamscape"
+    ],
+    "flavour": "These tiny vessels fulfil the role of the corvettes of other races, although they are smaller even than those diminutive ships. They are designed solely to hunt enemy atmospheric assets and are extremely fast. These ships are favoured by the most aggressive Shaltari with the least fear of death and as such are generally crewed by Firstborn Shaltari new to the arts of naval warfare. They have a small crew of just twelve individuals and feature no shields due to their size, their pace and atmospheric capability their best protection against the enemy.\nTypically, they hunt in packs, utilising their compact but lethal ion cannons to rake the hulls of the larger strike carriers which are their preferred prey. Although not as dangerous as a Corvette alone, their cooperation can quickly reduce the target to so much falling debris in a matter of seconds."
+}

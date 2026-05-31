@@ -1,0 +1,98 @@
+{
+    "class": "Uranium",
+    "type": "Dreadnought",
+    "points": 410,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 14,
+        "Sig": 12,
+        "Hull": 22,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Mothership",
+            "Shield-3+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Pulse Ioniser Battery",
+            "Arc": "F",
+            "Att": 12,
+            "Lock": "*",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Calibre-M/H/C",
+                "Close Action",
+                "Mauler"
+            ]
+        },
+        {
+            "Name": "Microwave Array Turret",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "C",
+            "Special": []
+        },
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Harpoon Deluge",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Jade Pyramid",
+        "Mayan Fury",
+        "Mighty Amazon",
+        "Trophy Hunter"
+    ],
+    "flavour": "The Uranium attracts the most warlike Starchiefs, concerned with the honour and satisfaction of closely witnessing the demise of their foes. Famously, Seti the Kinslayer once captained the Spear of Anubis, his hyper-aggressive tactics leading to its loss against the UCMF Triumph (after obliterating twelve cruisers).\nThe Uranium class features multiple close-action systems: primarily, a battery of six pulse-ionisers, particularly deadly to capital ships. Its microwave turret and Harpoon Deluge rounds off this fearsome range of killing tools."
+}

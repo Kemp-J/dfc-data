@@ -1,0 +1,57 @@
+{
+    "class": "Selenium",
+    "type": "Heavy Voidgate",
+    "points": 55,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Descent",
+            "Gateship-3",
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Defence Array",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Escape Velocity"
+            ]
+        },
+        {
+            "Name": "Charged Air",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Air to Air",
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Warchariot",
+        "Deadly Conjurer",
+        "Amulet"
+    ],
+    "flavour": "Most Shaltari ground forces reach the surface via Voidgates - ubiquitous, unglamorous ships. Voidgates tend to be lightly armoured and unarmed, making them easy targets. However, as common as these vessels are, sometimes the Shaltari need to guarantee landings planetside, so rely on heavier ships. The Selenium class is one such vessel. It has the transference capacity of a Voidgate, and guns designed to fire out of atmosphere at starships. This allows the Selenium to defend the ground troops deployed through it.\nThese enhanced capabilities and much improved survivability over Voidgates makes the class particularly useful in the thick of heavy fighting, especially given the importance Shaltari place on their own lives. As a result, more of this class have been seen during the Battle for Earth than anywhere else."
+}

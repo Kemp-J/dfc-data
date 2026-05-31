@@ -1,0 +1,44 @@
+{
+    "class": "Silicon",
+    "type": "Monitor",
+    "points": 55,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Monitor",
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Quad Ion Cannon",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Crippling-Navigation Offline"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Euthaniser",
+        "Benevolent Mercy",
+        "Rio's Silencer"
+    ],
+    "flavour": "Much as with the Scourge, monitors are an unusual fit in Shaltari fleets, due to their low speed and consequent lack of finesse. In addition, the Shaltari rarely fight defensive actions, making an ordinary monitor-type configuration superfluous. Instead, Shaltari types fulfil a rearguard role.\nThe most frequently seen is the Silicon class, armed with a quad-bank of tilt-able ion cannons, giant versions of those commonly found on Kukri grav-tanks. While these effectively damage ships in higher orbital layers, their true value is in disrupting the power systems of larger ships. This makes the Silicon especially favoured by the type to Starchief who likes taking prizes, or enjoys boarding actions against helpless foes, drifting helplessly in the void."
+}

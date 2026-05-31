@@ -1,0 +1,66 @@
+{
+    "class": "Obsidian",
+    "type": "Heavy Cruiser",
+    "points": 135,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 11,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1",
+        "Special": [
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Particle Lance",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Critical-1"
+            ]
+        },
+        {
+            "Name": "Particle Lance",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Critical-1"
+            ]
+        },
+        {
+            "Name": "Particle Lance",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Critical-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Honour Above Death",
+        "Black Immortal",
+        "Future Path",
+        "Woemaker"
+    ],
+    "flavour": "The Obsidian class heavy cruiser is one of the most feared ships in the Shaltari tribal fleets as it generally hunts the largest and grandest of prey. Crews of Obsidians take great honour in slaying opponents larger than themselves and many of the class' captains have been subsequently elevated to Starchief. Enemy flagships, carriers and battleships are frequently targets for the Obsidian's wrath, such is the concentrated nature of its awesome firepower.\nIt is armed with a trio of forward facing particle lances – weapons of focused fury able to slice through any known armour with preposterous ease. Since armour serves virtually no protection against these weapons, they are frequently turned on the toughest, best protected ships in an enemy fleet, where this advantage is most telling. The only downside to these weapons is their lack of ultimate damage potential, although they more than make up for this in their ability to cause harm in a highly predicable and reliable way, making the Obsidian an excellent choice when the odds of failure must be minimised."
+}

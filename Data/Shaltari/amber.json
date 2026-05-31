@@ -1,0 +1,55 @@
+{
+    "class": "Amber",
+    "type": "Cruiser",
+    "points": 100,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 9,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Shield-5+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Sands of Time",
+        "Cerulean",
+        "Sobek's Memory",
+        "Elder Warrior"
+    ],
+    "flavour": "The Amber is the standard cruiser class in most Shaltari tribal fleets and is one of the most commonly encountered Shaltari capital ships. It is armed with a pair of disintegrator banks, each with the destructive power equal to a UCM Rio class' primary armament. When both banks can be fired, the Amber is one of the most dangerous conventionally armed cruisers in the conflict. Great age is frequently evident in the micro-scaring of the hulls of Amber class vessels which indicate that this design is one of the oldest in the tribal fleets.\nLike almost all Shaltari warships, the Amber features an advanced all-encompassing energy shield which can be raised or lowered to suit circumstances, as well as point defence capabilities in excess of any equivalent from a less advanced race. The only downside of such systems is that they interfere with each other, and as a result both cannot be operated at once. These valuable lessons were learned the hard way by the UCM which has lost more ships to this particular class than any other in its history."
+}

@@ -1,0 +1,108 @@
+{
+    "admiral": "Quetzalcoatl",
+    "admiral_level": 4,
+    "class": "Uranium",
+    "type": "Dreadnought",
+    "admiral_points": 85,
+    "ship_points": 410,
+    "points": 495,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 14,
+        "Sig": 12,
+        "Hull": 22,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Mothership",
+            "Shield-3+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Pulse Ioniser Battery",
+            "Arc": "F",
+            "Att": 12,
+            "Lock": "*",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Calibre-M/H/C",
+                "Close Action",
+                "Mauler"
+            ]
+        },
+        {
+            "Name": "Microwave Array Turret",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "C",
+            "Special": []
+        },
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Harpoon Deluge",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Radiation Aura",
+            "Text": "At the end of this Ship's activation, each enemy Group within 4\" suffers D3 Core hits."
+        }
+    ],
+    "fleet_admiral_abilities": 2,
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Radioactivity",
+            "Effect": "Before any player rolls for Explosion (friendly or enemy), make the final result of that roll a 5."
+        }
+    ],
+    "flavour": "Prime Starchief Quetzalcoatl has been a bane of UCM and PHR forces for the entirety of the Reconquest. Far too often the forces of one of the branches of Humanity will be winning an engagement against the Scourge only for Quetzalcoatl to arrive with his fleet and engage the existing combatants. In short order Quetzalcoatl annihilates the Capital Ships in the area and will then quickly leave the engagement, handing the Scourge a crucial victory.\nHowever, the very next day, as the Scourge seem close to victory, he'll reappear and destroy any Scourge Capital ships before they're able to retaliate and again leaves the area, handing victory to whoever is facing them. Quetzalcoatl's interference as part of a tribe that has not formally made itself known to the UCM shows that there are yet more Shaltari tribes that seek to prolong the conflict between Humanity and the Scourge.\nNo attempts at communication have succeeded, and he has been given a threat level of the highest priority, however currently, no one from the UCM or PHR have managed even the most cursory of communications with them, only gleaning the name from Pungari mercenaries that have themselves, only heard of Quetzalcoatl in name and reputation."
+}

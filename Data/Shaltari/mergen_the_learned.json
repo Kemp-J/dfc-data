@@ -1,0 +1,73 @@
+{
+    "admiral": "Mergen the Learned",
+    "admiral_level": 3,
+    "class": "Diamond",
+    "type": "Battleship",
+    "admiral_points": 65,
+    "ship_points": 230,
+    "points": 295,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 8,
+        "Hull": 18,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Mothership",
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Particle Lance Triad",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Critical-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "True Disintegration",
+            "Text": "When damage from this Flagship's Disintegrator Battery is part of an attack that causes a Ship to be destroyed, instead of rolling for explosion, all Ships in explosion range suffer 1 damage."
+        }
+    ],
+    "fleet_admiral_abilities": 1,
+    "admiral_abilities": [
+        {
+            "Cost": "1AP",
+            "Name": "Ancient Teleportation Node",
+            "Effect": "Once per round, at the end of the Planning Phase, target a Dropsite with friendly Battalions on it. That Dropsite gains the Gateship-1 special rule until the end of the round, treating the Dropsite as a Ship for this rule (any other rules are unaffected)."
+        }
+    ],
+    "flavour": "Mergen the Learned claims to have been alive long enough to have borne witness to the Shaltari's exodus from Aaru. Whether or not this is true can be left up for debate, but what is known is that this alabaster elder is an incredible tactician. Proving pivotal in the recapture of Aaru, Mergen was able to recall the exact sites of dormant Shaltari teleportation nodes. With this ancient knowledge Mergen's flagship, The Heart of the Mountain, was able to deploy vanguard battalions to critical locations ahead of the main Shaltari host.\nIn the void battles above the planet, Mergens fleet was responsible for sending a fifth of what Scourge remained above Aaru to their demise. The only other Starchief to achieve a similar number of confirmed kills was Quetzalcoatl, unsurprising given their martial prowess.\nWith the void above Aaru all but captured, Mergen is able to turn his attention to restoring the buried teleportation network on Aaru. Once his work on Aaru is done, the reclamation of other Shaltari strongholds awaits his attention."
+}

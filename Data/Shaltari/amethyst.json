@@ -1,0 +1,46 @@
+{
+    "class": "Amethyst",
+    "type": "Frigate",
+    "points": 43,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 10,
+        "Sig": 4,
+        "Hull": 4,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Shield-5+",
+            "Vanguard-4\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Microwave Array",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Valley of Embers",
+        "Blood's Flow",
+        "Shade of Horus",
+        "Significant Fire"
+    ],
+    "flavour": "The Amethyst class frigate is perhaps the most the most aggressive ship in the entire Shaltari arsenal and calls for only the most reckless captains with the greatest bloodlust to command. While most Shaltari vessels shy away from close action engagements (and thus they are not regarded for their close in killing power), the Amethyst embraces them. This puts the class at odds with most of the fleet, leading it to conduct very specific missions and highlighting its potency. Indeed, this rightly feared ship is probably the most dangerous close-action oriented frigate sized vessel yet encountered by the UCM, beyond even those of the Scourge.\nIt is armed with a terrifying microwave array, a cluster of weapons designed to do appalling damage to hull and flesh at close range. Its superheating beams are capable of melting through armour, frying internal components and causing reactors to rupture. There are even stories of a ship's crew being literally cooked to death through the apparent safety of bulkheads, their blood boiling from every orifice in agonising screams. Furthermore, being entirely energy based, these weapons ignore all point defences that would be raised against them."
+}

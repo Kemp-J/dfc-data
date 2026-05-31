@@ -1,0 +1,74 @@
+{
+    "class": "Painite",
+    "type": "Pocket Battleship",
+    "points": 190,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 14,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disintegrator Battery Pair",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Volley-2",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Ion Aura",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Ion Storm",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Bombardment",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Feature Carrier",
+            "Text": "At the start of the game, before players deploy, choose two Deployable Features from the Shaltari Deployable Features List (duplicates are allowed). This Ship starts the game carrying those Deployable Features."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "I Cast Shadow",
+        "Enflamed Cloud",
+        "Your Night",
+        "Heaven's Spear"
+    ],
+    "flavour": "Another of the Shaltari's latest pocket battleships, the Painite is configured largely for planetary assault. Its ability to launch self-deploying surface assets forms the foundation for this, but the addition of twinned Ion Storm batteries enhances this mission profile. With these, the Painite can bombard surface positions to support its landings or direct the weapons' coruscating energies against enemy vessels above the dropsite.\nPacking the full firepower of a battlecruiser in addition to its surface deployment mount, the Painite also mounts a linked pair of disintegrator batteries for devastating firepower during flexible manoeuvres. In combination, these capabilities make the Painite a flexible, deadly foe, able to dominate the battlespace in orbit and on the surface in a way few vessels can match."
+}

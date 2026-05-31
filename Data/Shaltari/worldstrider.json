@@ -1,0 +1,12 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Worldstrider",
+        "ES": "4+",
+        "KS": "4+",
+        "Special": []
+    },
+    "weapons": [],
+    "load": [],
+    "rules": "When you activate this Feature, you may pick another Feature on its Dropsite and roll a dice. On a result of a 3+, remove that Feature and any Battalions deployed on it from this Dropsite. If any Battalions are removed due to this rule, roll a dice. On a result of a 5+, this feature remains in play, otherwise, it is removed.\nThis feature only requires 3 or more Battalions to be removed during Battalion Combat and 3 damage to remove due to attacks."
+}

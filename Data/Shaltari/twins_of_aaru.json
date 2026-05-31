@@ -1,0 +1,65 @@
+{
+    "admiral": "Twins of Aaru",
+    "admiral_level": 2,
+    "class": "Amber",
+    "type": "Cruiser",
+    "admiral_points": 45,
+    "ship_points": 200,
+    "points": 245,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 9,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2",
+        "Special": [
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Twins",
+            "Text": "This Admiral counts as being in both Amber Cruisers in this Group and is only removed once the Group is destroyed."
+        }
+    ],
+    "fleet_admiral_abilities": 2,
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Cunning Positioning",
+            "Effect": "When you move a Group of M Tonnage, that Group gains Vectored for that movement."
+        }
+    ],
+    "flavour": "The twins have been sighted working alongside various tribes. Which has led UCM intelligence to believe they are some type of mercenary within Shaltari culture. However, their modus operandi is the same every time. Arriving in a pair of Amber class cruisers they will work with other cruisers and, via methods unknown to the UCM at this time, will increase the maneuverability of those ships giving the Shaltari fleet an unexpected advantage.\nThey are never seen separated, and even if one is destroyed, the next time they engage in fleet combat they'll be back together as a pair of Ambers. Causing chaos and disrupting even the most carefully laid plans by the Reconquest forces.\nAny Communication with the Twins has seen them actively mocking and teasing any forces they are battling, seemingly enjoying the chaos they cause and the destruction with a relish that seems unnerving."
+}

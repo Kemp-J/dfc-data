@@ -1,0 +1,41 @@
+{
+    "class": "Strontium",
+    "type": "Monitor",
+    "points": 58,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Monitor",
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Force Projectors",
+            "Arc": "F/S",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Anti Wing",
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

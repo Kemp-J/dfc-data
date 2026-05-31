@@ -1,0 +1,26 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Electrosurge Torus",
+        "ES": "4+",
+        "KS": "4+",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Electrowave Caster",
+            "Scan": 8,
+            "Att": 3,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Escape Velocity",
+                "Status"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": "Electrowave Caster: Effects caused by this weapon's Status rule are removed at the start of next rounds End Phase instead of this rounds End Phase.\nThis feature only requires 3 or more Battalions to be removed during Battalion Combat and 3 damage to remove due to attacks."
+}

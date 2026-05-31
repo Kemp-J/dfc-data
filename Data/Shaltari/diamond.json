@@ -1,0 +1,80 @@
+{
+    "class": "Diamond",
+    "type": "Battleship",
+    "points": 230,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 8,
+        "Hull": 18,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Mothership",
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disintegrator Battery",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Particle Lance Triad",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Critical-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "equipment": [
+        {
+            "Name": "Drive Augmentation",
+            "Cost": 35,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 3
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Drive Augmentation",
+            "Text": "This Ship may take a Drive Augmentation for +35 points, increasing its Thrust by 3\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Void's Needle",
+        "Claw of Anubis",
+        "Bloodlust",
+        "Lord of Slaughter"
+    ],
+    "flavour": "The Diamond Class battleship is a truly frightening spectacle. Stretching 1546 meters in length, this mighty vessel is one of the largest known battleships and an imposing figurehead for any fleet. Despite their rarity, more UCMF officers ranking Admiral or above have met their deaths at the hands of one of these leviathans than any other type of ship in the Reconquest. This has caused many to speculate that the aliens use them to specifically hunt flagships, or simply that their captains treat the slaying of an opposite number as the highest achievement, such as it can be when fighting humans.\nIn addition to a pair of disintegrator banks, the Diamond class' primary armament is a triad of super particle lances. These vast weapons extend through half the ship's entire length and are fixed in the forward arc, such is their unknowable mass. These monstrosities have the ability to scythe through any armour like butter, their beams frequently passing right through a capital ship. While their damage dealing ability is potent, their real strength lies in reliability – the certainty that the enemy will feel the Diamond's wrath, no matter how well protected it is."
+}

@@ -1,0 +1,47 @@
+{
+    "class": "Hematite",
+    "type": "Battlecruiser",
+    "points": 175,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 13,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Shield-4+",
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Quad Thermal Lance Cannon",
+            "Arc": "FN",
+            "Att": 8,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-1",
+                "Bloom-1",
+                "Fusillade-4"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Pharaoh's Spear",
+        "Core of Thebes",
+        "Temple Blade",
+        "Bloodletter"
+    ],
+    "flavour": "The Hematite is one of the most feared, newest Shaltari warships and earned that reputation in a few short weeks of the aliens' diversionary attacks over Shangri-La and Elysium. It presents the firepower of four Chromium class destroyers in a frontal cluster of Thermal Lance Cannons - directed energy, long-burn weapons equivalent to the lasers of more primitive races.\nHematites are preferred by Elder captains who relish the precision killing of a single, worthy foe. Being a battlecruiser, the Hematite is large but offers no other serious weaponry. In a one-on-one naval duel, there are few more terrifying opponents. Hastily issued UCMF combat doctrines dictate engagement preferably with squadrons of fast frigates, although ships that small are atomised in seconds if caught under the solar intensity of the quad Thermal Lance."
+}

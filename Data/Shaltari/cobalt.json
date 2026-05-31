@@ -1,0 +1,50 @@
+{
+    "class": "Cobalt",
+    "type": "Homeship",
+    "points": 56,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 5,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Shield-5+",
+            "Mothership"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Disruption Beamers",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Fusillade-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Guardian Will",
+        "Deathbringer",
+        "She Triumphant"
+    ],
+    "flavour": "The Cobalt class homeship is essentially a smaller version of the more ubiquitous Emerald class mothership. Its only purpose is to physically convey Shaltari ground forces to the battlespace, from which they can be teleported to the surface via the Voidgate network.\nThe Cobalt is a faster, lower cost alternative to the Emerald best suited to smaller scale operations. Typically, they are employed when Starchiefs do not wish to or need to put large numbers of lives at risk on the frontline. With the Shaltari, superior technology and almost clairvoyant analysis of enemy dispositions and tactics frequently win the day over sheer numbers."
+}

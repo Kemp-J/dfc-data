@@ -1,0 +1,85 @@
+{
+    "class": "Gold",
+    "type": "Supercarrier",
+    "points": 285,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 8,
+        "Hull": 18,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Ion Cannonade",
+            "Arc": "F",
+            "Att": 10,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Crippling-Navigation Offline"
+            ]
+        },
+        {
+            "Name": "Microwave Array Bank",
+            "Arc": "S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Scald-1",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Bulk Landers",
+            "Launch": 2,
+            "Special": []
+        },
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "equipment": [
+        {
+            "Name": "Drive Augmentation",
+            "Cost": 35,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 3
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Drive Augmentation",
+            "Text": "This Ship may take a Drive Augmentation for +35 points, increasing its Thrust by 3\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Golden Chariot",
+        "Orb of the Sun",
+        "Ark Resplendent",
+        "Ra's Gaze"
+    ],
+    "flavour": "Like the Bronze and Silver class battleships, the Gold class supercarrier is a relatively new and scarce sighting. Since none of these classes were recorded before 2672, it is assumed they are newly laid down, but with the Shaltari, things are seldom as they seem.\nUnlike the familiar Platinum class, the Gold is a far more aggressive vessel, since it mounts the powerful, close-action microwave arrays of its sister classes. Also armed with the Ion Cannonade, the Gold is a terror to almost any vessel, and that's before its swarms of formidable Shaltari bombers strike. Certainly, the Gold is one the Shaltari's premier assets and a worthy chariot for the mightiest of attack-oriented Starchiefs."
+}

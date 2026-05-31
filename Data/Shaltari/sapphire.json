@@ -1,0 +1,68 @@
+{
+    "class": "Sapphire",
+    "type": "Battlecruiser",
+    "points": 150,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 13,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Shield-4+",
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Ion Aura",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Ion Storm",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Bombardment",
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Gravity Coil Pair",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Impel-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Ra's Orb",
+        "Forever in Wisdom",
+        "Supreme"
+    ],
+    "flavour": "The Palladium and Sapphire class battlecruisers are more specialised than their conventionally aggressive kin and were conceived for disruption and close-range engagements. Although both classes aren't commonly encountered, the Palladium is rarer than the Sapphire. Why this should be is uncertain, although the generally accepted theory is that the Adamant/ Palladium type hull is an ancient design no longer manufactured, having been superseded by the more recent Ruby/ Sapphire type.\nThese vessels rely on a pair of ion storm generator banks to inflict crippling damage – equally devastating in the close action or orbital bombardment roles. Their second main armament is a pair of gravity coils. These forward-facing constructs create a localised, deadly beam of gravitic disturbance, ripping chunks from hulls, crushing bulkheads under their own weight, and even changing the heading of a multi-thousand-ton warship, disrupting the battle plans of any foe."
+}

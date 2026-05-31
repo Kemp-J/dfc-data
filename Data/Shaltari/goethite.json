@@ -1,0 +1,51 @@
+{
+    "class": "Goethite",
+    "type": "Battlecruiser",
+    "points": 210,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 13,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Shield-4+",
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Twin Hyperwave Cannon",
+            "Arc": "F",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Crippling-2xFire"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 3,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Starheart",
+        "Wrath of Osiris",
+        "Closed Fist",
+        "Immolator"
+    ],
+    "flavour": "The Goethite is a more conventional, multi-role battlecruiser compared to its cousin the Hematite. It has also emerged recently, suggesting this may be a newly developed series. Its primary armament is a twin Hyperwave Cannon - a gigantic offshoot of the microwave-based weapons dreaded by infantry. In fleet terms, its closest equivalent is the far smaller arrays carried by Amethyst frigates, but this matches the range of conventional guns. The effect of hyper-concentrated microwaves on the target is stunning - a superheated mass of core superstructure results, which over time simply melts through the guts of the target, often destroying it long after the Goethite has moved on to a fresh target.\nThe Goethite also carries a compliment of Shaltari fighters and bombers, providing flexibility in combat. Its captains often close to medium range, engaging large targets with the Hyperwave Cannons while dispatching smaller victims with waves of bombers."
+}

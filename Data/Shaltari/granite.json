@@ -1,0 +1,55 @@
+{
+    "class": "Granite",
+    "type": "Cruiser",
+    "points": 115,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 9,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Shield-5+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Particle Lance",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Critical-1"
+            ]
+        },
+        {
+            "Name": "Particle Lance",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Critical-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Sorrow",
+        "Aeon's Light",
+        "Mind's Eye",
+        "One True Ending"
+    ],
+    "flavour": "The Granite class cruiser is a lethal predator of the void, configured specifically for hunting priority targets, marked for destruction in the early stages of battle. It is a highly reliable and predictable dealer of death, much like its heavier cousin the Obsidian class. The Granite offers superior speed and reduced cost, making it more practical for general use, especially against valuable smaller ships where use of an Obsidian would frankly be overkill. The Granite is also a better choice during advanced manoeuvres as when it cannot unleash all its weapons, it is the equal of the bulkier ship in firepower.\nBoth of its primary weapon hardpoints are occupied by a pair of particle lances, the same weapons which lend its larger cousin superlatively dependable damage dealing ability. This class is the most common capital ship to mount these weapons and is most often the first contact an unfortunate UCM captain will have with these weapons. That captain must learn quickly that armour is no protection and that evasive action is the only means of avoiding a cold, starlit grave."
+}

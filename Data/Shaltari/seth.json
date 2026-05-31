@@ -1,0 +1,84 @@
+{
+    "admiral": "Seth",
+    "admiral_level": 2,
+    "class": "Sapphire",
+    "type": "Battlecruiser",
+    "admiral_points": 45,
+    "ship_points": 150,
+    "points": 195,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 13,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Shield-4+",
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Ion Aura",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Ion Storm",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Bombardment",
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Gravity Coil Pair",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Impel-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Gravitational Draw",
+            "Text": "Whenever this Flagship's Gravity Coils would cause a ship to turn due to the Impel rule, gain 1AP."
+        }
+    ],
+    "fleet_admiral_abilities": 1,
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Master of Gravity",
+            "Effect": "At the start of an enemy Group's activation, pick another enemy Group that has not activated this round. Turn all Ships in that Group up to 90 degrees in the same direction."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Gravity Assist",
+            "Effect": "At the start of a friendly Group's activation, turn all Ships in that Group up to 45 degrees in the same direction. Ships in that Group gain Vectored until the end of the round."
+        }
+    ],
+    "flavour": "Starchief Seth is part of a Shaltari Tribe that specializes in the use of Gravity weapons. The use of these esoteric Shaltari weapons is incredibly hard to plan against, it's easier to defend against a weapon that destroys you, but one that has you turning the wrong way and flying towards your own fleet is much more difficult.\nSeth exemplifies these battle tactics of his tribe, his gravity weapons are more powerful than usual, a potentially unique modification in the otherwise standardized Shaltari arsenal. His ship will go in and out of orbital levels without any effort, allowing him to stage ambushes where, with a few well-placed shots, leaves an enemy battle plan in tatters.\nHis Sapphire Battlecruiser is a dreaded sight for any Reconquest leader, as soon as he is spotted, they know their best laid plans are already laid to waste. As often with the Shaltari, communication is erratic, and Seth has been known to engage in quite active communication at times, seemingly acting friendly, right up till he can activate his gravity weapons."
+}
