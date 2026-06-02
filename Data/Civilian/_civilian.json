@@ -1,5 +1,5 @@
 {
-    "source_version": "260501",
+    "source_version": "260601",
     "ship_rules": [
         {
             "Name": "Civilian Transport",
@@ -26,6 +26,7 @@
         "precedent_one.json",
         "slm9_resupply_hauler.json",
         "ttype_tugboat.json",
+        "ex7_packet_runner.json",
         "affluence_liner.json",
         "dhtype_penal_transport.json",
         "jahtar_startrader.json",

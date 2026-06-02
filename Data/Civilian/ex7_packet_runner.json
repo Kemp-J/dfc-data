@@ -1,0 +1,60 @@
+{
+    "class": "EX-7 Packet Runner",
+    "type": "Packet Runner",
+    "points": 57,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 4,
+        "Sig": 3,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Boardable",
+            "Civilian Transport",
+            "Monitor",
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Deterrence Missiles",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Feature Carrier",
+            "Text": "This ship starts the game carrying a single deployable Hangar Feature (see 7.4.2 Deploying Features and 11.3 Features)."
+        },
+        {
+            "Name": "Space Trucker",
+            "Text": "This Ship's Hangar Deployable Feature can only be deployed to Space Stations (of any type)."
+        },
+        {
+            "Name": "Mercenary",
+            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Cargoer",
+        "Pack Rat",
+        "Porch Pirate (independents)",
+        "Logistics Vessel KLV-302 (Kalium)"
+    ],
+    "flavour": "The EX-7 Packet-Runner is a common courier craft used throughout the territories of the United Colonies of Mankind. Designed for routine parcel and sensitive package transport, it prioritizes simple construction and dependable operation over appearance or refinement. Most examples in service are visibly beaten up and poorly maintained, their worn hulls reflecting constant use and minimal upkeep.\nThey are Built around a straightforward modular frame, similar to other workhorse craft like the T-Type utility haulers and the smaller VX-22 Flesners. The EX-7 typically consists of little more than the essentials: cockpit, drive assembly, and standardized cargo racks bolted into a compact hull with the cargo containers mounted underneath.\nThough rarely the focus of attention, EX-7 Packet-Runners move a constant flow of everyday freight between stations, depots, and outposts, quietly handling the unglamorous but essential task of keeping day-to-day logistics running. Colonial authorities have repurposed many of these ships for the express purpose of resupplying fighter and bomber support craft. Their cargo containers filled with factory-fresh compliments of fighters and bombers waiting for an appropriate launch platform. Experimental versions of these containers have been developed to effortlessly convert standardised hardpoints on space stations into makeshift hangar bays."
+}
