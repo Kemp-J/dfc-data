@@ -62,7 +62,7 @@ Each Deployable Feature has its own data file in json format. The file is named 
 The file contains the following:
 
 - "profile": A dictionary containing "PTS" (integer or null), "Type" (string, the name of the Deployable Feature), "ES" (string: "X+" where X is a number), "KS" (string: "X+" where X is a number), and "Special" (list of strings).
-- "weapons": A list of dictionaries, each containing "Name" (string), "Scan" (integer or null), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `[{"Name": "Electrowave Caster", "Scan": 8, "Att": 3, "Lock": "2+", "DMG": 1, "Type: "E", "Special": ["Close Action", "Escape Velocity", "Status"]}]`.
+- "weapons": A list of dictionaries, each containing "Name" (string), "Scan" (integer or null), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `[{"Name": "Electrowave Caster", "Scan": 8, "Att": 3, "Lock": "2+", "DMG": 1, "Type": "E", "Special": ["Close Action", "Escape Velocity", "Status"]}]`.
 - "load": A list of dictionaries, each containing "Load" (string), "Launch" (integer), and "Special" (list of strings). Example: `[{"Load": "Medium Torpedo", "Launch": 1, "Special": ["Limited-4"]}]`.
 - "rules": A string containing the additional rules for the Deployable Feature.
 
@@ -103,7 +103,7 @@ The file contains the following:
 - "tonnage": One of "L", "M", "H", "C".
 - "base_size: Integer giving the size in mm.
 - "profile": A dictionary containing "Thrust" (integer, unit: inches), "Scan" (integer, unit: inches), "Sig" (integer, unit: inches), "Hull" (integer), "ES" (string), "KS" (string), "BS" (string), "G" (string, "X" or "X-Y", where X and Y are integers), and "Special" (list of strings). Example: `{"Thrust": 12, "Scan": 6, "Sig": 0, "Hull": 2, "ES": "6+", "KS": "6+", "BS": "-", "G": "2-4", "Special": ["Descent", "Cloak-1", "Rare", "Vanguard-6\""]}`.
-- "weapons": A list of dictionaries, each containing "Name" (string), "Arc" (string: one or more of "F", "S", "R", "SL", "SR", "FN", "RN", and "B", separated by slashes), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `[{"Name": "Barracuda Missile Bays", "Arc": "F/S/R", "Att": 2, "Lock": "4+", "DMG": 1, "Type: "K", "Special": ["Close Action"]}]`. Weapon entries may optionally have "Cost" and/or "Replaces" attributes. Cost specified a cost to take that weapon and Replaces specifies the names of weapons that it replaces if taken.
+- "weapons": A list of dictionaries, each containing "Name" (string), "Arc" (string: one or more of "F", "S", "R", "SL", "SR", "FN", "RN", and "B", separated by slashes), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `[{"Name": "Barracuda Missile Bays", "Arc": "F/S/R", "Att": 2, "Lock": "4+", "DMG": 1, "Type": "K", "Special": ["Close Action"]}]`. Weapon entries may optionally have "Cost" and/or "Replaces" attributes. Cost specified a cost to take that weapon and Replaces specifies the names of weapons that it replaces if taken.
 - "load": A list of dictionaries, each containing "Load" (string), "Launch" (integer), and "Special" (list of strings). Example: `[{"Load": "Dropships", "Launch": 1, "Special": []}]`. Load entries may optionally have "Cost" and/or "Replaces" attributes. Cost specified a cost to take that load and Replaces specifies the names of load that it replaces if taken.
 - "equipment": A list of equipment entries. Each entry is one of:
   - A plain equipment item: a dictionary containing "Name" (string), "Cost" (integer), and "Effects" (list of stat modifiers, see 'Stat modifiers'). The ship may independently choose whether to take this item.
@@ -134,7 +134,7 @@ The following is an example ship data file for the Lysander class:
         "Special": ["Descent", "Cloak-1", "Rare", "Vanguard-6\""]
     },
     "weapons": [
-        {"Name": "Barracuda Missile Bays", "Arc": "F/S/R", "Att": 2, "Lock": "4+", "DMG": 1, "Type: "K", "Special": ["Close Action"]}
+        {"Name": "Barracuda Missile Bays", "Arc": "F/S/R", "Att": 2, "Lock": "4+", "DMG": 1, "Type": "K", "Special": ["Close Action"]}
     ],
     "load": [
         {"Load": "Dropships", "Launch": 1, "Special": []}
@@ -188,11 +188,11 @@ The following is an example data file for the Admiral named "Granite" Halsey:
         "Special": ["Aegis-6", "Command Ship-2", "Reinforced Armour"]
     },
     "weapons": [
-        {"Name": "UF-9000 Mass Driver Turret", "Arc": "F/S", "Att": 2, "Lock": "2+", "DMG": 2, "Type: "K", "Special": ["Critical-1", "Penetrator"]},
-        {"Name": "UF-9000 Mass Driver Turret", "Arc": "F/S", "Att": 2, "Lock": "2+", "DMG": 2, "Type: "K", "Special": ["Critical-1", "Penetrator"]},
-        {"Name": "UF-4200 Mass Driver Turret Core Battery", "Arc": "F/S", "Att": 6, "Lock": "4+", "DMG": 1, "Type: "K", "Special": ["Fusillade-3", "Volley-2"]},
-        {"Name": "UF-4200 Mass Driver Turrets", "Arc": "F/S", "Att": 4, "Lock": "4+", "DMG": 1, "Type: "K", "Special": ["Fusillade-2", "Volley-2"]},
-        {"Name": "Leviathan Missile Bays", "Arc": "F/S/R", "Att": 8, "Lock": "3+", "DMG": 1, "Type: "K", "Special": ["Close Action"]}
+        {"Name": "UF-9000 Mass Driver Turret", "Arc": "F/S", "Att": 2, "Lock": "2+", "DMG": 2, "Type": "K", "Special": ["Critical-1", "Penetrator"]},
+        {"Name": "UF-9000 Mass Driver Turret", "Arc": "F/S", "Att": 2, "Lock": "2+", "DMG": 2, "Type": "K", "Special": ["Critical-1", "Penetrator"]},
+        {"Name": "UF-4200 Mass Driver Turret Core Battery", "Arc": "F/S", "Att": 6, "Lock": "4+", "DMG": 1, "Type": "K", "Special": ["Fusillade-3", "Volley-2"]},
+        {"Name": "UF-4200 Mass Driver Turrets", "Arc": "F/S", "Att": 4, "Lock": "4+", "DMG": 1, "Type": "K", "Special": ["Fusillade-2", "Volley-2"]},
+        {"Name": "Leviathan Missile Bays", "Arc": "F/S/R", "Att": 8, "Lock": "3+", "DMG": 1, "Type": "K", "Special": ["Close Action"]}
     ],
     "load": [
         {"Load": "Fighters & Bombers", "Launch": 6, "Special": ["Alt-1"]},
