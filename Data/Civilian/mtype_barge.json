@@ -1,0 +1,74 @@
+{
+    "class": "M-Type Barge",
+    "type": "Civilian Hauler",
+    "points": 95,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 9,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Boardable",
+            "Civilian Transport",
+            "Monitor"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Deterrence Missiles",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        },
+        {
+            "Name": "Deterrence Missiles",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Military Outpost",
+            "Launch": 1,
+            "Special": [
+                "Limited-1"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Feature Carrier",
+            "Text": "This Ship starts the game carrying a Military Outpost as a Deployable Feature."
+        },
+        {
+            "Name": "Mercenary",
+            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Ever Astra",
+        "Maersk Olympus",
+        "Foldship Ace",
+        "TTF Shippy"
+    ],
+    "flavour": "M-Type Barges are the larger cousin of the L-Type. Produced at the same Tharsis Manufacturing shipyards over Mars, the M-Type was designed for corporate bulk shipping. Many and more of these were owned and operated by the enduring shipping companies of old Earth, each of them emblazoned with corporate livery. Designed and built after the L-Type, these ships feature much improved Foldspace drives as well as the latest innovations in structural bracing. Optimisations in production brought the build time on these freight behemoths down to only twice that of the L-Type.\nMany of these were spared the events of the Scourge invasion, most would have been slowly moving between the colonies and the cradle worlds, far enough away to make emergency jumps to safety. The initial trade and logistics network of the UCM was built upon the backs of the M-Type, their reliability and availability gave the colonies enough trade stability to recover from the loss of the cradle worlds. M-Types are surprisingly rare in Resistance fleets, most of the captains of these ships were more interested in meeting deadlines and quotas than in doomsday predictions prior to the battle of Vega. Kalium is yet to be seen operating these ships, preferring the L-Type for combat resupply, though may potentially be using M-Types in more secure Kalium controlled systems.\nRecent developments in prefabricated defensive structures have allowed a small number of these ships to carry deployable missile defence outposts in place of their normal cargo compliment. These outposts are designed to grant a foothold on a planet and supplement its missile halo while more permanent structures are built, re-purposed, or captured."
+}

@@ -1,0 +1,66 @@
+{
+    "class": "OBV-64 Oblivion Barge",
+    "type": "Hazard Disposal",
+    "points": 125,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 13,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Boardable",
+            "Civilian Transport",
+            "Rare",
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Expel Hazards",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "C",
+            "Special": [
+                "Anti Wing"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Mines",
+            "Launch": 3,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Expel Hazards",
+            "Text": "This weapon can only be used against targets within Scan range and on the same Orbital Layer.\nWhile this Ship is below its starting Hull Points, for every 2 Hull Points lost from its starting Hull Points, increase the attack of this weapon by 1."
+        },
+        {
+            "Name": "Acquired Mines",
+            "Text": "This Ship's Mines use the stats of its parent fleet."
+        },
+        {
+            "Name": "Mercenary",
+            "Text": "This Ship may be used in any fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Rad Wretch",
+        "Trash Bash",
+        "S-Stain (independents)",
+        "Volatile Contents Hauler KHC-04a (Kalium)"
+    ],
+    "flavour": "The Oblivion OBV64 Barge is a heavily armoured civilian vessel designed to transport extremely hazardous materials, unstable technology, failed reactors, and biohazards, too dangerous to store on planets. These ships travel discreetly between remote depots, derelict battlefields, and disposal zones. Crewed by an extensive team of highly trained specialists under strict quarantine and secrecy protocols, The Oblivion barge handles cargo that is often poorly understood or classified. Their role is to quietly remove dangerous discoveries and remnants from circulation before they can threaten the wider fleet, or attract unwanted attention."
+}

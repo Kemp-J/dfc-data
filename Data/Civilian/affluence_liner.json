@@ -1,0 +1,46 @@
+{
+    "class": "Affluence Liner",
+    "type": "Civilian Liner",
+    "points": null,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 12,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1",
+        "Special": [
+            "Descent",
+            "Cloak-1",
+            "Boardable",
+            "Civilian Transport",
+            "Elite Fighter Escort",
+            "Unique"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Deterrence Missiles",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "The Affluent"
+    ],
+    "flavour": "The Affluence Class Luxury liner was the one of a kind personal liner of the media mogul Jacen Board. No expense was spared when this ship was designed. Featuring the most advanced propulsion systems available on any civilian vessel, the Affluence is able to travel at staggering speeds, often only matched by ships half its size. This proved incredibly useful when the Affluent was able to outrun several Scourge ships and make an emergency foldspace jump to safety during the opening hours of the Scourge invasion.\nEventually the Affluent managed to make a calculated jump to Platina, staying in system until it was able to make the jump to Aurum. Here it would stay as a home away from home for Board. While the mogul re-started his media empire, he would never live to see what remained of the old one. It was assumed that the Affluent would spend the rest of its days docked above Aurum. That was until possibly the greatest heist seen since in the history of the UCM.\nThe day following the start of the reconquest was one with all focus on the largest military undertaking ever made by humanity, all except for a small few thieves, lurking in the void. Months of planning had lead them to this moment, an effort by over two dozen shipnappers across the Aurum system. To celebrate the start of the Reconquest, the Affluence was brought to a minimal operational readiness, just enough to give the UCM fleet a proper send-off. This was what the thieves were waiting for. Rushing into the conveniently open hangar bay with light dropships, they stormed the Ship's critical areas and brought the foldspace drive online. Before anyone had time to react, the Affluent was burning hard for the outer marker. Six hours later and the ship vanished from UCM space, and hasn't been seen since."
+}

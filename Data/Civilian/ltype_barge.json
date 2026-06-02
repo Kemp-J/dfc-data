@@ -1,0 +1,47 @@
+{
+    "class": "L-Type Barge",
+    "type": "Civilian Hauler",
+    "points": null,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 4,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "3+",
+        "KS": "6+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Descent",
+            "Boardable",
+            "Civilian Transport"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Asteroid Clearance Laser",
+            "Arc": "F/S/R",
+            "Att": 2,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Scum Runner",
+        "Box 'n' Go",
+        "Haulie",
+        "LK-5 (Kalium)",
+        "Oxy-Box (Vega Scrapfleet)"
+    ],
+    "flavour": "The L-Type Barge was one of the most ubiquitous civilian bulk transports seen during early expansion into the cradle worlds. While relatively cheap and easy to produce, its Foldspace and sublight drives were poor at the time and were quickly superceeded by those installed on newer ships, like the Seneca Hauler. Despite its obsolete hardware the L-Type is much more durable than other ships its age. Featuring more internal bracing than neccesary, it could simply weather any attempts to stop it from delivering its cargo.\nIt's this durability that saw many survive the Battle of Vega, though not all unscathed. While tough, this ship's foldspace drive takes an ungainly amount of time to fully spin up, this saw many stranded over Vega while their fellow abandonists followed their enigmatic saviour. Now many of these form support ships in the Vega Scrapfleet, being retrofitted with surplus colonisation equipment, making full use of their cargo space.\nKalium still operates near pristine versions of these ships, suggesting that they still produce these in numbers. The Office of Naval Intelligence has identified no less than 6 unique L-Type Barges operating in the Kalium Navy, all operating within expected parameters of a ship their type. While new, Kalium has clearly neglected to bring these ships design specs up to even its long standing contemporaries."
+}

@@ -1,0 +1,107 @@
+{
+    "class": "PRK-91 Provenance Ark",
+    "type": "Terraformer",
+    "points": 410,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 10,
+        "Sig": 16,
+        "Hull": 23,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Boardable",
+            "Civilian Transport"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Dual Vent Cannon Turret",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Fusillade-1",
+                "Overcharge",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Heavy Dual Vent Cannon Turret",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Fusillade-1",
+                "Overcharge",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "NC-16 Missile Bank",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Genesis Spikes",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "5+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Bombardment",
+                "Penetrator"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 4,
+            "Special": []
+        },
+        {
+            "Load": "Bulk Landers",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Genesis Spikes",
+            "Text": "When this weapon successfully inflicts any amount of damage against a City, place a Mutant Fauna token on that Dropsite. Mutant Fauna tokens are not Battalions and cannot control or contest a Dropsite. When any player deploys any number of Battalions to that Dropsite, if that Dropsite has any Mutant Fauna tokens, those Battalions are only placed on a roll of a 5+. If any Battalions are not placed this way, remove a Mutant Fauna token from that Dropsite. If a Dropsite starts a round with a Mutant Fauna token, remove that token at the end of the round."
+        },
+        {
+            "Name": "Expansive Radiator Systems",
+            "Text": "At the start of this Ship's activation, remove two Spikes from it."
+        },
+        {
+            "Name": "Mercenary",
+            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules. This ship's Fighters & Bombers use the stats of its parent fleet (if you included this ship in a Scourge fleet, its Fighters & Bombers would follow the Scourge Fighters & Bombers rules)."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Provenance",
+        "Endurance (independent)",
+        "Capitana (Kalium)"
+    ],
+    "flavour": "A monolithic vessel of unimaginable scale, the Provenance Ark dwarfs most ships. A precursor to the modular construction found on Coloniser class vessels, these ships were a talisman of hope and expansionism. These are the first major terraforming vessels built by mankind, reaching out into an unknown universe. Built to prepare entire worlds for habitation, it carries vast stores of genetic material, atmospheric stabilizers, and autonomous resource systems. The Ark monitors planetary progress through an extensive network of sensors and automated regulators, adjusting atmospheric composition, maintaining microbial balance, and even modulating gravitational and magnetic fields to stabilize emerging terrains.\nEntire cities once mere schematics, rise, with power grids, transport arteries, and habitation modules ready long before the first settlers arrive. Inside, Construction drones and biotic cultivators orchestrate the birth of forests, oceans, and breathable atmospheres with the precision of a master artisan.\nMany ships of this class feature underslung terraforming torpedo launchers. While near useless in ship to ship combat, these torpedoes are geared towards atmospheric re-entry and contain a plethora of mutagens and nerve agents, some of which would be used on Senator class battlecruisers. Under normal circumstances the use of these would constitute a war crime. Here they are simply used to rid prospective landing areas of their megafauna, causing mass hysteria and aggression in local fauna. Any issues with unruly creatures take care of themselves, and those left over can be cut down by specialised anti-fauna vehicles. Once the LZ is cleared of hostiles, the terraformer can then deploy more traditional terraforming methods."
+}

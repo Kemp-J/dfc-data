@@ -1,0 +1,45 @@
+{
+    "class": "SLM-9 Resupply Hauler",
+    "type": "Civilian Hauler",
+    "points": 35,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 9,
+        "Scan": 4,
+        "Sig": 2,
+        "Hull": 5,
+        "ES": "3+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Boardable",
+            "Vectored"
+        ]
+    },
+    "weapons": [],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Ressuply and Rearm",
+            "Text": "If this ship ends its movement in base contact with a friendly ship of Medium Tonnage or higher or a Space Station, pick one of the following:\nResupply: That Ship or Space Station recovers 3 Hull points and remove any Crippling Effect tokens.\nRearm: Increase the Limited-X value of any of that Ship or Space Station's Weapons and Launch Assets by 1 until the end of the round."
+        },
+        {
+            "Name": "Flawed Design",
+            "Text": "This Ship cannot use its Resupply and Rearm rule if it is below half of its starting Hull."
+        },
+        {
+            "Name": "Mercenary",
+            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Crate Expectations",
+        "Right on Time",
+        "Reliable"
+    ],
+    "flavour": "A relic from the now liquidated Eden Void Logistics inc, the SLM-9 is a battle tested bulk logistics vessel, trusted for fleet replenishment in high risk environments. Though the company behind its design has since shuttered, the SLM-9 endures as a testament to their engineering prowess and affordability. Its metal cargo frame, hydraulic deployment arms and universal clamps ensure rapid, adaptable resupply of ordnance, fuel, and supplies anywhere. Rugged and inexpensive, the SLM-9 remains a reasonable choice for fleets needing a dependable workhorse at a fraction of the cost of newer models.\nUnlike conventional Logistics Vessels that unload cargo gradually, the SLM-9 releases its entire payload in a single, controlled operation. Hydraulic deployment arms manoeuvre the entire cargo bed outward, allowing for structured and efficient transfer without manual unloading.\nBuilt for adaptability, the SLM-9's pincer like grappling arms latch onto ships regardless of docking compatibility. Variable force actuators fine tune pressure, securing a stable hold without compromising hull integrity. Whether resupplying warships or assisting stranded vessels, its clamps ensure critical cargo transfer under any conditions.\nThe SLM-9's hydraulic deployment arms are its defining feature, but also its greatest liability. If compromised by enemy fire or mechanical failure, the vessel loses its ability to unload cargo entirely, rendering it useless. A damaged deployment system means supplies remain trapped onboard, preventing fleet resupply and turning the ship into dead weight. While reinforced plating offers some protection, direct hits can buckle the arms, leading to catastrophic failure.\nDue to its critical vulnerability, the SLM-9 has begun to be phased out in favour of newer resupply haulers with reinforced unloading mechanisms and modular backup systems. The remaining SLM-9 units are considered outdated relics, still operational but increasingly rare."
+}

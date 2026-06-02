@@ -1,0 +1,73 @@
+{
+    "class": "T-Type Tugboat",
+    "type": "Tugboat",
+    "points": 60,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 4,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1-4",
+        "Special": [
+            "Boardable",
+            "Civilian Transport",
+            "Descent",
+            "Monitor",
+            "Vectored"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Deterrence Missiles",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        },
+        {
+            "Name": "Drag to Hell",
+            "Arc": "F",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Mercenary",
+            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
+        },
+        {
+            "Name": "Drag to Hell",
+            "Text": "This weapon can only be used against targets in base contact. After completing an attack with this weapon, remove this Ship from the table. It counts as destroyed at the end of the game."
+        },
+        {
+            "Name": "Tugging Along",
+            "Text": "If this Ship is on General Quarters and in base contact with another Ship (friendly or enemy) you may have it Tug that Ship instead of moving normally. If you do, this Ship may turn as normal but only moves up to 3\". The other Ship is then moved the same distance in the same direction, retaining its original facing. Ships can only be tugged this way up to a maximum of 6\" each round."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Tug & Go",
+        "Ride to Die",
+        "Tugging Along",
+        "T-104",
+        "T-666 (destroyed)"
+    ],
+    "flavour": "The T-Type was once a common sight across many shipyards. Due to the size of many pre-war ships, a way of moving these gargantuan vessels out of drydock was needed. T-Types were devised to be the answer to this sizeable problem. The first batch of these floated out of the assembly lines prior to the first Pathfinder, ready and waiting to guide it to a safe launching point. Since then, countless multitudes of these ships have been constructed. Most serve their entire service life in the void, however some are refitted as lunar landers once their superstructure becomes unusable for its intended purpose.\nOnly a small amount of these were refit with foldspace drives, the majority were only designed to work around a single planet and its satellites. Those that were refit tend to be found in independent fleets, where they assist in swapping components on their larger vessels. T-Types are not built for any form of combat, though their internal bracing gives them a certain resilience, they are unable to weather any attack from dedicated combat ships.\nSome T-Types have been converted to function similarly to mines, albeit with a much more personal weapon system. These have weaponised their towing ability, captains with a death wish will attach their tug to an enemy vessel and set their engines to full. When performed right, this can violently tear vessels in half, though at the cost of the tugboat and its crew."
+}

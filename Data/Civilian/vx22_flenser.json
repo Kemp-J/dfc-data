@@ -1,0 +1,67 @@
+{
+    "class": "VX-22 Flenser",
+    "type": "Salvage Corvette",
+    "points": 50,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 4,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "-",
+        "Special": [
+            "Payload F-1",
+            "Vectored"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Sawblade Prow",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Close Action",
+                "Bloom-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Sawblade Prow",
+            "Text": "This weapon can only be used against targets in base contact."
+        },
+        {
+            "Name": "Scrap Collection",
+            "Text": "If this Ship ends its activation within 1\" of a Debris Field, this Ship gains a scrap token and cannot gain scrap tokens from that Debris Field for the rest of the game. A Ship with this rule can have a maximum of 3 scrap tokens at any one time. Whenever another Ship within 6\" of a friendly Ship with this rule is destroyed, pick one of those friendly Ships, that Ship gains a scrap token."
+        },
+        {
+            "Name": "Unload",
+            "Text": "When you attach this Ship to a Porter Ship, you may have the Porter Ship gain all of this Ship's scrap tokens."
+        },
+        {
+            "Name": "Industrial Design",
+            "Text": "Improve this Group's Backup save by 2 when rolling to save hits due to Debris Fields."
+        },
+        {
+            "Name": "Mercenary",
+            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Wreck & Ruin",
+        "Twisted Metal",
+        "Steel Beams",
+        "Grindcore"
+    ],
+    "flavour": "The VX-22 Flensers are compact salvage vessels designed for brutal ship dismantling. Their prow mounted sawblades don't cut cleanly, they tear, shred, and rip through wreckage with unrestrained violence. Designed for aggressive reclamation, they are the smaller, more aggressive sibling to the T-Type Tugboat. Where the Tugboat manoeuvres and stabilizes wreckage for controlled processing, the Flensers gut derelicts with reckless brutality, prioritizing destruction over precision.\nHeavy rotating saws brutally cut through hull plating, breaking it into manageable pieces and scattering debris as they progress.\nInstead of delicate incision, the Flensers' sawblades operate at maximum torque, chewing through reinforced bulkheads with enough force to buckle surrounding structure.\nTheir cutting mechanisms frequently overheat, causing violent energy surges that make their hulls shudder mid operation.\nThe Flenser hurls debris into the Type-87 Terminus Harvester's compactor bay, sometimes suffering brutal kickback as the churning machinery spits chunks back out. When it happens, the debris slams into its failing frame, worsening the damage and making every load a gamble.\nPositioned below the cockpit, this reinforced plating shields pilots from wreckage kicked up during cutting operations. Sloped for maximum deflection, it redirects debris that could slam into the hull with deadly force, absorbing impacts before they buckle metal or breach compartments."
+}

@@ -1,0 +1,43 @@
+{
+    "class": "Jah'tar Startrader",
+    "type": "Startrader",
+    "points": 113,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 10,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Boardable",
+            "Civilian Transport",
+            "Aegis-4",
+            "Rare"
+        ]
+    },
+    "weapons": [],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Purchased Power",
+            "Text": "This Ship starts the game with 5 wares tokens.\nAt the start of each round, if you control this Ship, you may spend a number of wares tokens on one of the following effects until the end of the round:\nDefence Harmonics - 2 Tokens: Friendly Groups within 6\" improve their Energy and Kinetic saves by 1, to a maximum of a 3+.\nEnergy Dissipators - 1 Tokens: Friendly Groups within 9\" count as having 2 fewer Spikes.\nGuardian Schoal - 1 Token: Friendly Assets within 9\" cannot be the target of enemy weapons with the Anti Wing special rule."
+        },
+        {
+            "Name": "Startrader",
+            "Text": "This Ship may be used in UCM, PHR, Shaltari, and Resistance fleets. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Bird-in-hand",
+        "Lustrous Glint",
+        "Penny for your Thoughts (UCM Designations — true names unpronounceable)"
+    ],
+    "flavour": "The Jah'tar are an independent, if diminished, starfaring race that sails from the planet Jaheria. Over two century's peaceable trade with the UCM's colony of Platina, they have shared some of their history.\nTheir Time of Many Worlds ended roughly three millennia ago when the Great Adversary came. The Jah'tar do not know if any of their other planets survived. Their lifespans of roughly 35 years make this race-memory dimmer than one might expect, but parallels to mankind's own experience was clear—the Scourge were the likely culprits. Surviving artworks show cruder invading ships, but some Jah'tar technology bears limited similarity to Scourge, and most scientists believe it was absorbed and evolved by the enemy. Jah'tar ships also appear grown rather than made, although theirs are largely pseudo-organic chitin over a fine titanium weave.\nThe Jah'tar no longer fully understand their own technology. Possibly such knowledge was confined to their lost central worlds, but as in antiquity, all Jah'tar works radiate a passion for style and beauty. They covet precious materials and gems, driving their trade with Platina. In return, the UCM gains access to the Jaherian System's ores and wealth of rare elements essential for FTL drive core construction.\nThe Jah'tar are rangier than humans with stronger limbs and thick, leathery skin. Naturally placid and artistic, they move in an unhurried way but are fast when pressed. With long, prehensile tails they are agile climbers, leading to some exotic spaces aboard their ships. Their four, quad-jointed digits are equally dextrous on hands or feet, and are in constant motion, possibly as a base layer of communication. Their language is a series of rapid clicks and screeches, so they use human speech in negotiations out of respect for our limited vocal range.\nMost of humanity's contact with the Jah'tar is via their famous Startraders—graceful, cruiser-sized ships with lavishly decorated meeting spaces, living areas, and cavernous holds. These vessels are permitted free passage within the Platina System but are closely monitored whenever they appear elsewhere in UCM space, despite being unarmed. Hawkish colonial admirals insist that all that internal space could be put to more nefarious uses. Some Startraders serve as mercenaries with other races in exchange for favourable trades, although the UCM occasionally utilises their services so too. Their value lies with their unique support technologies since the Jah'tar refuse to license any true warships to other's violence.\nRelations with the alien Jah'tar is an aberration for the UCM, but these arrangements go back before the Scourge invasion and are frankly easier than conquest. Although Jaheria would inevitably be crushed, Jah'tar weaponry is formidable when they are forced to use it, and high casualties that humanity can ill-afford would result."
+}

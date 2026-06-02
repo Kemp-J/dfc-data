@@ -1,0 +1,68 @@
+{
+    "class": "Type-87 Terminus Harvester",
+    "type": "Salvage Juggernaut",
+    "points": 210,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 18,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Boardable",
+            "Porter F-2",
+            "Reinforced Armour",
+            "Monitor"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Colossal Salvage Cutter",
+            "Arc": "F",
+            "Att": 5,
+            "Lock": "2+",
+            "DMG": 3,
+            "Type": "C",
+            "Special": [
+                "Close Action",
+                "Bloom-3"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Colossal Salvage Cutter",
+            "Text": "This weapon can only be used against targets in base contact."
+        },
+        {
+            "Name": "Scrap Hauler",
+            "Text": "If this Group ends its activation within 1\" of a Debris Field, this Group gains a scrap token and cannot gain scrap tokens from that Debris Field for the rest of the game. A Group can have a maximum of 8 scrap tokens at any one time. Any attached Payload ships that have any scrap tokens do not count towards this limit. Whenever another Ship within 6\" of a friendly Ship with this rule is destroyed, pick one of those friendly Ships, that Ship gains a scrap token."
+        },
+        {
+            "Name": "Scratch Bodge Job",
+            "Text": "At the end of this Ship's activation, you may remove any number of scrap tokens and choose one of the following:\nScrappy Plating: One friendly Ship within 6\" recovers lost Hull points equal to the amount of scrap tokens removed.\nBodge Repairs: Remove a crippling effect from a friendly Ship within 6\" for each scrap token removed."
+        },
+        {
+            "Name": "Industrial Design",
+            "Text": "Improve this Group's Backup save by 2 when rolling to save hits due to Debris Fields."
+        },
+        {
+            "Name": "Mercenary",
+            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Terminus",
+        "Slag Pit",
+        "Scrap Hammer"
+    ],
+    "flavour": "The Type-87 Terminus Harvester is a colossal reclamation vessel built to consume the unrepairable wreckage of war. Its monolithic maw engulfs chunks up to frigate tonnage, feeding them into vast crushing chambers where superheated hydraulic presses obliterate hull plating to slag. Two VX-22 Flensers detach from its hull, peeling derelicts apart and hauling scraps to their final destruction. Ancient, slow-moving, and relentless, it labours, stripping vessels down to raw material. Within its corroded halls, life is harsh. Dim corridors reek of burning metal as air filters struggle against decades of industrial smog.\nThe Type-87's wedge-like prow is battered and scarred, worn from decades of grinding through wreckage. Deep gouges and warped plating mark where debris crumpled beneath its relentless push, clearing the way for the behemoth behind.\nA monolithic opening capable of engulfing entire frigates, feeding them into a crushing chamber spanning the volume of a megastructure. Inside, reinforced walls lined with titanic hydraulic presses grind vessels down in a superheated maelstrom of pulverized metal, reducing all to molten slag.\nEquipped with two VX-22 Flensers, these small salvage vessels dock onto the Harvester's hull when idle but detach to roam wreckage fields. They Brutally peel derelicts apart piecemeal while hauling fragmented components to the crushing maw. Though technically separate, they operate as an extension of the Harvester, ensuring no usable scrap escapes consumption."
+}

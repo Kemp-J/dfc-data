@@ -1,0 +1,49 @@
+{
+    "class": "Princess Liner",
+    "type": "Civilian Liner",
+    "points": null,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 4,
+        "Sig": 3,
+        "Hull": 12,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1",
+        "Special": [
+            "Descent",
+            "Cloak-1",
+            "Boardable",
+            "Civilian Transport"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Asteroid Clearance Laser",
+            "Arc": "F/S/R",
+            "Att": 2,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Gin and Jump",
+        "Queen Belle",
+        "There and Back Again",
+        "Paperlad (logistics retro-fit)",
+        "Going Nowhere (prison retro-fit)",
+        "Laps of Luxury (VIP transportation retro-fit)"
+    ],
+    "flavour": "The Princess Class cruise liner was once a common site in the space around the Cradle World and close to the more picturesque spatial anomalies available to humanity at the time. They were the hallmark of class and distinction among many at the time, and while most were used by the pleasure seeking masses, some were personal transports for those able to afford such luxury and even as covers for covert diplomatic and espionage missions.\nAs with so many things, this ended quickly with the Scourge invasion. Ill-equipped to face up to even the lowliest Scourge frigate, Princess Class liners breaking orbit made for tempting and easy targets for the aliens. Most of those seconded to the evacuation effort were easy prey for the Scourge; packed to the seams with refugees, they were a cornucopia of pre-packaged hosts for the insidious race.\nThose few liners that did escape only managed to do so due to their relatively low power output and small signature for a ship of their size – lacking high powered weapons, shields or point defences, they create very little return ping on most sensors.\nToday there is little call for sight-seeing pleasure cruises while the fate of the galaxy hangs in the balance. The vast majority of Princess Class cruise liners still in service are have been retro-fitted for VIP transportation, as mobile prison hulks, or interplanetary logistics vehicles. There are many more still hanging in the void – deserted, dormant, or endlessly orbiting the cradle worlds; the breath taking views they offer seen by none but the dead."
+}

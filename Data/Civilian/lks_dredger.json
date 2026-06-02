@@ -1,0 +1,54 @@
+{
+    "class": "LKS Dredger",
+    "type": "Mining Dredge",
+    "points": 65,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1-2",
+        "Special": [
+            "Boardable",
+            "Vectored"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Mining Laser",
+            "Arc": "F",
+            "Att": 3,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Industrial Design",
+            "Text": "Improve this Group's Backup save by 2 when rolling to save hits due to Debris Fields."
+        },
+        {
+            "Name": "Mercenary",
+            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Dredger",
+        "Silt Siphon",
+        "Ground Town"
+    ],
+    "flavour": "A relentless machine of industry, built to mulch, sift, and extract until its timer runs dry. It drills deep, rips apart rock, and spits out raw profit, indifferent to the hands that keep it running. No legacy, no ownership, just a contract ticking toward expiration. When time is up, it moves on, leaving its crew behind, waiting for the next company to stake its claim on the battered frame. Inside, the workers endure the constant grind, wedged between failing systems and the unyielding demand for productivity. Comfort is non-existent, maintenance is endless.\nEquipped with a heavy duty drill and front mounted mining array, this vessel doesn't just extract minerals, it carves deep trenches into asteroid surfaces and space debris, kicking up clouds of pulverized rock and metallic sediment. A network of sediment filters and gravity sifting tanks separates valuable ore from dust before storing the processed materials in its cargo bays.\nProminently displayed on the ship's exterior, the countdown display isn't a warning, it's a fact. The contract will expire, and if it doesn't get topped up, the vessel moves on to whatever comes next. Passed from one mining company to the next, these hand me down workhorses run until their rental contracts dry up. Refurbished just enough to stay functional, they degrade with every transfer, patched, battered, barely space worthy, considered scrap with engines.\nUpper management doesn't care about the ship, only the ore it pulls in before time runs out. The crew works under relentless pressure, knowing there's no guarantee of renewal.\nWhen the timer hits zero, it's out of their hands. Either the contract gets extended, or the ship moves on.\nDespite its size, the colossal vessel remains a world of tight corridors for its 190 crew members. Dust and grime clings to every surface, settling in forgotten corners and coating equipment in a fine greasy layer. Minimal comforts, constant maintenance, and the daily expectation that something will break."
+}

@@ -1,0 +1,45 @@
+{
+    "class": "Precedent One",
+    "type": "VIP Transport",
+    "points": null,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 9,
+        "Scan": 4,
+        "Sig": 3,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1",
+        "Special": [
+            "Blooming",
+            "Boardable",
+            "Civilian Transport",
+            "Elite Fighter Escort"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Deterrence Missiles",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Precedent One",
+        "Diplomacy One"
+    ],
+    "flavour": "During the Reconquest, fleetyards throughout the Colonies were hard at work constructing a multitude of civilian and logistical ships. While retrofits to the ageing Princess Liner had kept them operational for far longer than intended, their age was starting to catch up with them. The Precedent One was more of a propaganda project than anything else, a ship designed to ferry dignitaries to recaptured Cradle Worlds for diplomatic talks but only under a minimal amount of danger.\nOnly three ships of the class have been completed, one of which is a designated transport of UCM High Council members. Another is tasked with transporting diplomats to the Cradle Worlds friendly to the UCM, while the third is held in a secure location, should a replacement or decoy be required for either of the two in service."
+}

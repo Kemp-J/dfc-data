@@ -1,0 +1,39 @@
+{
+    "source_version": "260501",
+    "ship_rules": [
+        {
+            "Name": "Civilian Transport",
+            "Text": "This Ship can only choose the General Quarters order.\nThis Ship cannot be attacked unless it is controlled by a player. Players cannot attack a friendly Civilian Transport.\nThis Ship cannot be the target of Abilities."
+        },
+        {
+            "Name": "Boardable",
+            "Text": "This Ship can have Battalions Assigned to it as if it were a Space Station.\nAt the start of the round, this Ship is controlled by a Player if only they have any Battalions on it, lasting until the end of the round.\nPlayers that control a Boardable Ship may activate it as if it were a Ship in their Fleet, after all other Groups have activated."
+        },
+        {
+            "Name": "Blooming",
+            "Text": "Other friendly Ships within 6\" of this Ship are Hidden within its Bloom. Enemy Ships attacking these Hidden Ships ignore 2 of their Group's Spikes when measuring weapons range.\nThis special rule ceases to function while this Ship is not controlled."
+        },
+        {
+            "Name": "Elite Fighter Escort",
+            "Text": "At the start of each round, this Ship gains 3 Elite Fighter Tokens. Before rolling Kinetic or Energy saves against Close Action and Bomber (of any type) attacks for this ship, you may declare the use of any number of Elite Fighter Tokens.\nEach token used causes this Ship to automatically succeed your choice of 2 of those Energy or Kinetic saves without rolling those dice."
+        }
+    ],
+    "ships": [
+        "hyperyacht_somniferum.json",
+        "ltype_barge.json",
+        "lks_dredger.json",
+        "nirvana.json",
+        "precedent_one.json",
+        "slm9_resupply_hauler.json",
+        "ttype_tugboat.json",
+        "affluence_liner.json",
+        "dhtype_penal_transport.json",
+        "jahtar_startrader.json",
+        "mtype_barge.json",
+        "princess_liner.json",
+        "obv64_oblivion_barge.json",
+        "type87_terminus_harvester.json",
+        "vx22_flenser.json",
+        "prk91_provenance_ark.json"
+    ]
+}
