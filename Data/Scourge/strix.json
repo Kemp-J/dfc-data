@@ -1,0 +1,57 @@
+{
+    "class": "Strix",
+    "type": "Light Cruiser",
+    "points": 84,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 8,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": [
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Tempest",
+            "Arc": "F/S",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Fusillade-2",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Bloody Rapier",
+        "Immolator",
+        "Chang's Doom",
+        "Haymaker"
+    ],
+    "flavour": "The Strix class light cruiser is perhaps the most aggressive capital ship type in the entire Scourge navy. Its design is focused entirely on speed and high powered close action capability in the form of a potent array of plasma cannons. It is a consummate decapitation vessel, adept at hunting and destroying key targets in the early stages of an engagement.\nHowever, when compared to its full cruiser cousin the Wyvern, the Strix has very poor point defence capability and reduced hull, making it highly vulnerable to return fire.\nDue to this fragility, Strix class light cruisers are usually employed on the flanks of the Scourge line where they may hope to utilise silent running tactics and peripheral involvement to avoid the worst of enemy reprisals. In addition, they usually operate in concert with other ships of the class, granting safety in numbers and further magnifying their destructive potential as they may combine fire to overload the point defences of any target with their potent close action weaponry."
+}

@@ -1,0 +1,81 @@
+{
+    "admiral": "Baba Yaga",
+    "admiral_level": 2,
+    "class": "Daemon",
+    "type": "Battleship",
+    "admiral_points": 55,
+    "ship_points": 210,
+    "points": 265,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 10,
+        "Hull": 20,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Phalanx",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Furnace Fangs",
+            "Arc": "FN",
+            "Att": 6,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-1",
+                "Crippling-Fire",
+                "Focused"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Death Mistress",
+            "Text": "Whenever an enemy group is destroyed, roll a dice. On a 4+ gain 1AP."
+        },
+        {
+            "Name": "No Keel Refit",
+            "Text": "This ship cannot be take a Keel Refit."
+        }
+    ],
+    "fleet_admiral_abilities": 2,
+    "admiral_abilities": [
+        {
+            "Cost": "1AP",
+            "Name": "Death Dispenser",
+            "Effect": "When you launch Dropships or Bulk Landers at a Dropsite, place an additional D3 Battalion tokens on that Dropsite."
+        }
+    ],
+    "flavour": "Baba Yaga is one of the oldest Scourge vessels witnessed by the UCM. One of the original ships that assaulted Eden Prime, analysis of data brought back to the UCM by stealth recon ships prior to the reconquest show that Baba Yaga was still present high above Eden Prime.\nHigh resolution scans of its hull show extensive repairs of battle damage, though reports from the exodus state that Baba Yaga saw very little combat during the initial invasion. Admiralty believe that this battle damage was gained during the Scourge's subjugation of the reptilian race they parasitised before humanity, as the damage patterns do not match anything either humanity, or the Shaltari were able to inflict at the time.\nDuring the reconquest of Eden Prime, Baba Yaga and its battlegroup were responsible for sending over 20,000 sailors to their deaths, before falling back to points unknown. Sporadic sightings of Baba Yaga have been reported over various combat theatres. The ship always appears and inflicts a heavy death toll before disappearing again.\nUCM Admiralty have designated Baba Yaga as a priority target to be taken out with extreme prejudice."
+}

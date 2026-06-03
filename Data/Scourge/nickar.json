@@ -1,0 +1,46 @@
+{
+    "class": "Nickar",
+    "type": "Hunter-Killer",
+    "points": 20,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 16,
+        "Scan": 6,
+        "Sig": 2,
+        "Hull": 2,
+        "ES": "6+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Plasma Squall",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Air to Air",
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Eden's Bane",
+        "Wardog",
+        "Halsey's Folly",
+        "Jack the Ripper"
+    ],
+    "flavour": "The Nickar class hunter-killer is a small, atmospheric-capable vessel of sub-frigate tonnage. These nimble, fast ships are rightly feared by any enemy vessel that operates in atmosphere - this ship's favourite hunting ground. Armed with specialist plasma munitions, these deadly predators can easily destroy vessels larger than themselves such as strike carriers.\nIn the opening days of the Reconquest, this class was responsible for more Armoured Corps losses than ground actions. Thousands of men and vehicles were lost to hunterkiller incursions aboard their strike carriers before they even made it to the surface. Since these vessels operate in the relative safety of atmosphere, the best measure against them is corvettes - a lesson learned the hard way by the Admiralty who no longer discount such small ships in their battle plans."
+}

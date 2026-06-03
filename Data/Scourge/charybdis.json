@@ -1,0 +1,56 @@
+{
+    "class": "Charybdis",
+    "type": "Frigate",
+    "points": 34,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Rays",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Bombs",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Bombardment",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Shadow of Death",
+        "Cruel Judgement",
+        "Andreas",
+        "Iconoclast"
+    ],
+    "flavour": "The Charybdis class is an unusual ship as it is of frigate tonnage yet is the Scourge's primary orbital bombardment platform. This differs greatly from other races which usually employ much larger ships for this task due to their ability to stay on station while soaking up enemy fire. Although the Charybdis cannot match its contemporaries in that regard, it can outpace them, allowing the Scourge to open bombardment very early in any engagement or to reach areas inaccessible in a short timeframe to more ponderous ships. It also gains a small measure of protection from its minimal signature, forcing the enemy to close the distance to obtain a firing solution, bringing them into the preferred killing range of other Scourge ships.\nWhat it lacks in size it makes up for in firepower, thanks to its potent plasma bombards, weapons rightly dreaded by all ground forces. These ensure that not even enemies in reinforced bunkers are safe as a single shot can reduce a city block to molten glass or shatter concrete bastions to powder."
+}

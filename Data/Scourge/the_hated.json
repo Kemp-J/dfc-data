@@ -1,0 +1,69 @@
+{
+    "hero": "The Hated",
+    "ship": "Little Chaos",
+    "type": "Heavy Destroyer",
+    "points": 90,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 5,
+        "Hull": 8,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Cloak-1",
+            "Hero",
+            "Stealth",
+            "Unique"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Rays",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Anharmonic Resonator",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "C",
+            "Special": [
+                "Close Action",
+                "Crippling"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Little Chaos"
+    ],
+    "flavour": "Thankfully, this vessel's main weapon is unique to it. The Anharmonic Resonator is marked by two distinctive emanation banks along the ship's midsection and is one of the most despised weapons any captain might face, hence the moniker given to whatever captain this ship has: The Hated. This individual throws its ship into combat with little regard for personal safely—unfortunate, since the weapon's effects are limited to close victims.\nThe Resonator throws pulsing waves of penetrating subatomic particles and exotic radiations into the target, causing a range of unpredictable internal effects, crew deaths, widespread vomiting, and systems failures. Given the necessity of being near the target, Little Chaos is equipped with one of the best stealth suites yet observed on any Scourge vessel. It is speculated that this ship was exceedingly difficult for the enemy to build or is challenging to maintain since they have produced no other known examples despite its horrible effectiveness. There are even suggestions that its entire crew might die of radiation poisoning after an engagement, although the captain's consistent behaviour suggests that it, at least, fights from a heavily shielded bridge."
+}

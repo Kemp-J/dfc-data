@@ -1,0 +1,57 @@
+{
+    "class": "Gremlin",
+    "type": "Light Cruiser",
+    "points": 72,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 8,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": [
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Furnace Cannons",
+            "Arc": "FN",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-1",
+                "Crippling-Fire",
+                "Focused"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Piskie",
+        "Little Sod",
+        "Firefang",
+        "Emberlight"
+    ],
+    "flavour": "As a new variant of the Scourge Cruiser, little is known about the Gremlin. With what little combat data the UCM have access to, it is believed that many of these Gremlin class ships were once Ifrit Cruisers, though Solar variants have occasionally been seen. Damage patterns on the hull of the more traditional cruiser hulls as well as their energy signatures match several Ifrit's present during the Scourge's initial attack on Earth.\nWhat caused the Scourge to reduce these particular ships to Light Cruisers is unknown, but it is speculated that due to advanced age these ships are going through the scourge equivalent of decomissioning. Most encounters with these particular Gremlins see them taking on particularly offensive and often suicidal roles.\nThe Solar variants seen use the more common battle tactics the Scourge usually employ for their Light Cruisers, hunting in packs and flanking their targets, ready to sink their teeth into fresh prey."
+}

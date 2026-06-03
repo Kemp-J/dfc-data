@@ -1,0 +1,55 @@
+{
+    "class": "Apsasu",
+    "type": "Barge",
+    "points": 60,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 8,
+        "Sig": 5,
+        "Hull": 4,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Rays",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Bombs",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Bombardment",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [],
+    "flavour": ""
+}

@@ -1,0 +1,57 @@
+{
+    "class": "Wraith",
+    "type": "Cutter",
+    "points": 48,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 16,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 6,
+        "ES": "5+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Vectored"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Rays",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Brand",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Crippling-Fire",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Galen's Wraith",
+        "Crow Nebula 1",
+        "Crow Nebula 2",
+        "Sable Vulture"
+    ],
+    "flavour": "The Wraith is the archetypal cutter: a small, fast hunter of already fast enemy scouts, outliers and support vessels. Since speed is a typical asset of the Scourge, their cutters are among the fastest ships ever encountered by mankind.\nCurrently, nothing the UCMF possesses can outrun a Wraith.\nThey are feared by rearguard vessels such as the Lima, but especially by supply convoys and merchantmen, who frequently fall prey to roving packs of Wraiths far from recorded Scourge presence. Their very existence ensures no known space is 100% safe from enemy action.\nIn combat, the Wraith can strike at range with conventional Oculus Rays, but from an easily-achieved close position a variant of this directed energy technology can scorch the hulls of any target, regardless of their point defences."
+}

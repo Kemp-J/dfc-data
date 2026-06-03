@@ -1,0 +1,165 @@
+{
+    "source_version": "260327",
+    "abilities": [
+        {
+            "Cost": "1AP",
+            "Name": "For the Species",
+            "Effect": "At the end of a friendly Groups' activation, pick a Crippled Ship in that Group and target an enemy Ship within 3\" of it on the same Orbital Layer. Roll a dice for each of the friendly Ship's remaining Hull Points. The target Ship is inflicted 1 Damage for each result of a 3+. The friendly Ship is destroyed and does not roll for explosion."
+        },
+        {
+            "Cost": "3AP",
+            "Name": "Augmentations",
+            "Effect": "At the start of a friendly Carrier's activation, if that Carrier has 2 or more Bulk Landers, it replaces all its Bulk Landers with a single deployable Orbital Defence Gun Feature (see 7.4.2 Deploying Features and 11.3 Features) until the end of the round. This Ability can only be used once each round."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Abandon all Hope",
+            "Effect": "At the end of the Planning Phase, target an opponent. That opponent discards D3 Ability Points."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Assimilated Bioforms",
+            "Effect": "At the start of the Battalion Combat step of the Asset Phase, pick a City with friendly Battalions on it. Deploy D3 Assimilated Battalions to that City. At the end of the Battalion Combat step, remove any remaining Assimilated Battalions from the Dropsite."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "High Speed Launch",
+            "Effect": "At the end of the Planning Phase, pick a friendly Group. That Group gains Rapid Drop and may launch Assets at the end of its activation while on the Max Thrust order until the end of the round."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Expert Defence Crews",
+            "Effect": "At the start of the Asset Phase, pick a friendly Group. That Group gains Marines-2D3 until the end of the round."
+        }
+    ],
+    "fleet_admirals": [
+        {
+            "Name": "Scourge Fleet Thrall",
+            "Level": 1,
+            "Cost": 25,
+            "FleetAbilities": 1,
+            "Abilities": [
+                {
+                    "Cost": "1AP",
+                    "Name": "Reaving Gaze",
+                    "Effect": "When you assign a Group's weapons to a target, pick one of the attacking Group's Weapon Systems with \"Oculus\" in its name. That Weapon System replaces its Scald-X rule with Reave-X (of the same value) for that attack. If the attacking Group has 2 or more Ships, this Ability costs 2AP."
+                }
+            ]
+        },
+        {
+            "Name": "Scourge Fleet Champion",
+            "Level": 3,
+            "Cost": 65,
+            "FleetAbilities": 1,
+            "Abilities": [
+                {
+                    "Cost": "1AP",
+                    "Name": "Dissipate Energy",
+                    "Effect": "At the end of any Group's activation, target a friendly Group. Remove a Spike from the friendly Group."
+                },
+                {
+                    "Cost": "2AP",
+                    "Name": "Silent Launch",
+                    "Effect": "When a friendly Group is given the Silent Running Order, that Group may use Launch Assets this round in addition to reducing its Signature to 0\" until the start of its next activation."
+                }
+            ]
+        }
+    ],
+    "launch_assets": [
+        {
+            "Load": "Torpedo",
+            "Thrust": 8,
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Corruptor-2",
+                "Crippling-Fire"
+            ]
+        },
+        {
+            "Load": "Bombers",
+            "Thrust": 12,
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Crippling-Fire",
+                "Attacks containing 7 or more Bombers cause Crippling-Fire to place a second Fire token on the target."
+            ]
+        },
+        {
+            "Load": "Mines",
+            "Thrust": 6,
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Corruptor-1"
+            ]
+        },
+        {
+            "Load": "Fighters",
+            "Thrust": 14,
+            "Rerolls": 2
+        }
+    ],
+    "deployable_features": [],
+    "famous_admirals": [
+        "enslaver.json",
+        "flayer.json",
+        "baba_yaga.json",
+        "overlord_of_flies.json"
+    ],
+    "heroes": [
+        "the_hated.json"
+    ],
+    "ships": [
+        "nickar.json",
+        "hiruko.json",
+        "ebisu.json",
+        "harpy.json",
+        "djinn.json",
+        "charybdis.json",
+        "scylla.json",
+        "gargoyle.json",
+        "shedu.json",
+        "lamassu.json",
+        "apsasu.json",
+        "wraith.json",
+        "parasite.json",
+        "incubus.json",
+        "succubus.json",
+        "revenant.json",
+        "gremlin.json",
+        "strix.json",
+        "yokai.json",
+        "ifrit.json",
+        "sphinx.json",
+        "wyvern.json",
+        "chimera.json",
+        "hydra.json",
+        "raiju.json",
+        "shenlong.json",
+        "kulshedra.json",
+        "akuma.json",
+        "banshee.json",
+        "shadow.json",
+        "umbra.json",
+        "daemon.json",
+        "dragon.json",
+        "beelzebub.json",
+        "devil.json",
+        "lucifer.json",
+        "raum.json",
+        "nephilim.json",
+        "bael.json",
+        "samael.json",
+        "faust.json",
+        "nosferatu.json",
+        "cthulhu.json"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "class": "Djinn",
+    "type": "Frigate",
+    "points": 44,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "2-6",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Rays",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Storm",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Poltergeist",
+        "Little Satan",
+        "Belligerent",
+        "Switchblade"
+    ],
+    "flavour": "The Djinn class frigate is a fast, ultra aggressive vessel that perhaps best personifies the Scourge attitude to war. Its armament includes a much enhanced set of plasma weapons over regular Scourge frigates, giving it fantastic destructive power at close ranges for its size. This ship is far more effective when employed in very large squadrons, where massed plasma fire can overwhelm even a battleship's point defence capabilities.\nIn battle, the Djinn must use its superior speed and manoeuvrability to close the distance to the enemy. Silent running is a tactic frequently employed by these pack hunters, combining their small signature with low power output to screen them from enemy targeting systems until they are close enough to pounce. Alternatively, they can use their atmospheric flight capability to lie in wait for the enemy to come to them - a tactic which is sometimes enough to deter aggressors from approaching at all, thus holding ground without having to fire a shot or risk themselves to enemy reprisals."
+}

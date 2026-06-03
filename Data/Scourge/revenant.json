@@ -1,0 +1,80 @@
+{
+    "class": "Revenant",
+    "type": "Destroyer",
+    "points": 66,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 5,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-4",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Rays",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Vortex",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "equipment": [
+        {
+            "Name": "Cloaking Crest",
+            "Cost": 5,
+            "Effects": [
+                {
+                    "Target": "Special",
+                    "Type": "append",
+                    "Value": "Cloak-2"
+                },
+                {
+                    "Target": "Special",
+                    "Type": "append",
+                    "Value": "Stealth"
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Cloaking Crest",
+            "Text": "This ship may take a Cloaking Crest for +5 pts, gaining Cloak-2 and Stealth."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "The Four Horsemen (group of four vessels)",
+        "Greywolf"
+    ],
+    "flavour": "The Revenant is one of the most feared of the Scourge destroyers, and for good reason. The class offers a range of options for dealing death, from conventional Oculus weapons, to powerful close action, to bomber capacity. In particular, this combination allows the ship to unleash its full destructive potential subtlety, without having to generate significant energy spikes all while still able to manoeuvre. This varied armament and ability makes it a consistently deadly foe, especially for groups of frigates at close range.\nThe downside to this mixed approach is that its capacity for fighters and bombers is proportionately low, explaining its designation as a destroyer as opposed to an escort carrier by the Admiralty. In order to build up significant waves of bombers able to overcome enemy point defence, Revenants frequently hunt in larger packs than typical Scourge destroyers. A full group of four of these accomplished killers is a threat to almost anything in the battlespace."
+}

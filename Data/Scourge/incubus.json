@@ -1,0 +1,88 @@
+{
+    "class": "Incubus",
+    "type": "Destroyer",
+    "points": 50,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 5,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Rays",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Furnace Blaster",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-1",
+                "Crippling-Fire",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [
+        {
+            "Name": "Cloaking Crest",
+            "Cost": 5,
+            "Effects": [
+                {
+                    "Target": "Special",
+                    "Type": "append",
+                    "Value": "Cloak-2"
+                },
+                {
+                    "Target": "Special",
+                    "Type": "append",
+                    "Value": "Stealth"
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Cloaking Crest",
+            "Text": "This ship may take a Cloaking Crest for +5 pts, gaining Cloak-2 and Stealth."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Night's Eye",
+        "Pompeii",
+        "Darkstone"
+    ],
+    "flavour": "The Incubus is the sister class of the more common Succubus. It carries a more conspicuous armament; a single enlarged furnace cannon, a fearsome weapon capable of cutting to the heart of any adversary. The weapon also offers multiple fire modes, as it does on larger Scourge ships, making it useful for damage dealing and target marking. The latter mode is especially potent in this class, as a pack of these ships can heat an enemy vessel's hull to extreme levels, making it highly visible to the rest of the fleet. Coupled with an optional cloaking crest, the Incubus is an excellent expeditionary ship.\nThe class also features formidable close action weaponry far superior to that of most Scourge frigates and equivalent to other destroyers. This makes the Incubus a multi-role threat that should always be considered in any battle plan. Failure to deal with these ships in the early stages of an engagement risks losing the advantage at longer ranges usually expected when facing the Scourge."
+}

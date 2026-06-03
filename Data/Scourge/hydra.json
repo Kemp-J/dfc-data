@@ -1,0 +1,74 @@
+{
+    "class": "Hydra",
+    "type": "Fleet Carrier",
+    "points": 135,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 10,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 3,
+            "Special": []
+        },
+        {
+            "Load": "Mines",
+            "Launch": 3,
+            "Special": [],
+            "Cost": 10,
+            "Replaces": [
+                "Fighters & Bombers"
+            ]
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Minelayer",
+            "Text": "This ship may replace its Fighters & Bombers with Mines for +10 pts."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Sable Chalice",
+        "Angelslayer",
+        "The Hive",
+        "Bombardier"
+    ],
+    "flavour": "The Hydra class fleet carrier is a dedicated strike craft platform designed to attack distant targets and support friendly vessels. Its capacious hangars contain hundreds of lethal Hellmaw bombers and predatory Hellscream fighters, their pure Scourge crews held in a fugue state in row upon row of storage racks until they are ready to be set loose. The almost mindless aggression of these craft suggest a psychotic level of dedication to slaughter - perhaps deliberately induced on their crews by the cocktail of narcotics flowing through them while kept dormant aboard ship.\nAs a carrier, the Hydra is a more focused design than its closest current equivalent in the UCMF, the Seattle class, as it boasts a higher launch capacity at the expense of conventional firepower. As such, Hydras are usually protected by escort vessels in combat and are most frequently seen towards to rear of Scourge formations where the vulnerable carrier can be best protected. In spite of this weakness, the Hydra is one of the most lethal vessels of cruiser tonnage in the entire Scourge navy - a flexible and deadly threat which demands responsive tactics from any opponent."
+}

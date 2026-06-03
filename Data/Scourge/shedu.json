@@ -1,0 +1,44 @@
+{
+    "class": "Shedu",
+    "type": "Monitor",
+    "points": 48,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 8,
+        "Sig": 5,
+        "Hull": 4,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Detector",
+            "Monitor"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beam Crest",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Silent Guardian",
+        "Xi's Sentinel",
+        "Dark Watcher"
+    ],
+    "flavour": "Defence monitors are unusual ships for the Scourge, as they don't conform to their aggressive tactics. As such, they have surprisingly few of them, leading some analysts to suggest that the Scourge were never expecting mankind to rally and strike back so spectacularly. However, the limited number the enemy did have always remained concentrated in the Solar system, obviously the primary theatre to defend.\nThe Shedu class is actually a fairly typical monitor, offering the usual characteristics – low speed, high armour, high firepower. It lacks the ability to engage surface targets though, armed with a rare variant of Oculus weapon technology, designed for engaging targets in higher orbital layers. It also fulfils the useful secondary role of long-range scanning, lighting up targets for other ships."
+}

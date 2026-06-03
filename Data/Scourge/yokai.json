@@ -1,0 +1,54 @@
+{
+    "class": "Yokai",
+    "type": "Light Cruiser",
+    "points": 80,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 8,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-3",
+        "Special": [
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Shangri-La Nemesis",
+        "Glass Dagger",
+        "Bloodhound"
+    ],
+    "flavour": "The Yokai class light cruiser carries an identical weapons loadout to the heavier Sphinx class cruiser. Unlike its cousin, it sacrifices point defence capabilities and hull superstructure for additional combat speed. With its large number of conventionally capable oculus beam weapons, it is a similarly talented ship-killer although given its limitations it is best employed far from enemy fleet carriers or missile frigates. It is most effective when hunting strategically important targets weaker than itself and away from the core of the battle, where it would quickly be overwhelmed by close action attacks.\nThe Yokai's speed and its full cruiser level firepower are its greatest assets and in many ways it can be thought of as an application of the battlecruiser principle on a smaller scale. Outside of fleet engagements, this class is one of the most feared by support vessel crews, as it is frequently employed away from Scourge lines. There it can harass the enemy's supply chain, unleashing its deadly weapons from range and swiftly disappearing before reprisals can be brought to bear."
+}

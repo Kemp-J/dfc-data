@@ -1,0 +1,55 @@
+{
+    "class": "Scylla",
+    "type": "Frigate",
+    "points": 33,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Rays",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Reverse Grav Cannon",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Escape Velocity"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Red October",
+        "Funnelweb",
+        "Chthonic Chorus",
+        "Nautilus"
+    ],
+    "flavour": "The Scylla class frigate is an unusual vessel with an equally unorthodox armament and mission profile. Equipped with a set of reverse-grav cannons, these ships are designed to operate in atmosphere and fire up at enemy ships in orbit. This weapon is one of the very few effective at firing from atmosphere at orbital targets, although it does have the significant drawback of only working near gravity wells and only being able to engage targets in orbital layers above its own. The Scylla's mode of attack is analogous to the missile submarines of 20th Century Earth, silent and hard to target submerged vessels designed to strike at surface targets.\nSince ships can only move relatively slowly due to air resistance in atmosphere, this ship's task is usually defensive in nature. It can use its speed to reach its place of attack, but once 'submerged' in atmosphere it must wait for enemy ships to draw near. Since ships in atmosphere are usually so hard to target and destroy, this makes the Scylla an excellent deterrent or monitor ship, protecting Scourge territory from aggressors above."
+}

@@ -1,0 +1,119 @@
+{
+    "class": "Bael",
+    "type": "Super Battleship",
+    "points": 305,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 8,
+        "Sig": 10,
+        "Hull": 20,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Mega Plasma Lance Battery",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Calibre-H/C",
+                "Reave-2",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Phalanx",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-2"
+            ]
+        },
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 3,
+            "Special": []
+        }
+    ],
+    "equipment": [
+        {
+            "min": 1,
+            "max": 1,
+            "options": [
+                {
+                    "Name": "Cloaking Keel",
+                    "Cost": 0,
+                    "Effects": [
+                        {
+                            "Target": "Special",
+                            "Type": "append",
+                            "Value": "Stealth"
+                        },
+                        {
+                            "Target": "Special",
+                            "Type": "append",
+                            "Value": "Cloak-2"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Engine Upgrade",
+                    "Cost": 10,
+                    "Effects": [
+                        {
+                            "Target": "Thrust",
+                            "Type": "add",
+                            "Value": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Keel Options",
+            "Text": "This Ship must take either a Cloaking Keel, gaining Stealth and Cloak-2, or an Engine Upgrade for +10 points, increasing Thrust by 3\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "|Reaper's Scythe",
+        "Eden Prowler",
+        "Facets of Death",
+        "Stygia"
+    ],
+    "flavour": "The Bael was the first of the enemy's new super battleships to be encountered by the UCM, where it ambushed and annihilated an entire supply convoy and all its escorts single-handedly. The class has substantial, mixed firepower including a mega plasma lance battery, multiple oculus beam weapons systems, torpedoes, and supplementary launch capacity. Once fitted with either extra engines or stealth systems, this leviathan is formidable."
+}

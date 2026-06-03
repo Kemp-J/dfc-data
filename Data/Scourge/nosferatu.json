@@ -1,0 +1,88 @@
+{
+    "class": "Nosferatu",
+    "type": "Dreadnought",
+    "points": 490,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 10,
+        "Sig": 14,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "2+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Cloak-1",
+            "Stealth"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beam Super Phalanx",
+            "Arc": "F",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-2"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Plasma Flood",
+            "Arc": "F/S",
+            "Att": 9,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 6,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Eden's Bane",
+        "Sable Fiend",
+        "Dread Warrior",
+        "Lord of the Damned",
+        "Scarlet Vision"
+    ],
+    "flavour": "A Nosferatu on the scopes of anything besides another dreadnought presages one thing: death. These titanic monstrosities prowl the void with vicious impunity; one ship fleets which dwarf battleships.\nThe Nosferatu packs vast banks of Oculus weapons - one of the most devastating close action armaments yet encountered - and a launch capacity to rival a Fleet Carrier. If all this wasn't terrifying enough, Scourge Dreadnoughts are stealth-capable; meaning that when an enemy can finally plot a firing solution, it's too late."
+}

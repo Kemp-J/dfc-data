@@ -1,0 +1,77 @@
+{
+    "class": "Shadow",
+    "type": "Battlecruiser",
+    "points": 220,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 14,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Magneton Lash",
+            "Arc": "FN",
+            "Att": 4,
+            "Lock": "*",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Calibre-H/C",
+                "Close Action",
+                "Mauler",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Plasma Tempest",
+            "Arc": "F/S",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Fusillade-2",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Last Rites",
+        "Thunderhead",
+        "Lasher",
+        "Irwin's Nemesis"
+    ],
+    "flavour": "The Shadow is one of the Scourge's most dangerous close action killers, and that's saying something. Unlike its subtle cousin the Banshee, the Shadow has no cloaking technology due to the conspicuous energy signature of its main weapon: the Magnetron Lash. This horror discharges wild, sustained arcs of highly energetic particles which latch on to areas of high density. Heavy armour is especially prone to attracting and holding an arc. Once latched on, the temperature at the impact site nears that of a main sequence star. The hole it makes in the target is small, but antimatter bomblets are then passed down the beam into the target, which annihilate with the hull.\nWith no cloak and primarily close-action weapons, Shadows normally approach on silent running, revealing themselves to a large, heavy target at the last moment. Once its weapons are blazing, a swift kill usually follows - fortunate since the class cannot fight and manoeuvre without attracting vengeful return fire."
+}

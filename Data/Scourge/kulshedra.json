@@ -1,0 +1,73 @@
+{
+    "class": "Kulshedra",
+    "type": "Heavy Carrier",
+    "points": 164,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 12,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Tempest",
+            "Arc": "F/S",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Fusillade-2",
+                "Scald-2"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Foe Eater",
+        "Cthonia's Serpent",
+        "Bollar",
+        "Neptune's Bane"
+    ],
+    "flavour": "The Kulshedra was first seen by the UCM during the Scourge's assault on Ferrum. Reports state middling combat performance at range, but the Scourge's reckless tactics never left it at range for long. Designated the moniker Vilestars, Kulshedra's would dive straight into cruiser formations and take out lead ships before disgorging waves of fighters and bombers. While not an effective tactic for the longevity of the Kulshedra, its effect on UCM morale and formations was undeniable. More valuable Scourge ships were left alone while panicked UCM crews focused on the Kulshedra.\nAnalysis of wrecks suggest that these ships are as old as the ones that assaulted the Cradle Worlds so long ago. Their seeming absence may speak of Scourge battle tactics. Rather than fight an unknown enemy, the Kulshedra is a weapon of distraction for enemies the Scourge know. It was undeniably useful above Ferrum, where a battlegroup of three Kulshedra's caused a massive break in UCM formations, causing the loss of several Battlegroups, as they were too busy dealing with the Kulshedras to fight back against the Scourge ships taking advantage of the distraction."
+}

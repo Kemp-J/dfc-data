@@ -1,0 +1,44 @@
+{
+    "class": "Harpy",
+    "type": "Frigate",
+    "points": 40,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Patient Spider",
+        "Scorpion's Tail",
+        "Grant's Killer",
+        "Eden's Harpy"
+    ],
+    "flavour": "The Harpy class is the standard combat frigate of the Scourge navy and the most common combat ship encountered by the UCM with over 600 of them reckoned to exist. It is armed with a greater array of the ubiquitous oculus beam weapons than other Scourge frigates, making it a highly effective conventional firepower platform. Like most frigates, it really excels when used in a squadron of several others of its kind.\nWhat sets Scourge frigates apart from those of most other races (except for speed) is their ability to operate in atmosphere, although the Harpy's weapons were designed for void combat and are mostly ineffective in atmosphere. This ability grants it a superb means of hiding from the sensors of enemy ships, waiting for the sublime opportunity to pounce. It also makes them highly resilient to shipfire if needs be, as they can use the atmosphere to protect themselves from the enemy's most powerful void weapons."
+}

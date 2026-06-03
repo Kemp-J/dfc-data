@@ -1,0 +1,87 @@
+{
+    "class": "Succubus",
+    "type": "Destroyer",
+    "points": 65,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 5,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F/S",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F/S",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Seekers",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Re-Entry",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [
+        {
+            "Name": "Cloaking Crest",
+            "Cost": 5,
+            "Effects": [
+                {
+                    "Target": "Special",
+                    "Type": "append",
+                    "Value": "Cloak-2"
+                },
+                {
+                    "Target": "Special",
+                    "Type": "append",
+                    "Value": "Stealth"
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Cloaking Crest",
+            "Text": "This ship may take a Cloaking Crest for +5 pts, gaining Cloak-2 and Stealth."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Fool's Doom",
+        "Chang's End",
+        "Bloodtide"
+    ],
+    "flavour": "The Succubus is the most common Scourge vessel of destroyer tonnage encountered in the Reconquest so far. Although they are far less common than frigates, the enemy appears to be increasing its use of destroyers, especially where increasingly outnumbered. Such ships are useful in that they offer the speed and utility of a frigate with increased resilience and firepower.\nAs a fighting ship, the Succubus has proven to be highly adaptable and capable. It is a troublesome opponent for capital ships and swarms of lighter vessels alike due to its numerous weapons systems. The only downside to this armament is its power consumption, producing highly conspicuous energy spikes when fully unleashed. This is often mitigated by the inclusion of a cloaking crest, similar to that employed by larger Scourge vessels. It appears that this is an optional addition that is not always present in the class. Naval analysts have speculated that such technology is resource intensive, and only sees use where the enemy needs it most."
+}

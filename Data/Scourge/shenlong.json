@@ -1,0 +1,68 @@
+{
+    "class": "Shenlong",
+    "type": "Heavy Cruiser",
+    "points": 135,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 12,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "-",
+        "G": "1",
+        "Special": [
+            "Cloak-2",
+            "Stealth"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beam Crest",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-2"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Creeping Death",
+        "Fletcher's Phantom",
+        "Untouchable",
+        "Vitae Blade"
+    ],
+    "flavour": "The Shenlong class heavy cruiser is a highly dangerous and nefarious foe in ship-ship combat due in part to its extensive array of oculus weapons but also to its stealth capabilities. Mounted on its distinctive crest, the vessel features a suite of systems designed to mask weapons fire while silent running and to limit the visibility of extreme actions to enemy scanners. This makes the Shenlong an excellent ambush predator as well as hunter of capital ships where it can use these advantages to get the first shot all while avoiding return fire.\nThe only downside to these stealth systems is the volume of space they take up aboard ship and the amount of energy they consume, leading the Shenlong to be somewhat under-gunned compared to its equivalents in other races' navies. However, it is still more heavily armed than all standard cruisers and its first strike and fire avoidance capabilities more than compensates for this minor limitation, making the Shenlong one of the most feared vessels in the Scourge vanguard."
+}

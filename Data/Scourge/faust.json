@@ -1,0 +1,106 @@
+{
+    "class": "Faust",
+    "type": "Super Battleship",
+    "points": 265,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 8,
+        "Sig": 10,
+        "Hull": 20,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Plasma Beam Pair",
+            "Arc": "F",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 5,
+            "Special": []
+        },
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-2"
+            ]
+        }
+    ],
+    "equipment": [
+        {
+            "min": 1,
+            "max": 1,
+            "options": [
+                {
+                    "Name": "Cloaking Keel",
+                    "Cost": 0,
+                    "Effects": [
+                        {
+                            "Target": "Special",
+                            "Type": "append",
+                            "Value": "Stealth"
+                        },
+                        {
+                            "Target": "Special",
+                            "Type": "append",
+                            "Value": "Cloak-2"
+                        }
+                    ]
+                },
+                {
+                    "Name": "Engine Upgrade",
+                    "Cost": 10,
+                    "Effects": [
+                        {
+                            "Target": "Thrust",
+                            "Type": "add",
+                            "Value": 3
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Keel Options",
+            "Text": "This Ship must take either a Cloaking Keel, gaining Stealth and Cloak-2, or an Engine Upgrade for +10 points, increasing Thrust by 3\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Dark Pact",
+        "Mephistopheles",
+        "Descent",
+        "Cloud over Shangri-la"
+    ],
+    "flavour": "The Faust class super battleship is a lethally flexible ship, although it generally favours killing at close range where it can employ its twin heavy plasma beams. The Faust also boasts significant launch capabilities to strike at more distant targets, aided by its deadly torpedo payload. Oculus weapons round off this leviathan's murderous capabilities."
+}

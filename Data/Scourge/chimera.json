@@ -1,0 +1,60 @@
+{
+    "class": "Chimera",
+    "type": "Troopship",
+    "points": 95,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 10,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Bulk Landers",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Hellpit",
+        "Hordebringer",
+        "Plague Carrier",
+        "Satan's Ark"
+    ],
+    "flavour": "The Chimera class troopship is the primary means by which the majority of the Scourge infantry hordes attain planetfall. Its cavernous interior accommodates many thousands of Scourge warriors, Destroyers, Razorworms and many other biological horrors so feared by humanity. It delivers its deadly payload to the surface via bulk lander direct from low orbit, making it better suited to second wave operations when safe landing zone is more likely. Like most Scourge ships, the Chimera is faster than its human equivalents, giving it an edge in reaching uncontested ground first at the expense of armour.\nGiven the sheer scale of the vessel and its bulk landers, it can also accommodate and deploy some of the largest Scourge ground based assets such as defence batteries, helping to cement the aliens' iron grip on captured territory. Destruction of Chimeras is always a high priority for any opposing force, such is the threat they pose to victory on the surface."
+}

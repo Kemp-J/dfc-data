@@ -1,0 +1,90 @@
+{
+    "class": "Cthulhu",
+    "type": "Dreadnought",
+    "points": 505,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 10,
+        "Sig": 14,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "2+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Cloak-1",
+            "Stealth"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Furnace Triad",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "2+",
+            "DMG": 4,
+            "Type": "C",
+            "Special": [
+                "Bloom-1",
+                "Crippling-Fire",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Plasma Cyclone",
+            "Arc": "F/S",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 6,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Mort",
+        "Scythe of the Enemy",
+        "Admiral Kimiko's Doom",
+        "Voidflare",
+        "Scourge Incarnate"
+    ],
+    "flavour": "The Cthulhu is a supreme predator of the void, featuring a colossal, triple furnace cannon array fully capable of bisecting a battlecruiser in a single, awe inspiring discharge. Being fixed into the hull, skill is necessary to attain an optimum firing position.\nFew captains have survived to pass on their experience of encountering one, sapping the morale of all but the bravest sailors. Even in the bowels of the mightiest vessel, instant incineration is always possible."
+}

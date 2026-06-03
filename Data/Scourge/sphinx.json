@@ -1,0 +1,65 @@
+{
+    "class": "Sphinx",
+    "type": "Cruiser",
+    "points": 90,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 10,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Torturer",
+        "Predator's Eye",
+        "Old Serpent",
+        "Roche's Nightmare"
+    ],
+    "flavour": "The Sphinx is the most common vessel of cruiser tonnage in the Scourge navy. Much like its smaller cousin the Harpy class frigate, this vessel is armed predominantly with oculus type beam weapons. These are mounted in several groups on the prow of the vessel, positioned to cover overlapping fire arcs giving the Sphinx flexible options on how to engage the enemy as well as the potential to attack multiple foes simultaneously. However, such an arrangement requires a target to be in the front quarter should its captain wish to unload all weapons on a single opponent.\nThe Sphinx offers a good balance of flexibility, firepower and survivability (for a Scourge ship), explaining its popularity with whatever passes for command among the cursed aliens. It is theorised that this design was the originator of most modern Scourge cruisers, as many of the oldest (as estimated) cruisers witnessed belong to this class. This may however stem from their greater survival rate in battle than some of their cousins, such as the Wyvern."
+}

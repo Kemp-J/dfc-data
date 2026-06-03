@@ -1,0 +1,67 @@
+{
+    "class": "Ifrit",
+    "type": "Cruiser",
+    "points": 85,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 10,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Furnace Cannons",
+            "Arc": "FN",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-1",
+                "Crippling-Fire",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Incandescence",
+        "Vlad Tepes",
+        "Scourge of Ikarus",
+        "Lone Warrior"
+    ],
+    "flavour": "The Ifrit class cruiser is the most common wielder of the formidable furnace cannons, sustained beam weapons designed to slice through armour, hulls and core systems. A pair of these are mounted on the Ifrit's prow and integrated into the hull, limiting its effectiveness to the front quarter but giving the ship consummate killing power. In addition to directing multiple beams at various weak points, the weapons can also be focused at a single area, greatly increasing its armour penetrating capabilities at the expense of more widespread damage.\nThat second fire mode also has the added benefit of heating the victim's hull to such an extent that its signature increases, aiding the rest of the fleet in targeting the by now damaged ship. This makes the Ifrit highly useful in specialised situations, where it can mark targets for other ships. This is particularly effective against larger vessels such as battleships, giving the Scourge a window to wreak devastation on them before they have a chance to return fire."
+}

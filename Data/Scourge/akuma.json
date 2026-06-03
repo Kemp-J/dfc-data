@@ -1,0 +1,59 @@
+{
+    "class": "Akuma",
+    "type": "Battlecruiser",
+    "points": 170,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 14,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Cloak-1",
+            "Stealth",
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Phalanx",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Earthbane",
+        "Karin's Demise (Basilisk class)",
+        "Maleficent",
+        "Blackheart",
+        "Beckoning Void (Akuma class)"
+    ],
+    "flavour": "The Basilisk is likely one of the oldest types of Scourge cruiser-based ships in service with the enemy. During the original Scourge invasion, they were feared above all other threats due to their combination of speed, heavy firepower and ability to mask their own energy spikes. The last attribute is the most crucial, enabled by its massive cloaking crest - the most effective of its kind in the Scourge navy. These qualities made the class the preeminent cause of civilian shipping loss, mostly unfortunate souls fleeing the carnage or poorly defended supply vessels, annihilated far too quickly for any response. This mission profile was highly effective and possibly an inspiration for the UCMF's battlecruiser program.\nRecently, examples of the Basilisk are increasingly rare, replaced by a new and equally deadly type known as the Akuma. This class has been recently favoured by Scourge shipwrights over the older design. Most likely, it is simply more efficient to produce and operate, incorporating advancements the aliens have made in recent centuries."
+}

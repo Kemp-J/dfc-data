@@ -1,0 +1,50 @@
+{
+    "class": "Parasite",
+    "type": "Radiation Leech",
+    "points": 48,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 16,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 6,
+        "ES": "5+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Vectored",
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Siphoned Oculus Rays",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Energy Siphon",
+            "Text": "Before or after this Group completes any step in its activation, you may have it siphon energy. If you do, pick one other Group within 3\" without the Energy Siphon special rule. That Group loses all Spikes and this Group gains those Spikes.\nAfter siphoning at least one Spike from another Group, increase the Attack of this Group's Siphoned Oculus Rays by 1 until the end of the round. If this Group has 3 or more Spikes after siphoning, increase the Attack of this Group's Siphoned Oculus Rays by 2 until the end of the round instead.\nWhen this Group is on the General Quarters or Silent Running Orders, it gains Regenerate-X, where X is the amount of Spikes it removes at the start of its activation."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Vampiric",
+        "Darkshield",
+        "Swift Death",
+        "Little Nightmare"
+    ],
+    "flavour": "Remaining stealthy on approach to the kill is one of the central tenets of Scourge naval combat, given the lethality of their close range weapons; the Parasite is an unusual vessel which assists in this. Through the use of its siphon, Parasites can drain excess hull energy from other ships and take it into themselves. The Parasite can then redirect this energy to overcharge its Oculus weapons to cruiser-level destructive potential. Most effective in packs, Parasites can also locally share this acquired energy, meaning only one ship at a time need expose itself with a dangerously high resultant signature.\nAs a cutter-type vessel the Parasite is also extremely fast, allowing it to keep pace with any friendlies and to close with the enemy to disgorge its scalding plasma.\nIn an overtly offensive role, excess energy can even be siphoned from enemy vessels, normally in dense, close combat where energy signatures are less tactically relevant."
+}

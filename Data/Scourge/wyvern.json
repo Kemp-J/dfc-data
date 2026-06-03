@@ -1,0 +1,67 @@
+{
+    "class": "Wyvern",
+    "type": "Cruiser",
+    "points": 85,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 10,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Tempest",
+            "Arc": "F/S",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Fusillade-2",
+                "Scald-2"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Slaughterer",
+        "Scarlet Path",
+        "Firebreather",
+        "Kronstein's Lament"
+    ],
+    "flavour": "The Wyvern class is the standard assault-oriented cruiser in the Scourge navy. It is equipped with a formidable array of lethal close ranged plasma cannons in addition to the oculus beam weapons present on virtually every Scourge cruiser. The Wyvern is often seen at the heart of the most brutal engagements, taking on vulnerable targets with poor point defence such as frigates, allowing other Scourge assets to concentrate on the capital ships.\nSince it needs to be close to the enemy to inflict maximum damage, Wyverns frequently spend the opening stages of a battle in silent running mode, closing the distance with the target/s while not giving the enemy a chance to accurately lock on. Once in the fray, Wyverns are famously vicious and merciless, even at the expense of their own safety. While many Scourge vessels attain an apparently great age, Wyverns seldom survive beyond their first century."
+}

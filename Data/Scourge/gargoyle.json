@@ -1,0 +1,50 @@
+{
+    "class": "Gargoyle",
+    "type": "Strike Carrier",
+    "points": 40,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Rays",
+            "Arc": "F",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Dropships",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Belcher",
+        "Miasma",
+        "Demeter",
+        "Rainbringer"
+    ],
+    "flavour": "The Gargoyle class strike carrier is a first strike assault vessel which is capable of deploying clouds of lethal and outlandish Scourge dropships direct into atmosphere. It is typically employed in the first wave of a Scourge invasion or at the speartip of any counterstrike operations, where its nimble dropships with their deadly armoured payload can be expected to make it past most orbital defences to the heart of the dropzone.\nUnlike the UCM's New Orleans class, the Gargoyle does not usually stay on station to support its forces after the initial engagement. Instead, it withdraws to orbit where it can be resupplied with fresh dropships and ground troops, much like a regular ship would re-arm when out of ammunition. The distinctive silhouette of the Gargoyle is always a dreaded sight for beleaguered ground forces who know that very soon, hundreds of swift and lethal grav-tanks will be overwhelming their positions."
+}

@@ -1,0 +1,97 @@
+{
+    "admiral": "Overlord of Flies",
+    "admiral_level": 4,
+    "class": "Nosferatu",
+    "type": "Dreadnought",
+    "admiral_points": 85,
+    "ship_points": 490,
+    "points": 575,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 10,
+        "Sig": 14,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "2+",
+        "BS": "4+",
+        "G": "1",
+        "Special": [
+            "Cloak-1",
+            "Stealth"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Oculus Beam Super Phalanx",
+            "Arc": "F",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-2"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Oculus Beam Array",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Plasma Flood",
+            "Arc": "F/S",
+            "Att": 9,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 8,
+            "Special": []
+        }
+    ],
+    "equipment": [],
+    "rules": [
+        {
+            "Name": "Winged Bulwark",
+            "Text": "Friendly Wings that activate within 14\" of this Flagship may not move further than 14\" away from this Flagship.\nThis Ship may launch Assets regardless of its order, keeping its Signature of 0\" on Silent Running and additional turn on Course Change."
+        }
+    ],
+    "fleet_admiral_abilities": 2,
+    "admiral_abilities": [
+        {
+            "Cost": "1AP",
+            "Name": "Limitless Pestilence",
+            "Effect": "When a friendly Fighter or Bomber Wing is completely removed due to an opponent's Fighters, you may immediately launch a single Fighter or Bomber from this Admiral's ship."
+        }
+    ],
+    "flavour": "The ship known as the Lord of Flies was one of the Scourge Dreadnoughts assigned to the Earth home fleet. It was last seen escorting a small battlegroup of unknown ship types to Earth's outer marker before jumping to an unknown destination.\nDuring the bulk of the fighting however, it was front and centre of one of the Scourge home fleets. Despite managing to take out several important UCM ships as well as inflicting damage on both the Shield of Aurum and Carpe Noctum, most of its battlegroup was destroyed in return fire.\nFalling back after the Shield of Aurum, Carpe Noctum, and their respective battlegroups destroyed the Darkheart, the Lord of Flies took on a more defensive role. Clearly the Scourge were wounded by the loss of the Darkheart and adjusted their battle tactics accordingly. Approximately 8 hours after the destruction of the Darkheart, the Lord of Flies made a course change that took it over Geneva, where it rendezvoused with a small fleet of ships not yet known to the UCM.\nAdmiral Havelock ordered all of her remaining Lima frigates to pursue and maintain an active scan on the unknown vessels. The Lord of Flies managed to hinder efforts by having its fighters and bombers swarm and obscure the mystery ships, which were summarily left behind when it, along with the unknown ships made their foldspace jumps elsewhere."
+}
