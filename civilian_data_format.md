@@ -4,7 +4,7 @@
 
 The civilian ship data is exported to a folder named "Civilian".
 
-## Fleet data index
+## Civilian data index
 
 Within the Civilian folder is a file `_civilian.json` which provides an entry point into the civilian ship data. This is a json format file containing the following:
 

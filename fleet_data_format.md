@@ -30,7 +30,7 @@ Example:
 {
     "source_version": "260327",
     "abilities": [
-        {"Cost": 2, "Name": "Colonial Legions", "Effect": "After the Battalion Combat step of the Asset Phase, target a Dropsite or Feature. If any enemy Battalions completely removed any friendly Battalions from that Dropsite or Feature, place 1 Battalion on that Dropsite or Feature."}
+        {"Cost": "2AP", "Name": "Colonial Legions", "Effect": "After the Battalion Combat step of the Asset Phase, target a Dropsite or Feature. If any enemy Battalions completely removed any friendly Battalions from that Dropsite or Feature, place 1 Battalion on that Dropsite or Feature."}
     ],
     "fleet_admirals": [
         {"Name": "UCM Captain", "Level": 1, "Cost": 25, "FleetAbilities": 1, "Abilities": [{"Cost": "2AP", "Name": "Dedicated Survey Teams", "Effect": "When you activate a Group of a single Ship, that Ship may Survey a Dropsite and attack with a single weapon this round (but still cannot launch Assets)."}]}
@@ -101,12 +101,12 @@ The file contains the following:
 - "type": String.
 - "points": Integer.
 - "tonnage": One of "L", "M", "H", "C".
-- "base_size: Integer giving the size in mm.
+- "base_size": Integer giving the size in mm.
 - "profile": A dictionary containing "Thrust" (integer, unit: inches), "Scan" (integer, unit: inches), "Sig" (integer, unit: inches), "Hull" (integer), "ES" (string), "KS" (string), "BS" (string), "G" (string, "X" or "X-Y", where X and Y are integers), and "Special" (list of strings). Example: `{"Thrust": 12, "Scan": 6, "Sig": 0, "Hull": 2, "ES": "6+", "KS": "6+", "BS": "-", "G": "2-4", "Special": ["Descent", "Cloak-1", "Rare", "Vanguard-6\""]}`.
 - "weapons": A list of dictionaries, each containing "Name" (string), "Arc" (string: one or more of "F", "S", "R", "SL", "SR", "FN", "RN", and "B", separated by slashes), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `[{"Name": "Barracuda Missile Bays", "Arc": "F/S/R", "Att": 2, "Lock": "4+", "DMG": 1, "Type": "K", "Special": ["Close Action"]}]`. Weapon entries may optionally have "Cost" and/or "Replaces" attributes. Cost specified a cost to take that weapon and Replaces specifies the names of weapons that it replaces if taken.
 - "load": A list of dictionaries, each containing "Load" (string), "Launch" (integer), and "Special" (list of strings). Example: `[{"Load": "Dropships", "Launch": 1, "Special": []}]`. Load entries may optionally have "Cost" and/or "Replaces" attributes. Cost specified a cost to take that load and Replaces specifies the names of load that it replaces if taken.
 - "equipment": A list of equipment entries. Each entry is one of:
-  - A plain equipment item: a dictionary containing "Name" (string), "Cost" (integer), and "Effects" (list of stat modifiers, see 'Stat modifiers'). The ship may independently choose whether to take this item.
+  - A plain equipment item: a dictionary containing "Name" (string), "Cost" (integer), and "Effects" (list of profile modifiers, see 'Profile modifiers'). The ship may independently choose whether to take this item.
   - A choice group: a dictionary containing "min" (integer), "max" (integer), and "options" (list of plain equipment item dictionaries). The ship must pick at least "min" and at most "max" options from the group. Example: `{"min": 0, "max": 1, "options": [{"Name": "Cloaking Keel", "Cost": 15, "Effects": [...]}, {"Name": "Engine Upgrade", "Cost": 25, "Effects": [...]}]}` means the ship may take at most one of the listed options.
 - "rules": A list of dictionaries, each containing "Name" and "Text", both strings. Example: `[{"Name": "Stealth Drop", "Text": "When this Group launches its Dropships, 2 Dropships are needed to place 1 Battalion. If this Group contains a single ship, each Dropship only places a Battalion on a roll of a 4+."}]`.
 - "admiral_abilities": A list of dictionaries, each containing "Cost" (string — see 'Ability cost format'), "Name" (string), and "Effect" (string). Example: `[{"Cost": "2AP", "Name": "Telemetry Link", "Effect": "When you activate another friendly Group in Orbit, that Group increases its total movement (after orders) by 4\" this round."}]`.
@@ -204,7 +204,7 @@ The following is an example data file for the Admiral named "Granite" Halsey:
     ],
     "fleet_admiral_abilities": 2,
     "admiral_abilities": [
-        {"Cost": 4, "Name": "Master Tactician", "Effect": "At the end of this Group’s activation, discard a Pass Token and target another friendly Group of L or M Tonnage. If you do, that Group may turn up to 45 degrees, then move up to a quarter of its Thrust, and then each Ship in it may attack with a single weapon."}
+        {"Cost": "4AP", "Name": "Master Tactician", "Effect": "At the end of this Group’s activation, discard a Pass Token and target another friendly Group of L or M Tonnage. If you do, that Group may turn up to 45 degrees, then move up to a quarter of its Thrust, and then each Ship in it may attack with a single weapon."}
     ],
     "flavour": "Head of the most powerful institution mankind has ever known, Supreme Admiral Jacob 'Granite' Halsey is famous for his steely, brisk, borderline-offensive, flare. His rank grants him a permanent seat on the High Council, but his record there is of extensive truancy, not that anyone dares raise that. A career-sailor, his career began as a teenage rating aboard the ageing grand battleship UCMS Virginia, which he would, thirty-two years later, captain. His remaining on the bridge to the last as the venerable ship was wrecked by Shaltari privateers earned him a promotion to commodore, along with facial scarring and a lifetime's hatred for the 'filthy rotten stinking echidnas'. After another two decade's service as the UCMF's most battlehardened, pre-Reconquest commander, he attained mastery of the entire UCMF.\nPreferring to lead from the front, Halsey was present in the opening hours of the Battle for Earth, where, for the ninth time in his career, he had his CIC destroyed around him. Forced to command from the Shield of Aurum's auxiliary CIC, he remained a pivotal force in that titanic engagement, personally scoring nineteen capital ship kills in the first forty-eight hours.\nHalsey is a fixture on whichever frontline is hottest, and although he's burst some more blood vessels on his pockmarked face, he's at the razor's edge of command."
 }
