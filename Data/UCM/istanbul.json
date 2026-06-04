@@ -19,26 +19,31 @@
     },
     "weapons": [
         {
-            "Name": "UF-B-9000s (Anti-Ship)",
-            "Arc": "FN",
-            "Att": 3,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "K",
-            "Special": [
-                "Alt-1"
-            ]
-        },
-        {
-            "Name": "UF-B-9000s (Bombardment)",
-            "Arc": "F",
-            "Att": 2,
-            "Lock": "4+",
-            "DMG": 2,
-            "Type": "K",
-            "Special": [
-                "Alt-1",
-                "Bombardment"
+            "Name": "UF-B-9000s",
+            "Profiles": [
+                {
+                    "Name": "Anti-Ship",
+                    "Arc": "FN",
+                    "Att": 3,
+                    "Lock": "3+",
+                    "DMG": 2,
+                    "Type": "K",
+                    "Special": [
+                        "Alt-1"
+                    ]
+                },
+                {
+                    "Name": "Bombardment",
+                    "Arc": "F",
+                    "Att": 2,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "K",
+                    "Special": [
+                        "Alt-1",
+                        "Bombardment"
+                    ]
+                }
             ]
         }
     ],

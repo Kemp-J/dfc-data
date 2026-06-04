@@ -23,29 +23,34 @@
     },
     "weapons": [
         {
-            "Name": "Heavy Quad Battery (Anti-Capital)",
-            "Arc": "F",
-            "Att": 4,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "K",
-            "Special": [
-                "Alt-1",
-                "Calibre-H/C",
-                "Critical-1",
-                "Penetrator"
-            ]
-        },
-        {
-            "Name": "Heavy Quad Battery (Flak)",
-            "Arc": "F",
-            "Att": 12,
-            "Lock": "2+",
-            "DMG": 1,
-            "Type": "K",
-            "Special": [
-                "Alt-1",
-                "Fusillade-4"
+            "Name": "Heavy Quad Battery",
+            "Profiles": [
+                {
+                    "Name": "Anti-Capital",
+                    "Arc": "F",
+                    "Att": 4,
+                    "Lock": "3+",
+                    "DMG": 2,
+                    "Type": "K",
+                    "Special": [
+                        "Alt-1",
+                        "Calibre-H/C",
+                        "Critical-1",
+                        "Penetrator"
+                    ]
+                },
+                {
+                    "Name": "Flak",
+                    "Arc": "F",
+                    "Att": 12,
+                    "Lock": "2+",
+                    "DMG": 1,
+                    "Type": "K",
+                    "Special": [
+                        "Alt-1",
+                        "Fusillade-4"
+                    ]
+                }
             ]
         }
     ],
