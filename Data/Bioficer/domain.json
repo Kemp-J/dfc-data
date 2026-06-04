@@ -1,0 +1,35 @@
+{
+    "class": "Domain",
+    "type": "Destroyer",
+    "points": 65,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 2,
+        "Hull": 5,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Decon Cannon",
+            "Arc": "FN",
+            "Att": 7,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": []
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

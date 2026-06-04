@@ -1,0 +1,42 @@
+{
+    "class": "Scion",
+    "type": "Battlecruiser",
+    "points": 150,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 10,
+        "Sig": 4,
+        "Hull": 12,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Hyper Lightvice",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "2+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Bloom-1",
+                "Close Action",
+                "Focused",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

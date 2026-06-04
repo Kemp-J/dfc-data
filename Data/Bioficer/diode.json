@@ -1,0 +1,40 @@
+{
+    "class": "Diode",
+    "type": "Destroyer",
+    "points": 75,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 2,
+        "Hull": 5,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Bisector",
+            "Arc": "FN",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Bloom-1",
+                "Calibre-H/C",
+                "Focused",
+                "Penetrator"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

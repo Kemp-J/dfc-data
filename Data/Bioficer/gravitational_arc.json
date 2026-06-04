@@ -1,0 +1,12 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Gravitational Arc",
+        "ES": "4+",
+        "KS": "4+",
+        "Special": []
+    },
+    "weapons": [],
+    "load": [],
+    "rules": "When an enemy Group ends its move within 6\" of this Feature's dropsite and in atmosphere, that Group's player rolls a dice. On a 1-3, the Group is moved into Orbit and cannot move into Atmosphere again this round. It suffers the effects of moving through any scenery it is placed in. This takes place before that Group attacks or launches assets. If all Ships in the Group have Orbital Decay tokens, they are not affected.\nThis feature requires 5 or more Battalions to be removed during Battalion Combat and 5 damage to remove due to attacks."
+}

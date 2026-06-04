@@ -1,0 +1,54 @@
+{
+    "class": "Cacophony",
+    "type": "Heavy Cruiser",
+    "points": 132,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 8,
+        "Sig": 4,
+        "Hull": 9,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Porter S-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Scythes",
+            "Arc": "FN",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-3",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Scythes",
+            "Arc": "FN",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-3",
+                "Reave-1"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

@@ -1,0 +1,40 @@
+{
+    "class": "Choral",
+    "type": "Cruiser",
+    "points": 80,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 11,
+        "Sig": 3,
+        "Hull": 7,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Detector",
+            "Porter S-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Barb Launcher",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "2+",
+            "DMG": 4,
+            "Type": "K",
+            "Special": [
+                "Reave-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

@@ -1,0 +1,39 @@
+{
+    "class": "Charger",
+    "type": "Light Cruiser",
+    "points": 75,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 11,
+        "Sig": 2,
+        "Hull": 5,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Porter S-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Barb Launcher",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "2+",
+            "DMG": 4,
+            "Type": "K",
+            "Special": [
+                "Reave-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

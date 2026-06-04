@@ -1,0 +1,49 @@
+{
+    "class": "Invasion Cell",
+    "type": "Cell",
+    "points": 15,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 2,
+        "Scan": 8,
+        "Sig": 1,
+        "Hull": 2,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "-",
+        "Special": [
+            "Payload S-1",
+            "Vectored"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Bombardment",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "5+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Alt-1",
+                "Bombardment"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Drop Pods",
+            "Launch": 1,
+            "Special": [
+                "Alt-1"
+            ]
+        }
+    ],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

@@ -101,6 +101,7 @@
             "Rerolls": 2
         }
     ],
+    "systems": [],
     "deployable_features": [
         "heavy_calibre_orbital_gun.json",
         "shield_platform.json",

@@ -1,0 +1,53 @@
+{
+    "class": "Sluice",
+    "type": "Supercruiser",
+    "points": 152,
+    "tonnage": "M",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 10,
+        "Sig": 4,
+        "Hull": 11,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Hyper Lightvice",
+            "Arc": "F/S",
+            "Att": 5,
+            "Lock": "2+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Bloom-1",
+                "Close Action",
+                "Focused",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-4"
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Feature Carrier",
+            "Text": "At the start of the game, before players deploy, choose from the Gravitational Lens or Ghost Orb Tower Deployable Feature. This Ship starts the game carrying the chosen Deployable Feature."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

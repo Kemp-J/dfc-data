@@ -1,0 +1,66 @@
+{
+    "class": "Bastion",
+    "type": "Battleship",
+    "points": 225,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 17,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Porter L-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Gravitic Hyperlance",
+            "Arc": "FN",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Arrest-2",
+                "Bloom-2"
+            ]
+        },
+        {
+            "Name": "Thermator",
+            "Arc": "F",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-4"
+            ],
+            "Cost": 20
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Torpedo Upgrade",
+            "Text": "This Ship may take a Torpedo Upgrade for +20 points, gaining the following Launch Asset:"
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": "The Bastion class battleship is built around the massive Gravitic Hyperlance. This weapon projects a thin tunnel of massively undulating gravity, pulling and shaking a cylinder of hull to pieces while arresting the target for further abuse, should it survive at all. A Thermitor battery augments this ship's already awesome destructive power."
+}

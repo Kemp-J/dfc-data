@@ -1,0 +1,86 @@
+{
+    "class": "Bishop",
+    "type": "Super Battleship",
+    "points": 265,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 19,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Marines-1",
+            "Porter L-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Giga Winnower",
+            "Arc": "F/S",
+            "Att": 15,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Calibre-L",
+                "Close Action",
+                "Fusillade-5"
+            ]
+        },
+        {
+            "Name": "Scythes",
+            "Arc": "FN",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-3",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Thermator",
+            "Arc": "F",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Boarding Pods",
+            "Launch": 1,
+            "Special": []
+        },
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-4"
+            ],
+            "Cost": 20
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Torpedo Upgrade",
+            "Text": "This Ship may take a Torpedo Upgrade for +20 points, gaining the following Launch Asset:"
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": "Much like the Blackbird is an up-gunned version of the Binary, the Bishop super battleship shares the primary armaments of the Brutal class. It sacrifices some thrust to add a Thermitor and boarding pods while retaining the option to add Genitor Torpedoes and a Supercell. Fully equipped and upgraded, this is a terrifying opponent at close quarters."
+}

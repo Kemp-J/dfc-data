@@ -1,0 +1,49 @@
+{
+    "class": "Comet",
+    "type": "Cruiser",
+    "points": 82,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 3,
+        "Hull": 7,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Porter S-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Thermator",
+            "Arc": "F",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Decon Blaster",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": []
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

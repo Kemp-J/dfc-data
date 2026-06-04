@@ -1,0 +1,27 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Ghost Orb Tower",
+        "ES": "4+",
+        "KS": "4+",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Ghost Orb",
+            "Scan": 8,
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Escape Velocity",
+                "Status"
+            ],
+            "Rule": "Effects caused by this weapon's Status rule are removed at the start of next round's End Phase instead of this round's End Phase."
+        }
+    ],
+    "load": [],
+    "rules": "When you activate this Feature, remove 1 enemy Battalion from each Feature on this Dropsite, then remove 1 enemy Battalion from anywhere on this Dropsite.\nThis feature requires 5 or more Battalions to be removed due to Battalion Combat and 5 damage to remove due to Group/Asset attacks."
+}

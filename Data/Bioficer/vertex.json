@@ -1,0 +1,39 @@
+{
+    "class": "Vertex",
+    "type": "Corvette",
+    "points": 30,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 8,
+        "Sig": 2,
+        "Hull": 4,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Decon Slayer",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Air to Air"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

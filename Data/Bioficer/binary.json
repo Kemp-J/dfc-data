@@ -1,0 +1,83 @@
+{
+    "class": "Binary",
+    "type": "Battleship",
+    "points": 225,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 17,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Porter L-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Grand Bisector",
+            "Arc": "FN",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Bloom-2",
+                "Calibre-H/C",
+                "Crippling",
+                "Focused",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Scythe Nodule",
+            "Arc": "F",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-1",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Scythe Nodule",
+            "Arc": "F",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-1",
+                "Reave-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-4"
+            ],
+            "Cost": 20
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Torpedo Upgrade",
+            "Text": "This Ship may take a Torpedo Upgrade for +20 points, gaining the following Launch Asset:"
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": "One of the first nightmarish Bioficer battleships encountered, the Binary is built around a colossal, spinal-mounted Grand Bisector. This weapon is already infamous for neatly slicing cruisers in half with a single, silent discharge. Like most Bioficer battleships, it can be upgraded with Genitor Torpedoes and can carry a single Supercell into battle."
+}

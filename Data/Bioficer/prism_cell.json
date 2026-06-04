@@ -1,0 +1,44 @@
+{
+    "class": "Prism Cell",
+    "type": "Cell",
+    "points": 10,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 2,
+        "Scan": 8,
+        "Sig": 1,
+        "Hull": 2,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "-",
+        "Special": [
+            "Aegis-1",
+            "Payload S-1",
+            "Vectored"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Prism",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": []
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Limited Aegis Bandwidth",
+            "Text": "Friendly Ships with this rule may combine their Aegis values as if they were the same Group. When these Ships combine their Aegis value, only those within 6\" of the Group using the benefits of Aegis are counted. A Ship with this rule cannot gain the benefit of Aegis from another Ship with this rule."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

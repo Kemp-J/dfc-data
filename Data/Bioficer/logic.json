@@ -1,0 +1,48 @@
+{
+    "class": "Logic",
+    "type": "Lighter",
+    "points": 20,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 16,
+        "Scan": 8,
+        "Sig": 1,
+        "Hull": 2,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-4",
+        "Special": [
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Light Bombardment",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Alt-1",
+                "Bombardment"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Drop Pods",
+            "Launch": 1,
+            "Special": [
+                "Alt-1"
+            ]
+        }
+    ],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

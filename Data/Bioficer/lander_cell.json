@@ -1,0 +1,34 @@
+{
+    "class": "Lander Cell",
+    "type": "Cell",
+    "points": 15,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 2,
+        "Scan": 8,
+        "Sig": 1,
+        "Hull": 2,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "-",
+        "Special": [
+            "Payload S-1",
+            "Vectored"
+        ]
+    },
+    "weapons": [],
+    "load": [
+        {
+            "Load": "Bulk Landers",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

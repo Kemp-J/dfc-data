@@ -135,6 +135,7 @@
             "Rerolls": 1
         }
     ],
+    "systems": [],
     "deployable_features": [
         "aegis_platform.json",
         "comms_platform.json",

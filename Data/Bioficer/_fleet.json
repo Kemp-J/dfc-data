@@ -1,0 +1,178 @@
+{
+    "source_version": "260529",
+    "abilities": [
+        {
+            "Cost": "1AP",
+            "Name": "Good Fight, We Should Do It More Often",
+            "Effect": "If a friendly Group's attack would cause an enemy Group to be completely removed from the table, the friendly Group may immediately turn up to 45 degrees."
+        },
+        {
+            "Cost": "3AP",
+            "Name": "Maddening Communiqué",
+            "Effect": "At the start of the Activation Phase, pick an opponent. That opponent's Abilities cost 1 additional AP to use until the end of the round."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Forcing an Unfair Fight",
+            "Effect": "At the start of the Activation Phase, pick a Dropsite you contest. Add a friendly Battalion to each Feature on that Dropsite. At the beginning of the Cleanup step of the End Phase, remove a friendly Battalion from each Feature on that Dropsite."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Precision Strike",
+            "Effect": "When you assign a Group's weapons to targets, pick one of the attacking Group's Weapon Systems. Improve the Lock of that Weapon System by 1 for this attack sequence."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Prismatic Surprise",
+            "Effect": "At the end of the Planning Phase, you may swap the attached Payloads of two Porter Ships with the same Porter value."
+        },
+        {
+            "Cost": "3AP",
+            "Name": "Unsportsmanlike Behaviour",
+            "Effect": "During this round's Cleanup step of the End Phase, all players retain any unspent AP from this round into the next round. In the next round, only players that have used this Ability this round can generate AP from Admirals in the Planning Phase."
+        }
+    ],
+    "fleet_admirals": [
+        {
+            "Name": "Bioficer Ardent",
+            "Level": 1,
+            "Cost": 25,
+            "FleetAbilities": 1,
+            "Abilities": [
+                {
+                    "Cost": "2AP",
+                    "Name": "Backpedal",
+                    "Effect": "At the start of a friendly Group's activation, pick any friendly Group. You may move each Ship in that Group up to 3\" directly backwards."
+                }
+            ]
+        },
+        {
+            "Name": "Bioficer Accumulator",
+            "Level": 3,
+            "Cost": 65,
+            "FleetAbilities": 1,
+            "Abilities": [
+                {
+                    "Cost": "2AP",
+                    "Name": "Gravitic Manoeuvring",
+                    "Effect": "When a friendly Group is given a Max Thrust Order, it may turn as if it was on General Quarters."
+                },
+                {
+                    "Cost": "1AP",
+                    "Name": "Kinetic Deconstruction",
+                    "Effect": "When a friendly Group makes an attack with any number of weapons with \"Decon\" in its name, those weapons change their Type to Kinetic until the end of its activation."
+                }
+            ]
+        }
+    ],
+    "launch_assets": [
+        {
+            "Load": "Torpedo",
+            "Thrust": 12,
+            "Att": 3,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Corruptor-2",
+                "This asset is automatically removed during the Cleanup step of the End Phase."
+            ]
+        },
+        {
+            "Load": "Bombers",
+            "Thrust": 13,
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Load": "Mines",
+            "Thrust": 5,
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Load": "Fighters",
+            "Thrust": 16,
+            "Rerolls": 1
+        }
+    ],
+    "systems": [
+        "dreadnought_systems.json"
+    ],
+    "deployable_features": [
+        "genitor_tower.json",
+        "gravitational_arc.json",
+        "ghost_orb_tower.json"
+    ],
+    "famous_admirals": [
+        "atlas.json",
+        "atom.json",
+        "agency.json",
+        "ascendant.json"
+    ],
+    "heroes": [
+        "anode.json"
+    ],
+    "ships": [
+        "invasion_cell.json",
+        "lander_cell.json",
+        "torpedo_cell.json",
+        "prism_cell.json",
+        "supercell.json",
+        "summoner_cell.json",
+        "vertex.json",
+        "logic.json",
+        "fugue.json",
+        "forestall.json",
+        "foray.json",
+        "fulcrum.json",
+        "fresco.json",
+        "mantle.json",
+        "monarch.json",
+        "matrix.json",
+        "torrent.json",
+        "tine.json",
+        "tally.json",
+        "domain.json",
+        "diode.json",
+        "disciple.json",
+        "cache.json",
+        "cipher.json",
+        "charger.json",
+        "callous.json",
+        "construct.json",
+        "conqueror.json",
+        "choral.json",
+        "comet.json",
+        "cosmic.json",
+        "cavern.json",
+        "combine.json",
+        "cataphract.json",
+        "cacophony.json",
+        "catastrophe.json",
+        "carronade.json",
+        "sluice.json",
+        "scion.json",
+        "sanctum.json",
+        "stature.json",
+        "source.json",
+        "syntax.json",
+        "synthesis.json",
+        "sierra.json",
+        "shade.json",
+        "binary.json",
+        "brutal.json",
+        "bastion.json",
+        "blackbird.json",
+        "bishop.json",
+        "binder.json",
+        "zodiac.json",
+        "zenith.json"
+    ]
+}

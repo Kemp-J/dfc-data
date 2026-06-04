@@ -1,0 +1,52 @@
+{
+    "class": "Catastrophe",
+    "type": "Heavy Cruiser",
+    "points": 110,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 8,
+        "Sig": 4,
+        "Hull": 9,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Porter S-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Lightvice",
+            "Arc": "F",
+            "Att": 5,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "Thermator",
+            "Arc": "F",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

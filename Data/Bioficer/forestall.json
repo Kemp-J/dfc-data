@@ -1,0 +1,39 @@
+{
+    "class": "Forestall",
+    "type": "Frigate",
+    "points": 38,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 8,
+        "Sig": 1,
+        "Hull": 3,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "2-6",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Scythe Nodule",
+            "Arc": "F",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-2",
+                "Reave-1"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

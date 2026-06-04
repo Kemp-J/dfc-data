@@ -122,6 +122,7 @@
             "Rerolls": 1
         }
     ],
+    "systems": [],
     "deployable_features": [
         "stellargate.json",
         "electrosurge_torus.json",

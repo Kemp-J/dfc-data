@@ -1,0 +1,85 @@
+{
+    "class": "Binder",
+    "type": "Super Battleship",
+    "points": 270,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 19,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Marines-1",
+            "Porter L-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Gravitic Hyperlance",
+            "Arc": "FN",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Arrest-2",
+                "Bloom-2"
+            ]
+        },
+        {
+            "Name": "Scythes",
+            "Arc": "FN",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-3",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Thermator",
+            "Arc": "F",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Scald-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Boarding Pods",
+            "Launch": 1,
+            "Special": []
+        },
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-4"
+            ],
+            "Cost": 20
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Torpedo Upgrade",
+            "Text": "This Ship may take a Torpedo Upgrade for +20 points, gaining the following Launch Asset:"
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": "Consistent with the enemy's other super battleships, the Binder is effectively an up-gunned, slower derivative of the Bastion class. Its devastating, mixed armament is a primary threat to any vessel. Like other Bioficer super battleships, it features a greater offensive crew compliment to fill its boarding pods, making boarding actions against this leviathan a foolhardy endeavour."
+}

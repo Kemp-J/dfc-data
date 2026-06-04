@@ -1,0 +1,39 @@
+{
+    "class": "Torrent",
+    "type": "Cutter",
+    "points": 60,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 8,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1-3",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Scythe Cluster",
+            "Arc": "F",
+            "Att": 7,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-3",
+                "Reave-1"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

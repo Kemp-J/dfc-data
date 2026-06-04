@@ -1,0 +1,112 @@
+{
+    "name": "Dreadnought Systems",
+    "groups": [
+        "Secondary Hardpoint",
+        "Tertiary Hardpoint",
+        "Launch Hardpoint"
+    ],
+    "systems": {
+        "Secondary Hardpoint": [
+            {
+                "Pts": 15,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "Grand Bisector",
+                    "Arc": "FN",
+                    "Att": 5,
+                    "Lock": "3+",
+                    "DMG": 3,
+                    "Type": "E",
+                    "Special": [
+                        "Bloom-2",
+                        "Calibre-H/C",
+                        "Crippling",
+                        "Focused",
+                        "Penetrator"
+                    ]
+                }
+            },
+            {
+                "Pts": 10,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "Giga Winnower",
+                    "Arc": "F/S",
+                    "Att": 15,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "E",
+                    "Special": [
+                        "Calibre-L",
+                        "Close Action",
+                        "Fusillade-5"
+                    ]
+                }
+            },
+            {
+                "Pts": 20,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "Gravitic Hyperlance",
+                    "Arc": "FN",
+                    "Att": 6,
+                    "Lock": "3+",
+                    "DMG": 2,
+                    "Type": "C",
+                    "Special": [
+                        "Arrest-2",
+                        "Bloom-2"
+                    ]
+                }
+            }
+        ],
+        "Tertiary Hardpoint": [
+            {
+                "Pts": 15,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "Thermator",
+                    "Arc": "F",
+                    "Att": 3,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Overcharge",
+                        "Scald-1"
+                    ]
+                }
+            },
+            {
+                "Pts": 30,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "Scythes",
+                    "Arc": "FN",
+                    "Att": 8,
+                    "Lock": "4+",
+                    "DMG": 1,
+                    "Type": "E",
+                    "Special": [
+                        "Anti Wing",
+                        "Fusillade-3",
+                        "Reave-1"
+                    ]
+                }
+            }
+        ],
+        "Launch Hardpoint": [
+            {
+                "Pts": 20,
+                "Type": "Load",
+                "Profile": {
+                    "Load": "Torpedo",
+                    "Launch": 2,
+                    "Special": [
+                        "Limited-4"
+                    ]
+                }
+            }
+        ]
+    }
+}

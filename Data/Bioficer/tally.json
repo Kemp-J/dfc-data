@@ -1,0 +1,44 @@
+{
+    "class": "Tally",
+    "type": "Cutter",
+    "points": 85,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 8,
+        "Sig": 3,
+        "Hull": 5,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1-2",
+        "Special": [
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Graviton Lens",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "C",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Gravitational Lensing",
+            "Text": "Once per round, when determining targets for a friendly ship within 8\" of this ship, you may treat one of its weapons as having an Arc of F/S instead of its normal Arcs for that attack."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

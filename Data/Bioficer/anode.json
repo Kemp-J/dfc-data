@@ -1,0 +1,64 @@
+{
+    "hero": "Anode",
+    "ship": "The Melter",
+    "type": "Heavy Destroyer",
+    "points": 93,
+    "tonnage": "L",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 2,
+        "Hull": 7,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Hero",
+            "Unique"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Thermator Cage",
+            "Profiles": [
+                {
+                    "Name": "Long Range",
+                    "Arc": "FN",
+                    "Att": 4,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Overcharge",
+                        "Scald-2"
+                    ]
+                },
+                {
+                    "Name": "Short Range",
+                    "Arc": "FN",
+                    "Att": 4,
+                    "Lock": "3+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Close Action",
+                        "Overcharge",
+                        "Scald-3"
+                    ]
+                }
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "The Melter"
+    ],
+    "flavour": "Nicknamed by lucky survivors, The Melter became a feared lone wolf among Bioficer raiding parties. Its favoured victims were larger foes who didn't feel as threatened by a vessel of its modest size as they should. No other ship was known in this configuration, so the Admiralty assigned its guiding Intelligence the designation Anode. This individual was entirely unsubtle and clearly had access to superior technology over its peers.\nIt featured an enhanced superstructure and power matrix, upping it to heavy destroyer tonnage. All this supported a single, prow weapons system: the Themator Cage. Quite different in form to regular thermators, this was as devastating as most battleship primary armaments, albeit only at close range. This led to the vessel's destruction at the hands of the UCMS Gaugamela over Olympus in early 2679. However, reports of an identical vessel and characteristic behaviours followed weeks later, forcing the Admiralty to conclude that this Intelligence had successfully transferred out and potentially has several of these unusual vessels at its disposal."
+}

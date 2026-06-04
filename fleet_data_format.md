@@ -19,6 +19,7 @@ Within each fleet folder is a file `_fleet.json` which provides an entry point t
 - "abilities": The abilities available to Fleet and Famous Admirals. This is a list of dictionaries with keys of "Cost" (string - see 'Ability cost format'), "Name" (string), and "Effect" (string).
 - "fleet_admirals": The Fleet Admirals available to the fleet. This is a list of dictionaries with keys of "Name" (string), "Level" (integer), "Cost" (integer), "FleetAbilities" (integer), and "Abilities" (list of dictionaries with content as per the "abilities" key above).
 - "launch_assets": A list of Launch Asset stat line dictionaries. Each dictionary has one of two sets of keys. Fighter type launch assets have keys of "Load" (string), "Thrust" (integer), and "Rerolls" (integer). All other launch assets have keys of "Load" (string), "Thrust" (integer), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings).
+- "systems": A list of filenames for the data files containing ship systems lists. See 'Systems list' for more details.
 - "deployable_features": A list of filenames for the data files containing Deployable Feature data.
 - "famous_admirals": A list of filenames for the data files containing Famous Admiral data.
 - "heroes": A list of filenames for the data files containing Hero ship data.
@@ -39,6 +40,7 @@ Example:
         {"Load": "Light Torpedo", "Thrust": 6, "Att": 4, "Lock": "2+", "DMG": 1, "Type": "K", "Special": ["Penetrator"]},
         {"Load": "Fighters", "Thrust": 13, "Rerolls": 1}
     ],
+    "systems": [],
     "deployable_features": [
         "aegis_platform.json"
     ],
@@ -283,3 +285,68 @@ A profile modifier is a dictionary consisting of "Target" (string), "Type" (stri
 ES, KS, and BS are treated numerically without the "+" suffix for the purpose of "add" and "subtract". Thrust, Scan, and Sig are treated numerically without the inches suffix for the purposes of "add" and "subtract". For example, if the ship has an ES stat of "5+" and a profile modifier of `{"Target": "ES", "Type": "subtract", "Value": 1}` then the new ES value is "4+".
 
 The Special field should be treated as if it were a comma-separated list of values for the purpose of "append", with a value of "-" indicating an empty list. This means that if Special were "-" and an "append" is applied then the appended value would become the only value in Special. For example, given a Special of "-" and a modifier that appends "Stealth", the new Special would be "Stealth", not "-, Stealth".
+
+## Systems list
+
+### Systems list files
+
+The fleet index gives the filenames of systems lists available to the fleet. Each file contains one list of systems (for example, Bioficer Dreadnought systems or Resistance Cruiser systems).
+
+The file contains the following:
+
+- "name": The name of this list of systems. This usually indicates what general category of ship it is intended for.
+- "groups": The names of the groups of systems. The different classes of ship will indicate how many of each group they may take.
+- "systems": The systems that are available.
+
+The "systems" value is a dictionary that has a key for each name in "groups" (and only those names). The content for each group is a list of system entries. Each system entry is a dictionary containing:
+
+- "SubGroup": An optional string value giving the name of a sub-grouping. For example, the "Broadside Hardpoint" group in the Resistance Cruiser Systems list has sub-groups of "Weapons" and "Launch".
+- "Pts": The points cost of the system.
+- "Type": The type of system. This will be one of "Weapon", "Load", or "Structure".
+- "Profile": The profile of the system. For weapon and load systems, this follows the usual stat lines associated with those (as used, for example, in the "weapons" and "load" entries for ships). For structure systems, this has "Name" and "Effect" keys (both with string values).
+- "Effects": This is only present for structure systems. This is a list of profile modifiers (see 'Profile modifiers') in the same way as for a ship upgrade.
+- "Max": An optional value. This is an integer giving the maximum number of times this system may be selected. For example, Resistance ships may only take each structure system once.
+
+Example of file content:
+
+```json
+{
+    "name": "Dreadnought Systems",
+    "groups": ["Secondary Hardpoint", "Tertiary Hardpoint", "Launch Hardpoint"],
+    "systems": {
+        "Secondary Hardpoint": [
+            {"Pts": 15, "Type": "Weapon", "Profile": {"Name": "Grand Bisector", "Arc": "FN", "Att": 5, "Lock": "3+", "DMG": 3, "Type": "E", "Special": ["Bloom-2", "Calibre-H/C", "Crippling", "Focused", "Penetrator"]}},
+            {"Pts": 20, "Type": "Weapon", "Profile": {"Name": "Gravitic Hyperlance", "Arc": "FN", "Att": 6, "Lock": "3+", "DMG": 2, "Type": "C", "Special": ["Arrest-2", "Bloom-2"]}}
+        ],
+        "Tertiary Hardpoint": [
+            {"Pts": 15, "Type": "Weapon", "Profile": {"Name": "Thermator", "Arc": "F", "Att": 3, "Lock": "4+", "DMG": 2, "Type": "E", "Special": ["Overcharge", "Scald-1"]}}
+        ],
+        "Launch Hardpoint": [
+            {"Pts": 20, "Type": "Load", "Profile": {"Load": "Torpedo", "Launch": 2, "Special": ["Limited-4"]}}
+        ]
+    }
+}
+```
+
+### Systems list on ships
+
+The "systems" key in ship data files specifies the type of systems that can be fitted to that ship and the minimum/maximum quantities. It is a dictionary that contains the following:
+
+- "Name": The name of the systems list to use. This must match the "name" value in the systems list data, not the filename.
+- "Min": An integer stating the minimum number of systems that must be taken across all groups.
+- "Max": An integer stating the maximum number of systems that can be taken across all groups.
+- "GroupLimits": A dictionary giving the limits for each group. Each entry has the name of a group (defined in the "groups" value in the systems list), with the value being a dictionary with "Min" and "Max" keys. Min and max are both optional with a default Min of 0 and default Max of unlimited (in practice, this will be the same as the max systems). If a group is not present then the default values are assumed. 
+
+Below is an example for the Resistance Heavy Cruiser. This must take 5 systems from the "Cruiser Systems" list, with a maximum of two from the "Broadside Hardpoint" group, two from the "Structures" group, and an unlimited number from the "Turret Hardpoint" group (capping at 5 for the max number of systems that can be taken).
+
+```json
+{
+    "Name": "Cruiser Systems",
+    "Min": 5,
+    "Max": 5,
+    "GroupLimits": {
+        "Broadside Hardpoint": {"Max": 2},
+        "Structures": {"Max": 2}
+    }
+}
+```

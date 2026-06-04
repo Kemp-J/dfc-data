@@ -1,0 +1,79 @@
+{
+    "class": "Zodiac",
+    "type": "Dreadnought",
+    "points": 435,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 14,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Marines-1",
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Decon Devastator Pair",
+            "Arc": "FN",
+            "Att": 9,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Reave-2",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 5,
+            "Special": []
+        },
+        {
+            "Load": "Boarding Pods",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Hardpoints",
+            "Text": "This Ship must take a total of one option from the Dreadnought Systems Secondary Hardpoint category. This Ship must take a total of two options from the Dreadnought Systems Tertiary Hardpoint category. This Ship may take one option from the Dreadnought Systems Launch Hardpoint category."
+        },
+        {
+            "Name": "High Velocity Boarding Pods",
+            "Text": "This Ship's Boarding Pods may be used against targets up to 6\" away."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "systems": {
+        "Name": "Dreadnought Systems",
+        "Min": 3,
+        "Max": 4,
+        "GroupLimits": {
+            "Secondary Hardpoint": {
+                "Min": 1,
+                "Max": 1
+            },
+            "Tertiary Hardpoint": {
+                "Min": 2,
+                "Max": 2
+            },
+            "Launch Hardpoint": {
+                "Max": 1
+            }
+        }
+    },
+    "famous_ships": [],
+    "flavour": "The Zodiac is the most frequently encountered Bioficer dreadnoughts, although all sightings are thankfully rare, so far. These hellish leviathans pack an array of ship-killing weapons, starting with a pair of Decon Annihilators. Moving downwards, a secondary hardpoint will accept any battleship primary armament as a secondary aboard this monster. Towards the stern is typically a quad battery of Scythes. Lastly, a spinal flight deck is open to the void, ready to unleash waves of lethal bombers or nimble fighters. Nothing less than another dreadnought can hope to survive an encounter with this monster."
+}

@@ -1,0 +1,81 @@
+{
+    "class": "Brutal",
+    "type": "Battleship",
+    "points": 215,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 17,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Porter L-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Giga Winnower",
+            "Arc": "F/S",
+            "Att": 15,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Calibre-L",
+                "Close Action",
+                "Fusillade-5"
+            ]
+        },
+        {
+            "Name": "Scythe Nodule",
+            "Arc": "F",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-1",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Scythe Nodule",
+            "Arc": "F",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-1",
+                "Reave-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-4"
+            ],
+            "Cost": 20
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Torpedo Upgrade",
+            "Text": "This Ship may take a Torpedo Upgrade for +20 points, gaining the following Launch Asset:"
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": "The Brutal class battleship is built around the terrifying Giga-Winnower, a weapon of awesome, indiscriminate lethality. When unleashed at full force, it projects coruscating tsunamis of molecular deconstructive power, reducing multiple targets to random chunks. Like all Winnowers, its weakness is its short range, making extreme aggression an enjoyed necessity for the intelligences that direct this massive ship"
+}

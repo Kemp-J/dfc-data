@@ -1,0 +1,39 @@
+{
+    "class": "Summoner Cell",
+    "type": "Cell",
+    "points": 70,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 2,
+        "Scan": 8,
+        "Sig": 3,
+        "Hull": 3,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "4+",
+        "G": "-",
+        "Special": [
+            "Payload L-1",
+            "Vectored"
+        ]
+    },
+    "weapons": [],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 3,
+            "Special": []
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Summoning Cell",
+            "Text": "When you activate a Wing within 4\" of this Ship, instead of moving them normally, you may remove them from the table, then place them anywhere within 18\" of this Ship. Wings placed this way suffer the effects of any scenery they are placed on but ignore intervening scenery. Wings placed this way may form and divide into Wings as if they had moved normally."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

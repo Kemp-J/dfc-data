@@ -1,0 +1,59 @@
+{
+    "class": "Mantle",
+    "type": "Monitor",
+    "points": 65,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 12,
+        "Sig": 3,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1-2",
+        "Special": [
+            "Monitor",
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Gravitic Pulveriser",
+            "Profiles": [
+                {
+                    "Name": "Anti-Ship",
+                    "Arc": "F",
+                    "Att": 6,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "C",
+                    "Special": [
+                        "Alt-1",
+                        "Arrest-2",
+                        "Close Action"
+                    ]
+                },
+                {
+                    "Name": "Bombardment",
+                    "Arc": "F",
+                    "Att": 6,
+                    "Lock": "4+",
+                    "DMG": 1,
+                    "Type": "C",
+                    "Special": [
+                        "Alt-1",
+                        "Bombardment"
+                    ]
+                }
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

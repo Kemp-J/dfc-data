@@ -1,0 +1,38 @@
+{
+    "class": "Fugue",
+    "type": "Frigate",
+    "points": 35,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 14,
+        "Scan": 8,
+        "Sig": 1,
+        "Hull": 3,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "2-6",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Lightvice",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Focused"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

@@ -1,0 +1,111 @@
+{
+    "admiral": "Ascendant",
+    "admiral_level": 4,
+    "class": "Zenith",
+    "type": "Dreadnought",
+    "admiral_points": 85,
+    "ship_points": 520,
+    "points": 605,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 14,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Marines-3",
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Giga Lightvice",
+            "Arc": "F",
+            "Att": 8,
+            "Lock": "2+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Bloom-1",
+                "Close Action",
+                "Focused",
+                "Scald-2"
+            ],
+            "Rule": "When determining potential targets for this weapon, you may use an unmodifiable Scan of 7\" instead of this Ship's Scan value."
+        },
+        {
+            "Name": "Grand Bisector",
+            "Arc": "FN",
+            "Att": 5,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Bloom-2",
+                "Calibre-H/C",
+                "Crippling",
+                "Focused",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Scythes",
+            "Arc": "FN",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-3",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Scythes",
+            "Arc": "FN",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Fusillade-3",
+                "Reave-1"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 5,
+            "Special": []
+        },
+        {
+            "Load": "Boarding Pods",
+            "Launch": 3,
+            "Special": []
+        }
+    ],
+    "rules": [
+        {
+            "Name": "High Velocity Boarding Pods",
+            "Text": "This Ship's Boarding Pods may be used against targets up to 6\" away."
+        }
+    ],
+    "fleet_admiral_abilities": 2,
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Overwatch",
+            "Effect": "When you activate this Ship on General Quarters, you may choose to forgo attacking with this Ship. If you do, this Ship goes on Overwatch until the end of the round or until it declares the use of Overwatch. At the end of any enemy Group's activation, if that Group moved through this Ship's Front arc and was in weapons range while doing so, you may declare the use of Overwatch against that Group. When you use Overwatch, this Ship immediately makes an Attack as if on General Quarters against the enemy Group, even if it is out of arc and weapon range."
+        }
+    ],
+    "upgrades": [],
+    "flavour": ""
+}

@@ -1,0 +1,52 @@
+{
+    "class": "Cataphract",
+    "type": "Heavy Cruiser",
+    "points": 108,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 8,
+        "Sig": 4,
+        "Hull": 9,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Porter S-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Ghost Orb",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Status"
+            ]
+        },
+        {
+            "Name": "Heavy Lightvice",
+            "Arc": "F",
+            "Att": 5,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Focused"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

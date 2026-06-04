@@ -1,0 +1,82 @@
+{
+    "class": "Zenith",
+    "type": "Dreadnought",
+    "points": 445,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 14,
+        "Sig": 10,
+        "Hull": 22,
+        "ES": "3+",
+        "KS": "3+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Marines-1",
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Giga Lightvice",
+            "Arc": "F",
+            "Att": 8,
+            "Lock": "2+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Bloom-1",
+                "Close Action",
+                "Focused",
+                "Scald-2"
+            ],
+            "Rule": "When determining potential targets for this weapon, you may use an unmodifiable Scan of 7\" instead of this Ship's Scan value."
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 5,
+            "Special": []
+        },
+        {
+            "Load": "Boarding Pods",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Hardpoints",
+            "Text": "This Ship must take a total of one option from the Dreadnought Systems Secondary Hardpoint category. This Ship must take a total of two options from the Dreadnought Systems Tertiary Hardpoint category. This Ship may take one option from the Dreadnought Systems Launch Hardpoint category."
+        },
+        {
+            "Name": "High Velocity Boarding Pods",
+            "Text": "This Ship's Boarding Pods may be used against targets up to 6\" away."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "systems": {
+        "Name": "Dreadnought Systems",
+        "Min": 3,
+        "Max": 4,
+        "GroupLimits": {
+            "Secondary Hardpoint": {
+                "Min": 1,
+                "Max": 1
+            },
+            "Tertiary Hardpoint": {
+                "Min": 2,
+                "Max": 2
+            },
+            "Launch Hardpoint": {
+                "Max": 1
+            }
+        }
+    },
+    "famous_ships": [],
+    "flavour": "In 2679, the Zenith class Bioficer dreadnought is the most dreaded close-action vessel in known space. In several early engagements with admirals who didn't appreciate what they were facing, a single example chewed through scores of capital ships and emerged victorious. The Zenith's primary prow armament is the Giga Lightvice. This weapon's fanged maw emits a biblical level of atomic destruction capable of rending a battleship in seconds. Like its cousin the Zodiac, the Zenith's prow- ventral hardpoint will accept any battleship primary armament, although on a dreadnought this is merely secondary. Tertiary armament is typically a quad array of Thermators—another weapon which does its killing up close. Completing the Zenith's offensive suite is a substantial, exposed spinal flight deck."
+}

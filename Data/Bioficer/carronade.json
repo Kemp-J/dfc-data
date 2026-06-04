@@ -1,0 +1,50 @@
+{
+    "class": "Carronade",
+    "type": "Heavy Cruiser",
+    "points": 120,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 11,
+        "Sig": 4,
+        "Hull": 9,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Porter S-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Barb Launcher",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "2+",
+            "DMG": 4,
+            "Type": "K",
+            "Special": [
+                "Reave-2"
+            ]
+        },
+        {
+            "Name": "Barb Launcher",
+            "Arc": "FN",
+            "Att": 1,
+            "Lock": "2+",
+            "DMG": 4,
+            "Type": "K",
+            "Special": [
+                "Reave-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}

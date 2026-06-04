@@ -1,0 +1,59 @@
+{
+    "class": "Source",
+    "type": "Battlecruiser",
+    "points": 190,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 10,
+        "Sig": 4,
+        "Hull": 12,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Vanguard-6\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Bombardment Spine",
+            "Arc": "F/S/R",
+            "Att": 9,
+            "Lock": "5+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Alt-1",
+                "Bombardment"
+            ],
+            "Rule": "This weapon gains the Corruptor-2 special rule while on the Weapons Free order."
+        }
+    ],
+    "load": [
+        {
+            "Load": "Drop Pods",
+            "Launch": 4,
+            "Special": [
+                "Alt-1"
+            ]
+        },
+        {
+            "Load": "Boarding Pods",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "rules": [
+        {
+            "Name": "High Velocity Boarding Pods",
+            "Text": "This Ship's Boarding Pods may be used against targets up to 6\" away."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [],
+    "flavour": ""
+}
