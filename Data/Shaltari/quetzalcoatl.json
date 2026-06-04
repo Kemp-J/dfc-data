@@ -89,7 +89,6 @@
             "Special": []
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Radiation Aura",
@@ -104,5 +103,6 @@
             "Effect": "Before any player rolls for Explosion (friendly or enemy), make the final result of that roll a 5."
         }
     ],
+    "upgrades": [],
     "flavour": "Prime Starchief Quetzalcoatl has been a bane of UCM and PHR forces for the entirety of the Reconquest. Far too often the forces of one of the branches of Humanity will be winning an engagement against the Scourge only for Quetzalcoatl to arrive with his fleet and engage the existing combatants. In short order Quetzalcoatl annihilates the Capital Ships in the area and will then quickly leave the engagement, handing the Scourge a crucial victory.\nHowever, the very next day, as the Scourge seem close to victory, he'll reappear and destroy any Scourge Capital ships before they're able to retaliate and again leaves the area, handing victory to whoever is facing them. Quetzalcoatl's interference as part of a tribe that has not formally made itself known to the UCM shows that there are yet more Shaltari tribes that seek to prolong the conflict between Humanity and the Scourge.\nNo attempts at communication have succeeded, and he has been given a threat level of the highest priority, however currently, no one from the UCM or PHR have managed even the most cursory of communications with them, only gleaning the name from Pungari mercenaries that have themselves, only heard of Quetzalcoatl in name and reputation."
 }

@@ -34,7 +34,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Void Skip",
@@ -42,6 +41,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [
         "Mist Warrior",
         "Auru's Ghost",

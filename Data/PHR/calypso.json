@@ -31,7 +31,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Advanced ECM Suite",
@@ -39,6 +38,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [
         "Foe Confounded",
         "Deep Blue",

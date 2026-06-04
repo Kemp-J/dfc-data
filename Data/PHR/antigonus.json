@@ -33,7 +33,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Holo Interference Field",
@@ -45,6 +44,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [],
     "flavour": ""
 }

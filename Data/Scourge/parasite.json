@@ -32,7 +32,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Energy Siphon",
@@ -40,6 +39,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [
         "Vampiric",
         "Darkshield",

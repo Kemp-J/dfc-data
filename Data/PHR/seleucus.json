@@ -44,7 +44,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Feature Carrier",
@@ -52,6 +51,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [],
     "flavour": ""
 }

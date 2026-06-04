@@ -54,7 +54,6 @@
             "Special": []
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "True Disintegration",
@@ -69,5 +68,6 @@
             "Effect": "Once per round, at the end of the Planning Phase, target a Dropsite with friendly Battalions on it. That Dropsite gains the Gateship-1 special rule until the end of the round, treating the Dropsite as a Ship for this rule (any other rules are unaffected)."
         }
     ],
+    "upgrades": [],
     "flavour": "Mergen the Learned claims to have been alive long enough to have borne witness to the Shaltari's exodus from Aaru. Whether or not this is true can be left up for debate, but what is known is that this alabaster elder is an incredible tactician. Proving pivotal in the recapture of Aaru, Mergen was able to recall the exact sites of dormant Shaltari teleportation nodes. With this ancient knowledge Mergen's flagship, The Heart of the Mountain, was able to deploy vanguard battalions to critical locations ahead of the main Shaltari host.\nIn the void battles above the planet, Mergens fleet was responsible for sending a fifth of what Scourge remained above Aaru to their demise. The only other Starchief to achieve a similar number of confirmed kills was Quetzalcoatl, unsurprising given their martial prowess.\nWith the void above Aaru all but captured, Mergen is able to turn his attention to restoring the buried teleportation network on Aaru. Once his work on Aaru is done, the reclamation of other Shaltari strongholds awaits his attention."
 }

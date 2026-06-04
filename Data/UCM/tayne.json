@@ -46,7 +46,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Stressful Manoeuvre",
@@ -61,5 +60,6 @@
             "Effect": "When a friendly Group moves, each ship in it suffers 1 point of Damage and gains Vectored until the end of the round."
         }
     ],
+    "upgrades": [],
     "flavour": "Commodore Tobias Tayne is one of the UCMF's rising stars. An aggressive admiral that has seen through many engagements in command of one of the original run of Warsaw Heavy Cruisers. He played a pivotal role in the defence of Ferrum from the Scourge's surprise attack; his Battlegroup protected half a continent from Scourge attack and ensured the safety of several important Ferrum Motors factories.\nDespite his valiant efforts, his original Warsaw, the Aurum Eyes was irreparably damaged and consigned to scrap. For his efforts he was given a promotion to Commodore and assigned a new ship. Retaining most of his original crew, they settled into this latest-gen cruiser, the Aurum Eyes II.\nHaving spent the battle over Ferrum pushing the Aurum Eyes to its absolute limit and beyond, Tayne and his crew know exactly what the class is capable of. Due to this, they're a lot more willing to push the ship to the point just before structural failure to ensure their Cobra Lasers have the enemy in their sights."
 }

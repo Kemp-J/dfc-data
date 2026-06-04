@@ -71,6 +71,17 @@
             "Special": []
         }
     ],
+    "rules": [
+        {
+            "Name": "Drive Refit",
+            "Text": "This Ship may take a Drive Refit for +45 points, increasing its Thrust by 3\"."
+        },
+        {
+            "Name": "Laser Refit",
+            "Text": "This Ship may take a Laser Refit for +5 points, replacing both of its UF-4200 Mass Driver Turrets with a single Cobra Heavy Laser Pair."
+        }
+    ],
+    "admiral_abilities": [],
     "upgrades": [
         {
             "Name": "Drive Refit",
@@ -84,17 +95,6 @@
             ]
         }
     ],
-    "rules": [
-        {
-            "Name": "Drive Refit",
-            "Text": "This Ship may take a Drive Refit for +45 points, increasing its Thrust by 3\"."
-        },
-        {
-            "Name": "Laser Refit",
-            "Text": "This Ship may take a Laser Refit for +5 points, replacing both of its UF-4200 Mass Driver Turrets with a single Cobra Heavy Laser Pair."
-        }
-    ],
-    "admiral_abilities": [],
     "famous_ships": [],
     "flavour": ""
 }

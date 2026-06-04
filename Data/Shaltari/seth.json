@@ -60,7 +60,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Gravitational Draw",
@@ -80,5 +79,6 @@
             "Effect": "At the start of a friendly Group's activation, turn all Ships in that Group up to 45 degrees in the same direction. Ships in that Group gain Vectored until the end of the round."
         }
     ],
+    "upgrades": [],
     "flavour": "Starchief Seth is part of a Shaltari Tribe that specializes in the use of Gravity weapons. The use of these esoteric Shaltari weapons is incredibly hard to plan against, it's easier to defend against a weapon that destroys you, but one that has you turning the wrong way and flying towards your own fleet is much more difficult.\nSeth exemplifies these battle tactics of his tribe, his gravity weapons are more powerful than usual, a potentially unique modification in the otherwise standardized Shaltari arsenal. His ship will go in and out of orbital levels without any effort, allowing him to stage ambushes where, with a few well-placed shots, leaves an enemy battle plan in tatters.\nHis Sapphire Battlecruiser is a dreaded sight for any Reconquest leader, as soon as he is spotted, they know their best laid plans are already laid to waste. As often with the Shaltari, communication is erratic, and Seth has been known to engage in quite active communication at times, seemingly acting friendly, right up till he can activate his gravity weapons."
 }

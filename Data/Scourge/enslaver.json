@@ -61,7 +61,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Doomed",
@@ -76,5 +75,6 @@
             "Effect": "After you roll to hit with a Furnace weapon, you may re-roll any of that weapon's attack dice (both hits and misses)."
         }
     ],
+    "upgrades": [],
     "flavour": "The Raiju designated Enslaver is one of the most reviled Scourge warships encountered during the reconquest. This admiral is usually seen at the head of a formation designed to board and capture enemy ships. Leading a host of Hiruko's, Akuma's, and more recently, Ebisu class ships, this admiral seems to revel in the capture of helpless ships.\nIt is clear the reasons behind this, the Scourge lack for fresh supplies of hosts and without a new conquest they must make do with the relatively slim pickings afforded by battles in the void. Each ship they capture only adds to the enemy faced by humanity, thousands of capable sailors become unwilling hosts to the vile parasite.\nFortunately for the UCM, Enslaver has been seen in scant few combat areas, most notably counter-attacks against UCM forces during the reconquest. Months go by between sightings, suggesting lengthy transfers of personnel between engagements. Due to Enslaver's proclivity for capturing vessels, fleet command has issued fleet wide instructions to destroy this ship with extreme prejudice."
 }

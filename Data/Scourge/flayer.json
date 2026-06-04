@@ -68,7 +68,6 @@
             "Special": []
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Savagery",
@@ -83,5 +82,6 @@
             "Effect": "When a friendly Group is given the Max Thrust special order, each Ship in that Group may fire a single Close Action weapon during this activation."
         }
     ],
+    "upgrades": [],
     "flavour": "Flayer was one of the ships seen during the Scourge's attack on Ferrum, though was assumed destroyed as UCM reinforcements arrived from Niccolum. Commodore Tayne's Battlegroup Aluminia Grit was the group responsible for defending the planet from Flayer's Battlegroup. The two Battlegroups would clash on more than one occasion, with both inflicting heavy casualties on each other in each bout. It was assumed that Flayer was eliminated during the last charge of the Aurum Eyes\nThat assumption was later proven wrong, as a second Flayer seemingly appeared over Aluminia. Though completely different ships of the same pattern, their battle tactics were near identical to the original Flayer above Ferrum. This ship however, made it from the combat zone intact and later would reappear over Wolfrum.\nOnce again, Commodore Tayne and Flayer would lock horns. Despite their best efforts, neither of them could put a killing blow on the other, though many ships would meet their ends as collateral damage from these bouts. By the end of the battle over Wolfrum, Flayer would be unaccounted for, this time assumed alive and operational."
 }

@@ -46,7 +46,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Twins",
@@ -61,5 +60,6 @@
             "Effect": "When you move a Group of M Tonnage, that Group gains Vectored for that movement."
         }
     ],
+    "upgrades": [],
     "flavour": "The twins have been sighted working alongside various tribes. Which has led UCM intelligence to believe they are some type of mercenary within Shaltari culture. However, their modus operandi is the same every time. Arriving in a pair of Amber class cruisers they will work with other cruisers and, via methods unknown to the UCM at this time, will increase the maneuverability of those ships giving the Shaltari fleet an unexpected advantage.\nThey are never seen separated, and even if one is destroyed, the next time they engage in fleet combat they'll be back together as a pair of Ambers. Causing chaos and disrupting even the most carefully laid plans by the Reconquest forces.\nAny Communication with the Twins has seen them actively mocking and teasing any forces they are battling, seemingly enjoying the chaos they cause and the destruction with a relish that seems unnerving."
 }

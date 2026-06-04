@@ -53,7 +53,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Feature Carrier",
@@ -76,6 +75,7 @@
             "Effect": "When you activate another friendly Group in atmosphere, until the end of its activation, that Group can launch its Dropships or Drop Pods with a range of 6\". Drop Pods launched due to this rule ignore the Alt-Launch rule."
         }
     ],
+    "upgrades": [],
     "famous_ships": [],
     "flavour": ""
 }

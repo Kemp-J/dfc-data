@@ -19,7 +19,6 @@
     },
     "weapons": [],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Targeting Link",
@@ -27,6 +26,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [
         "Eye of the Sphere",
         "Ornithes Areioi",

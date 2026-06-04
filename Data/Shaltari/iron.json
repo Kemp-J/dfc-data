@@ -49,6 +49,13 @@
             "Special": []
         }
     ],
+    "rules": [
+        {
+            "Name": "Drive Augmentation",
+            "Text": "This Ship may take a Drive Augmentation for +35 points, increasing its Thrust by 3\"."
+        }
+    ],
+    "admiral_abilities": [],
     "upgrades": [
         {
             "Name": "Drive Augmentation",
@@ -62,13 +69,6 @@
             ]
         }
     ],
-    "rules": [
-        {
-            "Name": "Drive Augmentation",
-            "Text": "This Ship may take a Drive Augmentation for +35 points, increasing its Thrust by 3\"."
-        }
-    ],
-    "admiral_abilities": [],
     "famous_ships": [
         "Inspiration",
         "Forgeheart",

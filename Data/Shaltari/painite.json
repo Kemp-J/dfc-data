@@ -56,7 +56,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Feature Carrier",
@@ -64,6 +63,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [
         "I Cast Shadow",
         "Enflamed Cloud",

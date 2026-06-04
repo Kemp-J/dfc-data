@@ -39,7 +39,6 @@
             "Special": []
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Feature Carrier",
@@ -47,6 +46,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [
         "Bestride the Universe",
         "Fate's Hand",

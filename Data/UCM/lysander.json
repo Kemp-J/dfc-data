@@ -40,7 +40,6 @@
             "Special": []
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Stealth Drop",
@@ -48,6 +47,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [
         "Hope's Spark",
         "Blue Shade",

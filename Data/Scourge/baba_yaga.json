@@ -58,7 +58,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Death Mistress",
@@ -77,5 +76,6 @@
             "Effect": "When you launch Dropships or Bulk Landers at a Dropsite, place an additional D3 Battalion tokens on that Dropsite."
         }
     ],
+    "upgrades": [],
     "flavour": "Baba Yaga is one of the oldest Scourge vessels witnessed by the UCM. One of the original ships that assaulted Eden Prime, analysis of data brought back to the UCM by stealth recon ships prior to the reconquest show that Baba Yaga was still present high above Eden Prime.\nHigh resolution scans of its hull show extensive repairs of battle damage, though reports from the exodus state that Baba Yaga saw very little combat during the initial invasion. Admiralty believe that this battle damage was gained during the Scourge's subjugation of the reptilian race they parasitised before humanity, as the damage patterns do not match anything either humanity, or the Shaltari were able to inflict at the time.\nDuring the reconquest of Eden Prime, Baba Yaga and its battlegroup were responsible for sending over 20,000 sailors to their deaths, before falling back to points unknown. Sporadic sightings of Baba Yaga have been reported over various combat theatres. The ship always appears and inflicts a heavy death toll before disappearing again.\nUCM Admiralty have designated Baba Yaga as a priority target to be taken out with extreme prejudice."
 }

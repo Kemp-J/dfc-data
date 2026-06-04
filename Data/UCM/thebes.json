@@ -102,7 +102,6 @@
             ]
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Laser Refit",
@@ -110,6 +109,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [
         "Thebes",
         "Cadmus",

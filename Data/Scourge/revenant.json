@@ -47,6 +47,13 @@
             "Special": []
         }
     ],
+    "rules": [
+        {
+            "Name": "Cloaking Crest",
+            "Text": "This ship may take a Cloaking Crest for +5 pts, gaining Cloak-2 and Stealth."
+        }
+    ],
+    "admiral_abilities": [],
     "upgrades": [
         {
             "Name": "Cloaking Crest",
@@ -65,13 +72,6 @@
             ]
         }
     ],
-    "rules": [
-        {
-            "Name": "Cloaking Crest",
-            "Text": "This ship may take a Cloaking Crest for +5 pts, gaining Cloak-2 and Stealth."
-        }
-    ],
-    "admiral_abilities": [],
     "famous_ships": [
         "The Four Horsemen (group of four vessels)",
         "Greywolf"

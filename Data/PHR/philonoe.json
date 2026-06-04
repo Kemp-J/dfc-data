@@ -39,7 +39,6 @@
             ]
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Catapult Launcher",
@@ -47,6 +46,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [],
     "flavour": ""
 }

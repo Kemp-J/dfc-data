@@ -50,7 +50,6 @@
             "Special": []
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Oculus Booster",
@@ -58,6 +57,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [
         "Lidless Eye",
         "Presage of Doom",

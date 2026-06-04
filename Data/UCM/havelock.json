@@ -57,19 +57,6 @@
             "Special": []
         }
     ],
-    "upgrades": [
-        {
-            "Name": "Drive Refit",
-            "Cost": 45,
-            "Effects": [
-                {
-                    "Target": "Thrust",
-                    "Type": "add",
-                    "Value": 3
-                }
-            ]
-        }
-    ],
     "rules": [
         {
             "Name": "Spearhead",
@@ -90,6 +77,19 @@
             "Cost": "2AP",
             "Name": "Ballistic Prediction",
             "Effect": "When you assign a Group's weapons to a target, pick one of the attacking Group's Weapon Systems with \"Mass Driver\" in its name. That Weapon System improves its Lock by 1 for that attack sequence."
+        }
+    ],
+    "upgrades": [
+        {
+            "Name": "Drive Refit",
+            "Cost": 45,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 3
+                }
+            ]
         }
     ],
     "flavour": "Famous for her ice-cold head and killer instinct, June Havelock, 39, is the youngest admiral in the UCMF. Credited with spearheading the assault on D-Day—Earth from her battleship Carpe Noctum, she scored the most crucial kill of the day: the Scourge super-dreadnought Darkheart. One of the leading admirals of Battlefleet Sol, she regularly deputises supreme command above Earth. Thus far, Grand Admiral Halsey's respect and patronage has not been misplaced.\nHavelock climbed far, quickly. At the outbreak of the Reconquest, she was a lowly Lieutenant Commander aboard the cruiser UCMS Regalia, and was deemed competent if unspectacular. While the fires of war have never yet taken her head, the crucible of combat has forged her. Forced to take command of the crippled Regalia on D+3—Eden, Havelock successfully rammed the Scourge battleship Sorn's Nemesis, destroying her and emerging as the only officer commanding to survive a ramming action that year.\nToday, she is one of the most decorated officers in the fleet and one of a handful to have been present at over four D-Days. Although she commands from a carrier-type battleship, she is noteworthy for her gunnery skills, since she values skilled crew in that area in particular."

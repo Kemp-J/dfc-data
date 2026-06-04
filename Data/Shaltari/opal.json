@@ -32,7 +32,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Shield Booster",
@@ -40,6 +39,7 @@
         }
     ],
     "admiral_abilities": [],
+    "upgrades": [],
     "famous_ships": [
         "Stark Lantern",
         "Talisman",
