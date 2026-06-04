@@ -18,9 +18,10 @@
                 "Close Action",
                 "Escape Velocity",
                 "Status"
-            ]
+            ],
+            "Rule": "Effects caused by this weapon's Status rule are removed at the start of next rounds End Phase instead of this rounds End Phase."
         }
     ],
     "load": [],
-    "rules": "Electrowave Caster: Effects caused by this weapon's Status rule are removed at the start of next rounds End Phase instead of this rounds End Phase.\nThis feature only requires 3 or more Battalions to be removed during Battalion Combat and 3 damage to remove due to attacks."
+    "rules": "This feature only requires 3 or more Battalions to be removed during Battalion Combat and 3 damage to remove due to attacks."
 }

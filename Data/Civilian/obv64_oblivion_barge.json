@@ -30,7 +30,8 @@
             "Type": "C",
             "Special": [
                 "Anti Wing"
-            ]
+            ],
+            "Rule": "This weapon can only be used against targets within Scan range and on the same Orbital Layer.\nWhile this Ship is below its starting Hull Points, for every 2 Hull Points lost from its starting Hull Points, increase the attack of this weapon by 1."
         }
     ],
     "load": [
@@ -42,10 +43,6 @@
     ],
     "upgrades": [],
     "rules": [
-        {
-            "Name": "Expel Hazards",
-            "Text": "This weapon can only be used against targets within Scan range and on the same Orbital Layer.\nWhile this Ship is below its starting Hull Points, for every 2 Hull Points lost from its starting Hull Points, increase the attack of this weapon by 1."
-        },
         {
             "Name": "Acquired Mines",
             "Text": "This Ship's Mines use the stats of its parent fleet."

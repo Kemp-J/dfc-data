@@ -67,7 +67,8 @@
             "Special": [
                 "Bombardment",
                 "Penetrator"
-            ]
+            ],
+            "Rule": "When this weapon successfully inflicts any amount of damage against a City, place a Mutant Fauna token on that Dropsite. Mutant Fauna tokens are not Battalions and cannot control or contest a Dropsite. When any player deploys any number of Battalions to that Dropsite, if that Dropsite has any Mutant Fauna tokens, those Battalions are only placed on a roll of a 5+. If any Battalions are not placed this way, remove a Mutant Fauna token from that Dropsite. If a Dropsite starts a round with a Mutant Fauna token, remove that token at the end of the round."
         }
     ],
     "load": [
@@ -84,10 +85,6 @@
     ],
     "upgrades": [],
     "rules": [
-        {
-            "Name": "Genesis Spikes",
-            "Text": "When this weapon successfully inflicts any amount of damage against a City, place a Mutant Fauna token on that Dropsite. Mutant Fauna tokens are not Battalions and cannot control or contest a Dropsite. When any player deploys any number of Battalions to that Dropsite, if that Dropsite has any Mutant Fauna tokens, those Battalions are only placed on a roll of a 5+. If any Battalions are not placed this way, remove a Mutant Fauna token from that Dropsite. If a Dropsite starts a round with a Mutant Fauna token, remove that token at the end of the round."
-        },
         {
             "Name": "Expansive Radiator Systems",
             "Text": "At the start of this Ship's activation, remove two Spikes from it."

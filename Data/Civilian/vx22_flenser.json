@@ -29,16 +29,13 @@
             "Special": [
                 "Close Action",
                 "Bloom-1"
-            ]
+            ],
+            "Rule": "This weapon can only be used against targets in base contact."
         }
     ],
     "load": [],
     "upgrades": [],
     "rules": [
-        {
-            "Name": "Sawblade Prow",
-            "Text": "This weapon can only be used against targets in base contact."
-        },
         {
             "Name": "Scrap Collection",
             "Text": "If this Ship ends its activation within 1\" of a Debris Field, this Ship gains a scrap token and cannot gain scrap tokens from that Debris Field for the rest of the game. A Ship with this rule can have a maximum of 3 scrap tokens at any one time. Whenever another Ship within 6\" of a friendly Ship with this rule is destroyed, pick one of those friendly Ships, that Ship gains a scrap token."

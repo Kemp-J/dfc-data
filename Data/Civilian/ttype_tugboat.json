@@ -42,7 +42,8 @@
             "Type": "C",
             "Special": [
                 "Close Action"
-            ]
+            ],
+            "Rule": "This weapon can only be used against targets in base contact. After completing an attack with this weapon, remove this Ship from the table. It counts as destroyed at the end of the game."
         }
     ],
     "load": [],
@@ -51,10 +52,6 @@
         {
             "Name": "Mercenary",
             "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
-        },
-        {
-            "Name": "Drag to Hell",
-            "Text": "This weapon can only be used against targets in base contact. After completing an attack with this weapon, remove this Ship from the table. It counts as destroyed at the end of the game."
         },
         {
             "Name": "Tugging Along",

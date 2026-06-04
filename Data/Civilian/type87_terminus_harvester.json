@@ -31,16 +31,13 @@
             "Special": [
                 "Close Action",
                 "Bloom-3"
-            ]
+            ],
+            "Rule": "This weapon can only be used against targets in base contact."
         }
     ],
     "load": [],
     "upgrades": [],
     "rules": [
-        {
-            "Name": "Colossal Salvage Cutter",
-            "Text": "This weapon can only be used against targets in base contact."
-        },
         {
             "Name": "Scrap Hauler",
             "Text": "If this Group ends its activation within 1\" of a Debris Field, this Group gains a scrap token and cannot gain scrap tokens from that Debris Field for the rest of the game. A Group can have a maximum of 8 scrap tokens at any one time. Any attached Payload ships that have any scrap tokens do not count towards this limit. Whenever another Ship within 6\" of a friendly Ship with this rule is destroyed, pick one of those friendly Ships, that Ship gains a scrap token."
