@@ -77,7 +77,11 @@
         },
         {
             "Name": "Drive Refit",
-            "Text": "This Ship may take a Drive Refit for +45 points, increasing its Thrust by 3\". This ship cannot take a Laser Refit."
+            "Text": "This Ship may take a Drive Refit for +45 points, increasing its Thrust by 3\"."
+        },
+        {
+            "Name": "No Laser Refit",
+            "Text": "This ship cannot take a Laser Refit."
         }
     ],
     "fleet_admiral_abilities": 1,
