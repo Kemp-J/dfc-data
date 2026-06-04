@@ -67,7 +67,7 @@
             "Special": []
         }
     ],
-    "equipment": [
+    "upgrades": [
         {
             "min": 1,
             "max": 1,

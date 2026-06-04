@@ -20,7 +20,7 @@
     },
     "weapons": [],
     "load": [],
-    "equipment": [],
+    "upgrades": [],
     "rules": [
         {
             "Name": "Ressuply and Rearm",

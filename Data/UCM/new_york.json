@@ -71,7 +71,7 @@
             "Special": []
         }
     ],
-    "equipment": [
+    "upgrades": [
         {
             "Name": "Drive Refit",
             "Cost": 45,

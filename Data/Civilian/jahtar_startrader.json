@@ -22,7 +22,7 @@
     },
     "weapons": [],
     "load": [],
-    "equipment": [],
+    "upgrades": [],
     "rules": [
         {
             "Name": "Purchased Power",

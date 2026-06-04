@@ -21,7 +21,7 @@
     },
     "weapons": [],
     "load": [],
-    "equipment": [],
+    "upgrades": [],
     "rules": [
         {
             "Name": "Open Network",

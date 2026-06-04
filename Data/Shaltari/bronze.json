@@ -56,7 +56,7 @@
         }
     ],
     "load": [],
-    "equipment": [
+    "upgrades": [
         {
             "Name": "Drive Augmentation",
             "Cost": 35,

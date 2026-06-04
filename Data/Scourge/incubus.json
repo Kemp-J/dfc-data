@@ -54,7 +54,7 @@
         }
     ],
     "load": [],
-    "equipment": [
+    "upgrades": [
         {
             "Name": "Cloaking Crest",
             "Cost": 5,

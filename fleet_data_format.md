@@ -105,9 +105,9 @@ The file contains the following:
 - "profile": A dictionary containing "Thrust" (integer, unit: inches), "Scan" (integer, unit: inches), "Sig" (integer, unit: inches), "Hull" (integer), "ES" (string), "KS" (string), "BS" (string), "G" (string, "X" or "X-Y", where X and Y are integers), and "Special" (list of strings). Example: `{"Thrust": 12, "Scan": 6, "Sig": 0, "Hull": 2, "ES": "6+", "KS": "6+", "BS": "-", "G": "2-4", "Special": ["Descent", "Cloak-1", "Rare", "Vanguard-6\""]}`.
 - "weapons": A list of dictionaries, each containing "Name" (string), "Arc" (string: one or more of "F", "S", "R", "SL", "SR", "FN", "RN", and "B", separated by slashes), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `[{"Name": "Barracuda Missile Bays", "Arc": "F/S/R", "Att": 2, "Lock": "4+", "DMG": 1, "Type": "K", "Special": ["Close Action"]}]`. Weapon entries may optionally have "Cost" and/or "Replaces" attributes. Cost specified a cost to take that weapon and Replaces specifies the names of weapons that it replaces if taken.
 - "load": A list of dictionaries, each containing "Load" (string), "Launch" (integer), and "Special" (list of strings). Example: `[{"Load": "Dropships", "Launch": 1, "Special": []}]`. Load entries may optionally have "Cost" and/or "Replaces" attributes. Cost specified a cost to take that load and Replaces specifies the names of load that it replaces if taken.
-- "equipment": A list of equipment entries. Each entry is one of:
-  - A plain equipment item: a dictionary containing "Name" (string), "Cost" (integer), and "Effects" (list of profile modifiers, see 'Profile modifiers'). The ship may independently choose whether to take this item.
-  - A choice group: a dictionary containing "min" (integer), "max" (integer), and "options" (list of plain equipment item dictionaries). The ship must pick at least "min" and at most "max" options from the group. Example: `{"min": 0, "max": 1, "options": [{"Name": "Cloaking Keel", "Cost": 15, "Effects": [...]}, {"Name": "Engine Upgrade", "Cost": 25, "Effects": [...]}]}` means the ship may take at most one of the listed options.
+- "upgrades": A list of upgrade entries. Each entry is one of:
+  - A plain upgrade item: a dictionary containing "Name" (string), "Cost" (integer), and "Effects" (list of profile modifiers, see 'Profile modifiers'). The ship may independently choose whether to take this item.
+  - A choice group: a dictionary containing "min" (integer), "max" (integer), and "options" (list of plain upgrade item dictionaries). The ship must pick at least "min" and at most "max" options from the group. Example: `{"min": 0, "max": 1, "options": [{"Name": "Cloaking Keel", "Cost": 15, "Effects": [...]}, {"Name": "Engine Upgrade", "Cost": 25, "Effects": [...]}]}` means the ship may take at most one of the listed options.
 - "rules": A list of dictionaries, each containing "Name" and "Text", both strings. Example: `[{"Name": "Stealth Drop", "Text": "When this Group launches its Dropships, 2 Dropships are needed to place 1 Battalion. If this Group contains a single ship, each Dropship only places a Battalion on a roll of a 4+."}]`.
 - "admiral_abilities": A list of dictionaries, each containing "Cost" (string — see 'Ability cost format'), "Name" (string), and "Effect" (string). Example: `[{"Cost": "2AP", "Name": "Telemetry Link", "Effect": "When you activate another friendly Group in Orbit, that Group increases its total movement (after orders) by 4\" this round."}]`.
 - "famous_ships": A list of strings.
@@ -139,7 +139,7 @@ The following is an example ship data file for the Lysander class:
     "load": [
         {"Load": "Dropships", "Launch": 1, "Special": []}
     ],
-    "equipment": [],
+    "upgrades": [],
     "rules": [
         {"Name": "Stealth Drop", "Text": "When this Group launches its Dropships, 2 Dropships are needed to place 1 Battalion. If this Group contains a single ship, each Dropship only places a Battalion on a roll of a 4+."}
     ],
@@ -198,7 +198,7 @@ The following is an example data file for the Admiral named "Granite" Halsey:
         {"Load": "Fighters & Bombers", "Launch": 6, "Special": ["Alt-1"]},
         {"Load": "Heavy Bombers", "Launch": 4, "Special": ["Alt-1"]}
     ],
-    "equipment": [],
+    "upgrades": [],
     "rules": [
         {"Name": "Fighter Command", "Text": "Fighters, Bombers, & Heavy Bombers launched from this ship may be placed up to 8\" away instead of 6\"."}
     ],
@@ -251,7 +251,7 @@ The following is an example data file for the Hero named Rhiannon Major:
         {"Name": "Artillery Cannon", "Arc": "F", "Att": 1, "Lock": "4+", "DMG": 2, "Type": "K", "Special": ["Calibre-H/C", "Fusillade-1", "Low Power"]}
     ],
     "load": [],
-    "equipment": [],
+    "upgrades": [],
     "rules": [],
     "admiral_abilities": [],
     "famous_ships": [

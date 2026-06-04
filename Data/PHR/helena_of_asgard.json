@@ -50,7 +50,7 @@
         }
     ],
     "load": [],
-    "equipment": [],
+    "upgrades": [],
     "rules": [
         {
             "Name": "Cull the Weak",
