@@ -1,0 +1,81 @@
+{
+    "class": "Tribune",
+    "type": "Battlecruiser",
+    "points": 210,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 15,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Vanguard-3\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "9K Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "N-11 Twin Artillery Cannon Turrets",
+            "Arc": "F/S",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2",
+                "Low Power"
+            ]
+        },
+        {
+            "Name": "NC-16 Missile Bank",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Bulk Landers & Fire Ships",
+            "Launch": 2,
+            "Special": []
+        },
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Caesar's Eagle",
+        "Bashir's Prize (Independents)",
+        "Gladiator",
+        "Lord Regent",
+        "Junta (Kalium)"
+    ],
+    "flavour": "The Tribune is heavier, slower and tougher than modern battlecruisers. It shares a superstructure and one mass driver turret with the more common Phalanx class. The remainder of its firepower comes from two conventional cannon turrets and an increased close action capability.\nHowever, the Tribune is unusual for a full combat ship of this size in that it features capacity for bulk landers. Its only real modern descendants are the PHR's assault troopships. In addition though, the Tribune has a significant flight deck, making it a fleet carrier as well. In combination, the Tribune is a jack of all trades, able to adapt to fluid combat situations better than most ships."
+}

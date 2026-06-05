@@ -1,0 +1,50 @@
+{
+    "class": "Cruiser",
+    "type": "Cruiser",
+    "points": 60,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 4,
+        "Sig": 6,
+        "Hull": 11,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1-2",
+        "Special": []
+    },
+    "weapons": [],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Hardpoints",
+            "Text": "This ship must take a total of four options from the Cruiser Systems list. A maximum of two options from the Broadside Hardpoint categories may be taken and up to two options may be taken from the Structures category."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "systems": {
+        "Name": "Cruiser Systems",
+        "Min": 4,
+        "Max": 4,
+        "GroupLimits": {
+            "Broadside Hardpoint": {
+                "Max": 2
+            },
+            "Structures": {
+                "Max": 2
+            }
+        }
+    },
+    "famous_ships": [
+        "Martian Wind",
+        "Defiance",
+        "Equatorial (Independents)",
+        "Hardrada",
+        "Necromancer",
+        "Purgatory (Kalium)"
+    ],
+    "flavour": "Designs for Resistance cruisers are widely varied, to the point where listing each variation ever sighted would be as expansive as a list of each individual admiral in the galaxy. As such, it's best to describe them in general terms, focused more on their capabilities and armaments than form.\nIn this context, a \"cruiser\" means anything from a Heavy Cruiser to a Light Cruiser, as the UCM would classify them. A further complication is the optional presence of ablative armour panels, adding the classification of \"armoured\" to the description. Typically, all Resistance cruisers offer respectable survivability, low cost and a broad choice of weaponry. However, their outdated designs do show in poor scan range and limited point defence.\nSome of these vessels have been adapted from civilian service, generally by adding weapons. Such modified ships often have ablative armour added to overcome their relatively weak designs. Kalium also produces many such low-spec vessels for direct military use, which perform similarly to these adapted ships. This keeps costs low, giving the Kabal numbers to boast over."
+}

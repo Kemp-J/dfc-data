@@ -1,0 +1,92 @@
+{
+    "class": "Farragut",
+    "type": "Grand Battleship",
+    "points": 215,
+    "tonnage": "H",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 8,
+        "Sig": 8,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "NC-16 Missile Battery Turret Quad",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "N-12 Artillery Cannon Half Battery",
+            "Arc": "B",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Low Power",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "N-12 Artillery Cannon Half Battery",
+            "Arc": "B",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Low Power",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 3,
+            "Special": [
+                "Limited-6"
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Engine Refit",
+            "Text": "This Ship may take an Engine Refit for +45 points, increasing its Thrust by 2\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [
+        {
+            "Name": "Engine Refit",
+            "Cost": 45,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 2
+                }
+            ]
+        }
+    ],
+    "famous_ships": [
+        "Endeavour",
+        "Tribe Bane (Independents)",
+        "Hammer of Reason",
+        "Subjugator (Kalium)"
+    ],
+    "flavour": "Developed alongside the Barbarossa, the Farragut offers a more straightforward weapons loadout with surplus power capacity. This surplus and the relative simplicity of its armaments gave the Farragut legendary endurance and has made it a favourite of Resistance fleets. Offering the same quad-turret NC-16 battery and NC-12 broadsides as the Barbarossa, the Farragut also mounts six enormous torpedoes in three tubes, allowing for two devastating spreads. Few ships can survive a single salvo from this ancient leviathan."
+}

@@ -1,0 +1,47 @@
+{
+    "class": "Sagitarii",
+    "type": "Cutter",
+    "points": 30,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 16,
+        "Scan": 4,
+        "Sig": 4,
+        "Hull": 5,
+        "ES": "4+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Vectored"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "N-12 Artillery Cannon",
+            "Arc": "F",
+            "Att": 4,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Hammerfall",
+        "Surging Spear",
+        "Swiftstar",
+        "Tentative V (Independents)",
+        "Kabal's Knife",
+        "First Message",
+        "Wrathful (Kalium)"
+    ],
+    "flavour": "The Sagittarii is essentially an engine bank with a weapons suite attached to the prow. Extraordinarily fast (especially for a Resistance vessel), almost all the ship's power is consumed by the drives, necessitating a low power primary armament. Fortunately, pre-war designers still used crude, chemical-based guns and they mounted four of the largest in fixed-forward positions. Though much fatter, the N-12 cannon offers destructive parity with modern medium mass rivers.\nBuilt in various configurations over the years, the Sagittarii is a typical pre-war cutter, if 'typical' can even be applied to such a specialist ship. Cutters were bulkier and actually more common in the EAA Navy than in the modern UCMF, since speed could compensate for inferior scanning technology in first strike missions. Many escaped the Scourge invasion using that speed and have been valued assets to the Resistance ever since. Kalium's Kabal appreciate the brutal simplicity of the design, so still manufacture them new in state-run yards."
+}

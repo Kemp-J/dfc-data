@@ -1,0 +1,45 @@
+{
+    "class": "Galileo",
+    "type": "Orbital Telescope",
+    "points": 55,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 4,
+        "Scan": 12,
+        "Sig": 4,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Detector",
+            "Monitor",
+            "Rare"
+        ]
+    },
+    "weapons": [],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Space Telescope",
+            "Text": "This ship counts as having a single weapon for its Detector rule. When this ship uses its Detector rule, it may place an additional Spike on that Group, or it may place a Telescope token on that Group."
+        },
+        {
+            "Name": "Telescope Token",
+            "Text": "When you assign weapons a Group that has a Telescope token, you may remove the token. If you do, one of the Group's Weapon Systems lowers the result required to score a critical against that Group by 1 for that attack (so a weapon that would crit on a 5+ crits on a 4+ instead).\nUnused Telescope tokens placed by this Ship persist between rounds and are only removed when this Ship would place another Telescope token or when a Ship with a Telescope token goes on the Silent Running order."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Amber Eye",
+        "Hubble IX",
+        "Magellan (Independents)",
+        "All-Seeing",
+        "Lens of Truth",
+        "Nightpiercer (Kalium)"
+    ],
+    "flavour": "Galileo orbital telescopes are among the oldest human ships still flying. In the earliest days of foldspace exploration, jumps to un-noded locations had to be conducted in drive-wearing 'hops' or random inaccuracy would result. Surveying potential jump locations for potential and celestial threats necessitated a ship built around a gigantic, high-power scanner. Speed was unimportant, so the superstructure of the more common Newton class monitor was chosen as an efficient, low-cost base. Never a military vessel, the Galileo is unarmed besides basic point defence.\nSurviving Galileos were vital to stranded Resistance fleets forced to use archaic jump-hops to seek the meagre resources not already discovered and either captured by the Scourge or (as with the Colonies) had their node codes changed. Being able to detect enemy activity from a vast distance is also of great use to those small remnant fleets hiding in the cracks of the galaxy - lest they be ambushed. At battlespace level, such observational power can be turned on in-system targets to achieve extraordinary definition unachievable with smaller hardware. This can augment Resistance vessels' older scanning technology and aid a skilled captain in targeting vulnerable spots on enemy ships."
+}

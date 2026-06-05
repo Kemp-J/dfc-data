@@ -1,0 +1,70 @@
+{
+    "class": "Explorer",
+    "type": "Interstellar Ark",
+    "points": 210,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 8,
+        "Sig": 14,
+        "Hull": 22,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Command Ship-1"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "NC-16 Missiles",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Hardpoints",
+            "Text": "This Ship must take a total of six options from the Dreadnought Systems list. Up to three options may be taken from the Broadside Hardpoint category. Up to three options may be taken from the Turrets category. Up to three options may be taken from the Launch Hardpoint category. A single option may be taken from the Structures category."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "systems": {
+        "Name": "Dreadnought Systems",
+        "Min": 6,
+        "Max": 6,
+        "GroupLimits": {
+            "Broadside Hardpoint": {
+                "Max": 3
+            },
+            "Turret Hardpoint": {
+                "Max": 3
+            },
+            "Launch Hardpoint": {
+                "Max": 3
+            },
+            "Structures": {
+                "Max": 1
+            }
+        }
+    },
+    "famous_ships": [
+        "Sao Gabriel",
+        "Santa Maria",
+        "Gauss (Independents)",
+        "Seedling",
+        "Nostrum",
+        "Sulla (Kalium)"
+    ],
+    "flavour": "Explorers are battleship-sized beasts, built from more standard modules than Pathfinders. Larger exploration fleets would typically be headed by one. Although most would morph over their storied lives, each was once famous among Earth's populace. Supremely tough, adaptable and repairable, each is valued by Resistance admirals, who usually max-out the platform's armament.\nRarely, they survive in their original configuration - finding the lonely, becalmed Edensphere was a revelation to the UCM - a self-sustaining Amazon ecosystem, she is a final testament to Earth's lost biodiversity. Most Explorers are brutal chop-shop jobs of multiple ships with working modules swapped in for expediency. In their first day's fighting during the Battle for Earth, the Vega Scrapfleet famously jumped the crippled Santa Maria back to their staging area and had her back in action within 48 hours, looking quite different.\nThe grandest of these dinosaurs are known as Colonisers - among the largest ships ever built by mankind, they exceed modern dreadnoughts in displacement. Once they carried whole populations toward their new lives, now they end them en-mass."
+}

@@ -1,0 +1,55 @@
+{
+    "class": "Lexington",
+    "type": "Old Battleship",
+    "points": 190,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 15,
+        "ES": "3+",
+        "KS": "5+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "NC-16 Missile Battery Turret Pair",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 4,
+            "Special": []
+        },
+        {
+            "Load": "Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-2"
+            ]
+        }
+    ],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Yorktown",
+        "Missouri (Independents)",
+        "Black Prince",
+        "Scharnhorst (Kalium)"
+    ],
+    "flavour": "Like other Old Battleships, the Lexington could rightly belong in a museum, although it's still a formidable warship today. Many survived the Scourge invasion since they were mostly relegated to frontier picket duty, being outmoded even then. In the hard centuries that followed, the Lexington has proven its worth countless times, offering a reliable loadout of NC-16 missiles, a single ventral torpedo, and a fair-sized strike craft hangar. The negligible power drain of all of these gives the class excellent toughness, endurance, and utility for its age."
+}

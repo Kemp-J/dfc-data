@@ -1,0 +1,119 @@
+{
+    "admiral": "Magellan",
+    "admiral_level": 3,
+    "class": "Coloniser",
+    "type": "Interstellar Dreadnought",
+    "admiral_points": 45,
+    "ship_points": 525,
+    "points": 570,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 8,
+        "Scan": 10,
+        "Sig": 16,
+        "Hull": 26,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "4+",
+        "G": "1",
+        "Special": [
+            "Command Ship-2"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "10K Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Critical-2",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "10K Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Calibre-H/C",
+                "Critical-2",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Heavy Dual Vent Cannon Turret",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Fusillade-2",
+                "Overcharge",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Heavy Dual Vent Cannon Turret",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Fusillade-2",
+                "Overcharge",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "NC-16 Missiles",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 4,
+            "Special": []
+        },
+        {
+            "Load": "Bulk Landers & Fire Ships",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Assault Carrier",
+            "Text": "This ship must take two 10k Mass Drivers, two Heavy Vent Cannons, a Drive Refit (that's been heavily jury-rigged and does not take up a hardpoint or points), and the following Launch Assets:"
+        }
+    ],
+    "fleet_admiral_abilities": 1,
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Magellan Expedition",
+            "Effect": "When you launch Bulk Landers from this Ship or a Ship within 6\" of it, you may have that Ship launch an additional 2 or 4 Bulk Landers. Any Ship that does takes that much damage (causing Crippling Effects and Explosions where applicable)."
+        }
+    ],
+    "upgrades": [],
+    "flavour": ""
+}

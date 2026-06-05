@@ -1,0 +1,89 @@
+{
+    "class": "Nimitz",
+    "type": "Grand Battleship",
+    "points": 305,
+    "tonnage": "H",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 8,
+        "Sig": 8,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Spinal Vent Lance",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 4,
+            "Type": "E",
+            "Special": [
+                "Bloom-2",
+                "Overcharge",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "NC-16 Missile Battery Turret Pair",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        },
+        {
+            "Name": "NC-16 Missile Battery Turret Pair",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Engine Refit",
+            "Text": "This Ship may take an Engine Refit for +45 points, increasing its Thrust by 2\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [
+        {
+            "Name": "Engine Refit",
+            "Cost": 45,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 2
+                }
+            ]
+        }
+    ],
+    "famous_ships": [
+        "Sunbeam",
+        "Ragefire (Independents)",
+        "Volcanic",
+        "Your Fate (Kalium)"
+    ],
+    "flavour": "The Nimitz was the last class to be built via the expedient of twinning Old Battleship hulls, alongside its sister class, the Yamamoto. This method of shipbuilding, although apparently crude, offered more flexibility in its modularity vs the newer, purpose-built Grand Battleships. This made a risky experiment cost-viable: mounting the largest vent canon ever built. The Spinal Vent lance demands a massive hull and all the power it can guzzle. Therefore, the Nimitz's secondary armaments include NC-16 missiles and hangar bays. The Nimitz is a frightening combatant even today, although its captain always runs the risk of broiling the engineering crews tasked with maintaining the weapon"
+}

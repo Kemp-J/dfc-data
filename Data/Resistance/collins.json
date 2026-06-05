@@ -1,0 +1,42 @@
+{
+    "class": "Collins",
+    "type": "Support Carrier",
+    "points": 56,
+    "tonnage": "L",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 9,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1-2",
+        "Special": [
+            "Rapid Drop"
+        ]
+    },
+    "weapons": [],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Wing Support",
+            "Text": "Friendly Fighters within 6\" of this Ship can be used for Close Protection against any Kinetic weapons (in addition to Close Action and Bomber attacks). When friendly Fighters within 6\" of this Ship are used to remove enemy Bombers, each Fighter removes 2 Bombers instead of 1. When friendly Bombers (of any type) within 6\" of a Ship with this rule attack, they Saturation Fire when there are 5 or more Bombers in the attack instead of 6."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Wasp",
+        "Gemini",
+        "Eagle"
+    ],
+    "flavour": "The expeditionary fleets of the late 24th century were designed for endurance and self-sufficiency in unexplored space. Stocky Collins support carriers carried swarms of resupply tankers to keep the fleet's shuttles, cartographers and escorts in the air when far from their carriers. These aging exploration vessels proved priceless in the Resistance's years evading the Scourge, finding refuge and hunting resources - every aspect of their design matched the challenge.\nSupport Carriers were especially prized - any sensible admiral maintained a fighter picket for early warning and defence. In addition, the tough fuel haulers and engineering wings support carriers could deploy were endlessly useful - that so many creaking dinosaurs still comprise Resistance fleets is a testament to their value. In combat, these unsung heroes can keep a fighter screen fuelled and re-armed long after unsupported squadrons would need to bug-out. Although the Collins is able to launch a mass of smaller ships, it lacks the internal space to house a fleet of its own, filled with fuel tanks and masses of repair bays. So more often than not, a Collins is seen aiding the defence of larger carriers."
+}

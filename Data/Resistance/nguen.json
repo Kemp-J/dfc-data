@@ -1,0 +1,103 @@
+{
+    "admiral": "Nguen",
+    "admiral_level": 4,
+    "class": "Olympus",
+    "type": "Grand Battleship",
+    "admiral_points": 85,
+    "ship_points": 330,
+    "points": 415,
+    "tonnage": "H",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 8,
+        "Sig": 8,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "9K Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "9K Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Mega Vent Cannon Half Battery",
+            "Arc": "B",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Fusillade-2",
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Mega Vent Cannon Half Battery",
+            "Arc": "B",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Fusillade-2",
+                "Reave-1",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-4"
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Extensive Reactor Modifications",
+            "Text": "If Hull points lost due to its Vent Cannon Batteries' Overcharge rule would cause this Ship to be destroyed, it rolls 3D3 for its explosion and that explosion also affects Ships in other Orbital Layers."
+        }
+    ],
+    "fleet_admiral_abilities": 1,
+    "admiral_abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Vent Cannon Mastery",
+            "Effect": "When you Overcharge a Group's weapon with \"Vent\" in its name, each Ship in the firing Group may Overcharge a second weapon this activation."
+        }
+    ],
+    "upgrades": [],
+    "flavour": "Originally conscripted from one of the poorest locales on Kalium, Nguen has seen a meteoric rise through the ranks of the Kalium navy. He has proven himself time and time again for the Kabal, his first command would see him trade blows with the Shaltari in anti-piracy actions protecting valuable in-system shipping routes.\nSince his start as a Vent Cannon technician, Nguen has gained an intimate understanding of the technology and physics behind the devastating weapons. Preferring commands on ships equipped with the unstable weapons, he's reduced scores of ships to molten metal, very few of which were his own\nThe defining point of his career was the destruction of a trio of scourge battlecruisers with his previous command, a Gladiator class Grand Cruiser. Suffering serious damage after the destruction of one and the crippling of another, a final volley of vent fire overloaded the ships reactor. Ordering the ship to fly at full thrust towards the third and the call to abandon ship, Nguen would soon watch the reactor consume both his ship and the enemy battlecruiser from the relative safety of his escape vessel.\nUpon his return to Kalium, Nguen and his surviving crew would be assigned to the nearly complete Grosses Messer, overseeing its final reactor adjustments and being tasked with a live fire shakedown cruise."
+}

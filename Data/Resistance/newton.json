@@ -1,0 +1,61 @@
+{
+    "class": "Newton",
+    "type": "Kill-Sat",
+    "points": 46,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 4,
+        "Scan": 8,
+        "Sig": 4,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Monitor",
+            "Vanguard-4\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "XN-40 \"Godray\" Orbital Mass Driver",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "C",
+            "Special": [
+                "Alt-1",
+                "Calibre-H/C"
+            ]
+        },
+        {
+            "Name": "XN-40 \"Godray\" Bombardment Mass Driver",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "4+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Alt-1",
+                "Bombardment",
+                "Penetrator"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "His Apple",
+        "Principia",
+        "Spear of Gabriel (Independents)",
+        "Forgehammer",
+        "Portcullis",
+        "Rampart (Kalium)"
+    ],
+    "flavour": "The Newton was the most common pre-war naval defence monitor in the service of mankind. Unlike modern monitors, the class is visually closer to a space station than a ship, suiting its near-static mission profile. With the speed of the Scourge invasion, few could manoeuvre into a firing position - unfortunate since it packs an enormous mass driver for a frigate-sized vessel. The XN-40 \"Godray\" was designed to destroy incoming targets long before they could return fire. It sits on a swivel mount, allowing not only tracking of deep space, but precise bombardment of surface targets. Pre-war this was largely used to quell any thoughts of insurrection or to level inhospitable landscape prior to surface exploration.\nToday, the Newton still brings incredible firepower for its cost, at the price of speed and survivability. This gives it a valued place on the gun line of any Resistance or Kalium admiral capable of harnessing this ship's strengths. Although unwieldy to bring to a forward position, its bombardment and anti-shipping firepower can lend the class a new lease of life in an offensive role."
+}

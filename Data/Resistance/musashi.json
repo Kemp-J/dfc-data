@@ -1,0 +1,68 @@
+{
+    "class": "Musashi",
+    "type": "Old Battleship",
+    "points": 175,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 15,
+        "ES": "3+",
+        "KS": "5+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "N-12 Artillery Cannon Half Battery",
+            "Arc": "B",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Low Power",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "N-12 Artillery Cannon Half Battery",
+            "Arc": "B",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Low Power",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "9K Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Musashi",
+        "Endurance II (Independents)",
+        "Loki",
+        "Proud Empress (Kalium)"
+    ],
+    "flavour": "Once among the mightiest ships ever built by mankind, the Musashi is now a relic, even among resistance fleets. Introduced in the mid-24th century, around the time of first contact with the Shaltari, the youngest of these veterans is over 300 years old. However, they were overbuilt for the rigours of exploration and have proven supremely reliable. Its broadsides of chemically fired N-12 cannons are undemanding workhorses with a low power draw, so most Musashi's spinal turrets have been refitted with 9K mass drivers over the centuries."
+}

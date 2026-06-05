@@ -1,0 +1,43 @@
+{
+    "class": "Seneca",
+    "type": "Detonator",
+    "points": 40,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 4,
+        "Sig": 2,
+        "Hull": 2,
+        "ES": "4+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "1-3",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [],
+    "load": [
+        {
+            "Load": "Fire Ships",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Explosive",
+            "Text": "When this ship is destroyed, it explodes with a range of 3\" and rolls 1D3 on the Explosion Effect table."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Surprise",
+        "Abra Kadabra",
+        "Boombox (Independents)",
+        "DS-1, DS-2 etc (Kallium no prose names bestowed)"
+    ],
+    "flavour": "Though lacking in military resources, most fleets scattered by the Scourge invasion had a high proportion of merchantmen - rightly more likely to run than engage. Forced to be inventive, ragtag Resistance groups sought to repurpose civilian vessels to military ends. Haulers often make poor gun platforms but offer capacious internal holds. When combined with 'repurposed' shuttles, yachts and small transports, a formidable weapon can result: the Detonator, a hive of remote-operated, explosive-packed fire ships. The most common vessel is a Seneca class - unweildy and utilitarian, it offered pre-war traders the largest storage for the lowest cost, although many other patterns are in service in this unlikely role.\nCrewing a repurposed flimsy brick fizzing with improvised time bombs is not for the sane and/or skittish. These individuals are treated with wary respect when on shore leave, notable in the bar due to singed hair - if they've survived to douse their burns in booze. In the service of Kalium, Detonators are employed in an altogether more sinister, regimented fashion, which says a lot of how much the Kabal values flesh and blood."
+}

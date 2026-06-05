@@ -1,0 +1,37 @@
+{
+    "class": "Aldrin",
+    "type": "Colony Ship",
+    "points": 75,
+    "tonnage": "L",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 9,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "6+",
+        "BS": "6+",
+        "G": "1-2",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [],
+    "load": [
+        {
+            "Load": "Bulk Landers",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Endeavou",
+        "Endurance",
+        "Odyssey"
+    ],
+    "flavour": "In many cases, the first humans to set foot on one of the UCM's colonies did so from a bulk lander deployed by an Aldrin class colony ship. These hardy ships formed the vanguard of most expeditions and were deployed when a world looked suitable for habitation or exploitation. Bulk landers were preferred to dropships in those halcyon days, since advanced opposition was unlikely and heavy machinery was always needed planetside.\nToday, the Aldrin offers the capacity of a troopship in a package the size of a destroyer, possible since these ships were never designed for open warfare so offer additional space. Being below cruiser sized, they can also operate in atmosphere, protecting them from void weapons fire. Built to a standard not seen since the exploration days, they can withstand abuse no modern civilian vessel could survive."
+}

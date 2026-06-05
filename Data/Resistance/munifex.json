@@ -1,0 +1,45 @@
+{
+    "class": "Munifex",
+    "type": "Corvette",
+    "points": 19,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 4,
+        "Sig": 2,
+        "Hull": 2,
+        "ES": "5+",
+        "KS": "6+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Descent"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "NCA-1 Missiles",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Air to Air",
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Great Wall",
+        "Marston's Run (Independents)",
+        "Hellhunter",
+        "Poison Dagger (Kalium)"
+    ],
+    "flavour": "Although the Resistance does operate corvettes, very few survived the Scourge invasion. Being designed to operate from atmosphere, they were the very furthest ships from any jump point and had to face the first waves of Scourge corvettes and Strike Carriers. Those that did escape were generally forced to withdraw early on due to combat damage.\nHowever, such small ships require modest orbital slips to construct. As a result of the obvious need to protect their Strike Carriers, many Resistance fleets with the resources have attempted to build new ones, with mixed success. Certainly, the Vega Scrapfleet has proved capable, and of course Kalium builds these hunter-killers in large quantities. The Munifex is a fairly typical corvette – fast, atmospheric-capable and designed to kill Strike Carriers, as well as their opposite numbers. It is armed with specialist missiles, much like the UCM's Santiago class."
+}

@@ -1,0 +1,95 @@
+{
+    "admiral": "Typhoon Vasquez",
+    "admiral_level": 2,
+    "class": "Heavy Cruiser",
+    "type": "Heavy Cruiser",
+    "admiral_points": 45,
+    "ship_points": 113,
+    "points": 158,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 10,
+        "Sig": 6,
+        "Hull": 13,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Reinforced Armour"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "N-11 Artillery Cannon Turret",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-1",
+                "Low Power",
+                "Linked-1"
+            ]
+        },
+        {
+            "Name": "N-11 Artillery Cannon Turret",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-1",
+                "Low Power",
+                "Linked-1"
+            ]
+        },
+        {
+            "Name": "N-8 Artillery Cannon Bank",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2",
+                "Low Power",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "N-8 Artillery Cannon Bank",
+            "Arc": "B",
+            "Att": 6,
+            "Lock": "5+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2",
+                "Low Power",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Bullet Baron",
+            "Text": "This ship must take two N-8 Artillery Cannon Banks, two N-11 Artillery Cannon Turrets, Ablative Armour, and a Scanner Array (that's been heavily jury rigged and does not take up a hardpoint or points)."
+        }
+    ],
+    "fleet_admiral_abilities": 1,
+    "admiral_abilities": [
+        {
+            "Cost": "2AP*",
+            "Name": "Artillery Strike",
+            "Effect": "When you assign targets to a Weapon System with \"Artillery\" in its name, that Weapon System's damage type becomes Core for those attacks. If that Weapon System is on a H or C tonnage Ship this Ability costs 3AP."
+        }
+    ],
+    "upgrades": [],
+    "flavour": "Typhoon Vasquez is the Head Engineer of the Red Baron, a pre-war ship used as a test-bed for various ammunition types designed for then-current Artillery Cannons. Vasquez's Battlegroup contains a large number of industrial ships, including the Andar Errente, a pre-war Industrial Raft. Thanks to copious amounts of manufacturing ability, Vasquez is able to be very liberal with the application of the various bootleg munitions produced by his fleet.\nVasquez's combat capable ships were present at the Battle for Earth and managed to score several Scourge kills. The Red Baron spent most of the engagement firing on any and every cylinder it could find. Vasquez's battle tactics seemed to either be genius, drawing most of the Scourge return fire towards the Red Baron and its ablative armour, or the absolute lunacy of being on constant weapons-free."
+}

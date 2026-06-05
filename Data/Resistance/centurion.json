@@ -1,0 +1,61 @@
+{
+    "class": "Centurion",
+    "type": "Grand Cruiser",
+    "points": 125,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 14,
+        "ES": "3+",
+        "KS": "5+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "9K Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "N-31 Hybrid Gun Battery",
+            "Arc": "B",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Remnant",
+            "Text": "This ship may be used in UCM or PHR fleets in addition to Resistance fleets. In UCM and PHR fleets, they gain the Rare special rule."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Pilum",
+        "Fontaine's Miracle",
+        "Myriad (Independents)",
+        "Proudcore",
+        "Industry",
+        "Fist of Iron (Kalium)"
+    ],
+    "flavour": "The Centurion was the most common standardised vessel of cruiser tonnage in the pre-war EAA Terran Grand Fleet. In those days the definition of Cruiser was somewhat broader; today, such a bulky vessel is designated as a Grand Cruiser, a classification not really in use with the UCMF. In bulk (though not in firepower), it is more akin to a modern Heavy Cruiser. It has truly excellent ceramic armour plating that outclasses all but defence monitors in the modern UCMF. The Centurion also features many of the typical advantages and disadvantages of vintage naval architecture. Originally manufactured by Trident Industrial over Olympus Prime, the design was soon licensed to Earth-based Equatorial Yards Inc. Only the licensed Earth pattern is still built today, by Kalium, though it also operates legacy Olympus Centurions.\nIts simple but effective all-gun primary armament provides an excellent blend of destructive power and reliability. The class requires low weapon maintenance - a welcome factor that certainly isn't the case with some of the more esoteric and experimental armaments in mankind's pre-war arsenal.\nIts primary armament is broadsides of transition mass drivers, alongside an oversized twin pure mass driver turret, more in keeping with modern UCMF gunnery, albeit with much heavier projectiles."
+}

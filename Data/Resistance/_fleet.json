@@ -1,0 +1,167 @@
+{
+    "source_version": "260327",
+    "abilities": [
+        {
+            "Cost": "2AP",
+            "Name": "Expert Repair Crews",
+            "Effect": "At the start of the Repair step of the End Phase, remove all Crippling effects from a friendly Group."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Duct Tape and Bubblegum",
+            "Effect": "When a friendly Ship of M, H, or C tonnage is destroyed by damage from an opponent's attack (including any Crippling or Explosion Effects), it remains in play until the start of the End Phase. At the start of the End Phase, roll for explosion and remove that Ship from play. That Ship counts as destroyed."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Redundant Ship Systems",
+            "Effect": "When you would Roll for Crippling Effects for a friendly Ship (for any reason), roll 1D6 instead of 2D6 for that Ship's Crippling Effect. Count a result of a 1 as a result of a 2."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Final Mission",
+            "Effect": "When you attack with Fire Ships, one of those attacking Wings gains Corruptor-2 for that attack."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Never Tell Me The Odds",
+            "Effect": "When you move a Group through Scenery or move/place a Wing of Assets through Scenery, that Group/Wing ignores the effects of that Scenery piece until the end of the movement."
+        },
+        {
+            "Cost": "2AP",
+            "Name": "Sabotage",
+            "Effect": "At the end of the Activation Phase, before activating Dropsites, pick one Dropsite controlled by an enemy player within 6\" of a friendly Group. That Dropsite takes D3+1 Core Hits. After rolling, you may spend an additional 1AP to re-roll the D3 and treat this ability as an attack for the purposes of removing a feature."
+        }
+    ],
+    "fleet_admirals": [
+        {
+            "Name": "Resistance Engineer",
+            "Level": 1,
+            "Cost": 25,
+            "FleetAbilities": 1,
+            "Abilities": [
+                {
+                    "Cost": "1AP",
+                    "Name": "Subsystem Network",
+                    "Effect": "Before you attack with a Group of M tonnage, pick two of its weapon systems with the same name without the Linked-X special rule. Those weapons gain Linked-SSN for that attack."
+                }
+            ]
+        },
+        {
+            "Name": "Resistance Artificer",
+            "Level": 3,
+            "Cost": 65,
+            "FleetAbilities": 1,
+            "Abilities": [
+                {
+                    "Cost": "1AP",
+                    "Name": "Manic Repairs",
+                    "Effect": "When you activate a Group, all ships in that group gain Regenerate-2 until the end of the round."
+                },
+                {
+                    "Cost": "2AP",
+                    "Name": "Resistance Elite Force",
+                    "Effect": "At the end of the round, remove 2D3 enemy Battalions from a friendly ship."
+                }
+            ]
+        }
+    ],
+    "launch_assets": [
+        {
+            "Load": "Torpedo",
+            "Thrust": 6,
+            "Att": 6,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Penetrator"
+            ]
+        },
+        {
+            "Load": "Bombers",
+            "Thrust": 10,
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Load": "Fire Ships",
+            "Thrust": 3,
+            "Att": 3,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "When this Load is shared with Bulk Landers, 2 Launch are needed to place 1 Fire Ship."
+            ]
+        },
+        {
+            "Load": "Mines",
+            "Thrust": 3,
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Load": "Fighters",
+            "Thrust": 16,
+            "Rerolls": 3
+        }
+    ],
+    "systems": [
+        "frigate_systems.json",
+        "cruiser_systems.json",
+        "dreadnought_systems.json"
+    ],
+    "deployable_features": [],
+    "famous_admirals": [
+        "typhoon_vasquez.json",
+        "hagen.json",
+        "nguen.json",
+        "magellan.json"
+    ],
+    "heroes": [
+        "guy_fawkes.json"
+    ],
+    "ships": [
+        "munifex.json",
+        "seneca.json",
+        "strike_carrier.json",
+        "frigate.json",
+        "heavy_frigate.json",
+        "newton.json",
+        "galileo.json",
+        "sagitarii.json",
+        "baleares.json",
+        "armstrong.json",
+        "aldrin.json",
+        "collins.json",
+        "light_cruiser.json",
+        "cruiser.json",
+        "heavy_cruiser.json",
+        "centurion.json",
+        "gladiator.json",
+        "senator.json",
+        "triumvir.json",
+        "phalanx.json",
+        "tribune.json",
+        "musashi.json",
+        "lexington.json",
+        "iowa.json",
+        "vanguard.json",
+        "nelson.json",
+        "yi_sunsin.json",
+        "barbarossa.json",
+        "farragut.json",
+        "drake.json",
+        "nimitz.json",
+        "yamamoto.json",
+        "pathfinder.json",
+        "explorer.json",
+        "coloniser.json"
+    ]
+}

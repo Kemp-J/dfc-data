@@ -1,0 +1,68 @@
+{
+    "class": "Pathfinder",
+    "type": "Interstellar Raft",
+    "points": 190,
+    "tonnage": "H",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 8,
+        "Sig": 8,
+        "Hull": 18,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "NC-16 Missiles",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Hardpoints",
+            "Text": "This Ship must take a total of four options from the Dreadnought Systems list. Up to two options may be taken from the Broadside Hardpoint category. Up to two options may be taken from the Turrets category. Up to two options may be taken from the Launch Hardpoint category. A single option may be taken from the Structures category."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "systems": {
+        "Name": "Dreadnought Systems",
+        "Min": 4,
+        "Max": 4,
+        "GroupLimits": {
+            "Broadside Hardpoint": {
+                "Max": 2
+            },
+            "Turret Hardpoint": {
+                "Max": 2
+            },
+            "Launch Hardpoint": {
+                "Max": 2
+            },
+            "Structures": {
+                "Max": 1
+            }
+        }
+    },
+    "famous_ships": [
+        "Nina",
+        "Pinta",
+        "Vostok (Independents)",
+        "Spear of Will",
+        "Lightbringer",
+        "Searcher (Kalium)"
+    ],
+    "flavour": "Among mankind's oldest FTL-capable ships, Pathfinders offer resistance admirals extreme toughness and flexibility in a battlecruiser-sized package. These mighty vessels once boldly plied new space, often commanding smaller exploration fleets on random jump expeditions. Missions lasting years made bulk essential, since aid or resupply was never assured, given the rarity of FTL-capable ships in those heady days. Once humanity broke from their unequal alliance with the Shaltari, alien raids were a frequent problem.\nCentral to the design brief was reparability in the field and mission-specific configuration. Unlike most ships, whole sections of superstructure can be swapped out for specialist modules, including weapons, storage, hangars, refineries, factories, cores and even vast bio-domes to seed empty planets with Earth's fauna and flora. Since every expedition was unique, no two Pathfinders are identical. Today, these ancient vessels perfectly suit the Resistance and are frequently armed beyond their historic configurations. Like most pre-war designs, Kalium still builds Pathfinders, although why they have built quite so many of these fighting exploration ships vexes the UCM's High Council."
+}

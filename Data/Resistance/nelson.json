@@ -1,0 +1,106 @@
+{
+    "class": "Nelson",
+    "type": "Grand Battleship",
+    "points": 255,
+    "tonnage": "H",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 8,
+        "Sig": 8,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "9K Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "9K Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "N-12 Artillery Cannon Battery",
+            "Arc": "B",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Low Power",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "N-12 Artillery Cannon Battery",
+            "Arc": "B",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Low Power",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-4"
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Engine Refit",
+            "Text": "This Ship may take an Engine Refit for +45 points, increasing its Thrust by 2\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [
+        {
+            "Name": "Engine Refit",
+            "Cost": 45,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 2
+                }
+            ]
+        }
+    ],
+    "famous_ships": [
+        "Victory II",
+        "Trafalgar (Independents)",
+        "Might of Kalium",
+        "Steel Fist (Kalium)"
+    ],
+    "flavour": "Mankind built hundreds of what today are termed Old Battleships to guard its expansion into the cosmos. However, once relations with the Shaltari soured, humanity found itself woefully outgunned. Rather than go through a costly, counter-productive scrapping process, many old battleship hulls were hastily twinned around a newer, much improved central power core. This allowed these new Grand Battlehips, the first of their kind, to mount improved scanners, armaments, and point defences while offering substantial survivability. The Nelson is the most common survivor among these trailblazers, being built around a pair of Musashis"
+}

@@ -1,0 +1,103 @@
+{
+    "class": "Barbarossa",
+    "type": "Grand Battleship",
+    "points": 240,
+    "tonnage": "H",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 10,
+        "Sig": 8,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Detector"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Vent Cannons",
+            "Arc": "F",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Fusillade-1",
+                "Overcharge",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "NC-16 Missile Battery",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "N-12 Artillery Cannon Half Battery",
+            "Arc": "B",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Low Power",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "N-12 Artillery Cannon Half Battery",
+            "Arc": "B",
+            "Att": 5,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Low Power",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Engine Refit",
+            "Text": "This Ship may take an Engine Refit for +45 points, increasing its Thrust by 2\"."
+        },
+        {
+            "Name": "Scanning Systems",
+            "Text": "When this Ship uses its Detector special rule, you may place an additional two Spikes on a different enemy Group in line of sight."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [
+        {
+            "Name": "Engine Refit",
+            "Cost": 45,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 2
+                }
+            ]
+        }
+    ],
+    "famous_ships": [
+        "High Eagle",
+        "Eye of God (Independents)",
+        "Our Gaze",
+        "Illuminator (Kalium)"
+    ],
+    "flavour": "A specialist variant of the Nelson, the Barbarossa replaces the power-hungry, early mass driver turrets with NC-16 missiles. In addition to offering increased lethality at close range, this frees up power for an enormous scanner array. Unlike most vessels with a detector role, the Barbarossa typically fights at the forefront of any engagement, caring little for the increased visibility that comes with running active scanners due to its already vast signature. To fully utilise the remaining power, the class's lethality was further bolstered by a pair of chin-mounted vent canons."
+}

@@ -1,0 +1,68 @@
+{
+    "class": "Coloniser",
+    "type": "Interstellar Dreadnought",
+    "points": 265,
+    "tonnage": "C",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 10,
+        "Sig": 16,
+        "Hull": 26,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Command Ship-2"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "NC-16 Missiles",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Hardpoints",
+            "Text": "This Ship must take a total of eight options from the Dreadnought Systems list. Up to four options may be taken from the Broadside Hardpoint category. Up to four options may be taken from the Turrets category. Up to four options may be taken from the Launch Hardpoint category. Up to two options may be taken from the Structures category."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "systems": {
+        "Name": "Dreadnought Systems",
+        "Min": 8,
+        "Max": 8,
+        "GroupLimits": {
+            "Broadside Hardpoint": {
+                "Max": 4
+            },
+            "Turret Hardpoint": {
+                "Max": 4
+            },
+            "Launch Hardpoint": {
+                "Max": 4
+            },
+            "Structures": {
+                "Max": 2
+            }
+        }
+    },
+    "famous_ships": [
+        "Esperance",
+        "Trinidad (Independents)",
+        "Conquistador",
+        "Kabal's Heart (Kalium)"
+    ],
+    "flavour": "A noteworthy Coloniser was the Supernova - colloquially known as the \"HMS S**tstorm\".\nDuring the battle of Vega-4 this derelict colonyship was lashed with as many Heavy Vent Cannons as the hull could support and crewed by a skeleton crew of heroes who knew they were not coming back. The Supernova then drifted into the mass of the enemy fleet and unleashed superheated plasma until there was almost nothing left of either fleet."
+}

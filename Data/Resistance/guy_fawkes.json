@@ -1,0 +1,53 @@
+{
+    "hero": "Guy Fawkes",
+    "ship": "Parliament",
+    "type": "Fire Ship",
+    "points": 85,
+    "tonnage": "L",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 9,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 6,
+        "ES": "2+",
+        "KS": "2+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Hero",
+            "Unique"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Explosive Detonation",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "C",
+            "Special": [
+                "Critical-1"
+            ],
+            "Rule": "When attacking with this weapon, skip the assign weapons to targets step and proceed to roll to hit instead. When rolling to hit with this weapon, for each result of a 6 (including rolls from this rule), roll an additional dice. After rolling to hit, assign hits as equally as possible to each other Ship and Space Station on the same Orbital Layer within 6\" until no hits remain. Then continue the attack sequence as normal."
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Set Timers And Run",
+            "Text": "Once you complete an attack sequence with Explosive Detonation, remove this ship from the game. If there is a friendly Ship within 8\" of this Ship, place a Fawkes' Crew Battalion on that Ship. This ship only counts for Ships killed when Fawkes' Crew Battalion is removed from the game."
+        },
+        {
+            "Name": "Skeleton Crew",
+            "Text": "This Ship can only go on General Quarters."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Parliament (and its many successors)"
+    ],
+    "flavour": "Guy Fawkes, clearly not his real name, is infamous for one thing—blowing battleships to smithereens with massive fire ships, laughing. His small, eager crew of plastique-happy privateers are backed by a personal deep space shipyard kitted out for packing ships with explosives and up-armouring them enough to survive a one-way charge towards any enemy of any sufficiently flushed benefactor. Fawkes prefers old colony ships as candidates given their cavernous holds. To their creaking frames his engineers affix laughably thick frontal armour plates, having freed up mass by tearing out crew quarters, weapons, spares, and anything needed for long-term operations.\nIn combat, Fawkes flies his ship-sized munition personally alongside an insanely loyal, or just insane, skeleton crew. They all jump ship in escape pods at the last possible moment, coordinating with a nearby friendly vessel to collect them so they might do it all again another day. He's currently on Parliament XIII with no indication he might retire for the quiet life among his explosively gotten gains."
+}

@@ -1,0 +1,110 @@
+{
+    "class": "Yi Sun-sin",
+    "type": "Grand Battleship",
+    "points": 340,
+    "tonnage": "H",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 8,
+        "Sig": 8,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "9K Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "9K Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Mega Vent Cannon Half Battery",
+            "Arc": "B",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Fusillade-2",
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Mega Vent Cannon Half Battery",
+            "Arc": "B",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Overcharge",
+                "Fusillade-2",
+                "Reave-1",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-4"
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Engine Refit",
+            "Text": "This Ship may take an Engine Refit for +45 points, increasing its Thrust by 2\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [
+        {
+            "Name": "Engine Refit",
+            "Cost": 45,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 2
+                }
+            ]
+        }
+    ],
+    "famous_ships": [
+        "My Masterpiece",
+        "Invention Number Four (Independents)",
+        "Killforge",
+        "Our Grace (Kalium)"
+    ],
+    "flavour": "Yi Sun-Sin is a UCMF class designation for a Nelson class Grand Battleship that has since had its broadsides refitted with vent canons. Such a class did not exist in the days before the Scourge invasion—it's entirely the product of kill-hungry resistance admirals who don't mind the odd fatality due to chronic overheats from weapons discharge. Disturbingly, Kalium seems to have similarly converted several of the Nelsons it inherited when it seceded from the nascent UCM. The Kabal's readiness to trade losses for victory perfectly matches the unstable savagery of this colossus."
+}

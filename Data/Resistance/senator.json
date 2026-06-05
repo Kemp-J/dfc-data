@@ -1,0 +1,64 @@
+{
+    "class": "Senator",
+    "type": "Battlecruiser",
+    "points": 145,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 15,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Vanguard-3\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "VX Bomb",
+            "Arc": "F",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Bombardment",
+                "Limited-3"
+            ],
+            "Rule": "This weapon gains the Scald-2 special rule when targeting Cities. If this weapon does damage to a Dropsite, remove all Battalions (friendly and enemy) from that Dropsite and its Features."
+        },
+        {
+            "Name": "NC-16 Missile Salvo",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Swacs",
+            "Text": "Enemy Ships within 12\" of this ship may be targeted by friendly Ships firing Close Action weapons using the firing Ship's normal Weapon Range (Scan + Sig)."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Project 26-02",
+        "Dark Side of the Moon",
+        "Regretful Necessity (Independents)",
+        "Kabal's Judgement",
+        "Ultimate Certainty",
+        "Streetsweeper (Kalium)"
+    ],
+    "flavour": "The Senator was classified at the time of the Scourge invasion and for good reason. The class was an affront to many EAA government cornerstones. Though records were lost in the invasion, historians believe the Senator was secretly developed by Earth Fleet Command's shadowy Section Green, without civilian government knowledge. If true the military was preparing contingencies for city-wide insurrections; if not the government was. Some whisper that a military coup was tabled and this was an anti-uprising deterrent, though the Scourge put paid to anyone's plans. Though comparatively rare then, most Senators survived the invasion since friendly fire on a biblical scale would have resulted if such terrors were used in \"defence\". Kalium is rumoured to build these new -disquieting, if unsurprising.\nThe Senator carries three armoured VX nerve agent torpedoes packed with dispersal cluster bomblets. If detonated over a city, any contact with the agent results in spasms, vomiting, paralysis and asphyxiation, leaving infrastructure untouched. As a terror weapon, the Senator carries no significant long range anti-ship firepower, but does include powerful missile turrets for close defence. Combat doctrine stressed the use of the Senator's then advanced detector array to warn of enemy vessels, or roving reporters after the scandal of the century."
+}

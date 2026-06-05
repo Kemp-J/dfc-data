@@ -1,0 +1,59 @@
+{
+    "class": "Phalanx",
+    "type": "Battlecruiser",
+    "points": 165,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 15,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Vanguard-3\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "9K Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "N-31 Hybrid Gun Long Battery",
+            "Arc": "B",
+            "Att": 9,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-3",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Last Bastion",
+        "Reliance",
+        "Starblade (Independents)",
+        "Hammer of Might",
+        "Decimator (Kalium)"
+    ],
+    "flavour": "Sharing many superstructure elements with the smaller Centurion Grand Cruiser, the Phalanx was one of the largest standardised classes produced by Trident Industrial, though today it's only built in Kalium's yards. Pre-war Battlecruisers differ from modern types in that they are slower and offer less firepower in manoeuvre, but far superior toughness. Indeed, it's best to think of them as pocket-battleships rather than specialist, aggressive ships.\nThe Phalanx is armed with long broadsides of transition mass drivers and four Titanmetall 9K mass drivers in two traversable turrets. In combination, the class can unleash withering fire against multiple targets, given the right positioning."
+}

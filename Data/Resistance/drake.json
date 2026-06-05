@@ -1,0 +1,101 @@
+{
+    "class": "Drake",
+    "type": "Grand Battleship",
+    "points": 245,
+    "tonnage": "H",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 8,
+        "Sig": 8,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Spinal Mass Annihilator",
+            "Arc": "FN",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 3,
+            "Type": "C",
+            "Special": [
+                "Bloom-1",
+                "Crippling",
+                "Critical-2",
+                "Focused",
+                "High Power"
+            ],
+            "Rule": "If damage from this weapon or any Crippling Effect it would cause would destroy a ship, remove that ship from the game without rolling for Explosion."
+        },
+        {
+            "Name": "NC-16 Missile Battery Turret Pair",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        },
+        {
+            "Name": "Heavy Vent Cannon Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Fusillade-1",
+                "Overcharge",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "Heavy Vent Cannon Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Fusillade-1",
+                "Overcharge",
+                "Reave-1"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Engine Refit",
+            "Text": "This Ship may take an Engine Refit for +45 points, increasing its Thrust by 2\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [
+        {
+            "Name": "Engine Refit",
+            "Cost": 45,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 2
+                }
+            ]
+        }
+    ],
+    "famous_ships": [
+        "Bonaventure",
+        "Revenge (Independents)",
+        "Soul Reaver",
+        "Executioner (Kalium)"
+    ],
+    "flavour": "The Drake class was the first human vessel to mount an apocalypse-grade, non-nuclear weapon: the Spinal Mass Annihilator. It is an enormous kinetic energy weapon capable of driving a house-sized lump of tungsten carbide coated, ultra-dense metal clean through a battleship, lengthwise. Such a weapon required enlarged power cores aboard the twinned Old Battleships and the new central core to feed it, necessitating the loss of its broadsides. Secondary armaments include NC-16 missile turrets and a pair of heavy vent canons to burst surplus energy onto any survivors."
+}

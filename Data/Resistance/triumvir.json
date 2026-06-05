@@ -1,0 +1,50 @@
+{
+    "class": "Triumvir",
+    "type": "Repair Cruiser",
+    "points": 175,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 15,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Rare",
+            "Vanguard-3\""
+        ]
+    },
+    "weapons": [],
+    "load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Repair Bay",
+            "Text": "Friendly Ships within 6\" of this Ship that roll to repair Crippling Effects during the Repair step of the End Phase repair those effects on a roll of a 2+ instead of a 4+.\nFriendly Ships that end their activation within 6\" of this Ship on the same Orbital Layer recover 2 lost Hull Points."
+        },
+        {
+            "Name": "Box of Scraps",
+            "Text": "At the end of this ship's activation, pick one friendly ship within 6\" in line of sight (including this one). Place a Box Of Scraps token next to that ship. The next time that Ship would be destroyed due to damage, it isn't. Instead, before continuing to inflict damage, remove the Box of Scraps token and that ship remains in play with D3 Hull Points remaining, then continue inflicting damage as normal. Box Of Scraps tokens persist through rounds but a ship may only have 1 Box Of Scraps token."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Brunel",
+        "Eiffel",
+        "Stephenson (Independents)",
+        "People's Beneficence",
+        "Kabal's Wisdom",
+        "As One (Kalium)"
+    ],
+    "flavour": "The Triumvir has been one of the most valued ships to the Resistance since escaping the Scourge invasion. Shipyards mostly being a lost luxury, any repairs had to be run in the void with the help of other ships - the Triumvir's specialty. Though a military vessel with fighting armour and battlecruiser tonnage, most of its superstructure is dominated by an insectile bank of extending service armatures. Long-term, Triumvirs can run complex repairs that take weeks. In battle they inject expanding, rapid-cure polymer foam into hull breaches, armour cracks and voided areas, keeping a ship in the fight longer. Despite their value beyond the battlespace, many Resistance admirals gladly risk fielding Triumvirs for the sake of the greater good.\nTo support its activities, the Triumvir has a large internal hangar for various service craft from shuttles to engineering barges. Triumvirs that go to battle tend to replace some of these with regular fighters and bombers to add offensive and escort capability."
+}

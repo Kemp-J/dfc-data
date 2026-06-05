@@ -1,0 +1,146 @@
+{
+    "name": "Dreadnought Systems",
+    "groups": [
+        "Broadside Hardpoint",
+        "Turret Hardpoint",
+        "Launch Hardpoint",
+        "Structures"
+    ],
+    "systems": {
+        "Broadside Hardpoint": [
+            {
+                "Pts": 20,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "N-31 Hybrid Gun Battery",
+                    "Arc": "B",
+                    "Att": 8,
+                    "Lock": "4+",
+                    "DMG": 1,
+                    "Type": "K",
+                    "Special": [
+                        "Volley-2"
+                    ]
+                }
+            },
+            {
+                "Pts": 35,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "NC-16 Missile Battery",
+                    "Arc": "B",
+                    "Att": 6,
+                    "Lock": "3+",
+                    "DMG": 2,
+                    "Type": "K",
+                    "Special": [
+                        "Close Action",
+                        "Volley-2"
+                    ]
+                }
+            }
+        ],
+        "Turret Hardpoint": [
+            {
+                "Pts": 25,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "10K Mass Driver Turret",
+                    "Arc": "F/S",
+                    "Att": 2,
+                    "Lock": "3+",
+                    "DMG": 2,
+                    "Type": "K",
+                    "Special": [
+                        "Calibre-H/C",
+                        "Critical-2",
+                        "Penetrator",
+                        "Volley-2"
+                    ]
+                }
+            },
+            {
+                "Pts": 40,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "Heavy Dual Vent Cannon Turret",
+                    "Arc": "F/S",
+                    "Att": 4,
+                    "Lock": "3+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Fusillade-2",
+                        "Overcharge",
+                        "Reave-1"
+                    ]
+                }
+            }
+        ],
+        "Launch Hardpoint": [
+            {
+                "Pts": 40,
+                "Type": "Load",
+                "Profile": {
+                    "Load": "Fighters & Bombers",
+                    "Launch": 2,
+                    "Special": []
+                }
+            },
+            {
+                "Pts": 25,
+                "Type": "Load",
+                "Profile": {
+                    "Load": "Bulk Landers & Fire Ships",
+                    "Launch": 2,
+                    "Special": []
+                }
+            },
+            {
+                "Pts": 25,
+                "Type": "Load",
+                "Profile": {
+                    "Load": "Torpedo",
+                    "Launch": 1,
+                    "Special": [
+                        "Limited-2"
+                    ]
+                }
+            }
+        ],
+        "Structures": [
+            {
+                "Pts": 10,
+                "Type": "Structure",
+                "Profile": {
+                    "Name": "Scanner Array",
+                    "Effect": "This Ship increases its Scan by 4\"."
+                },
+                "Effects": [
+                    {
+                        "Target": "Scan",
+                        "Type": "add",
+                        "Value": 4
+                    }
+                ],
+                "Max": 1
+            },
+            {
+                "Pts": 25,
+                "Type": "Structure",
+                "Profile": {
+                    "Name": "Drive Refit",
+                    "Effect": "This Ship increases its Thrust by 3\"."
+                },
+                "Effects": [
+                    {
+                        "Target": "Thrust",
+                        "Type": "add",
+                        "Value": 3
+                    }
+                ],
+                "Max": 1
+            }
+        ]
+    }
+}

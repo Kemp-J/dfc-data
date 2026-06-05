@@ -1,0 +1,92 @@
+{
+    "admiral": "Hagen",
+    "admiral_level": 2,
+    "class": "Tribune",
+    "type": "Battlecruiser",
+    "admiral_points": 45,
+    "ship_points": 210,
+    "points": 255,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 15,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Vanguard-3\""
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "9K Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "N-11 Twin Artillery Cannon Turrets",
+            "Arc": "F/S",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Fusillade-2",
+                "Low Power"
+            ]
+        },
+        {
+            "Name": "NC-16 Missile Bank",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-2"
+            ]
+        },
+        {
+            "Load": "Bulk Landers & Fire Ships",
+            "Launch": 2,
+            "Special": []
+        },
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "rules": [],
+    "fleet_admiral_abilities": 1,
+    "admiral_abilities": [
+        {
+            "Cost": "3AP",
+            "Name": "Reinforce Systems",
+            "Effect": "When a friendly Ship of H or C tonnage would roll its Backup save due to an attack, improve its Backup save for that attack by 1."
+        }
+    ],
+    "upgrades": [],
+    "flavour": "The Flagship of the independent High Technician known as Hagen is believed to have once belonged to the Kalium Kabal. Though quite why they would relinquish a working Battlecruiser to independents is currently unknown to UCM intelligence. Any chance to communicate and question those in Hagen's fleet state that it was \"empty when we found it\" and that the ship is \"legitimate salvage\"\nRegardless of how these independents acquired this ship, they seem more than capable of using and maintaining it. Having taken part in the battles above Luna, the Fortune's Fancy scored Hagen and his fleet several Scourge kills. The Fortune's Fancy is suspected to be highly modified, capable of carrying its standard launch compliment, along with a pair of internally stored torpedoes. Observations by the UCMF Saccharine show that these torpedoes are launched in the crudest way possible. Simply being allowed to float outwards from the bulk lander bays and fired while free floating."
+}

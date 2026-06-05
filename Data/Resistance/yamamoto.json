@@ -1,0 +1,93 @@
+{
+    "class": "Yamamoto",
+    "type": "Grand Battleship",
+    "points": 300,
+    "tonnage": "H",
+    "base_size": 60,
+    "profile": {
+        "Thrust": 5,
+        "Scan": 8,
+        "Sig": 8,
+        "Hull": 24,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Spinal Vent Lance",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 4,
+            "Type": "E",
+            "Special": [
+                "Bloom-2",
+                "Overcharge",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "9K Mass Driver Turrets",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "NC-16 Missile Battery Turret Pair",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 2,
+            "Special": [
+                "Limited-2"
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "Name": "Engine Refit",
+            "Text": "This Ship may take an Engine Refit for +45 points, increasing its Thrust by 2\"."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [
+        {
+            "Name": "Engine Refit",
+            "Cost": 45,
+            "Effects": [
+                {
+                    "Target": "Thrust",
+                    "Type": "add",
+                    "Value": 2
+                }
+            ]
+        }
+    ],
+    "famous_ships": [
+        "Sol Requiem",
+        "Sadness (Independents)",
+        "Spear of Onyx",
+        "Decapitator (Kalium)"
+    ],
+    "flavour": "The Yamamoto class Grand Battleship is a consummate flagship killer. Like its sister class, the Nimitz, it mounts a Spinal Vent Lance. It forgoes the flight decks in favour of enlarged power cores to run its mass driver turrets and mounts a pair of torpedo tubes with capacity for two spreads. One focused volley can cripple a battleship. Due to its flexible, modular construction, like all twin-hulled Grand Battleships, the Yamamoto can be refitted with additional drives to better propel it towards its victim"
+}

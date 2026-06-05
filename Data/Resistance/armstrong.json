@@ -1,0 +1,68 @@
+{
+    "class": "Armstrong",
+    "type": "Destroyer",
+    "points": 65,
+    "tonnage": "L",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 9,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 6,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1-3",
+        "Special": [
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "HF-8 Clearance Laser",
+            "Profiles": [
+                {
+                    "Name": "Focused",
+                    "Arc": "F",
+                    "Att": 4,
+                    "Lock": "*",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Burnthrough-1",
+                        "Calibre-L/M",
+                        "Mauler"
+                    ]
+                },
+                {
+                    "Name": "Wide",
+                    "Arc": "F",
+                    "Att": 6,
+                    "Lock": "3+",
+                    "DMG": 0,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Anti Wing"
+                    ]
+                }
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Debris Clearance",
+            "Text": "Once per game, this Ship may forgo any attacks it may make. If it does, instead of attacking, this Ship may replace a piece of Debris Field within 6\" (measuring to the edge of that Debris Field) with a Micrometeor Cloud of approximately the same size in the same location, or remove a piece of Micrometeor Cloud within 6\" from the table."
+        }
+    ],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Apollo 11",
+        "Tranquility",
+        "Saturn"
+    ],
+    "flavour": "The Armstrong, Aldrin and Collins are some of the earliest human starships still in service; dating back to the late 24th century, they were designed for endurance exploration. Every UCM Colony was discovered by hit and miss expeditions, requiring many semi-random foldpace jumps until a usable world could be found, explored and given a node. Such dependable hardiness ensured three centuries' service. In size and capability they equal a modern destroyer, though in displacement they are more akin to cruisers due to multiple redundancies, cavernous storage and antique tech.\nThe Armstrong class was usually the first ship to make a jump before others followed its onboard node. This was due to its prodigious laser cluster, charged to obliterate any hazards at the jump point. Later, Armstrongs would begin the long, arduous task of clearing orbital debris before surface landings. Today, weapons designed to atomise thousands of tons of asteroid are better put to use in the much more immediate task of slicing hulls and fighting back enemy fighters, bombers and munitions."
+}

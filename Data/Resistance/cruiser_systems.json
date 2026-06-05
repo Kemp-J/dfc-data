@@ -1,0 +1,218 @@
+{
+    "name": "Cruiser Systems",
+    "groups": [
+        "Broadside Hardpoint",
+        "Structures",
+        "Turret Hardpoint"
+    ],
+    "systems": {
+        "Broadside Hardpoint": [
+            {
+                "Pts": 10,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "N-31 Hybrid Gun Bank",
+                    "Arc": "B",
+                    "Att": 3,
+                    "Lock": "4+",
+                    "DMG": 1,
+                    "Type": "K",
+                    "Special": [
+                        "Volley-2"
+                    ]
+                },
+                "SubGroup": "Weapons"
+            },
+            {
+                "Pts": 8,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "N-8 Artillery Cannon Bank",
+                    "Arc": "B",
+                    "Att": 6,
+                    "Lock": "5+",
+                    "DMG": 1,
+                    "Type": "K",
+                    "Special": [
+                        "Fusillade-2",
+                        "Low Power",
+                        "Volley-2"
+                    ]
+                },
+                "SubGroup": "Weapons"
+            },
+            {
+                "Pts": 5,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "NC-16 Missile Bank",
+                    "Arc": "B",
+                    "Att": 6,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "K",
+                    "Special": [
+                        "Close Action",
+                        "Volley-2"
+                    ]
+                },
+                "SubGroup": "Weapons"
+            },
+            {
+                "Pts": 30,
+                "Type": "Load",
+                "Profile": {
+                    "Load": "Fighters & Bombers¹",
+                    "Launch": 2,
+                    "Special": []
+                },
+                "SubGroup": "Launch"
+            },
+            {
+                "Pts": 35,
+                "Type": "Load",
+                "Profile": {
+                    "Load": "Mines¹",
+                    "Launch": 2,
+                    "Special": []
+                },
+                "SubGroup": "Launch"
+            },
+            {
+                "Pts": 18,
+                "Type": "Load",
+                "Profile": {
+                    "Load": "Bulk Landers & Fire Ships",
+                    "Launch": 2,
+                    "Special": []
+                },
+                "SubGroup": "Launch"
+            }
+        ],
+        "Structures": [
+            {
+                "Pts": 5,
+                "Type": "Structure",
+                "Profile": {
+                    "Name": "Scanner Array",
+                    "Effect": "This Ship increases its Scan by 4\"."
+                },
+                "Effects": [
+                    {
+                        "Target": "Scan",
+                        "Type": "add",
+                        "Value": 4
+                    }
+                ],
+                "Max": 1
+            },
+            {
+                "Pts": 12,
+                "Type": "Structure",
+                "Profile": {
+                    "Name": "Ablative Armour",
+                    "Effect": "This Ship gains the Reinforced Armour special rule and improves its Kinetic and Energy save by 1."
+                },
+                "Effects": [
+                    {
+                        "Target": "Special",
+                        "Type": "append",
+                        "Value": "Reinforced Armour"
+                    },
+                    {
+                        "Target": "KS",
+                        "Type": "subtract",
+                        "Value": 1
+                    },
+                    {
+                        "Target": "ES",
+                        "Type": "subtract",
+                        "Value": 1
+                    }
+                ],
+                "Max": 1
+            },
+            {
+                "Pts": 15,
+                "Type": "Structure",
+                "Profile": {
+                    "Name": "Drive Refit",
+                    "Effect": "This Ship increases its Thrust by 3\"."
+                },
+                "Effects": [
+                    {
+                        "Target": "Thrust",
+                        "Type": "add",
+                        "Value": 3
+                    }
+                ],
+                "Max": 1
+            }
+        ],
+        "Turret Hardpoint": [
+            {
+                "Pts": 6,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "XN-31 Mass Driver Turret",
+                    "Arc": "F/S",
+                    "Att": 2,
+                    "Lock": "2+",
+                    "DMG": 1,
+                    "Type": "K",
+                    "Special": [
+                        "Critical-1"
+                    ]
+                }
+            },
+            {
+                "Pts": 5,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "N-11 Artillery Cannon Turret",
+                    "Arc": "F/S",
+                    "Att": 3,
+                    "Lock": "4+",
+                    "DMG": 1,
+                    "Type": "K",
+                    "Special": [
+                        "Fusillade-1",
+                        "Low Power"
+                    ]
+                }
+            },
+            {
+                "Pts": 13,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "N-109 Bombardment Mortar Turret",
+                    "Arc": "F/S/R",
+                    "Att": 3,
+                    "Lock": "4+",
+                    "DMG": 1,
+                    "Type": "K",
+                    "Special": [
+                        "Bombardment",
+                        "Scald-1"
+                    ]
+                }
+            },
+            {
+                "Pts": 10,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "Vent Cannon Turret",
+                    "Arc": "F/S",
+                    "Att": 3,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "E",
+                    "Special": [
+                        "Overcharge",
+                        "Reave-1"
+                    ]
+                }
+            }
+        ]
+    }
+}

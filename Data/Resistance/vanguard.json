@@ -1,0 +1,70 @@
+{
+    "class": "Vanguard",
+    "type": "Old Battleship",
+    "points": 230,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 15,
+        "ES": "3+",
+        "KS": "5+",
+        "BS": "5+",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Mega Vent Cannon Half Battery",
+            "Arc": "B",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Fusillade-1",
+                "Overcharge",
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Mega Vent Cannon Half Battery",
+            "Arc": "B",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Fusillade-1",
+                "Overcharge",
+                "Reave-1",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "NC-16 Missile Battery Turret Pair",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [],
+    "admiral_abilities": [],
+    "upgrades": [],
+    "famous_ships": [
+        "Fireheart",
+        "Einstein (Independents)",
+        "Nikola Tesla",
+        "Hyperion (Kalium)"
+    ],
+    "flavour": "EAAS Vanguard was once the only example of her class. A development of the earlier Iowa, she incorporated vent canon broadsides and what was once a state-of-the-art power core. She proved unstable due to her armament and insufficient cooling and was ultimately lost with all hands over Eden Prime during the Scourge invasion. However, her plans were widely available due to her age, and since then, many foolhardy and/or bloodthirsty resistance admirals have converted Musashis and Lexingtons into Vanguards using more recent cores and custom-built vent canons."
+}
