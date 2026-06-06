@@ -1,0 +1,14 @@
+{
+    "system": "System/_system.json",
+    "fleets": [
+        "Bioficer/_fleet.json",
+        "PHR/_fleet.json",
+        "Resistance/_fleet.json",
+        "Scourge/_fleet.json",
+        "Shaltari/_fleet.json",
+        "UCM/_fleet.json"
+    ],
+    "other_ships": [
+        "Civilian/_civilian.json"
+    ]
+}
