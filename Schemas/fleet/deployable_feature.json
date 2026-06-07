@@ -1,0 +1,46 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/fleet/deployable_feature.json",
+    "title": "DFC Deployable Feature Data",
+    "description": "Data file for a Deployable Feature.",
+    "type": "object",
+    "required": ["profile", "weapons", "load", "rules"],
+    "additionalProperties": false,
+    "properties": {
+        "profile": { "$ref": "#/$defs/DeployProfile" },
+        "weapons": { "type": "array", "items": { "$ref": "#/$defs/DeployWeapon" } },
+        "load":    { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/LoadEntry" } },
+        "rules":   { "type": "string" }
+    },
+    "$defs": {
+        "DeployProfile": {
+            "description": "The stat-line of a Deployable Feature.",
+            "type": "object",
+            "required": ["PTS", "Type", "ES", "KS", "Special"],
+            "additionalProperties": false,
+            "properties": {
+                "PTS":     { "description": "Points cost, or null if variable.", "type": ["integer", "null"] },
+                "Type":    { "description": "The name of the Deployable Feature.", "type": "string" },
+                "ES":      { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/SaveValue" },
+                "KS":      { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/SaveValue" },
+                "Special": { "type": "array", "items": { "type": "string" } }
+            }
+        },
+        "DeployWeapon": {
+            "description": "A weapon on a Deployable Feature. Rule is only present when the feature has a rule sharing the weapon's name.",
+            "type": "object",
+            "required": ["Name", "Scan", "Att", "Lock", "DMG", "Type", "Special"],
+            "additionalProperties": false,
+            "properties": {
+                "Name":    { "type": "string" },
+                "Scan":    { "description": "Scan range in inches, or null when absent.", "type": ["integer", "null"] },
+                "Att":     { "type": "integer" },
+                "Lock":    { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/LockValue" },
+                "DMG":     { "type": "integer" },
+                "Type":    { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/WeaponType" },
+                "Special": { "type": "array", "items": { "type": "string" } },
+                "Rule":    { "type": "string" }
+            }
+        }
+    }
+}

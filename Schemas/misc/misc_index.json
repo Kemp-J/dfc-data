@@ -1,0 +1,24 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/misc/misc_index.json",
+    "title": "DFC Misc Ships Index",
+    "description": "The _misc.json index file for ships in the Misc PDF.",
+    "type": "object",
+    "required": [
+        "source_version",
+        "ships"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "source_version": {
+            "description": "Release date of the source PDF (YYMMDD).",
+            "type": "string",
+            "pattern": "^\\d{6}$"
+        },
+        "ships": {
+            "description": "Filenames of misc ship data files.",
+            "type": "array",
+            "items": { "type": "string" }
+        }
+    }
+}

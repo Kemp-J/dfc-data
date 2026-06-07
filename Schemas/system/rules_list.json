@@ -1,0 +1,18 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/system/rules_list.json",
+    "title": "DFC Special Rules List",
+    "description": "A list of special rules (either ship special rules or weapon special rules).",
+    "type": "array",
+    "items": {
+        "description": "A named special rule with its full rule text.",
+        "type": "object",
+        "required": ["Name", "Text"],
+        "additionalProperties": false,
+        "properties": {
+            "Name": { "type": "string" },
+            "Text": { "type": "string" },
+            "Example": { "type": "string" }
+        }
+    }
+}

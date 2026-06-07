@@ -1,0 +1,260 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/fleet/defs.json",
+    "title": "DFC Shared Definitions",
+    "description": "Shared type definitions referenced by all DFC exported data schemas.",
+    "$defs": {
+
+        "AbilityCost": {
+            "description": "AP cost for an ability. 'NAP' for a fixed cost, 'NAP*' for a conditional cost, or '*AP' for a variable cost defined by context.",
+            "type": "string",
+            "pattern": "^(\\d+AP\\*?|\\*AP)$"
+        },
+
+        "Ability": {
+            "description": "A named ability available to admirals.",
+            "type": "object",
+            "required": ["Cost", "Name", "Effect"],
+            "additionalProperties": false,
+            "properties": {
+                "Cost":   { "$ref": "#/$defs/AbilityCost" },
+                "Name":   { "type": "string" },
+                "Effect": { "type": "string" }
+            }
+        },
+
+        "Tonnage": {
+            "description": "Ship tonnage class: Light, Medium, Heavy, or Colossal.",
+            "type": "string",
+            "enum": ["L", "M", "H", "C"]
+        },
+
+        "SaveValue": {
+            "description": "Save stat value: 'X+' where X is 2–6.",
+            "type": "string",
+            "pattern": "^[2-6]\\+$"
+        },
+
+        "SaveOrDash": {
+            "description": "Save stat value that may be absent: 'X+' where X is 2–6, or '-'.",
+            "type": "string",
+            "pattern": "^([2-6]\\+|-)$"
+        },
+
+        "GValue": {
+            "description": "Group size: 'X', 'X-Y' (min–max ships per group), or '-' when not applicable.",
+            "type": "string",
+            "pattern": "^(\\d+(-\\d+)?|-)$"
+        },
+
+        "LockValue": {
+            "description": "Weapon lock value: 'X+' where X is 1–6, or '*' for a special lock.",
+            "type": "string",
+            "pattern": "^([1-6]\\+|\\*)$"
+        },
+
+        "WeaponType": {
+            "description": "Weapon damage type: Kinetic, Energy, or Corrosive.",
+            "type": "string",
+            "enum": ["K", "E", "C"]
+        },
+
+        "ArcValue": {
+            "description": "Weapon firing arc.",
+            "type": "string",
+            "enum": ["B", "F", "FN", "RN", "S", "F/S", "F/S/R", "SL", "SR"]
+        },
+
+        "StatModifier": {
+            "description": "A single modification to one field of a ship profile.",
+            "type": "object",
+            "required": ["Target", "Type", "Value"],
+            "additionalProperties": false,
+            "properties": {
+                "Target": {
+                    "description": "The profile field to modify.",
+                    "type": "string",
+                    "enum": ["Thrust", "Scan", "Sig", "Hull", "ES", "KS", "BS", "G", "Special"]
+                },
+                "Type": {
+                    "description": "How the modification is applied.",
+                    "type": "string",
+                    "enum": ["add", "subtract", "replace", "append"]
+                },
+                "Value": {
+                    "description": "The modification value. Integer for numeric stats; string for string-valued stats.",
+                    "oneOf": [
+                        { "type": "integer" },
+                        { "type": "string" }
+                    ]
+                }
+            }
+        },
+
+        "PlainUpgrade": {
+            "description": "An optional upgrade the ship may independently take.",
+            "type": "object",
+            "required": ["Name", "Cost", "Effects"],
+            "additionalProperties": false,
+            "properties": {
+                "Name":    { "type": "string" },
+                "Cost":    { "type": "integer" },
+                "Effects": {
+                    "type": "array",
+                    "items": { "$ref": "#/$defs/StatModifier" }
+                }
+            }
+        },
+
+        "ChoiceGroup": {
+            "description": "A group of mutually-exclusive upgrade options; the ship must take between min and max of them.",
+            "type": "object",
+            "required": ["min", "max", "options"],
+            "additionalProperties": false,
+            "properties": {
+                "min": { "type": "integer", "minimum": 0 },
+                "max": { "type": "integer", "minimum": 0 },
+                "options": {
+                    "type": "array",
+                    "items": { "$ref": "#/$defs/PlainUpgrade" },
+                    "minItems": 1
+                }
+            }
+        },
+
+        "UpgradeEntry": {
+            "description": "A standalone upgrade item or a choice group.",
+            "oneOf": [
+                { "$ref": "#/$defs/PlainUpgrade" },
+                { "$ref": "#/$defs/ChoiceGroup" }
+            ]
+        },
+
+        "Rule": {
+            "description": "A named special rule applying to a ship.",
+            "type": "object",
+            "required": ["Name", "Text"],
+            "additionalProperties": false,
+            "properties": {
+                "Name": { "type": "string" },
+                "Text": { "type": "string" }
+            }
+        },
+
+        "WeaponProfile": {
+            "description": "One firing profile within a multi-profile weapon.",
+            "type": "object",
+            "required": ["Name", "Arc", "Att", "Lock", "DMG", "Type", "Special"],
+            "additionalProperties": false,
+            "properties": {
+                "Name":    { "type": "string" },
+                "Arc":     { "$ref": "#/$defs/ArcValue" },
+                "Att":     { "type": "integer" },
+                "Lock":    { "$ref": "#/$defs/LockValue" },
+                "DMG":     { "type": "integer" },
+                "Type":    { "$ref": "#/$defs/WeaponType" },
+                "Special": { "type": "array", "items": { "type": "string" } }
+            }
+        },
+
+        "SingleWeapon": {
+            "description": "A weapon system with a single firing profile. Cost and Replaces are only present on optional/refit weapons. Rule is only present when the ship has a rule sharing the weapon's name.",
+            "type": "object",
+            "required": ["Name", "Arc", "Att", "Lock", "DMG", "Type", "Special"],
+            "additionalProperties": false,
+            "properties": {
+                "Name":     { "type": "string" },
+                "Arc":      { "$ref": "#/$defs/ArcValue" },
+                "Att":      { "type": "integer" },
+                "Lock":     { "$ref": "#/$defs/LockValue" },
+                "DMG":      { "type": "integer" },
+                "Type":     { "$ref": "#/$defs/WeaponType" },
+                "Special":  { "type": "array", "items": { "type": "string" } },
+                "Rule":     { "type": "string" },
+                "Cost":     { "type": "integer" },
+                "Replaces": { "type": "array", "items": { "type": "string" } }
+            }
+        },
+
+        "MultiProfileWeapon": {
+            "description": "A weapon system with multiple named firing profiles. Cost and Replaces are only present on optional/refit weapons. Rule is only present when the ship has a rule sharing the weapon's name.",
+            "type": "object",
+            "required": ["Name", "Profiles"],
+            "additionalProperties": false,
+            "properties": {
+                "Name":     { "type": "string" },
+                "Profiles": { "type": "array", "items": { "$ref": "#/$defs/WeaponProfile" }, "minItems": 2 },
+                "Rule":     { "type": "string" },
+                "Cost":     { "type": "integer" },
+                "Replaces": { "type": "array", "items": { "type": "string" } }
+            }
+        },
+
+        "Weapon": {
+            "description": "A weapon system on a ship: either a single-profile weapon or a multi-profile weapon.",
+            "oneOf": [
+                { "$ref": "#/$defs/SingleWeapon" },
+                { "$ref": "#/$defs/MultiProfileWeapon" }
+            ]
+        },
+
+        "LoadEntry": {
+            "description": "A launch asset load carried by a ship. Cost and Replaces are only present on optional/refit loads.",
+            "type": "object",
+            "required": ["Load", "Launch", "Special"],
+            "additionalProperties": false,
+            "properties": {
+                "Load":     { "type": "string" },
+                "Launch":   { "type": "integer" },
+                "Special":  { "type": "array", "items": { "type": "string" } },
+                "Cost":     { "type": "integer" },
+                "Replaces": { "type": "array", "items": { "type": "string" } }
+            }
+        },
+
+        "GroupLimit": {
+            "description": "Per-group selection constraints within a systems list.",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "Min": { "type": "integer", "minimum": 0 },
+                "Max": { "type": "integer", "minimum": 1 }
+            }
+        },
+
+        "SystemsRef": {
+            "description": "Reference to a systems list and per-ship selection constraints.",
+            "type": "object",
+            "required": ["Name", "Min", "Max"],
+            "additionalProperties": false,
+            "properties": {
+                "Name": { "type": "string" },
+                "Min":  { "type": "integer", "minimum": 0 },
+                "Max":  { "type": "integer", "minimum": 0 },
+                "GroupLimits": {
+                    "type": "object",
+                    "additionalProperties": { "$ref": "#/$defs/GroupLimit" }
+                }
+            }
+        },
+
+        "ShipProfile": {
+            "description": "The stat-line of a ship.",
+            "type": "object",
+            "required": ["Thrust", "Scan", "Sig", "Hull", "ES", "KS", "BS", "G", "Special"],
+            "additionalProperties": false,
+            "properties": {
+                "Thrust":  { "type": "integer" },
+                "Scan":    { "type": "integer" },
+                "Sig":     { "type": "integer" },
+                "Hull":    { "type": "integer" },
+                "ES":      { "$ref": "#/$defs/SaveValue" },
+                "KS":      { "$ref": "#/$defs/SaveValue" },
+                "BS":      { "$ref": "#/$defs/SaveOrDash" },
+                "G":       { "$ref": "#/$defs/GValue" },
+                "Special": { "type": "array", "items": { "type": "string" } }
+            }
+        }
+
+    }
+}

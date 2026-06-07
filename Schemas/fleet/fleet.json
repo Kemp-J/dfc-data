@@ -1,0 +1,115 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/fleet/fleet.json",
+    "title": "DFC Fleet Index",
+    "description": "The _fleet.json index file for a fleet.",
+    "type": "object",
+    "required": [
+        "source_version",
+        "abilities",
+        "fleet_admirals",
+        "launch_assets",
+        "systems",
+        "deployable_features",
+        "famous_admirals",
+        "heroes",
+        "ships"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "source_version": {
+            "description": "Release version of the source PDF (YYMMDD).",
+            "type": "string",
+            "pattern": "^\\d{6}$"
+        },
+        "abilities": {
+            "description": "Abilities available to Fleet and Famous Admirals.",
+            "type": "array",
+            "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Ability" }
+        },
+        "fleet_admirals": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/FleetAdmiral" }
+        },
+        "launch_assets": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/LaunchAsset" }
+        },
+        "systems": {
+            "description": "Filenames of systems list data files.",
+            "type": "array",
+            "items": { "type": "string" }
+        },
+        "deployable_features": {
+            "description": "Filenames of Deployable Feature data files.",
+            "type": "array",
+            "items": { "type": "string" }
+        },
+        "famous_admirals": {
+            "description": "Filenames of Famous Admiral data files.",
+            "type": "array",
+            "items": { "type": "string" }
+        },
+        "heroes": {
+            "description": "Filenames of Hero ship data files.",
+            "type": "array",
+            "items": { "type": "string" }
+        },
+        "ships": {
+            "description": "Filenames of ship data files.",
+            "type": "array",
+            "items": { "type": "string" }
+        }
+    },
+    "$defs": {
+        "FleetAdmiral": {
+            "description": "A Fleet Admiral entry.",
+            "type": "object",
+            "required": ["Name", "Level", "Cost", "FleetAbilities", "Abilities"],
+            "additionalProperties": false,
+            "properties": {
+                "Name":           { "type": "string" },
+                "Level":          { "type": "integer" },
+                "Cost":           { "type": "integer" },
+                "FleetAbilities": { "type": "integer" },
+                "Abilities": {
+                    "type": "array",
+                    "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Ability" }
+                }
+            }
+        },
+        "LaunchAssetNonFighter": {
+            "description": "A non-fighter launch asset (torpedo, dropship, bomber, etc).",
+            "type": "object",
+            "required": ["Load", "Thrust", "Att", "Lock", "DMG", "Type", "Special"],
+            "additionalProperties": false,
+            "properties": {
+                "Load":    { "type": "string" },
+                "Thrust":  { "type": "integer" },
+                "Att":     { "type": "integer" },
+                "Lock":    { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/LockValue" },
+                "DMG":     { "type": "integer" },
+                "Type":    { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/WeaponType" },
+                "Special": { "type": "array", "items": { "type": "string" } }
+            }
+        },
+        "LaunchAssetFighter": {
+            "description": "A fighter-type launch asset.",
+            "type": "object",
+            "required": ["Load", "Thrust", "Rerolls"],
+            "additionalProperties": false,
+            "properties": {
+                "Load":    { "type": "string" },
+                "Thrust":  { "type": "integer" },
+                "Rerolls": { "type": "integer" }
+            }
+        },
+        "LaunchAsset": {
+            "description": "A launch asset stat line: either a fighter or a non-fighter type.",
+            "oneOf": [
+                { "$ref": "#/$defs/LaunchAssetNonFighter" },
+                { "$ref": "#/$defs/LaunchAssetFighter" }
+            ]
+        }
+    }
+}

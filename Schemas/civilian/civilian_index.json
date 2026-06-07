@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/civilian/civilian_index.json",
+    "title": "DFC Civilian Ships Index",
+    "description": "The _civilian.json index file for civilian ships.",
+    "type": "object",
+    "required": [
+        "source_version",
+        "ship_rules",
+        "ships"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "source_version": {
+            "description": "Release date of the source PDF (YYMMDD).",
+            "type": "string",
+            "pattern": "^\\d{6}$"
+        },
+        "ship_rules": {
+            "description": "Special rules defined in the civilian ships PDF.",
+            "type": "array",
+            "items": { "$ref": "#/$defs/Rule" }
+        },
+        "ships": {
+            "description": "Filenames of civilian ship data files.",
+            "type": "array",
+            "items": { "type": "string" }
+        }
+    },
+    "$defs": {
+        "Rule": {
+            "description": "A named special rule with optional example.",
+            "type": "object",
+            "required": ["Name", "Text"],
+            "additionalProperties": false,
+            "properties": {
+                "Name":    { "type": "string" },
+                "Text":    { "type": "string" },
+                "Example": { "type": "string" }
+            }
+        }
+    }
+}

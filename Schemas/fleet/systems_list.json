@@ -1,0 +1,56 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/fleet/systems_list.json",
+    "title": "DFC Systems List",
+    "description": "A named list of systems available for purchase by certain ship classes.",
+    "type": "object",
+    "required": ["name", "groups", "systems"],
+    "additionalProperties": false,
+    "properties": {
+        "name":    { "type": "string" },
+        "groups":  { "type": "array", "items": { "type": "string" } },
+        "systems": {
+            "description": "Map of group name to system entries for that group.",
+            "type": "object",
+            "additionalProperties": {
+                "type": "array",
+                "items": { "$ref": "#/$defs/SystemEntry" }
+            }
+        }
+    },
+    "$defs": {
+        "SystemEntry": {
+            "description": "A single purchaseable system entry within a group.",
+            "type": "object",
+            "required": ["Pts", "Type", "Profile"],
+            "properties": {
+                "Pts":      { "type": "integer", "minimum": 0 },
+                "Type":     { "type": "string", "enum": ["Weapon", "Load", "Structure"] },
+                "Profile":  true,
+                "SubGroup": { "type": "string" },
+                "Max":      { "type": "integer", "minimum": 1 },
+                "Effects":  { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/StatModifier" } }
+            },
+            "if":   { "required": ["Type"], "properties": { "Type": { "const": "Weapon" } } },
+            "then": { "properties": { "Profile": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Weapon" } } },
+            "else": {
+                "if":   { "required": ["Type"], "properties": { "Type": { "const": "Load" } } },
+                "then": { "properties": { "Profile": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/LoadEntry" } } },
+                "else": {
+                    "required": ["Effects"],
+                    "properties": { "Profile": { "$ref": "#/$defs/StructureProfile" } }
+                }
+            }
+        },
+        "StructureProfile": {
+            "description": "Profile for a structure-type system.",
+            "type": "object",
+            "required": ["Name", "Effect"],
+            "additionalProperties": false,
+            "properties": {
+                "Name":   { "type": "string" },
+                "Effect": { "type": "string" }
+            }
+        }
+    }
+}

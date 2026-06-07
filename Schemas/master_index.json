@@ -1,0 +1,36 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/master_index.json",
+    "title": "DFC Master Index",
+    "description": "The top-level _index.json file, which acts as the entry point for accessing the exported data.",
+    "type": "object",
+    "required": [
+        "system",
+        "fleets",
+        "other_ships",
+        "counts_as"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "system": {
+            "description": "Relative path from the exported root to the system index file.",
+            "type": "string"
+        },
+        "fleets": {
+            "description": "Relative paths from the exported root to each fleet index file.",
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+        },
+        "other_ships": {
+            "description": "Relative paths from the exported root to other ship category index files (civilian, misc).",
+            "type": "array",
+            "items": { "type": "string" },
+            "minItems": 1
+        },
+        "counts_as": {
+            "description": "Relative path from the exported root to the 'counts as' index file.",
+            "type": "string"
+        }
+    }
+}

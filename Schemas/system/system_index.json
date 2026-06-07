@@ -1,0 +1,24 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/system/system_index.json",
+    "title": "DFC System Data Index",
+    "description": "The _system.json index file for the system (core rules) data.",
+    "type": "object",
+    "required": ["source_version", "ship_rules", "weapon_rules"],
+    "additionalProperties": false,
+    "properties": {
+        "source_version": {
+            "description": "Version of the core rules PDF (X.Y.Z).",
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "ship_rules": {
+            "description": "Filename of the ship special rules data file.",
+            "type": "string"
+        },
+        "weapon_rules": {
+            "description": "Filename of the weapon special rules data file.",
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/fleet/hero.json",
+    "title": "DFC Hero Ship Data",
+    "description": "Data file for a Hero ship.",
+    "type": "object",
+    "required": [
+        "hero",
+        "ship",
+        "type",
+        "points",
+        "tonnage",
+        "base_size",
+        "profile",
+        "weapons",
+        "load",
+        "upgrades",
+        "rules",
+        "admiral_abilities",
+        "famous_ships",
+        "flavour"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "hero":              { "type": "string" },
+        "ship":              { "type": "string" },
+        "type":              { "type": "string" },
+        "points":            { "type": "integer" },
+        "tonnage":           { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Tonnage" },
+        "base_size":         { "type": "integer" },
+        "profile":           { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/ShipProfile" },
+        "weapons":           { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Weapon" } },
+        "load":              { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/LoadEntry" } },
+        "upgrades":          { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/UpgradeEntry" } },
+        "rules":             { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Rule" } },
+        "admiral_abilities": { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Ability" } },
+        "famous_ships":      { "type": "array", "items": { "type": "string" } },
+        "flavour":           { "type": "string" }
+    }
+}

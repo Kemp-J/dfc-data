@@ -1,0 +1,64 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/misc/counts_as_entry.json",
+    "title": "DFC 'Counts As' Ship Entry",
+    "description": "Data file for a ship class that counts as an existing class from one of the fleet PDFs.",
+    "type": "object",
+    "required": [
+        "fleet",
+        "class",
+        "type",
+        "rule_name",
+        "rule_text",
+        "famous_ships",
+        "flavour",
+        "counts_as_class",
+        "counts_as_type",
+        "availability"
+    ],
+    "additionalProperties": false,
+    "properties": {
+        "fleet": {
+            "description": "Fleet the counts-as class belongs to.",
+            "type": "string"
+        },
+        "class": {
+            "description": "Name of this ship class.",
+            "type": "string"
+        },
+        "type": {
+            "description": "Ship type (e.g. 'Light Cruiser'). Typically matches counts_as_type in practice.",
+            "type": "string"
+        },
+        "rule_name": {
+            "description": "Rule heading (e.g. 'Counts As', 'Kalium KNC-5', 'Remnant').",
+            "type": "string"
+        },
+        "rule_text": {
+            "description": "Full 'counts as' sentence from the PDF.",
+            "type": "string"
+        },
+        "famous_ships": {
+            "description": "Named individual ships of this class. Often empty.",
+            "type": "array",
+            "items": { "type": "string" }
+        },
+        "flavour": {
+            "description": "Flavour text. Often empty. Paragraph breaks encoded as \\n.",
+            "type": "string"
+        },
+        "counts_as_class": {
+            "description": "Class name this ship counts as, resolved from fleet data.",
+            "type": "string"
+        },
+        "counts_as_type": {
+            "description": "Ship type of the counts-as class, taken from fleet data.",
+            "type": "string"
+        },
+        "availability": {
+            "description": "How the model is obtained.",
+            "type": "string",
+            "enum": ["RESIN", "EXCLUSIVE"]
+        }
+    }
+}
