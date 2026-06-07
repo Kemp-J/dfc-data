@@ -1,0 +1,12 @@
+{
+    "fleet": "PHR",
+    "class": "Prototype Orpheus",
+    "type": "Assault Troopship",
+    "rule_name": "Counts As",
+    "rule_text": "This ship counts as an Orpheus Assault Troopship.",
+    "famous_ships": [],
+    "flavour": "",
+    "counts_as_class": "Orpheus",
+    "counts_as_type": "Assault Troopship",
+    "availability": "RESIN"
+}

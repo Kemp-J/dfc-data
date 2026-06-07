@@ -1,0 +1,12 @@
+{
+    "fleet": "Bioficer",
+    "class": "The Anomaly",
+    "type": "Cruiser",
+    "rule_name": "Counts As",
+    "rule_text": "This ship counts as a Construct Cruiser.",
+    "famous_ships": [],
+    "flavour": "",
+    "counts_as_class": "Construct",
+    "counts_as_type": "Cruiser",
+    "availability": "EXCLUSIVE"
+}

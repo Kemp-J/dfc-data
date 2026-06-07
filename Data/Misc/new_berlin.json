@@ -1,0 +1,16 @@
+{
+    "fleet": "UCM",
+    "class": "New Berlin",
+    "type": "Cruiser",
+    "rule_name": "Counts As",
+    "rule_text": "This ship counts as a Berlin Cruiser.",
+    "famous_ships": [
+        "Borealis",
+        "Schadenfreude",
+        "Ardent II"
+    ],
+    "flavour": "One issue with the classic Berlin class cruiser has always been the constant refits. The interchangeable, modular nature of traditional colonial shipbuilding left the classes' primary laser weapon exposed, protruding from the hull. This makes heat dissipation challenging, leading to extreme local operating temperatures and frequent failures. Titania Fleet System's new design (named after the city of New Berlin) incorporates the laser into the superstructure, allowing heat to be channelled into the vast mass of the hull for eventual radiation into space. Effectively using the entire ship as a heat-sync allows 150% longer intervals between refits.\nIn combat performance, the Titania New Berlin matches the older pattern while requiring less crew, less energy and less maintenance. Despite this, TFS's yards are small, incomplete and incomparable to the vast conurbations orbiting the gas giant Niccolum. Also, the corporation has to compete with over a century's entrenched shipbuilding ethos, and Titania Berlin will likely remain a rare but welcome sight on the frontlines for some time…",
+    "counts_as_class": "Berlin",
+    "counts_as_type": "Cruiser",
+    "availability": "RESIN"
+}

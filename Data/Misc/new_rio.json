@@ -1,0 +1,16 @@
+{
+    "fleet": "UCM",
+    "class": "New Rio",
+    "type": "Cruiser",
+    "rule_name": "Counts As",
+    "rule_text": "This ship counts as a Rio Cruiser.",
+    "famous_ships": [
+        "Soldier of Fortune II",
+        "Trajan",
+        "Thunderchild"
+    ],
+    "flavour": "Due to the huge, ongoing losses of the Battle for Earth and the record military spending authorised by the High Council, it is a time of opportunity for all whose business is killing. The Titania Aerospace Corporation has been the biggest winner, to the point where they have spawned a new subsidiary: Titania Fleet Systems. While the company's home colony is justly famous for its cavernous, subterranean armour works, its orbital yards are tiny compared to Niccolum's. TFS is aiming to change that, starting with an entirely re-designed line of cruisers.\nMatching the classic Rio class cruiser in performance, the new Titania pattern New Rio (named after New Rio on Titania) requires 30% less crew and 25% less core power, while offering improved crew comforts and endurance. As a result, TFS claim that their vessels offer 35% longer tours of duty than older classes. Only into its first year of production, the Admiralty has been slow to adopt these superior ships due to lack of spares and minimal standardisation with older classes - TFS's only concession to backwards-compatibility was the turrets. As the war grinds on and losses mount, TFS may see more desperate orders and eventually win over top-brass conservatives through combat.",
+    "counts_as_class": "Rio",
+    "counts_as_type": "Cruiser",
+    "availability": "RESIN"
+}

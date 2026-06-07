@@ -1,0 +1,12 @@
+{
+    "fleet": "Resistance",
+    "class": "Argonaut",
+    "type": "Battleship",
+    "rule_name": "Counts As",
+    "rule_text": "This ship counts as a Farragut Grand Battleship.",
+    "famous_ships": [],
+    "flavour": "",
+    "counts_as_class": "Farragut",
+    "counts_as_type": "Grand Battleship",
+    "availability": "RESIN"
+}

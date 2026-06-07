@@ -1,0 +1,16 @@
+{
+    "fleet": "Resistance",
+    "class": "Kalium KNC-5",
+    "type": "Line Cruiser",
+    "rule_name": "Kalium KNC-5",
+    "rule_text": "This Ship counts as a Resistance Light Cruiser with one NC-16 Missile Bank and two Vent Cannon Turrets.",
+    "famous_ships": [
+        "Heartbleeder",
+        "Souleater",
+        "Rend II"
+    ],
+    "flavour": "Generally, Kalium's ruling Kabal prefers to replicate proven pre-war designs than to innovate, with a focus on numbers. However, after Kalium's first major blooding in the opening stages of the Battle for Earth, deficiencies became apparent. Visitors to UCM vessels brought back memories (and hushed whispers) that their ships might not be as advanced as their Kabal proclaimed. While combat performance was solid, helped by the iron discipline of their career-sailors, the lack of modern 'dressings' in crew areas verged on embarrassing. Clunky 2D viewscreens, general lack of lighting and spartan comforts were more visible than inefficient drives and un-optimised construction.\nKaluim's latest vessels, while essentially the same underneath, have a more modern, distinct appearance as well as countless internal refinements. Kalium still does not favour colourful class names, though. A 'KNC-5' (Kalium Navy Cruiser, Type 5) is one of their most common, new line cruisers, armed with a pair of vent cannon turrets and a potent close action missile array.",
+    "counts_as_class": "Light Cruiser",
+    "counts_as_type": "Light Cruiser",
+    "availability": "RESIN"
+}

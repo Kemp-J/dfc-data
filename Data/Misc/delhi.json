@@ -1,0 +1,12 @@
+{
+    "fleet": "UCM",
+    "class": "Delhi",
+    "type": "Battleship",
+    "rule_name": "Counts As",
+    "rule_text": "This ship counts as a Delhi Battleship.",
+    "famous_ships": [],
+    "flavour": "",
+    "counts_as_class": "Delhi",
+    "counts_as_type": "Battleship",
+    "availability": "RESIN"
+}

@@ -1,0 +1,65 @@
+{
+    "class": "Pungari Thresher",
+    "type": "Hive Ship",
+    "points": 170,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 6,
+        "Scan": 4,
+        "Sig": 4,
+        "Hull": 14,
+        "ES": "3+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Harpoon Strike",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "load": [
+        {
+            "Load": "Boarding Pods",
+            "Launch": 4,
+            "Special": []
+        },
+        {
+            "Load": "Bulk Landers",
+            "Launch": 4,
+            "Special": []
+        },
+        {
+            "Load": "Fire Ships",
+            "Launch": 3,
+            "Special": []
+        }
+    ],
+    "upgrades": [],
+    "rules": [
+        {
+            "Name": "Subservient Mercenaries",
+            "Text": "Pungari Threshers may be used in any fleet but always use the following Shaltari Fire Ships. When used in a Shaltari fleet, this Ship gains Shield-5+."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "Ishmael",
+        "Megellan",
+        "Quint's Bane",
+        "Dust Devil"
+    ],
+    "flavour": "The UCM first encountered the Pungari as part of a Shaltari force during Phase 2 of the Reconquest. Unlike their masters, they were prolific in numbers. In them, the Shaltari found a subservient race to exploit in much the same way they had planned for humanity.\nSightings of Pungari ships were reported shortly afterwards—not all had fallen in with the Shaltari. Apparently, the Pungari are new to starfaring; their blocky ships are primitive yet robust. Instead of the low-crew, high-firepower approach advanced generators afford to other races, the Pungari leverage sheer numbers. Routinely, they hurl thousands into suicidal boarding actions; something Pungari do willingly and—as far as UCM soldiers can tell—with much glee. Their stocky frames may cope with the extreme g-forces involved, unencumbered by too much brain to damage.\nWhen encountering Pungari it is always a coin toss on whether they attack or not. They may try to broker simple alliances, happy to plunge into the wars of other races without expecting much in return, beyond a master to serve in awe."
+}

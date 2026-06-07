@@ -1,0 +1,16 @@
+{
+    "fleet": "Resistance",
+    "class": "Kalium KNC-12",
+    "type": "Fleet Carrier",
+    "rule_name": "Kalium KNC-12",
+    "rule_text": "This Ship counts as a Resistance Light Cruiser with one Vent Cannon Turret and two Fighters & Bombers.",
+    "famous_ships": [
+        "Beton Brut",
+        "Chaimberlain Powelbon",
+        "Du Hast"
+    ],
+    "flavour": "Kalium's newest vessels' unique aesthetic suggests a deliberate attempt by the Kabal to 'brand' their forces, or at least to make them distinct from the old, tired ships of Resistance fleets. Certainly, the brutalist design speaks of utility, strength and a total distain for beauty - not that the UCM cares much for those either, but at least they don't seem to revel in them. The KNC-12 Fleet Carrier is one of the more common, offering excellent, cost-efficient utility to any admiral by way of a potent (if unsafe) vent cannon turret and a double set of launch bays. Unlike the Shaltari, Kalium has no shortage of pilots.\nThe increasing percentage of these newest vessels in recent engagements speaks of the extreme speed at which the Kabal can build ships - helped, no doubt, by the multitudes under the whip of penal servitude. Their manufacturing capacity is also fearsome, as scattered reports of the class operating under the flag of several Resistance fleets now exist, suggesting that Kalium's resupply arrangements, as the only manufacturer of old military hardware, have expanded greatly in recent months.",
+    "counts_as_class": "Light Cruiser",
+    "counts_as_type": "Light Cruiser",
+    "availability": "RESIN"
+}

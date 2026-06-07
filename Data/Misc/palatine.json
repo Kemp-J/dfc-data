@@ -1,0 +1,65 @@
+{
+    "class": "Palatine",
+    "type": "Command Barge",
+    "points": 170,
+    "tonnage": "H",
+    "base_size": 50,
+    "profile": {
+        "Thrust": 7,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 14,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Command Ship-1",
+            "Detector",
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "N-12 Artillery Cannons",
+            "Arc": "F",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        }
+    ],
+    "load": [],
+    "upgrades": [],
+    "rules": [
+        {
+            "Name": "Advanced Artillery",
+            "Text": "While on the Max Thrust or Silent Running Orders, this Ship may attack with its N-12 Artillery Cannon Turrets.\nWhile on the Weapons Free Order, this Ship counts as having an additional weapon for its Detector rule."
+        },
+        {
+            "Name": "Magellan Lifeboats",
+            "Text": "If this ship is destroyed with an Admiral assigned to it, you may transfer that Admiral to another friendly ship of H or C Tonnage with no Admiral within 18\", losing the benefits of this ship's Command Ship rule."
+        },
+        {
+            "Name": "Remnant",
+            "Text": "This Ship may be used in UCM, PHR, or Resistance fleets."
+        }
+    ],
+    "admiral_abilities": [],
+    "famous_ships": [
+        "-River Queen",
+        "Twilight Spectre",
+        "Eclipse (UCM)",
+        "Domus Aurea",
+        "Samuda",
+        "AAA (PHR)",
+        "Kabal's Raiment [né Versailles]",
+        "Kabal's Insight [né Midas] (Kalium)",
+        "Bruised Beautiful [né Atlantique]",
+        "Daughter of Eden (Vega Scrapfleet)",
+        "Gilded Trident",
+        "In Diamond Clad (Independents)"
+    ],
+    "flavour": "Pre-war System Admirals had unconscionable budgets and could procure ships for their battlefleet with little oversight from Earth. When it came to their personal ship, this created the conditions for a strange offering from the naval yards: opulence. Trident Industrial met this need lavishly with the Palatine Class Command Barge. An unusual ship of battlecruiser tonnage, it shares the typical style on the outside, but inside, no expense was spared. Marble, ebony and craftsmanship are terms you don't hear in military circles. Indeed, a single Palatine cost more than three Grand Battleships to build. The class features twelve overlarge lifeboats of unique design, the Magellan, each closer to an armoured yacht than an escape craft. Even the ship's guns use expensive, low-observable shells to reduce the ship's signature in combat. To offset this fabulous cost, Trident Industrial offered vessels to the private sector; owners included planetary governors, corporate titans and infamous syndicate heads.\nThough rare, a high proportion survived the Scourge invasion and the hard centuries that followed due to quality, their excessive point defences, and the fact that owners weren't generally the sorts to go down fighting. Since everything on the Palatine was overbuilt to the highest standards, survivors are still prized, capable ships. Their bygone splendour and the hand-ground perfection of their optics even make them worthwhile to the Republic's Grand Fleet, which operates several, mostly the former property of prophesy-spooked CEOs. Kalium possesses two which the UCM is aware of, although apparently their more opulent spaces have been painted grey—they're still Shangrilanian inlay underneath. The UCM has five on their lists, including River Queen, which is reserved for Presidential use. Such ships could be built today, but the cost would make no military sense—it never did."
+}

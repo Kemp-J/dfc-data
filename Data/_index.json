@@ -9,6 +9,8 @@
         "UCM/_fleet.json"
     ],
     "other_ships": [
-        "Civilian/_civilian.json"
-    ]
+        "Civilian/_ships.json",
+        "Misc/_ships.json"
+    ],
+    "counts_as": "Misc/_counts_as.json"
 }

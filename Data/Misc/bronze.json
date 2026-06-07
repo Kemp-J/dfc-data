@@ -1,0 +1,12 @@
+{
+    "fleet": "Shaltari",
+    "class": "Bronze",
+    "type": "Battleship",
+    "rule_name": "Counts As",
+    "rule_text": "This ship counts as a Bronze Battleship.",
+    "famous_ships": [],
+    "flavour": "",
+    "counts_as_class": "Bronze",
+    "counts_as_type": "Battleship",
+    "availability": "RESIN"
+}

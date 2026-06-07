@@ -1,0 +1,12 @@
+{
+    "fleet": "Shaltari",
+    "class": "Platinum",
+    "type": "Battleship",
+    "rule_name": "Counts As",
+    "rule_text": "This ship counts as a Platinum Battleship.",
+    "famous_ships": [],
+    "flavour": "",
+    "counts_as_class": "Platinum",
+    "counts_as_type": "Supercarrier",
+    "availability": "RESIN"
+}

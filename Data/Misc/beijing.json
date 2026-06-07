@@ -1,0 +1,12 @@
+{
+    "fleet": "UCM",
+    "class": "Beijing",
+    "type": "Battleship",
+    "rule_name": "Counts As",
+    "rule_text": "This ship counts as a Beijing Battleship.",
+    "famous_ships": [],
+    "flavour": "",
+    "counts_as_class": "Beijing",
+    "counts_as_type": "Battleship",
+    "availability": "RESIN"
+}

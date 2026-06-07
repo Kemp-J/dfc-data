@@ -1,0 +1,17 @@
+{
+    "fleet": "Resistance",
+    "class": "Vicarius",
+    "type": "Battlecruiser",
+    "rule_name": "Counts As",
+    "rule_text": "This Ship counts as a Resistance Senator Battlecruiser.",
+    "famous_ships": [
+        "Vicarius (Independent)",
+        "Warcrimes",
+        "Grim Enforcer",
+        "Exterminator (Kalium)"
+    ],
+    "flavour": "While the Senator class battlecruiser was an abhorrent and unsanctioned creation of certain paranoid admirals, EAAS Vicarius was downright infamous. She was once the sole example of her class and, it is now understood, instrumental in the Cleansing of Wolfrum. In 2495, twelve years before the Scourge invasion, the mining colony of Wolfrum rebelled, violently. Soon, an unknown vessel of battlecruiser tonnage appeared above the capital and unleashed a spread of VX gas bombardment munitions, slaughtering the entire population.\nNo comment was made by the military and the government vehemently denied involvement. Senior individuals were executed in the following years, and often for crimes that should have warranted prison sentences. EAAS Vicarius next appeared as a loner in 2674, her decks cold with a sparse skeleton crew. Her senior officers had apparently boarded another human vessel and had not returned. Now, in 2679, new examples of her class have been spotted among Kalium's sinister vanguard fleets.",
+    "counts_as_class": "Senator",
+    "counts_as_type": "Battlecruiser",
+    "availability": "EXCLUSIVE"
+}

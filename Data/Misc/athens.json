@@ -1,0 +1,12 @@
+{
+    "fleet": "UCM",
+    "class": "Athens",
+    "type": "Light Cruiser",
+    "rule_name": "Counts As",
+    "rule_text": "This ship counts as an Osaka Light Cruiser.",
+    "famous_ships": [],
+    "flavour": "",
+    "counts_as_class": "Osaka",
+    "counts_as_type": "Light Cruiser",
+    "availability": "EXCLUSIVE"
+}
