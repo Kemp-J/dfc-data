@@ -73,7 +73,6 @@
             "Text": "This Ship must take either a Cloaking Keel, gaining Stealth and Cloak-2, or an Engine Upgrade for +10 points, increasing Thrust by 3\"."
         }
     ],
-    "admiral_abilities": [],
     "upgrades": [
         {
             "min": 1,

@@ -41,7 +41,6 @@
             "Special": []
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Acquired Mines",
@@ -52,7 +51,6 @@
             "Text": "This Ship may be used in any fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
         }
     ],
-    "admiral_abilities": [],
     "famous_ships": [
         "Rad Wretch",
         "Trash Bash",

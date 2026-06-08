@@ -37,8 +37,6 @@
             "Text": "This Ship must take a total of eight options from the Dreadnought Systems list. Up to four options may be taken from the Broadside Hardpoint category. Up to four options may be taken from the Turrets category. Up to four options may be taken from the Launch Hardpoint category. Up to two options may be taken from the Structures category."
         }
     ],
-    "admiral_abilities": [],
-    "upgrades": [],
     "systems": {
         "Name": "Dreadnought Systems",
         "Min": 8,

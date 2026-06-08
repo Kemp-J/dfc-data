@@ -86,6 +86,5 @@
             "Effect": "When a friendly ship would roll for Crippling Damage, roll a dice. On a 4+ that Ship does not roll on the Crippling Damage table but is still Crippled."
         }
     ],
-    "upgrades": [],
     "flavour": ""
 }

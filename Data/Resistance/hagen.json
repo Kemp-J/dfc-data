@@ -78,7 +78,6 @@
             "Special": []
         }
     ],
-    "rules": [],
     "fleet_admiral_abilities": 1,
     "admiral_abilities": [
         {
@@ -87,6 +86,5 @@
             "Effect": "When a friendly Ship of H or C tonnage would roll its Backup save due to an attack, improve its Backup save for that attack by 1."
         }
     ],
-    "upgrades": [],
     "flavour": "The Flagship of the independent High Technician known as Hagen is believed to have once belonged to the Kalium Kabal. Though quite why they would relinquish a working Battlecruiser to independents is currently unknown to UCM intelligence. Any chance to communicate and question those in Hagen's fleet state that it was \"empty when we found it\" and that the ship is \"legitimate salvage\"\nRegardless of how these independents acquired this ship, they seem more than capable of using and maintaining it. Having taken part in the battles above Luna, the Fortune's Fancy scored Hagen and his fleet several Scourge kills. The Fortune's Fancy is suspected to be highly modified, capable of carrying its standard launch compliment, along with a pair of internally stored torpedoes. Observations by the UCMF Saccharine show that these torpedoes are launched in the crudest way possible. Simply being allowed to float outwards from the bulk lander bays and fired while free floating."
 }

@@ -22,7 +22,6 @@
     },
     "weapons": [],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Purchased Power",
@@ -33,7 +32,6 @@
             "Text": "This Ship may be used in UCM, PHR, Shaltari, and Resistance fleets. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
         }
     ],
-    "admiral_abilities": [],
     "famous_ships": [
         "Bird-in-hand",
         "Lustrous Glint",

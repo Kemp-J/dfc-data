@@ -23,8 +23,6 @@
             "Text": "This ship must take a total of three options from the Cruiser Systems list. A maximum of two options from the Broadside Hardpoint categories may be taken and up to two options may be taken from the Structures category."
         }
     ],
-    "admiral_abilities": [],
-    "upgrades": [],
     "systems": {
         "Name": "Cruiser Systems",
         "Min": 3,

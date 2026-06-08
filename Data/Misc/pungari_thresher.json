@@ -47,14 +47,12 @@
             "Special": []
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Subservient Mercenaries",
             "Text": "Pungari Threshers may be used in any fleet but always use the following Shaltari Fire Ships. When used in a Shaltari fleet, this Ship gains Shield-5+."
         }
     ],
-    "admiral_abilities": [],
     "famous_ships": [
         "Ishmael",
         "Megellan",

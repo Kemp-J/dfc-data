@@ -62,6 +62,5 @@
             "Effect": "When an enemy would destroy one of your Payload Ships, it is not destroyed and is instead reattached to a valid Porter Ship within 6\"."
         }
     ],
-    "upgrades": [],
     "flavour": ""
 }

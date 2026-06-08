@@ -38,8 +38,6 @@
             "Text": "Before or after this Group completes any step in its activation, you may have it siphon energy. If you do, pick one other Group within 3\" without the Energy Siphon special rule. That Group loses all Spikes and this Group gains those Spikes.\nAfter siphoning at least one Spike from another Group, increase the Attack of this Group's Siphoned Oculus Rays by 1 until the end of the round. If this Group has 3 or more Spikes after siphoning, increase the Attack of this Group's Siphoned Oculus Rays by 2 until the end of the round instead.\nWhen this Group is on the General Quarters or Silent Running Orders, it gains Regenerate-X, where X is the amount of Spikes it removes at the start of its activation."
         }
     ],
-    "admiral_abilities": [],
-    "upgrades": [],
     "famous_ships": [
         "Vampiric",
         "Darkshield",

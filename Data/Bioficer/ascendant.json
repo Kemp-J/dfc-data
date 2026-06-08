@@ -106,6 +106,5 @@
             "Effect": "When you activate this Ship on General Quarters, you may choose to forgo attacking with this Ship. If you do, this Ship goes on Overwatch until the end of the round or until it declares the use of Overwatch. At the end of any enemy Group's activation, if that Group moved through this Ship's Front arc and was in weapons range while doing so, you may declare the use of Overwatch against that Group. When you use Overwatch, this Ship immediately makes an Attack as if on General Quarters against the enemy Group, even if it is out of arc and weapon range."
         }
     ],
-    "upgrades": [],
     "flavour": ""
 }

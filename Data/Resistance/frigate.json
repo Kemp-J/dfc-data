@@ -23,8 +23,6 @@
             "Text": "This ship must take one option from the Frigate Systems list."
         }
     ],
-    "admiral_abilities": [],
-    "upgrades": [],
     "systems": {
         "Name": "Frigate Systems",
         "Min": 1,

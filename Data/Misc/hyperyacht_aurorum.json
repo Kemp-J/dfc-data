@@ -39,14 +39,12 @@
             "Special": []
         }
     ],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Mercenary",
             "Text": "This ship may be used in any fleet regardless of Faction. This ship's Fighters & Bombers use the stats of its parent fleet (if you included this ship in a Scourge fleet, its Fighters & Bombers would follow the Scourge Fighters & Bombers rules)."
         }
     ],
-    "admiral_abilities": [],
     "famous_ships": [
         "Hyperyacht Aurorum"
     ],

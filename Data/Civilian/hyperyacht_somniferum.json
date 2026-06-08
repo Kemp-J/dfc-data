@@ -33,14 +33,12 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Mercenary",
             "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
         }
     ],
-    "admiral_abilities": [],
     "famous_ships": [
         "Hyperyacht Somniferum"
     ],

@@ -56,7 +56,6 @@
             ]
         }
     ],
-    "rules": [],
     "fleet_admiral_abilities": 1,
     "admiral_abilities": [
         {
@@ -65,6 +64,5 @@
             "Effect": "When you inflict damage to an enemy Ship with a weapon with the Arrest-X special rule, each Ship in the damaged Group is affected by the Arrest rule and increases its X value by 2 for that attack."
         }
     ],
-    "upgrades": [],
     "flavour": ""
 }

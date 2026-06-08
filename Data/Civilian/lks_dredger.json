@@ -33,7 +33,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Industrial Design",
@@ -44,7 +43,6 @@
             "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
         }
     ],
-    "admiral_abilities": [],
     "famous_ships": [
         "Dredger",
         "Silt Siphon",

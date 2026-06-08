@@ -90,6 +90,5 @@
             "Effect": "When you assign targets to a Weapon System with \"Artillery\" in its name, that Weapon System's damage type becomes Core for those attacks. If that Weapon System is on a H or C tonnage Ship this Ability costs 3AP."
         }
     ],
-    "upgrades": [],
     "flavour": "Typhoon Vasquez is the Head Engineer of the Red Baron, a pre-war ship used as a test-bed for various ammunition types designed for then-current Artillery Cannons. Vasquez's Battlegroup contains a large number of industrial ships, including the Andar Errente, a pre-war Industrial Raft. Thanks to copious amounts of manufacturing ability, Vasquez is able to be very liberal with the application of the various bootleg munitions produced by his fleet.\nVasquez's combat capable ships were present at the Battle for Earth and managed to score several Scourge kills. The Red Baron spent most of the engagement firing on any and every cylinder it could find. Vasquez's battle tactics seemed to either be genius, drawing most of the Scourge return fire towards the Red Baron and its ablative armour, or the absolute lunacy of being on constant weapons-free."
 }

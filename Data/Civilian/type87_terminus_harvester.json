@@ -36,7 +36,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Scrap Hauler",
@@ -55,7 +54,6 @@
             "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
         }
     ],
-    "admiral_abilities": [],
     "famous_ships": [
         "Terminus",
         "Slag Pit",

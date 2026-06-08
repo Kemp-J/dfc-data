@@ -31,7 +31,6 @@
         }
     ],
     "load": [],
-    "upgrades": [],
     "rules": [
         {
             "Name": "Advanced Artillery",
@@ -46,7 +45,6 @@
             "Text": "This Ship may be used in UCM, PHR, or Resistance fleets."
         }
     ],
-    "admiral_abilities": [],
     "famous_ships": [
         "-River Queen",
         "Twilight Spectre",

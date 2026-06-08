@@ -61,7 +61,6 @@
         }
     ],
     "load": [],
-    "rules": [],
     "fleet_admiral_abilities": 1,
     "admiral_abilities": [
         {
@@ -70,6 +69,5 @@
             "Effect": "When you assign targets to a weapon with \"Lightvice\" in its name, that weapon ignores its Focused rule for that attack."
         }
     ],
-    "upgrades": [],
     "flavour": ""
 }
