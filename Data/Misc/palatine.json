@@ -45,6 +45,20 @@
             "Text": "This Ship may be used in UCM, PHR, or Resistance fleets."
         }
     ],
+    "usable_in": [
+        {
+            "Fleet": "UCM",
+            "Modifiers": []
+        },
+        {
+            "Fleet": "PHR",
+            "Modifiers": []
+        },
+        {
+            "Fleet": "Resistance",
+            "Modifiers": []
+        }
+    ],
     "famous_ships": [
         "-River Queen",
         "Twilight Spectre",

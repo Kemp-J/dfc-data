@@ -39,6 +39,7 @@
         "rules":                   { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Rule" } },
         "fleet_admiral_abilities": { "description": "Number of fleet abilities this admiral may take.", "type": "integer" },
         "admiral_abilities":       { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Ability" } },
+        "usable_in":               { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/UsableInEntry" } },
         "flavour":                 { "type": "string" }
     }
 }

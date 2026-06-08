@@ -47,6 +47,28 @@
             "Text": "This ship may be used in UCM or PHR fleets in addition to Resistance fleets. In UCM and PHR fleets, they gain the Rare special rule."
         }
     ],
+    "usable_in": [
+        {
+            "Fleet": "UCM",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "append",
+                    "Value": "Rare"
+                }
+            ]
+        },
+        {
+            "Fleet": "PHR",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "append",
+                    "Value": "Rare"
+                }
+            ]
+        }
+    ],
     "famous_ships": [
         "Pilum",
         "Fontaine's Miracle",

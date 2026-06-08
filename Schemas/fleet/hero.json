@@ -31,6 +31,7 @@
         "upgrades":          { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/UpgradeEntry" } },
         "rules":             { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Rule" } },
         "admiral_abilities": { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Ability" } },
+        "usable_in":         { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/UsableInEntry" } },
         "famous_ships":      { "type": "array", "items": { "type": "string" } },
         "flavour":           { "type": "string" }
     }

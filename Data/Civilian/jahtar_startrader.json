@@ -32,6 +32,68 @@
             "Text": "This Ship may be used in UCM, PHR, Shaltari, and Resistance fleets. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
         }
     ],
+    "usable_in": [
+        {
+            "Fleet": "UCM",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Boardable"
+                },
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Civilian Transport"
+                }
+            ]
+        },
+        {
+            "Fleet": "PHR",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Boardable"
+                },
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Civilian Transport"
+                }
+            ]
+        },
+        {
+            "Fleet": "Shaltari",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Boardable"
+                },
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Civilian Transport"
+                }
+            ]
+        },
+        {
+            "Fleet": "Resistance",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Boardable"
+                },
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Civilian Transport"
+                }
+            ]
+        }
+    ],
     "famous_ships": [
         "Bird-in-hand",
         "Lustrous Glint",

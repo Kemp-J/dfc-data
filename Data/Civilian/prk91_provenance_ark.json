@@ -93,6 +93,23 @@
             "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules. This ship's Fighters & Bombers use the stats of its parent fleet (if you included this ship in a Scourge fleet, its Fighters & Bombers would follow the Scourge Fighters & Bombers rules)."
         }
     ],
+    "usable_in": [
+        {
+            "Fleet": "*",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Boardable"
+                },
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Civilian Transport"
+                }
+            ]
+        }
+    ],
     "famous_ships": [
         "Provenance",
         "Endurance (independent)",

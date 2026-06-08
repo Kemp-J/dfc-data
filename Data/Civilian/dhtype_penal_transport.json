@@ -71,6 +71,23 @@
             "Text": "When taken as part of your fleet, this Ship starts the game with 2 friendly Battalions on it. When any number of enemy Battalions are removed due to Boarding Actions or Battalion Combat on a Space Station within 6\" of this Ship, place a single friendly Battalion on this Ship. This Ship's Boarding Pods and Drop Pods can only be used while it has friendly Battalions on it and each Boarding Pod or Drop Pod launched causes one friendly Battalion on this Ship to be removed."
         }
     ],
+    "usable_in": [
+        {
+            "Fleet": "*",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Boardable"
+                },
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Civilian Transport"
+                }
+            ]
+        }
+    ],
     "famous_ships": [
         "Dreadhold",
         "No Mercy",

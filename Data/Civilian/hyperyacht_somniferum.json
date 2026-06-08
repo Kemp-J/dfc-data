@@ -39,6 +39,23 @@
             "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
         }
     ],
+    "usable_in": [
+        {
+            "Fleet": "*",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Boardable"
+                },
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Civilian Transport"
+                }
+            ]
+        }
+    ],
     "famous_ships": [
         "Hyperyacht Somniferum"
     ],

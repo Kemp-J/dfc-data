@@ -77,9 +77,9 @@
                     "enum": ["Thrust", "Scan", "Sig", "Hull", "ES", "KS", "BS", "G", "Special"]
                 },
                 "Type": {
-                    "description": "How the modification is applied.",
+                    "description": "How the modification is applied. 'remove' is only valid when Target is 'Special'.",
                     "type": "string",
-                    "enum": ["add", "subtract", "replace", "append"]
+                    "enum": ["add", "subtract", "replace", "append", "remove"]
                 },
                 "Value": {
                     "description": "The modification value. Integer for numeric stats; string for string-valued stats.",
@@ -235,6 +235,17 @@
                     "type": "object",
                     "additionalProperties": { "$ref": "#/$defs/GroupLimit" }
                 }
+            }
+        },
+
+        "UsableInEntry": {
+            "description": "A fleet in which a ship may be used, with optional profile modifications applied when building a list for that fleet. The ship is assumed to be usable in the fleet it is associated with in addition to these entries.",
+            "type": "object",
+            "required": ["Fleet", "Modifiers"],
+            "additionalProperties": false,
+            "properties": {
+                "Fleet":     { "type": "string" },
+                "Modifiers": { "type": "array", "items": { "$ref": "#/$defs/StatModifier" } }
             }
         },
 

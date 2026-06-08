@@ -53,6 +53,22 @@
             "Text": "Pungari Threshers may be used in any fleet but always use the following Shaltari Fire Ships. When used in a Shaltari fleet, this Ship gains Shield-5+."
         }
     ],
+    "usable_in": [
+        {
+            "Fleet": "*",
+            "Modifiers": []
+        },
+        {
+            "Fleet": "Shaltari",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "append",
+                    "Value": "Shield-5+"
+                }
+            ]
+        }
+    ],
     "famous_ships": [
         "Ishmael",
         "Megellan",
