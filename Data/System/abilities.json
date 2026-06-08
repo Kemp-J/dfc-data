@@ -1,0 +1,22 @@
+[
+    {
+        "Cost": "*AP",
+        "Name": "AP Re-roll",
+        "Effect": "Once per Group, Asset, or Dropsite activation, after you roll any dice, you can re-roll any number of those dice. You may re-roll multiple dice in a single roll this way but must re-roll at least one dice, spending 1AP for each dice re-rolled."
+    },
+    {
+        "Cost": "2AP",
+        "Name": "Brace for Impact",
+        "Effect": "When a player would roll for Crippling Effects, instead of rolling, make the result of a Crippling Effect roll (for you or your opponent) a 4."
+    },
+    {
+        "Cost": "2AP",
+        "Name": "Contain Reactor",
+        "Effect": "When a player would roll for Explosion, instead of rolling, make the result of an Explosion roll (for you or your opponent) a 2."
+    },
+    {
+        "Cost": "2AP",
+        "Name": "Time to Target",
+        "Effect": "After moving a Wing of your Fighters or Bombers, you may move that Wing (or the Wing it combined into) a second time with a Thrust of 6\" in any direction. The Wing cannot divide into smaller Wings or form/be formed into larger Wings due to this additional movement."
+    }
+]

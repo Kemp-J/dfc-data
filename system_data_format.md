@@ -17,10 +17,33 @@ Example:
 ```json
 {
     "source_version": "2.3.1",
+    "admiral_abilities": "abilities.json",
     "ship_rules": "ship_rules.json",
     "weapon_rules": "weapon_rules.json"
 }
 ```
+
+## Admiral abilities data file
+
+The generic admiral abilities are contained in a data file in json format.
+
+The file contains a list of admiral abilities that may be used by Admirals in any fleet. Each entry consists of a dictionary containing "Cost" (string — see 'Ability cost format'), "Name" (string), and "Effect" (string).
+
+```json
+[
+    {"Cost": "2AP", "Name": "Contain Reactor", "Effect": "When a player would roll for Explosion, instead of rolling, make the result of an Explosion roll (for you or your opponent) a 2."}
+]
+```
+
+### Ability cost format
+
+The `"Cost"` field on ability dictionaries is always a string. The possible forms are:
+
+| Value | Meaning |
+|---|---|
+| `"NAP"` (e.g. `"2AP"`) | Fixed cost of N points |
+| `"NAP*"` (e.g. `"2AP*"`) | Base cost of N points with a conditional modifier described in the effect text |
+| `"*AP"` | Variable cost defined in the fleet abilities table (used for abilities whose cost depends on context) |
 
 ## Ship and weapon rule data files
 
