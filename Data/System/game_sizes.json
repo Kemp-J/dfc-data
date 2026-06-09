@@ -1,0 +1,26 @@
+[
+    {
+        "Name": "Skirmish",
+        "MinPts": 501,
+        "MaxPts": 1000,
+        "MaxGroups": 16
+    },
+    {
+        "Name": "Clash",
+        "MinPts": 1001,
+        "MaxPts": 2000,
+        "MaxGroups": 20
+    },
+    {
+        "Name": "Battle",
+        "MinPts": 2001,
+        "MaxPts": 3000,
+        "MaxGroups": 24
+    },
+    {
+        "Name": "Reconquest",
+        "MinPts": 3001,
+        "MaxPts": null,
+        "MaxGroups": 28
+    }
+]

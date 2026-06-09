@@ -1,0 +1,18 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/system/game_sizes_list.json",
+    "title": "DFC Game Sizes List",
+    "description": "Game size definitions.",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "required": ["Name", "MinPts", "MaxPts", "MaxGroups"],
+        "additionalProperties": false,
+        "properties": {
+            "Name":      { "type": "string" },
+            "MinPts":    { "type": "integer" },
+            "MaxPts":    { "type": ["integer", "null"] },
+            "MaxGroups": { "type": "integer" }
+        }
+    }
+}

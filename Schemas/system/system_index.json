@@ -4,7 +4,7 @@
     "title": "DFC System Data Index",
     "description": "The _system.json index file for the system (core rules) data.",
     "type": "object",
-    "required": ["source_version", "admiral_abilities", "ship_rules", "weapon_rules"],
+    "required": ["source_version", "game_sizes", "admirals", "ship_rules", "weapon_rules"],
     "additionalProperties": false,
     "properties": {
         "source_version": {
@@ -12,8 +12,12 @@
             "type": "string",
             "pattern": "^\\d+\\.\\d+\\.\\d+$"
         },
-        "admiral_abilities": {
-            "description": "Filename of the admiral abilities data file.",
+        "game_sizes": {
+            "description": "Filename of the game sizes data file.",
+            "type": "string"
+        },
+        "admirals": {
+            "description": "Filename of the admirals data file.",
             "type": "string"
         },
         "ship_rules": {

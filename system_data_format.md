@@ -9,6 +9,8 @@ The system data is exported to a folder named "System".
 Within the System folder is a file `_system.json` which provides an entry point into the system data. This is a json format file containing the following:
 
 - "source_version": The version of the core rules PDF (taken from the PDF filename).
+- "game_sizes": The filename of the data file containing game size specifications.
+- "admirals": The filename of the data file containing generic Admirals and Admiral abilities.
 - "ship_rules": The filename of the data file containing ship special rules.
 - "weapon_rules": The filename of the data file containing weapon special rules.
 
@@ -17,22 +19,47 @@ Example:
 ```json
 {
     "source_version": "2.3.1",
-    "admiral_abilities": "abilities.json",
+    "game_sizes": "game_sizes.json",
+    "admirals": "admirals.json",
     "ship_rules": "ship_rules.json",
     "weapon_rules": "weapon_rules.json"
 }
 ```
 
-## Admiral abilities data file
+## Game sizes data file
 
-The generic admiral abilities are contained in a data file in json format.
+The game size definitions are contained in a data file in json format.
 
-The file contains a list of admiral abilities that may be used by Admirals in any fleet. Each entry consists of a dictionary containing "Cost" (string — see 'Ability cost format'), "Name" (string), and "Effect" (string).
+The file contains a list of dictionaries containing game size definitions. Each dictionary contains "Name" (string), "MinPts" (integer), "MaxPts" (integer, or null for no limit), and "MaxGroups" (integer).
+
+Example:
 
 ```json
 [
-    {"Cost": "2AP", "Name": "Contain Reactor", "Effect": "When a player would roll for Explosion, instead of rolling, make the result of an Explosion roll (for you or your opponent) a 2."}
+    {"Name": "Clash", "MinPts": 1001, "MaxPts": 2000, "MaxGroups": 20}
 ]
+```
+
+## Admirals data file
+
+Details of the generic Admirals and Admiral abilities are contained in a data file in json format.
+
+The file contains a dictionary with keys:
+
+- "admirals": A list of dictionaries containing generic Admiral details. Each dictionary contains "Level" (integer), "Cost" (integer), and "UnavailableIn" (list of strings giving game sizes that Admiral cannot be used in).
+- "abilities": A list of generic Admiral abilities that may be used by Admirals in any fleet. Each entry consists of a dictionary containing "Cost" (string — see 'Ability cost format'), "Name" (string), and "Effect" (string).
+
+Example:
+
+```json
+{
+    "admirals": [
+        {"Level": 3, "Cost": 40, "UnavailableIn": ["Skirmish"]}
+    ],
+    "abilities": [
+        {"Cost": "2AP", "Name": "Contain Reactor", "Effect": "When a player would roll for Explosion, instead of rolling, make the result of an Explosion roll (for you or your opponent) a 2."}
+    ]
+}
 ```
 
 ### Ability cost format

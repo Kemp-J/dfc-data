@@ -1,6 +1,7 @@
 {
     "source_version": "2.3.1",
-    "admiral_abilities": "abilities.json",
+    "game_sizes": "game_sizes.json",
+    "admirals": "admirals.json",
     "ship_rules": "ship_rules.json",
     "weapon_rules": "weapon_rules.json"
 }
