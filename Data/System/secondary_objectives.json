@@ -1,0 +1,34 @@
+[
+    {
+        "Name": "Key Site",
+        "Text": "Nominate one Dropsite at least 24\" from your Deployment Zone before the game. If you Control it at the end of the game, gain 2 VP. If this Dropsite is within 6\" or inside your opponent's Deployment Zone, gain 3VP instead."
+    },
+    {
+        "Name": "Priority Target",
+        "Text": "Nominate one Medium or Large Dropsite at least 24\" from your Deployment Zone before the game. If you have Levelled it, at the end of the game gain 2VP. If this Dropsite is within 6\" or inside your opponent's Deployment zone, gain 3VP instead."
+    },
+    {
+        "Name": "Long Shot",
+        "Text": "Nominate one Feature in a Dropsite within 12\" of an opponent's Deployment Zone before the game. If you have destroyed it, at the end of the game, gain 2VP. Each Feature can only be nominated once but a Dropsite can have more than one nominated Feature."
+    },
+    {
+        "Name": "Annihilate",
+        "Text": "You are awarded 1VP at the end of the game for every 500 points of Ships and Admirals you have destroyed. A maximum of 3VP may be scored using this Secondary Objective."
+    },
+    {
+        "Name": "Take Prizes",
+        "Text": "You are awarded 1VP at the end of the game for every 100 points of Ships you have captured. A maximum of 3VP may be scored using this Secondary Objective."
+    },
+    {
+        "Name": "Gather Intel",
+        "Text": "You are awarded 1VP whenever you survey a Dropsite over 24\" away from your deployment zone. Any Capital Ship within 6\" of the Dropsite and able to fire Weapons may substitute all attacking and launching that round to Survey it. Each Dropsite may be Surveyed once per player per game. A maximum of 2VP may be scored using this Secondary Objective. If the Scenario normally uses Survey, these VP are scored in addition to those in the Scenario."
+    },
+    {
+        "Name": "Decapitate",
+        "Text": "You are awarded 2VP if you kill your opponent's highest-Level Admiral (or one of if there are multiple with the same Level)."
+    },
+    {
+        "Name": "Objectives Beyond",
+        "Text": "Nominate one of your Ships of Tonnage M or higher. You may permanently fly that Ship off the board in any opponent's Deployment Zone. If you do and that Ship is not Crippled, gain 1VP. If that ship was H or C tonnage, gain 2VP instead."
+    }
+]

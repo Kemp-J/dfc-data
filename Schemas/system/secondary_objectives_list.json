@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/system/secondary_objectives_list.json",
+    "title": "DFC Secondary Objectives List",
+    "description": "A list of secondary objectives from the core rules.",
+    "type": "array",
+    "items": {
+        "description": "A named secondary objective with its full description text.",
+        "type": "object",
+        "required": ["Name", "Text"],
+        "additionalProperties": false,
+        "properties": {
+            "Name": { "type": "string" },
+            "Text": { "type": "string" }
+        }
+    }
+}

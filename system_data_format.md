@@ -11,6 +11,7 @@ Within the System folder is a file `_system.json` which provides an entry point 
 - "source_version": The version of the core rules PDF (taken from the PDF filename).
 - "game_sizes": The filename of the data file containing game size specifications.
 - "admirals": The filename of the data file containing generic Admirals and Admiral abilities.
+- "secondary_objectives": The filename of the data file containing secondary objectives.
 - "ship_rules": The filename of the data file containing ship special rules.
 - "weapon_rules": The filename of the data file containing weapon special rules.
 
@@ -21,6 +22,7 @@ Example:
     "source_version": "2.3.1",
     "game_sizes": "game_sizes.json",
     "admirals": "admirals.json",
+    "secondary_objectives": "secondary_objectives.json",
     "ship_rules": "ship_rules.json",
     "weapon_rules": "weapon_rules.json"
 }
@@ -71,6 +73,21 @@ The `"Cost"` field on ability dictionaries is always a string. The possible form
 | `"NAP"` (e.g. `"2AP"`) | Fixed cost of N points |
 | `"NAP*"` (e.g. `"2AP*"`) | Base cost of N points with a conditional modifier described in the effect text |
 | `"*AP"` | Variable cost defined in the fleet abilities table (used for abilities whose cost depends on context) |
+
+## Secondary objectives data file
+
+The secondary objectives are contained in a data file in json format.
+
+The file contains a list of secondary objectives. Each secondary objects consists of a dictionary containing "Name" and "Text" keys. Both have string values.
+
+Example:
+
+```json
+[
+    {"Name": "Key Site", "Text": "Nominate one Dropsite at least 24\" from your Deployment Zone before the game. If you Control it at the end of the game, gain 2 VP. If this Dropsite is within 6\" or inside your opponent’s Deployment Zone, gain 3VP instead"},
+    {"Name": "Annihilate", "Text": "You are awarded 1VP at the end of the game for every 500 points of Ships and Admirals you have destroyed. A maximum of 3VP may be scored using this Secondary Objective."}
+]
+```
 
 ## Ship and weapon rule data files
 
