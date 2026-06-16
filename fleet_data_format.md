@@ -118,7 +118,7 @@ The file contains the following:
 - "systems": An optional dictionary specifying the systems list and selection constraints for this ship. Only present on ships that have purchaseable systems (e.g. Bioficer Dreadnoughts, Resistance Cruisers). See 'Systems list' for more details.
 - "admiral_abilities": An optional list of dictionaries, each containing "Cost" (string — see 'Ability cost format'), "Name" (string), and "Effect" (string). Example: `[{"Cost": "2AP", "Name": "Telemetry Link", "Effect": "When you activate another friendly Group in Orbit, that Group increases its total movement (after orders) by 4\" this round."}]`.
 - "usable_in": An optional list of dictionaries defining the fleets that this ship is usable in. The ship is assumed to be usable as given in the fleet the ship belong to regardless of this list, and the owning fleet will not be present in the list. Each dictionary has "Fleet" (the name of a fleet it can be used in, can also be "*" to indicate all fleets) and "Modifiers" (a list of profile modifiers that apply when used in the named fleet, see 'Profile modifiers'). If the list contains a "*" entry as well as entries naming specific fleets, it should be interpreted as available for all fleets with additional modifiers applicable to the named fleets. Example: `[{"Fleet": "UCM, "Modifiers": [{"Target": "Special", "Type": "append", "Value": "Rare"}]}]`.
-- "famous_ships": A list of strings.
+- "known_ships": A list of strings.
 - "flavour": A string.
 
 The following is an example ship data file for the Lysander class:
@@ -152,7 +152,7 @@ The following is an example ship data file for the Lysander class:
         {"Name": "Stealth Drop", "Text": "When this Group launches its Dropships, 2 Dropships are needed to place 1 Battalion. If this Group contains a single ship, each Dropship only places a Battalion on a roll of a 4+."}
     ],
     "admiral_abilities": [],
-    "famous_ships": ["Hope's Spark", "Blue Shade", "Eternal Darkness", "Azure Night", "Leprechaun", "Silent Blade"],
+    "known_ships": ["Hope's Spark", "Blue Shade", "Eternal Darkness", "Azure Night", "Leprechaun", "Silent Blade"],
     "flavour": "The Lysander class Lighter has been a lynchpin in the UCM’s covert ops since it entered service in 2669. It is the UCMF’s first fully cloaked warship, pushing multiple 1st gen classified stealth systems to their current limits of scale. The class is equipped for extended infiltrations including limited surface landings to scout potential invasion sites and support Resistance groups.\nInitially the class was Level-6 classified and generally reserved for Marine Force Black - the UCM’s most elite troops under the Office of Naval Intelligence. Rumours circulated among the admiralty, where demands for access to such a tool grew from whispers into shouts. As the Battle for Earth loomed, the Lysander’s existence was confirmed and production ramped up. While still precious assets, limited numbers are now available to support regular frontline operations and first strike incursions."
 }
 ```
@@ -169,7 +169,7 @@ The file is structured the same as for ships, with the following additions to th
 - "ship_points": The cost of the ship (combined with the Admiral cost for "points").
 - "fleet_admiral_abilities": The number of fleet Admiral abilities the Admiral may take.
 
-Additionally, the "famous_ships" key is not present.
+Additionally, the "known_ships" key is not present.
 
 The following is an example data file for the Admiral named "Granite" Halsey:
 
@@ -262,7 +262,7 @@ The following is an example data file for the Hero named Rhiannon Major:
     "upgrades": [],
     "rules": [],
     "admiral_abilities": [],
-    "famous_ships": [
+    "known_ships": [
         "- Leaden Triad"
     ],
     "flavour": "Leaden Triad is a new, experimental vessel designed and built by the restored Eden Drive Yards Corporation. This pre-war colossus was ended by the Scourge invasion, but this reincarnation is based in its recaptured shipyards, and the new corporation has all the recovered tech of its predecessor, including its work on the largest chemical guns ever built. Though they never got a chance to enter service, three prototypes were recovered and have been installed aboard a unique heavy destroyer hull.\nCaptain Rhiannon Major, already the UCM's finest naval gunnery officer at just 34 years of age, has been given command. Though not a natural leader, her icy bravery and uncanny intelligence are the natural fit to shepherd this project into combat testing. Already, she has demonstrated the devastating power of this antique technology when writ large by deftly annihilating two Bioficer battlecruisers. These guns hurl house-sized shells at vast muzzle energy with negligible power drain, allowing full manoeuvrability and systems use while firing weapons far exceeding this ship's tonnage grade. However, despite Major's calculations and brilliant heat management, frequent and ultra-costly barrel changes seem inevitable."

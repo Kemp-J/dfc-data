@@ -38,7 +38,7 @@
             "Text": "While this Ship's Group is in coherency, when another friendly Group within 6\" of this Ship uses its Shield Save, you may improve that Group's Shield-X special rule by 1 for that Save, to a maximum of 3+ (so Shield-6+ would become Shield-5+). If you do, this Ship's Group gains a Spike. Each Shield Save can only be affected by this rule once and Ships with this special rule are unaffected.\nThis rule can only be used while this Ship's Group has fewer than 4 Spikes."
         }
     ],
-    "famous_ships": [
+    "known_ships": [
         "Stark Lantern",
         "Talisman",
         "Immortaliser",

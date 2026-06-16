@@ -4,7 +4,7 @@
     "type": "Line Cruiser",
     "rule_name": "Kalium KNC-5",
     "rule_text": "This Ship counts as a Resistance Light Cruiser with one NC-16 Missile Bank and two Vent Cannon Turrets.",
-    "famous_ships": [
+    "known_ships": [
         "Heartbleeder",
         "Souleater",
         "Rend II"

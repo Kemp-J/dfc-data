@@ -25,7 +25,7 @@
             "Text": "Friendly Ships within their Scan range of this Ship may use it as a spotter when they attack. If they do, before assigning weapons to targets, choose any amount of the attacking Ship's weapons. When assigning targets to those weapons, measure Weapons Range from this Ship, using this Ship's Scan. Attacks made this way must still be in Arc and line of sight of the attacking Ship. This rule has no effect on Close Action Weapons and weapons already benefiting from this rule"
         }
     ],
-    "famous_ships": [
+    "known_ships": [
         "Eye of the Sphere",
         "Ornithes Areioi",
         "Nightsun",

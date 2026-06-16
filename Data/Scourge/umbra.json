@@ -56,7 +56,7 @@
             "Text": "At the end of this Ship's activation, you may place an Oculus token on an enemy Group in line of sight in this Ship's Front Arc. Unused Oculus tokens placed by this Ship persist between rounds and are only removed when this Ship would place another Oculus token or when a Ship with an Oculus token goes on the Silent Running order.\nWhen you assign \"Oculus\" weapons to a Group that has an Oculus Token, you may remove the token. If you do, one of the Group's \"Oculus\" Weapon Systems replaces its Scald-X rule with Reave-X (of the same value) against that Group for that attack."
         }
     ],
-    "famous_ships": [
+    "known_ships": [
         "Lidless Eye",
         "Presage of Doom",
         "Hate Filled",

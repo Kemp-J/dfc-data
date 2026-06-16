@@ -36,7 +36,7 @@
             "Text": "At the end of this ship's activation, pick one friendly ship within 6\" in line of sight (including this one). Place a Box Of Scraps token next to that ship. The next time that Ship would be destroyed due to damage, it isn't. Instead, before continuing to inflict damage, remove the Box of Scraps token and that ship remains in play with D3 Hull Points remaining, then continue inflicting damage as normal. Box Of Scraps tokens persist through rounds but a ship may only have 1 Box Of Scraps token."
         }
     ],
-    "famous_ships": [
+    "known_ships": [
         "Brunel",
         "Eiffel",
         "Stephenson (Independents)",

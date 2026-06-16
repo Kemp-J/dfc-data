@@ -48,6 +48,6 @@
             "Text": "At the start of the game, before players deploy, choose one Deployable Feature from the PHR Deployable Features List. This Ship starts the game carrying that Deployable Feature."
         }
     ],
-    "famous_ships": [],
+    "known_ships": [],
     "flavour": ""
 }

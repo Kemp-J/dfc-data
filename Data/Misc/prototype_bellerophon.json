@@ -4,7 +4,7 @@
     "type": "Heavy Cruiser",
     "rule_name": "Counts As",
     "rule_text": "This ship counts as a Bellerophon Heavy Cruiser.",
-    "famous_ships": [],
+    "known_ships": [],
     "flavour": "",
     "counts_as_class": "Bellerophon",
     "counts_as_type": "Heavy Cruiser",

@@ -4,7 +4,7 @@
     "type": "Battlecruiser",
     "rule_name": "Counts As",
     "rule_text": "This ship counts as a Banshee Battlecruiser.",
-    "famous_ships": [],
+    "known_ships": [],
     "flavour": "",
     "counts_as_class": "Banshee",
     "counts_as_type": "Battlecruiser",

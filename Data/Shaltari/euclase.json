@@ -45,7 +45,7 @@
             "Text": "At the start of the game, before players deploy, choose two Deployable Features from the Shaltari Deployable Features List (duplicates are allowed). This Ship starts the game carrying those Deployable Features."
         }
     ],
-    "famous_ships": [
+    "known_ships": [
         "Bestride the Universe",
         "Fate's Hand",
         "Sublime Orbit",

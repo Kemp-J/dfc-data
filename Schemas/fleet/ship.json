@@ -13,7 +13,7 @@
         "profile",
         "weapons",
         "load",
-        "famous_ships",
+        "known_ships",
         "flavour"
     ],
     "additionalProperties": false,
@@ -31,7 +31,7 @@
         "admiral_abilities": { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Ability" } },
         "usable_in":         { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/UsableInEntry" } },
         "systems":           { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/SystemsRef" },
-        "famous_ships":      { "type": "array", "items": { "type": "string" } },
+        "known_ships":       { "type": "array", "items": { "type": "string" } },
         "flavour":           { "type": "string" }
     }
 }

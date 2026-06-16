@@ -112,7 +112,7 @@
             "Text": "This Ship may take a Laser Refit for +5 points, replacing both of its UF-4200 Mass Driver Turrets with a single Cobra Heavy Laser Pair."
         }
     ],
-    "famous_ships": [
+    "known_ships": [
         "Byzantium",
         "Constantine",
         "Saladin",

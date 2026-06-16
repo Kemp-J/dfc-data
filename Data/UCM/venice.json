@@ -51,6 +51,6 @@
             "Effect": "When you activate another friendly Group in Orbit, pick one of the following options:\n• While that Group is on the General Quarters, Course Change, or Damage Control orders, each Ship may attack with an additional weapon.\n• While that Group is on the General Quarters or Weapons Free orders, you may attack with a single allowed Weapon System before turning and moving any Ships in that Group. That Weapon System cannot be used for the rest of the Group's activation."
         }
     ],
-    "famous_ships": [],
+    "known_ships": [],
     "flavour": ""
 }

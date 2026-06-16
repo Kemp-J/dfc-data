@@ -4,7 +4,7 @@
     "type": "Battlecruiser",
     "rule_name": "Counts As",
     "rule_text": "This ship counts as a Stature Battlecruiser.",
-    "famous_ships": [
+    "known_ships": [
         "Styx"
     ],
     "flavour": "Although all Bioficer sightings are rare, if increasing, certain ship classes have only been observed once. The sole record of the fearsome Styx class comes from the mangled tertiary flight recorder of the battleship UCMS Bellaque. She was lost with all hands in the Eden system, and only an atomic cloud and cored-out hull fragments remained—the work of the fearsome Decon Annihilator, the Skyx's colossal primary weapon.\nThe Styx seems to have similar capabilities to the Statute class, but utilises an enlarged, novel hull more closely related to Bioficer cruisers. Some believe this vessel was unique, casting further doubt on the old notion that the Bioficers lack individuality. This ship may have been commissioned by a characteristic intelligence. Behaviour suggests individual pleasures, whims, and particular cruelties—a worrying confirmation of this race's apparent personal delight in violence and other's suffering.",

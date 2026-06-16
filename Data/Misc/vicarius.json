@@ -4,7 +4,7 @@
     "type": "Battlecruiser",
     "rule_name": "Counts As",
     "rule_text": "This Ship counts as a Resistance Senator Battlecruiser.",
-    "famous_ships": [
+    "known_ships": [
         "Vicarius (Independent)",
         "Warcrimes",
         "Grim Enforcer",

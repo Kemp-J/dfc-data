@@ -37,7 +37,7 @@
             "Text": "When a friendly Group (including this Ship's Group) within 4\" of this Ship is attacked, you may have this Ship use its Advanced ECM Suite. If you do, after all weapons have been assigned, reduce the Lock of weapons belonging to one of the attacking Ships by 1 for the rest of the round. The attacking group must be on the same orbital layer as this ship. A Ship can be affected multiple times each round by this rule but each Ship with this rule can only use it once per round."
         }
     ],
-    "famous_ships": [
+    "known_ships": [
         "Foe Confounded",
         "Deep Blue",
         "Waves of Lamarr",

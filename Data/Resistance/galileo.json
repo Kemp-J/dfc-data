@@ -31,7 +31,7 @@
             "Text": "When you assign weapons a Group that has a Telescope token, you may remove the token. If you do, one of the Group's Weapon Systems lowers the result required to score a critical against that Group by 1 for that attack (so a weapon that would crit on a 5+ crits on a 4+ instead).\nUnused Telescope tokens placed by this Ship persist between rounds and are only removed when this Ship would place another Telescope token or when a Ship with a Telescope token goes on the Silent Running order."
         }
     ],
-    "famous_ships": [
+    "known_ships": [
         "Amber Eye",
         "Hubble IX",
         "Magellan (Independents)",

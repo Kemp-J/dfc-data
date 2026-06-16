@@ -4,7 +4,7 @@
     "type": "Battleship",
     "rule_name": "Counts As",
     "rule_text": "This ship counts as a Diamond Battleship.",
-    "famous_ships": [],
+    "known_ships": [],
     "flavour": "",
     "counts_as_class": "Diamond",
     "counts_as_type": "Battleship",

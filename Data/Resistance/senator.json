@@ -50,7 +50,7 @@
             "Text": "Enemy Ships within 12\" of this ship may be targeted by friendly Ships firing Close Action weapons using the firing Ship's normal Weapon Range (Scan + Sig)."
         }
     ],
-    "famous_ships": [
+    "known_ships": [
         "Project 26-02",
         "Dark Side of the Moon",
         "Regretful Necessity (Independents)",

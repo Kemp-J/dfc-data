@@ -4,7 +4,7 @@
     "type": "Grand Cruiser",
     "rule_name": "Remnant",
     "rule_text": "This Ship counts as a Resistance Centurion Heavy Cruiser but may be used in UCM or PHR fleets in addition to Resistance fleets. In UCM and PHR fleets, they follow the same rules as the Resistance Centurion but gain the Rare special rule.",
-    "famous_ships": [
+    "known_ships": [
         "Pilum",
         "Fontaine's Miracle",
         "Myriad (Independents)",

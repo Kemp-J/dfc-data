@@ -10,7 +10,7 @@
         "type",
         "rule_name",
         "rule_text",
-        "famous_ships",
+        "known_ships",
         "flavour",
         "counts_as_class",
         "counts_as_type",
@@ -38,7 +38,7 @@
             "description": "Full 'counts as' sentence from the PDF.",
             "type": "string"
         },
-        "famous_ships": {
+        "known_ships": {
             "description": "Named individual ships of this class. Often empty.",
             "type": "array",
             "items": { "type": "string" }

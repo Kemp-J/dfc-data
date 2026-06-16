@@ -4,7 +4,7 @@
     "type": "Fleet Carrier",
     "rule_name": "Kalium KNC-12",
     "rule_text": "This Ship counts as a Resistance Light Cruiser with one Vent Cannon Turret and two Fighters & Bombers.",
-    "famous_ships": [
+    "known_ships": [
         "Beton Brut",
         "Chaimberlain Powelbon",
         "Du Hast"

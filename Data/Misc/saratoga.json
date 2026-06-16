@@ -4,7 +4,7 @@
     "type": "Light Cruiser",
     "rule_name": "Counts As",
     "rule_text": "This ship counts as a New Cairo Light Cruiser.",
-    "famous_ships": [],
+    "known_ships": [],
     "flavour": "",
     "counts_as_class": "New Cairo",
     "counts_as_type": "Light Cruiser",
