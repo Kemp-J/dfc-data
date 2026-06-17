@@ -1,0 +1,46 @@
+{
+    "fleet": "Resistance",
+    "name": "Grand Station",
+    "size": "Medium",
+    "points": 85,
+    "base_size": 40,
+    "profile": {
+        "Scan": 6,
+        "Sig": 6,
+        "Hull": 14,
+        "ES": "3+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Heavy Vent Cannon Turret",
+            "Arc": "F/S/R",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Fusillade-1",
+                "Overcharge",
+                "Reave-1"
+            ],
+            "Rule": "When you assign targets to this weapon, you may have this Space Station gain 2 Spikes, if you do, it counts as going on Weapons Free Orders for the purposes of its Special rules."
+        },
+        {
+            "Name": "XN-31-S Mass Driver Turret Pair",
+            "Arc": "F/S/R",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Volley-2"
+            ]
+        }
+    ],
+    "load": []
+}

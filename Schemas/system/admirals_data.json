@@ -24,7 +24,7 @@
         "abilities": {
             "description": "Generic Admiral abilities available to any fleet.",
             "type": "array",
-            "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Ability" }
+            "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Ability" }
         }
     }
 }

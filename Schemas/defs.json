@@ -1,6 +1,6 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://dfc/schemas/fleet/defs.json",
+    "$id": "https://dfc/schemas/defs.json",
     "title": "DFC Shared Definitions",
     "description": "Shared type definitions referenced by all DFC exported data schemas.",
     "$defs": {
@@ -60,9 +60,9 @@
         },
 
         "ArcValue": {
-            "description": "Weapon firing arc.",
+            "description": "Weapon firing arc. '*' is used for weapons with their own arc definitions.",
             "type": "string",
-            "enum": ["B", "F", "FN", "RN", "S", "F/S", "F/S/R", "SL", "SR"]
+            "enum": ["B", "F", "FN", "RN", "S", "F/S", "F/S/R", "SL", "SR", "*"]
         },
 
         "StatModifier": {

@@ -1,0 +1,39 @@
+{
+    "source_version": "250818",
+    "features": [
+        {
+            "Name": "Launch Control",
+            "Text": "When all Launch Control features are removed from a Station, that station cannot launch Assets."
+        },
+        {
+            "Name": "Weapons Control",
+            "Text": "When all Weapons Control features are removed from a Station, that station cannot use its Weapon Systems."
+        }
+    ],
+    "generic_stations": [
+        "small_space_station.json",
+        "medium_space_station.json",
+        "large_space_station.json"
+    ],
+    "armaments": "space_station_armaments.json",
+    "station_upgrades": [
+        "astrobotanical_lab.json",
+        "defence_grid.json"
+    ],
+    "fleet_stations": [
+        "ucm_defence_hangar.json",
+        "ucm_munitions_platform.json",
+        "scourge_ephyra.json",
+        "scourge_nematocyst.json",
+        "phr_orbital_picket.json",
+        "phr_orbital_outpost.json",
+        "phr_defence_halo.json",
+        "phr_orbital_spire.json",
+        "shaltari_gatestation.json",
+        "shaltari_grav_hook.json",
+        "shaltari_anchor.json",
+        "shaltari_shuriken.json",
+        "resistance_grand_station.json",
+        "resistance_astrobotanical_outpost.json"
+    ]
+}

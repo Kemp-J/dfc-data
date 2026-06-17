@@ -1,0 +1,12 @@
+{
+    "name": "Astrobotanical Lab",
+    "type": "Exo-Greenhouse",
+    "cost": 30,
+    "weapons": [],
+    "rules": [
+        {
+            "Name": "Signature Bloom",
+            "Text": "Friendly Ships within this Space Station's unmodified Signature are Hidden within its Bloom. Enemy Ships targeting a Hidden Ship's Group ignore a Spike for each Hidden Ship in that Group.\nThis rule has no effect while this Space Station is controlled by an enemy player."
+        }
+    ]
+}

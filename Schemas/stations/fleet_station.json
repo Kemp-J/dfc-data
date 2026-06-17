@@ -1,0 +1,28 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/stations/fleet_station.json",
+    "title": "DFC Fleet Space Station",
+    "type": "object",
+    "required": ["name", "fleet", "size", "points", "base_size", "profile", "weapons", "load"],
+    "additionalProperties": false,
+    "properties": {
+        "fleet":     { "type": "string" },
+        "name":      { "type": "string" },
+        "size":      { "type": "string", "enum": ["Small", "Medium", "Large"] },
+        "points":    { "type": "integer" },
+        "base_size": { "type": "integer" },
+        "profile":   { "$ref": "https://dfc/schemas/stations/defs.json#/$defs/StationProfile" },
+        "weapons": {
+            "type": "array",
+            "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Weapon" }
+        },
+        "load": {
+            "type": "array",
+            "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/LoadEntry" }
+        },
+        "rules": {
+            "type": "array",
+            "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Rule" }
+        }
+    }
+}

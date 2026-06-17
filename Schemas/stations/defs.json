@@ -1,0 +1,33 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/stations/defs.json",
+    "title": "DFC Station Shared Definitions",
+    "$defs": {
+        "StationProfile": {
+            "description": "Space station stat-line.",
+            "type": "object",
+            "required": ["Scan", "Sig", "Hull", "ES", "KS", "BS", "G", "Special"],
+            "additionalProperties": false,
+            "properties": {
+                "Scan":    { "type": "integer" },
+                "Sig":     { "type": "integer" },
+                "Hull":    { "type": "integer" },
+                "ES":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
+                "KS":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
+                "BS":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveOrDash" },
+                "G":       { "$ref": "https://dfc/schemas/defs.json#/$defs/GValue" },
+                "Special": { "type": "array", "items": { "type": "string" } }
+            }
+        },
+        "Hardpoints": {
+            "description": "Required selection counts for a generic station.",
+            "type": "object",
+            "required": ["armaments", "features"],
+            "additionalProperties": false,
+            "properties": {
+                "armaments": { "type": "integer", "minimum": 0 },
+                "features":  { "type": "integer", "minimum": 0 }
+            }
+        }
+    }
+}

@@ -25,7 +25,7 @@
         "abilities": {
             "description": "Abilities available to Fleet and Famous Admirals.",
             "type": "array",
-            "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Ability" }
+            "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Ability" }
         },
         "fleet_admirals": {
             "type": "array",
@@ -74,7 +74,7 @@
                 "FleetAbilities": { "type": "integer" },
                 "Abilities": {
                     "type": "array",
-                    "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Ability" }
+                    "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Ability" }
                 }
             }
         },
@@ -87,9 +87,9 @@
                 "Load":    { "type": "string" },
                 "Thrust":  { "type": "integer" },
                 "Att":     { "type": "integer" },
-                "Lock":    { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/LockValue" },
+                "Lock":    { "$ref": "https://dfc/schemas/defs.json#/$defs/LockValue" },
                 "DMG":     { "type": "integer" },
-                "Type":    { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/WeaponType" },
+                "Type":    { "$ref": "https://dfc/schemas/defs.json#/$defs/WeaponType" },
                 "Special": { "type": "array", "items": { "type": "string" } }
             }
         },

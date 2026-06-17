@@ -1,0 +1,46 @@
+{
+    "fleet": "PHR",
+    "name": "Defence Halo",
+    "size": "Large",
+    "points": 145,
+    "base_size": 50,
+    "profile": {
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 26,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Quad Supernova Laser",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Flash-2",
+                "Focused",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Station Turret Ring",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ],
+            "Rule": "When you attack with this weapon, roll once and apply the roll to all enemy Groups within range."
+        }
+    ],
+    "load": []
+}

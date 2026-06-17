@@ -1,0 +1,25 @@
+{
+    "name": "Large Space Station",
+    "type": "Orbital City",
+    "points": 90,
+    "base_size": 50,
+    "profile": {
+        "Scan": 6,
+        "Sig": 8,
+        "Hull": 25,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1",
+        "Special": []
+    },
+    "hardpoints": {
+        "armaments": 3,
+        "features": 2
+    },
+    "max_upgrades": 2,
+    "upgrade_options": [
+        "Astrobotanical Lab",
+        "Defence Grid"
+    ]
+}

@@ -12,5 +12,6 @@
         "Civilian/_ships.json",
         "Misc/_ships.json"
     ],
+    "stations": "Stations/_stations.json",
     "counts_as": "Misc/_counts_as.json"
 }

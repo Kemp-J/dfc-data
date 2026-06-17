@@ -1,0 +1,45 @@
+{
+    "fleet": "PHR",
+    "name": "Orbital Outpost",
+    "size": "Small",
+    "points": 75,
+    "base_size": 30,
+    "profile": {
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 9,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1",
+        "Special": []
+    },
+    "weapons": [
+        {
+            "Name": "Triple Supernova Laser",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 3,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Flash-2",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "Station Turret Rack",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ],
+            "Rule": "When you attack with this weapon, roll once and apply the roll to all enemy Groups within range."
+        }
+    ],
+    "load": []
+}

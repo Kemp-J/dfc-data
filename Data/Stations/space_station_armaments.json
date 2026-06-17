@@ -1,0 +1,77 @@
+{
+    "name": "Space Station Armaments",
+    "groups": [
+        "Weapon Systems",
+        "Structures"
+    ],
+    "systems": {
+        "Weapon Systems": [
+            {
+                "Pts": 15,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "Laser Armament",
+                    "Arc": "F/S/R",
+                    "Att": 2,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "E",
+                    "Special": [
+                        "Burnthrough-1",
+                        "Flash-1"
+                    ]
+                }
+            },
+            {
+                "Pts": 10,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "Mass Driver Armament",
+                    "Arc": "F/S/R",
+                    "Att": 3,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "K",
+                    "Special": []
+                }
+            },
+            {
+                "Pts": 5,
+                "Type": "Weapon",
+                "Profile": {
+                    "Name": "Missile Armament",
+                    "Arc": "F/S/R",
+                    "Att": 4,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "K",
+                    "Special": [
+                        "Close Action"
+                    ]
+                }
+            }
+        ],
+        "Structures": [
+            {
+                "Pts": 10,
+                "Type": "Structure",
+                "Profile": {
+                    "Name": "Deep Space Tracking",
+                    "Effect": "When this Space Station targets enemy ships, Spikes on those ships have double their normal effect. So a Spike would increase the target's Signature by 6\" instead of 3\"."
+                },
+                "Effects": [],
+                "Max": 1
+            },
+            {
+                "Pts": 15,
+                "Type": "Structure",
+                "Profile": {
+                    "Name": "Scanner Uplink",
+                    "Effect": "This Space Station's Scan range is increased by 3\". In addition, friendly ships within 3\" of one or more Space Stations with this special rule increase their Scan range by 3\". This special rule ceases to function while this Space Station is controlled by an enemy player."
+                },
+                "Effects": [],
+                "Max": 1
+            }
+        ]
+    }
+}

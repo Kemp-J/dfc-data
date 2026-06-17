@@ -1,0 +1,41 @@
+{
+    "fleet": "Shaltari",
+    "name": "Grav Hook",
+    "size": "Small",
+    "points": 75,
+    "base_size": 30,
+    "profile": {
+        "Scan": 4,
+        "Sig": 6,
+        "Hull": 10,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "1",
+        "Special": [
+            "Shield-4+"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Grav Hooks",
+            "Arc": "F/S/R",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Arrest-2",
+                "Focused",
+                "Volley-3"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Gravity Manipulator",
+            "Text": "Friendly Ships in Orbit that start their movement within this station's Scan range increase their Group's total movement (after Orders) by 2\". If all Ships in that Group are within this station's Scan range, that Group instead increases its total movement (after Orders) by 4\" and gains Vectored until the end of its activation. Groups can only be affected by this rule once in their activation and only while that Group is in Coherency.\nThis special rule ceases to function while you do not control this station."
+        }
+    ]
+}

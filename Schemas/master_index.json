@@ -8,7 +8,8 @@
         "system",
         "fleets",
         "other_ships",
-        "counts_as"
+        "counts_as",
+        "stations"
     ],
     "additionalProperties": false,
     "properties": {
@@ -30,6 +31,10 @@
         },
         "counts_as": {
             "description": "Relative path from the exported root to the 'counts as' index file.",
+            "type": "string"
+        },
+        "stations": {
+            "description": "Relative path from the exported root to the fleet stations index file.",
             "type": "string"
         }
     }

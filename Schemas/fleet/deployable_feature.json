@@ -9,7 +9,7 @@
     "properties": {
         "profile": { "$ref": "#/$defs/DeployProfile" },
         "weapons": { "type": "array", "items": { "$ref": "#/$defs/DeployWeapon" } },
-        "load":    { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/LoadEntry" } },
+        "load":    { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/LoadEntry" } },
         "rules":   { "type": "string" }
     },
     "$defs": {
@@ -21,8 +21,8 @@
             "properties": {
                 "PTS":     { "description": "Points cost, or null if variable.", "type": ["integer", "null"] },
                 "Type":    { "description": "The name of the Deployable Feature.", "type": "string" },
-                "ES":      { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/SaveValue" },
-                "KS":      { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/SaveValue" },
+                "ES":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
+                "KS":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
                 "Special": { "type": "array", "items": { "type": "string" } }
             }
         },
@@ -35,9 +35,9 @@
                 "Name":    { "type": "string" },
                 "Scan":    { "description": "Scan range in inches, or null when absent.", "type": ["integer", "null"] },
                 "Att":     { "type": "integer" },
-                "Lock":    { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/LockValue" },
+                "Lock":    { "$ref": "https://dfc/schemas/defs.json#/$defs/LockValue" },
                 "DMG":     { "type": "integer" },
-                "Type":    { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/WeaponType" },
+                "Type":    { "$ref": "https://dfc/schemas/defs.json#/$defs/WeaponType" },
                 "Special": { "type": "array", "items": { "type": "string" } },
                 "Rule":    { "type": "string" }
             }

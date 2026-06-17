@@ -29,13 +29,13 @@
                 "Profile":  true,
                 "SubGroup": { "type": "string" },
                 "Max":      { "type": "integer", "minimum": 1 },
-                "Effects":  { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/StatModifier" } }
+                "Effects":  { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/StatModifier" } }
             },
             "if":   { "required": ["Type"], "properties": { "Type": { "const": "Weapon" } } },
-            "then": { "properties": { "Profile": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/Weapon" } } },
+            "then": { "properties": { "Profile": { "$ref": "https://dfc/schemas/defs.json#/$defs/Weapon" } } },
             "else": {
                 "if":   { "required": ["Type"], "properties": { "Type": { "const": "Load" } } },
-                "then": { "properties": { "Profile": { "$ref": "https://dfc/schemas/fleet/defs.json#/$defs/LoadEntry" } } },
+                "then": { "properties": { "Profile": { "$ref": "https://dfc/schemas/defs.json#/$defs/LoadEntry" } } },
                 "else": {
                     "required": ["Effects"],
                     "properties": { "Profile": { "$ref": "#/$defs/StructureProfile" } }

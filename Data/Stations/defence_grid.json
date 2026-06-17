@@ -1,0 +1,60 @@
+{
+    "name": "Defence Grid",
+    "type": "Military Space Station",
+    "cost": 80,
+    "weapons": [
+        {
+            "Name": "35-KL Quad Mass Driver",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "C",
+            "Special": [
+                "Bloom-4",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "9K-S Mass Driver",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Name": "9K-S Mass Driver",
+            "Arc": "F/S/R",
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": []
+        },
+        {
+            "Name": "NC-16 Missiles",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        },
+        {
+            "Name": "NC-16 Missiles",
+            "Arc": "F/S/R",
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "rules": []
+}
