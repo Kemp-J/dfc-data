@@ -2,7 +2,7 @@
 
 Export of fleet data from the Dropfleet Commander PDFs.
 
-See the [system](system_data_format.md), [fleet](fleet_data_format.md), and [civilian](civilian_data_format.md) data format descriptions for details of the structure of the data files.
+See the [system](system_data_format.md), [fleet](fleet_data_format.md), [civilian](civilian_data_format.md), and [stations](stations_data_format.md) data format descriptions for details of the structure of the data files.
 
 Formal schemas are located in the `Schemas` directory.
 
