@@ -1,5 +1,5 @@
 {
-    "source_version": "260429",
+    "source_version": "260626",
     "abilities": [
         {
             "Cost": "1AP",
@@ -113,7 +113,9 @@
         "claudia_rhee.json",
         "gaius_chau.json"
     ],
-    "heroes": [],
+    "heroes": [
+        "avram_bei.json"
+    ],
     "ships": [
         "echo.json",
         "harpocrates.json",

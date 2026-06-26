@@ -1,0 +1,55 @@
+{
+    "hero": "Avram Bei",
+    "ship": "Subatomic",
+    "type": "Heavy Destroyer",
+    "points": 96,
+    "tonnage": "L",
+    "base_size": 30,
+    "profile": {
+        "Thrust": 12,
+        "Scan": 8,
+        "Sig": 2,
+        "Hull": 8,
+        "ES": "4+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Hero",
+            "Unique"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Neutron Missile Silo",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "2+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Close Action",
+                "Crippling",
+                "Penetrator"
+            ]
+        },
+        {
+            "Name": "Twin Supernova Laser",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Burnthrough-2",
+                "Flash-2",
+                "Focused"
+            ]
+        }
+    ],
+    "load": [],
+    "known_ships": [
+        "Subatomic"
+    ],
+    "flavour": "Neutron missiles are a rightly feared branch of PHR weapons technology, but until now they have been confined to the largest capital ships due to warhead core containment requirements prior to launch. A single new ship, Subatomic, has a full battery of these top-tier munitions though, complimented with twinned lasers, despite its slightly enlarged destroyer tonnage. It's understood that this ship has yet to receive clearance for wider construction. Possible crew losses due to containment failures have been rumoured although secrecy surrounds the vessel.\nIts famous captain, Avram Bei, is part of a splinter fleet that has yet to declare for one side or the other in the PHR's recent schism, preferring to focus on their bloody pursuit of Shaltari pirates near Aaru before considering theological matters, or whether theology is even the right way of thinking about the White Sphere. Bei is a practical, non-nonsense warrior with little interest in the big picture. He is known to relish fighting at the heart of any engagement, a joy undimmed even though half of his frequently injured body has been replaced with combat augmetics."
+}
