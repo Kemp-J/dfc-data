@@ -1,5 +1,5 @@
 {
-    "source_version": "260327",
+    "source_version": "260626",
     "abilities": [
         {
             "Cost": "1AP",
@@ -108,7 +108,11 @@
         }
     ],
     "systems": [],
-    "deployable_features": [],
+    "deployable_features": [
+        "skybane_halo.json",
+        "shrouding_platform.json",
+        "infestation_bastion.json"
+    ],
     "famous_admirals": [
         "enslaver.json",
         "flayer.json",
@@ -146,10 +150,18 @@
         "raiju.json",
         "shenlong.json",
         "kulshedra.json",
+        "nereid.json",
+        "rusalka.json",
+        "nixie.json",
         "akuma.json",
         "banshee.json",
         "shadow.json",
         "umbra.json",
+        "gloam.json",
+        "kikimora.json",
+        "bannik.json",
+        "melusine.json",
+        "fossegrim.json",
         "daemon.json",
         "dragon.json",
         "beelzebub.json",

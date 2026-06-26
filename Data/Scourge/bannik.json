@@ -1,20 +1,20 @@
 {
-    "class": "Umbra",
-    "type": "Battlecruiser",
-    "points": 235,
+    "class": "Bannik",
+    "type": "Pocket Battleship",
+    "points": 250,
     "tonnage": "H",
     "base_size": 50,
     "profile": {
-        "Thrust": 10,
-        "Scan": 9,
+        "Thrust": 8,
+        "Scan": 6,
         "Sig": 8,
-        "Hull": 14,
+        "Hull": 15,
         "ES": "4+",
         "KS": "4+",
-        "BS": "6+",
+        "BS": "5+",
         "G": "1",
         "Special": [
-            "Vanguard-6\""
+            "Command Ship-1"
         ]
     },
     "weapons": [
@@ -30,20 +30,27 @@
             ]
         },
         {
-            "Name": "Plasma Tempest",
-            "Arc": "F/S",
-            "Att": 8,
+            "Name": "Furnace Incisors",
+            "Arc": "FN",
+            "Att": 6,
             "Lock": "3+",
             "DMG": 1,
-            "Type": "K",
+            "Type": "E",
             "Special": [
-                "Close Action",
-                "Fusillade-2",
-                "Scald-2"
+                "Burnthrough-1",
+                "Crippling-2xFire",
+                "Focused"
             ]
         }
     ],
     "load": [
+        {
+            "Load": "Torpedo",
+            "Launch": 1,
+            "Special": [
+                "Limited-2"
+            ]
+        },
         {
             "Load": "Fighters & Bombers",
             "Launch": 4,
@@ -56,11 +63,6 @@
             "Text": "If this Ship is on an order that allows it to attack, this Ship may forgo one allowed Weapon use during its activation. If it does, at the end of this Ship's activation, you may place an Oculus token on an enemy Group in line of sight in this Ship's Front Arc. Unused Oculus tokens placed by this Ship persist between rounds and are only removed when this Ship would place another Oculus token or when a Ship with an Oculus token goes on the Silent Running order.\nWhen you assign \"Oculus\" weapons to a Group that has an Oculus Token and is within Scan range of the attacking Group, you may remove the token. If you do, one of the Group's \"Oculus\" Weapon Systems' Type becomes Core against that Group for that attack."
         }
     ],
-    "known_ships": [
-        "Lidless Eye",
-        "Presage of Doom",
-        "Hate Filled",
-        "Enemy's Ire"
-    ],
-    "flavour": "The Umbra is unusual for a Scourge warship in that it helps other vessels do the killing. A fast battlecruiser, the class is built around a crest-like precision targeting and target-painting device known simply as the \"Oculus Booster\". As the name suggests, this heightens the threat level of Scourge Oculus weapons by pre-heating the target at weak points, providing a softened point of impact. Even a pre-heat of a few hundred degrees critically accelerates the Oculus weapon's energy discharge on impact. At close range the effect is akin to plunging a hot steel rod into warm cheese.\nHive-like cooperation is often observed among Scourge forces - this class exemplifies that. As part of a spear tip of Oculus-equipped warships, an Umbra should be considered the priority-1 target and only becomes more dangerous when accompanying the largest ships."
+    "known_ships": [],
+    "flavour": ""
 }

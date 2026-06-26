@@ -1,0 +1,12 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Shrouding Platform",
+        "ES": "5+",
+        "KS": "5+",
+        "Special": []
+    },
+    "weapons": [],
+    "load": [],
+    "rules": "This Dropsite has a Signature of 0\" and cannot gain Spikes.\nFriendly Groups within 6\" of this Dropsite count as having one fewer Spike when an opponent is determining potential targets and assigning Weapons to targets."
+}

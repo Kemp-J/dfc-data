@@ -1,7 +1,7 @@
 {
     "class": "Shadow",
     "type": "Battlecruiser",
-    "points": 220,
+    "points": 230,
     "tonnage": "H",
     "base_size": 50,
     "profile": {
@@ -21,7 +21,7 @@
         {
             "Name": "Oculus Beam Array",
             "Arc": "F",
-            "Att": 2,
+            "Att": 3,
             "Lock": "3+",
             "DMG": 2,
             "Type": "E",

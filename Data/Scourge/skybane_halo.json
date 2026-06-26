@@ -1,0 +1,28 @@
+{
+    "profile": {
+        "PTS": null,
+        "Type": "Skybane Halo",
+        "ES": "4+",
+        "KS": "5+",
+        "Special": [
+            "Aegis-2"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Skybane Oculus Array",
+            "Scan": 8,
+            "Att": 6,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Anti Wing",
+                "Escape Velocity",
+                "Scald-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": "Each friendly Skybane Halo counts as a separate friendly Group for the purposes of its Aegis-X special rule. While this feature is deployed to a Dropsite, friendly groups treat the Dropsite as if it were a friendly Ship with Aegis-2 on the same Orbital Layer for the purposes of enemy close action and bomber attacks.\nThis Feature's Aegis special rule affects friendly Ships in Orbit in addition to Atmosphere."
+}

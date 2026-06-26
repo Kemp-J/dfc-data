@@ -23,7 +23,7 @@
         {
             "Name": "Oculus Beam Array",
             "Arc": "F",
-            "Att": 2,
+            "Att": 3,
             "Lock": "3+",
             "DMG": 2,
             "Type": "E",
