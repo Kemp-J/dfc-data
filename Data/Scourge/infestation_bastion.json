@@ -8,5 +8,5 @@
     },
     "weapons": [],
     "load": [],
-    "rules": "When friendly Bulk Landers are launched to this Dropsite, they ignore enemy Battalions on this Dropsite.\nAfter enemy Battalions are deployed to this Dropsite, roll a dice for each of those Battalions. For each result of a 3+, remove one of those Battalions. Only one Infestation Bastion can be used this way for each Battalion and any Battalions already on the Dropsite are ignored."
+    "rules": "When friendly Bulk Landers are launched to this Dropsite, they ignore enemy Battalions on this Dropsite.\nAfter enemy Battalions are deployed to this Dropsite, roll a dice for each of those Battalions. For each result of a 5+, remove one of those Battalions. Only one Infestation Bastion can be used this way for each Battalion and any Battalions already on the Dropsite are ignored."
 }
