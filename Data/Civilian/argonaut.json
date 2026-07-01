@@ -1,0 +1,59 @@
+{
+    "class": "Argonaut",
+    "type": "Living Vessel",
+    "points": 112,
+    "tonnage": "M",
+    "base_size": 40,
+    "profile": {
+        "Thrust": 10,
+        "Scan": 4,
+        "Sig": 2,
+        "Hull": 11,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "6+",
+        "G": "1-2",
+        "Special": [
+            "Impetuous",
+            "Rare"
+        ]
+    },
+    "weapons": [
+        {
+            "Name": "Thermal Lash",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-2",
+                "Sustained Fire"
+            ],
+            "Rule": "This weapon can only be used against targets in base contact.\nWhen you inflict damage with this weapon, you may remove a Spike from this Group, if you do, the defending Group gains a Spike."
+        },
+        {
+            "Name": "Force Wave",
+            "Arc": "F/S",
+            "Att": 4,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Arrest-2",
+                "Impel-2"
+            ]
+        }
+    ],
+    "load": [],
+    "rules": [
+        {
+            "Name": "Mind of its Own",
+            "Text": "This Ship can be used in any fleet, regardless of faction but does not count towards point spent on M Tonnage Ships when building your fleet. This Ship cannot have an Admiral assigned to it for any reason.\nInstead of picking an Order for this Group when it activates, it may in any order; turn in any direction, move up to its Thrust, attack with any number of its weapons gaining a Spike for each additional Weapon System assigned after the first. Each option can only be chosen once per activation.\nAt the end of this Group's activation, if it did not gain any Spikes, remove a Spike from it."
+        }
+    ],
+    "known_ships": [
+        "Astrofauna HD215152-A"
+    ],
+    "flavour": "Though there has been extensive speculation on the viability or even potential existence of any kind of life adapted for the vacuum of space, none have been able to prove any hypothesis one way or another. The complete alien nature of something that could feasibly live without any kind of atmosphere or gravity pushes the limits of human speculation. Though themselves alien, every other race humanity has encountered has had a terrestrial origin. PHR expeditionary fleets have almost by accident stumbled into proof of space-based lifeforms. A solitary, anomalous creature was found in a small orange dwarf system. For an as-yet-unknown reason, this creature was traversing a veritable cosmic backwater with nought but ice and gas giants. Seemingly passive, the creature ignored the survey fleet, at least until it closed in. Initially curious, the creature allowed a single survey vessel close enough to scan, though was likely taking in all it could of the strange mechanical interloper.\nIt's temperament suddenly changed, however, when a second survey vessel moved to its opposite flank. Without warning, it unleashed a tentacle that damn near tore the closest ship in half. If it wasn't for the quick thinking of the crew the ship could well have been lost to the attack. The flanking ship was hit by an attack with no discernible origin. Crushing forces impacted the ship and though little structural damage was caused, they were pushed into a completely different heading and at a much reduced velocity.\nFortunately both ships had completed detailed scans of the creature, and although these are currently highly classified, news of this incredible discovery, now dubbed \"The Argonaut\", is reaching the ears of those back in the republic. Unfortunately, both survey ships have been prevented from returning to PHR space and have been instructed to seek the nearest safe-haven to repair and shelter. While the Solar system is hardly safe, it is the largest concentration of PHR assets within a reasonable distance, and is about as safe as anywhere else."
+}
