@@ -41,7 +41,8 @@
             "Cost": 10,
             "Replaces": [
                 "Fighters & Bombers"
-            ]
+            ],
+            "RuleName": "Minelayer"
         }
     ],
     "Rules": [

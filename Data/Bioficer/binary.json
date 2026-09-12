@@ -67,7 +67,8 @@
             "Special": [
                 "Limited-4"
             ],
-            "Cost": 20
+            "Cost": 20,
+            "RuleName": "Torpedo Upgrade"
         }
     ],
     "Rules": [

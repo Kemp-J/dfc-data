@@ -158,7 +158,7 @@
         },
 
         "SingleWeapon": {
-            "description": "A weapon system with a single firing profile. Cost and Replaces are only present on optional/refit weapons. Rule is only present when the ship has a rule sharing the weapon's name.",
+            "description": "A weapon system with a single firing profile. Cost and Replaces are only present on optional/refit weapons. Rule is only present when the ship has a rule sharing the weapon's name. RuleName names the ship rule that supplied the weapon's optional attributes, if present.",
             "type": "object",
             "required": ["Name", "Arc", "Att", "Lock", "DMG", "Type", "Special"],
             "additionalProperties": false,
@@ -172,12 +172,13 @@
                 "Special":  { "type": "array", "items": { "type": "string" } },
                 "Rule":     { "type": "string" },
                 "Cost":     { "type": "integer" },
-                "Replaces": { "type": "array", "items": { "type": "string" } }
+                "Replaces": { "type": "array", "items": { "type": "string" } },
+                "RuleName": { "type": "string" }
             }
         },
 
         "MultiProfileWeapon": {
-            "description": "A weapon system with multiple named firing profiles. Cost and Replaces are only present on optional/refit weapons. Rule is only present when the ship has a rule sharing the weapon's name.",
+            "description": "A weapon system with multiple named firing profiles. Cost and Replaces are only present on optional/refit weapons. Rule is only present when the ship has a rule sharing the weapon's name. RuleName names the ship rule that supplied the weapon's optional attributes, if present.",
             "type": "object",
             "required": ["Name", "Profiles"],
             "additionalProperties": false,
@@ -186,7 +187,8 @@
                 "Profiles": { "type": "array", "items": { "$ref": "#/$defs/WeaponProfile" }, "minItems": 2 },
                 "Rule":     { "type": "string" },
                 "Cost":     { "type": "integer" },
-                "Replaces": { "type": "array", "items": { "type": "string" } }
+                "Replaces": { "type": "array", "items": { "type": "string" } },
+                "RuleName": { "type": "string" }
             }
         },
 
@@ -199,7 +201,7 @@
         },
 
         "LoadEntry": {
-            "description": "A launch asset load carried by a ship. Cost and Replaces are only present on optional/refit loads.",
+            "description": "A launch asset load carried by a ship. Cost and Replaces are only present on optional/refit loads. RuleName names the ship rule that supplied the load's optional attributes, if present.",
             "type": "object",
             "required": ["Load", "Launch", "Special"],
             "additionalProperties": false,
@@ -208,7 +210,8 @@
                 "Launch":   { "type": "integer" },
                 "Special":  { "type": "array", "items": { "type": "string" } },
                 "Cost":     { "type": "integer" },
-                "Replaces": { "type": "array", "items": { "type": "string" } }
+                "Replaces": { "type": "array", "items": { "type": "string" } },
+                "RuleName": { "type": "string" }
             }
         },
 

@@ -80,7 +80,8 @@
             "Replaces": [
                 "UF-4200 Mass Driver Turrets",
                 "UF-4200 Mass Driver Turrets"
-            ]
+            ],
+            "RuleName": "Laser Refit"
         }
     ],
     "Load": [
