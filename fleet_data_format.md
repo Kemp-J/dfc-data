@@ -67,6 +67,7 @@ The file contains the following:
 - "Weapons": A list of dictionaries, each containing "Name" (string), "Scan" (integer or null), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `[{"Name": "Electrowave Caster", "Scan": 8, "Att": 3, "Lock": "2+", "DMG": 1, "Type": "E", "Special": ["Close Action", "Escape Velocity", "Status"]}]`.
 - "Load": A list of dictionaries, each containing "Load" (string), "Launch" (integer), and "Special" (list of strings). Example: `[{"Load": "Medium Torpedo", "Launch": 1, "Special": ["Limited-4"]}]`.
 - "Rules": A string containing the additional rules for the Deployable Feature.
+- "RulesExample": An optional string containing the example that illustrates the rules. Only present when the Deployable Feature's rules include an example.
 
 Example Deployable Feature data file for the UCM Torpedo Platform:
 

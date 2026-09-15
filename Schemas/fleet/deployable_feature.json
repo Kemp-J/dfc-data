@@ -2,7 +2,7 @@
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://dfc/schemas/fleet/deployable_feature.json",
     "title": "DFC Deployable Feature Data",
-    "description": "Data file for a Deployable Feature.",
+    "description": "Data file for a Deployable Feature. RulesExample is only present when the rules text ends with an example.",
     "type": "object",
     "required": ["Profile", "Weapons", "Load", "Rules"],
     "additionalProperties": false,
@@ -10,7 +10,8 @@
         "Profile": { "$ref": "#/$defs/DeployProfile" },
         "Weapons": { "type": "array", "items": { "$ref": "#/$defs/DeployWeapon" } },
         "Load":    { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/LoadEntry" } },
-        "Rules":   { "type": "string" }
+        "Rules":   { "type": "string" },
+        "RulesExample": { "type": "string" }
     },
     "$defs": {
         "DeployProfile": {
