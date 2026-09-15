@@ -8,27 +8,32 @@
     },
     "Weapons": [
         {
-            "Name": "Heavy Calibre Orbital Gun (Mounted)",
-            "Scan": null,
-            "Att": 2,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "K",
-            "Special": [
-                "Calibre-H/C"
-            ]
-        },
-        {
-            "Name": "Heavy Calibre Orbital Gun (Deployed)",
-            "Scan": 8,
-            "Att": 2,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "K",
-            "Special": [
-                "Calibre-H/C",
-                "Critical-2",
-                "Escape Velocity"
+            "Name": "Heavy Calibre Orbital Gun",
+            "Profiles": [
+                {
+                    "Name": "Mounted",
+                    "Scan": null,
+                    "Att": 2,
+                    "Lock": "3+",
+                    "DMG": 2,
+                    "Type": "K",
+                    "Special": [
+                        "Calibre-H/C"
+                    ]
+                },
+                {
+                    "Name": "Deployed",
+                    "Scan": 8,
+                    "Att": 2,
+                    "Lock": "3+",
+                    "DMG": 2,
+                    "Type": "K",
+                    "Special": [
+                        "Calibre-H/C",
+                        "Critical-2",
+                        "Escape Velocity"
+                    ]
+                }
             ]
         }
     ],

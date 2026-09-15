@@ -27,8 +27,23 @@
                 "Special": { "type": "array", "items": { "type": "string" } }
             }
         },
-        "DeployWeapon": {
-            "description": "A weapon on a Deployable Feature. Rule is only present when the feature has a rule sharing the weapon's name.",
+        "DeployWeaponProfile": {
+            "description": "A single firing profile within a multi-profile Deployable Feature weapon.",
+            "type": "object",
+            "required": ["Name", "Scan", "Att", "Lock", "DMG", "Type", "Special"],
+            "additionalProperties": false,
+            "properties": {
+                "Name":    { "type": "string" },
+                "Scan":    { "description": "Scan range in inches, or null when absent.", "type": ["integer", "null"] },
+                "Att":     { "type": "integer" },
+                "Lock":    { "$ref": "https://dfc/schemas/defs.json#/$defs/LockValue" },
+                "DMG":     { "type": "integer" },
+                "Type":    { "$ref": "https://dfc/schemas/defs.json#/$defs/WeaponType" },
+                "Special": { "type": "array", "items": { "type": "string" } }
+            }
+        },
+        "DeploySingleWeapon": {
+            "description": "A Deployable Feature weapon with a single firing profile. Rule is only present when the feature has a rule sharing the weapon's name.",
             "type": "object",
             "required": ["Name", "Scan", "Att", "Lock", "DMG", "Type", "Special"],
             "additionalProperties": false,
@@ -42,6 +57,24 @@
                 "Special": { "type": "array", "items": { "type": "string" } },
                 "Rule":    { "type": "string" }
             }
+        },
+        "DeployMultiProfileWeapon": {
+            "description": "A Deployable Feature weapon with multiple named firing profiles. Rule is only present when the feature has a rule sharing the weapon's name.",
+            "type": "object",
+            "required": ["Name", "Profiles"],
+            "additionalProperties": false,
+            "properties": {
+                "Name":     { "type": "string" },
+                "Profiles": { "type": "array", "items": { "$ref": "#/$defs/DeployWeaponProfile" }, "minItems": 2 },
+                "Rule":     { "type": "string" }
+            }
+        },
+        "DeployWeapon": {
+            "description": "A weapon on a Deployable Feature: either a single-profile weapon or a multi-profile weapon.",
+            "oneOf": [
+                { "$ref": "#/$defs/DeploySingleWeapon" },
+                { "$ref": "#/$defs/DeployMultiProfileWeapon" }
+            ]
         }
     }
 }

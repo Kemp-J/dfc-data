@@ -64,7 +64,11 @@ Each Deployable Feature has its own data file in json format. The file is named 
 The file contains the following:
 
 - "Profile": A dictionary containing "PTS" (integer or null), "Type" (string, the name of the Deployable Feature), "ES" (string: "X+" where X is a number), "KS" (string: "X+" where X is a number), and "Special" (list of strings).
-- "Weapons": A list of dictionaries, each containing "Name" (string), "Scan" (integer or null), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `[{"Name": "Electrowave Caster", "Scan": 8, "Att": 3, "Lock": "2+", "DMG": 1, "Type": "E", "Special": ["Close Action", "Escape Velocity", "Status"]}]`.
+- "Weapons": A list of weapon entries. Each entry is one of:
+  - A **single-profile weapon**: a dictionary containing "Name" (string), "Scan" (integer or null), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `{"Name": "Electrowave Caster", "Scan": 8, "Att": 3, "Lock": "2+", "DMG": 1, "Type": "E", "Special": ["Close Action", "Escape Velocity", "Status"]}`.
+  - A **multi-profile weapon**: a dictionary containing "Name" (string) and "Profiles" (a list of two or more profile dictionaries). Each profile dictionary contains "Name" (string), "Scan" (integer or null), "Att" (integer), "Lock" (string), "DMG" (integer), "Type" (string), and "Special" (list of strings) as per a single-profile weapon. Example: `{"Name": "Heavy Calibre Orbital Gun", "Profiles": [{"Name": "Mounted", "Scan": null, "Att": 2, "Lock": "3+", "DMG": 2, "Type": "K", "Special": ["Calibre-H/C"]}, {"Name": "Deployed", "Scan": 8, "Att": 2, "Lock": "3+", "DMG": 2, "Type": "K", "Special": ["Calibre-H/C", "Critical-2", "Escape Velocity"]}]}`.
+
+  Both forms may optionally include "Rule" (string, present when the Deployable Feature's rules include a paragraph for the weapon, beginning with the weapon's name followed by a colon).
 - "Load": A list of dictionaries, each containing "Load" (string), "Launch" (integer), and "Special" (list of strings). Example: `[{"Load": "Medium Torpedo", "Launch": 1, "Special": ["Limited-4"]}]`.
 - "Rules": A string containing the additional rules for the Deployable Feature.
 - "RulesExample": An optional string containing the example that illustrates the rules. Only present when the Deployable Feature's rules include an example.
