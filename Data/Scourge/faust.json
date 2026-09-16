@@ -62,6 +62,7 @@
     ],
     "Upgrades": [
         {
+            "Name": "Keel Options",
             "Min": 1,
             "Max": 1,
             "Options": [

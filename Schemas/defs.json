@@ -109,9 +109,10 @@
         "ChoiceGroup": {
             "description": "A group of mutually-exclusive upgrade options; the ship must take between min and max of them.",
             "type": "object",
-            "required": ["Min", "Max", "Options"],
+            "required": ["Name", "Min", "Max", "Options"],
             "additionalProperties": false,
             "properties": {
+                "Name": { "type": "string", "description": "The name of the ship rule that grants the choice." },
                 "Min": { "type": "integer", "minimum": 0 },
                 "Max": { "type": "integer", "minimum": 0 },
                 "Options": {

@@ -63,6 +63,7 @@
     ],
     "Upgrades": [
         {
+            "Name": "Keel Refit",
             "Min": 0,
             "Max": 1,
             "Options": [
