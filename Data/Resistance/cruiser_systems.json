@@ -62,7 +62,7 @@
                 "Pts": 30,
                 "Type": "Load",
                 "Profile": {
-                    "Load": "Fighters & Bombers¹",
+                    "Load": "Fighters & Bombers",
                     "Launch": 2,
                     "Special": []
                 },
@@ -72,7 +72,7 @@
                 "Pts": 35,
                 "Type": "Load",
                 "Profile": {
-                    "Load": "Mines¹",
+                    "Load": "Mines",
                     "Launch": 2,
                     "Special": []
                 },
