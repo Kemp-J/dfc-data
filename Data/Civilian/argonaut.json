@@ -52,6 +52,12 @@
             "Text": "This Ship can be used in any fleet, regardless of faction but does not count towards point spent on M Tonnage Ships when building your fleet. This Ship cannot have an Admiral assigned to it for any reason.\nInstead of picking an Order for this Group when it activates, it may in any order; turn in any direction, move up to its Thrust, attack with any number of its weapons gaining a Spike for each additional Weapon System assigned after the first. Each option can only be chosen once per activation.\nAt the end of this Group's activation, if it did not gain any Spikes, remove a Spike from it."
         }
     ],
+    "UsableIn": [
+        {
+            "Fleet": "*",
+            "Modifiers": []
+        }
+    ],
     "KnownShips": [
         "Astrofauna HD215152-A"
     ],

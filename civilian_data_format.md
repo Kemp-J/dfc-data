@@ -6,7 +6,7 @@ The civilian ship data is exported to a folder named "Civilian".
 
 ## Civilian data index
 
-Within the Civilian folder is a file `_civilian.json` which provides an entry point into the civilian ship data. This is a json format file containing the following:
+Within the Civilian folder is a file `_ships.json` which provides an entry point into the civilian ship data. This is a json format file containing the following:
 
 - "SourceVersion": The version of the civilian ship PDF (taken from the PDF filename). This is a date formatted as YYMMDD.
 - "ShipRules": A list of rules. Each rule consists of a dictionary containing "Name" and "Text" keys, along with an optional "Example" key. All have string values.

@@ -69,7 +69,13 @@
                     "Name": "Scanner Uplink",
                     "Effect": "This Space Station's Scan range is increased by 3\". In addition, friendly ships within 3\" of one or more Space Stations with this special rule increase their Scan range by 3\". This special rule ceases to function while this Space Station is controlled by an enemy player."
                 },
-                "Effects": [],
+                "Effects": [
+                    {
+                        "Target": "Scan",
+                        "Type": "add",
+                        "Value": 3
+                    }
+                ],
                 "Max": 1
             }
         ]

@@ -122,7 +122,7 @@ Each fleet-specific station has its own data file in JSON format, named after th
 The file contains:
 
 - "Fleet": The fleet this station belongs to.
-- "Name": The full station name (e.g. "UCM Defence Hangar").
+- "Name": The station name (e.g. "Defence Hangar") with the fleet name prefix removed.
 - "Size": The size class of the station. One of "Small", "Medium", or "Large".
 - "Points": Points cost.
 - "BaseSize": Base size in mm.
@@ -137,10 +137,9 @@ Example:
 
 ```json
 {
-    "Name": "UCM Defence Hangar",
     "Fleet": "UCM",
+    "Name": "Defence Hangar",
     "Size": "Small",
-    "Type": "Small Space Station",
     "Points": 50,
     "BaseSize": 30,
     "Profile": {
