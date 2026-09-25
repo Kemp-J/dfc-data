@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "260731",
+    "SourceVersion": "260925",
     "Abilities": [
         {
             "Cost": "1AP",
@@ -135,7 +135,8 @@
         "quetzalcoatl.json"
     ],
     "Heroes": [
-        "nefertem_of_the_dawn.json"
+        "nefertem_of_the_dawn.json",
+        "seti_the_kinslayer.json"
     ],
     "Ships": [
         "voidgate.json",

@@ -1,0 +1,64 @@
+{
+    "Hero": "Seti the Kinslayer",
+    "Ship": "Spear of Anubis",
+    "Type": "Heavy Cruiser",
+    "Points": 170,
+    "Tonnage": "M",
+    "BaseSize": 40,
+    "Profile": {
+        "Thrust": 8,
+        "Scan": 12,
+        "Sig": 6,
+        "Hull": 11,
+        "ES": "5+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Hero",
+            "Shield-4+",
+            "Unique"
+        ]
+    },
+    "Weapons": [
+        {
+            "Name": "Ancient Thermal Lance Cannon",
+            "Arc": "FN",
+            "Att": 3,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "E",
+            "Special": [
+                "Bloom-1",
+                "Burnthrough-1",
+                "Critical-2"
+            ]
+        }
+    ],
+    "Load": [
+        {
+            "Load": "Dropships",
+            "Launch": 2,
+            "Special": [
+                "Limited-2"
+            ]
+        },
+        {
+            "Load": "Torpedoes",
+            "Launch": 2,
+            "Special": [
+                "Limited-4"
+            ]
+        }
+    ],
+    "Rules": [
+        {
+            "Name": "Seti Alpha Strike",
+            "Text": "Dropships deploying Battalions from this Ship do not use the Mothership and Gateship-X special rules and can be deployed to any orbital layer. When you deploy any of this Ship's Dropships to a Dropsite, Immediately remove that many enemy Battalions from that Dropsite."
+        }
+    ],
+    "KnownShips": [
+        "Spear of Anubis"
+    ],
+    "Flavour": "Seti the Kinslayer is an infamously treacherous Shaltari who loves nothing better than fighting and ending his own kind. With no better targets, annihilating the lesser races will do. He was originally known as a ground commander but has since been known to helm a unique, personal vessel of heavy cruiser tonnage: the Spear of Anubis. Unusually, and excessively, this ship packs two vast torpedo tubes, presumably to achieve kills in a most satisfying manner. Those are augmented by a spinal mounted thermal lance cannon. Inside, a small teleportation chamber allows Seti and his warriors to make planetfall whenever the impersonality of void combat bores him. He is understood to relish the smells of smoke, death, and blood.\nSeti will attach himself to any tribe's campaign so long as it promises good sport for him, but given his reputation, any starchief that accepts his sword should be permanently nervous. If anything, this reputation has soured further in recent years after the Brazilian incident and his gleefully vicious actions over Aaru in 2678."
+}
