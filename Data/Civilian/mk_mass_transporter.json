@@ -50,6 +50,18 @@
             "Effect": "Once per activation, when you deploy Battalions from a Group on any Orbital Layer within 6\" of a friendly Ship with the Bulk Lighter rule, choose one of the launching Asset types. If the chosen Asset is either Dropships or Drop Pods, place an additional Battalion. If the chosen Asset is Bulk Landers, place an additional two Battalions. Other Launch Assets are unaffected by this Ability."
         }
     ],
+    "UsableIn": [
+        {
+            "Fleet": "*",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Boardable"
+                }
+            ]
+        }
+    ],
     "KnownShips": [],
     "Flavour": "It's a tough, thankless job hauling cargo from ground to space, but the Maganum Kinematics Mass Transporter takes it all in its stride. This reliable workhorse can be frequently seen flitting between orbit and atmosphere collecting and dispensing valuable cargo. During the reconquest, the durable, yet lightly armoured spaceframe of this vessel was used as a second line support vessel assisting troopships in setting up forward operating bases. Full of prefabricated barricades, fire-support bunkers, and even command centres, this small hauler vastly improves the efficiency of troops deployed to combat zones. Keeping the war machine well equipped, well stocked, and with a relatively comfortable, if cramped base to strike out at Scourge targets from.\nEven though their primary contracts are with the UCM, Maganum Kinematics have sold many of these to other non government organisations. Various shipping magnates operate at least one of these reliable ships at each of their destinations. More surprisingly, even other factions have been making use of these vessels. The PHR stationed at Earth have requisitioned a pair of these ships, as well as Kalium counting no fewer than four of these vessels amongst its fleet, though only two have been seen operating in the vicinity of Earth."
 }
