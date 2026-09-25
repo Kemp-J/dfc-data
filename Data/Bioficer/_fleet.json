@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "260529",
+    "SourceVersion": "260925",
     "Abilities": [
         {
             "Cost": "1AP",
@@ -117,7 +117,8 @@
         "ascendant.json"
     ],
     "Heroes": [
-        "anode.json"
+        "anode.json",
+        "aeon.json"
     ],
     "Ships": [
         "invasion_cell.json",

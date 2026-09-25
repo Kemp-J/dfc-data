@@ -1,0 +1,53 @@
+{
+    "Hero": "Aeon",
+    "Ship": "The Ring Ship",
+    "Type": "Heavy Cruiser",
+    "Points": 175,
+    "Tonnage": "M",
+    "BaseSize": 40,
+    "Profile": {
+        "Thrust": 7,
+        "Scan": 11,
+        "Sig": 4,
+        "Hull": 9,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "5+",
+        "G": "1",
+        "Special": [
+            "Hero",
+            "Unique"
+        ]
+    },
+    "Weapons": [
+        {
+            "Name": "Genitor Bomblets",
+            "Arc": "F",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Corruptor-2"
+            ]
+        }
+    ],
+    "Load": [
+        {
+            "Load": "Fighters & Bombers",
+            "Launch": 5,
+            "Special": []
+        }
+    ],
+    "Rules": [
+        {
+            "Name": "Summoning",
+            "Text": "When you activate a Wing within 2\" of this Ship, instead of moving them normally, you may remove them from the table, then place them anywhere within 18\" of this Ship. Wings placed this way suffer the effects of any scenery they are placed on but ignore intervening scenery. Wings placed this way may form and divide into Wings as if they had moved normally. Wings placed this way cannot be the target of your Abilities until the end of the round (other players may target them with Abilities as normal)."
+        }
+    ],
+    "KnownShips": [
+        "The Ring Ship"
+    ],
+    "Flavour": "Reports of an apparently unique, lone Bioficer vessel have increased in recent months. UCMF crews have nicknamed it The Ring Ship, and the Admiralty have assigned the Intelligence that controls it the designation Aeon. Bioficer teleportation rings are known, but this one dominates the superstructure of a heavy cruiser and is larger than anything seen besides space stations, and this one is mobile. From these rings, Bioficer launch assets appear from elsewhere. They can also jump nearby launch assets limited distances. Both factors make them quite different from Shaltari teleporters and potentially more advanced.\nThis ship also features an unusual prow armament for the Bioficers: a rack of physical missiles. These are essentially miniaturised versions of Bioficer torpedoes, so while they are damaging on impact, the real horror is when the warhead's genitor cores churn out nightmares into the living spaces of the target. These distinctive systems imply that certain Bioficer Intelligences have a high degree of autonomy and personal resources to develop killing machines that suit their individual, twisted tastes."
+}
