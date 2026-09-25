@@ -23,6 +23,8 @@
         "Points":            { "type": ["integer", "null"] },
         "Tonnage":           { "$ref": "https://dfc/schemas/defs.json#/$defs/Tonnage" },
         "BaseSize":          { "type": "integer" },
+        "CountsForTonnageSpend": { "type": "boolean", "default": true },
+        "CanAssignAdmiral":      { "type": "boolean", "default": true },
         "Profile":           { "$ref": "https://dfc/schemas/defs.json#/$defs/ShipProfile" },
         "Weapons":           { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Weapon" } },
         "Load":              { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/LoadEntry" } },

@@ -109,6 +109,8 @@ The file contains the following:
 - "Points": Integer.
 - "Tonnage": One of "L", "M", "H", "C".
 - "BaseSize": Integer giving the size in mm.
+- "CountsForTonnageSpend": An optional boolean. When false, this ship's points do not count towards the points spent on ships of its tonnage class when building a fleet. Assumed to be true when not present; it is only present when false.
+- "CanAssignAdmiral": An optional boolean. When false, an Admiral cannot be assigned to this ship. Assumed to be true when not present; it is only present when false.
 - "Profile": A dictionary containing "Thrust" (integer, unit: inches), "Scan" (integer, unit: inches), "Sig" (integer, unit: inches), "Hull" (integer), "ES" (string), "KS" (string), "BS" (string), "G" (string, "X" or "X-Y", where X and Y are integers), and "Special" (list of strings). Example: `{"Thrust": 12, "Scan": 6, "Sig": 0, "Hull": 2, "ES": "6+", "KS": "6+", "BS": "-", "G": "2-4", "Special": ["Descent", "Cloak-1", "Rare", "Vanguard-6\""]}`.
 - "Weapons": A list of weapon entries. Each entry is one of:
   - A **single-profile weapon**: a dictionary containing "Name" (string), "Arc" (string: one or more of "F", "S", "R", "SL", "SR", "FN", "RN", and "B", separated by slashes), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `{"Name": "Barracuda Missile Bays", "Arc": "F/S/R", "Att": 2, "Lock": "4+", "DMG": 1, "Type": "K", "Special": ["Close Action"]}`.

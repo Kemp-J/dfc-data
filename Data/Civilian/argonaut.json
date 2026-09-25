@@ -4,6 +4,8 @@
     "Points": 112,
     "Tonnage": "M",
     "BaseSize": 40,
+    "CountsForTonnageSpend": false,
+    "CanAssignAdmiral": false,
     "Profile": {
         "Thrust": 10,
         "Scan": 4,
