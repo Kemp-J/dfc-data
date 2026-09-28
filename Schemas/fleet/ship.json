@@ -26,6 +26,7 @@
         "CountsForTonnageSpend": { "type": "boolean", "default": true },
         "CanAssignAdmiral":      { "type": "boolean", "default": true },
         "Profile":           { "$ref": "https://dfc/schemas/defs.json#/$defs/ShipProfile" },
+        "AsIfSpecial":       { "$ref": "https://dfc/schemas/defs.json#/$defs/AsIfSpecial" },
         "Weapons":           { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Weapon" } },
         "Load":              { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/LoadEntry" } },
         "Upgrades":          { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/UpgradeEntry" } },

@@ -253,6 +253,14 @@
             }
         },
 
+        "AsIfSpecial": {
+            "description": "Special rules the ship or Deployable Feature is treated as having, although they are not in its Profile's Special. Only present when non-empty.",
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+
         "ShipProfile": {
             "description": "The stat-line of a ship.",
             "type": "object",
