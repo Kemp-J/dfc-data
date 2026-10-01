@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "260901",
+    "SourceVersion": "261001",
     "ShipRules": [
         {
             "Name": "Civilian Transport",
@@ -26,6 +26,7 @@
         "mab_67_fuel_transport.json",
         "nirvana.json",
         "precedent_one.json",
+        "psc_interdictor.json",
         "slm9_resupply_hauler.json",
         "ttype_tugboat.json",
         "ex7_packet_runner.json",

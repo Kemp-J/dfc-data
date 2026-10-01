@@ -1,0 +1,70 @@
+{
+    "Class": "PSC Interdictor",
+    "Type": "Interdictor",
+    "Points": 48,
+    "Tonnage": "L",
+    "BaseSize": 30,
+    "Profile": {
+        "Thrust": 9,
+        "Scan": 6,
+        "Sig": 4,
+        "Hull": 4,
+        "ES": "4+",
+        "KS": "4+",
+        "BS": "-",
+        "G": "2-4",
+        "Special": [
+            "Boardable",
+            "Rapid Drop",
+            "Rare",
+            "Vectored"
+        ]
+    },
+    "Weapons": [
+        {
+            "Name": "UF-2800i Interdiction Mass Drivers",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Arrest-4",
+                "Scald-1"
+            ],
+            "Rule": "While this Group is on the Max Thrust Order, it may attack with one Weapon System. While this Group is on the Weapons Free Order, its UF-2800i Interdiction Mass Drivers have Crippling-Navigation Offline."
+        }
+    ],
+    "Load": [
+        {
+            "Load": "Boarding Pods",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
+    "Rules": [
+        {
+            "Name": "Mercenary",
+            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
+        }
+    ],
+    "UsableIn": [
+        {
+            "Fleet": "*",
+            "Modifiers": [
+                {
+                    "Target": "Special",
+                    "Type": "remove",
+                    "Value": "Boardable"
+                }
+            ]
+        }
+    ],
+    "KnownShips": [
+        "Whippet",
+        "Borzoi",
+        "Shin Kicker",
+        "Stay Put"
+    ],
+    "Flavour": "The Colonial Fleet Penal Corps GH-Type Interdictor is a mainstay of inter-system policing and target acquisition. This fast attack craft is built to chase down fleeing criminal elements and as quickly and safely as possible, disable engines and deliver preliminary boarding parties before more specialised forces arrive to take the target into custody. Colloquially known as Gazehounds, these pack hunters are brutally efficient at intercepting fleeing ships, impacts from their custom mass drivers cause small EM pulses that stall engines and knock out reactors. While smaller than other turrets produced by the Olympus Fleet Yards, these UF-2800 variants have inbuilt capacitors, allowing the ship itself to put full power to the engines while also having weapons ready to fire. Alternatively, when all power is put into weapon systems, these capacitors add to the power coursing through the weapon, delivering a far more potent shot and clipping the wings of any criminal foolish enough to be in its sights."
+}
