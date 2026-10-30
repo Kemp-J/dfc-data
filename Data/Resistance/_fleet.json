@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "260731",
+    "SourceVersion": "261030",
     "Abilities": [
         {
             "Cost": "2AP",
@@ -140,7 +140,8 @@
         "magellan.json"
     ],
     "Heroes": [
-        "guy_fawkes.json"
+        "guy_fawkes.json",
+        "general_cassius_brown.json"
     ],
     "Ships": [
         "munifex.json",

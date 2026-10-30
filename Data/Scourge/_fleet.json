@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "260626",
+    "SourceVersion": "261030",
     "Abilities": [
         {
             "Cost": "1AP",
@@ -120,7 +120,8 @@
         "overlord_of_flies.json"
     ],
     "Heroes": [
-        "the_hated.json"
+        "the_hated.json",
+        "the_spectre_of_eden.json"
     ],
     "Ships": [
         "nickar.json",

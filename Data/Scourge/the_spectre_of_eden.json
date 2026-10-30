@@ -1,0 +1,65 @@
+{
+    "Hero": "The Spectre of Eden",
+    "Ship": "Death Arrow",
+    "Type": "Heavy Cruiser",
+    "Points": 124,
+    "Tonnage": "M",
+    "BaseSize": 40,
+    "Profile": {
+        "Thrust": 16,
+        "Scan": 8,
+        "Sig": 8,
+        "Hull": 12,
+        "ES": "4+",
+        "KS": "3+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Hero",
+            "Unique"
+        ]
+    },
+    "Weapons": [
+        {
+            "Name": "Oculus Beams",
+            "Arc": "F",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 2,
+            "Type": "E",
+            "Special": [
+                "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Tempest",
+            "Arc": "F/S",
+            "Att": 8,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Fusillade-2",
+                "Scald-2"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
+        }
+    ],
+    "Load": [],
+    "KnownShips": [
+        "- Death Arrow"
+    ],
+    "Flavour": "The Death Arrow is the fastest vessel of cruiser tonnage in known space. Outpacing even fast frigates, she was clearly built for nothing but speed and the savage application of plasma weaponry. Her armament matches the common Wyvern class, but she features the rarer form of superstructure and an entirely new, overcharged drive module and tail section, upping her to heavy cruiser classification, although over half her mass is estimated to be drive-related.\nUnusually, whatever malevolent Scourge commands this apparently unique vessel has 'earned' a nickname: The Spectre of Eden. Time and again, this ship has appeared, alone, and has quickly closed with and annihilated weaker adversaries, usually merchantmen, before smoothly outpacing any pursuit. Despite the UCM's near-total conquest of the Eden system, this ship remains a looming menace to all who sail there. The Death Arrow and her captain have thus cost the UCM more resources in extra security cordons and lost tonnage than any other vessel."
+}

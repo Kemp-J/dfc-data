@@ -1,0 +1,71 @@
+{
+    "Hero": "General Cassius Brown",
+    "Ship": "Kabal's Deliverance",
+    "Type": "Heavy Cruiser",
+    "Points": 146,
+    "Tonnage": "M",
+    "BaseSize": 40,
+    "Profile": {
+        "Thrust": 8,
+        "Scan": 8,
+        "Sig": 6,
+        "Hull": 14,
+        "ES": "3+",
+        "KS": "4+",
+        "BS": "6+",
+        "G": "1",
+        "Special": [
+            "Hero",
+            "Reinforced Armour",
+            "Unique"
+        ]
+    },
+    "Weapons": [
+        {
+            "Name": "XN-31 Long Nine Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "XN-31 Long Nine Mass Driver Turret",
+            "Arc": "F/S",
+            "Att": 2,
+            "Lock": "2+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Critical-1",
+                "Reave-1"
+            ]
+        },
+        {
+            "Name": "NC-1 Missile Rack",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "Load": [
+        {
+            "Load": "Firefist Assault Boats",
+            "Launch": 4,
+            "Special": []
+        }
+    ],
+    "KnownShips": [
+        "Kabal's Deliverance"
+    ],
+    "Flavour": "Although Kalium's military has no branches, ranks tend to reflect an individual's area of operations. Therefore, it is unusual for a decorated general to command a warship, but Kabal's Deliverance is no ordinary vessel. Colonial observers reckon her to be a highly visible statement of Kalium's prowess, although most suspect her to be impractically costly. Everything about this ship is elite, from its two 'Long Nine' extended mass driver turrets to its upgraded drive cluster to its superlative, and uncharacteristic, build quality. Brown himself earned the respect of even the PHR during the Battle for Earth, ultimately leading the month-long defence of New St Petersburg until he lost both legs to plasma fire. Kalium's prosthetics are cumbersome, so he now conducts operations from his command chair with cold, hardened efficiency.\nThe Deliverance's payload is no less elite. Aboard is a full and unique cohort of the Kalium XIth Legion—the Honoured Ten Thousand. These veteran warriors have each demonstrated unwavering loyalty to the Motherworld by receiving brutal combat injuries and returning to frontline service with distinction. Each is given superior gear and is worth three regular conscripts at least. They use the Deliverance's newly developed, armoured Firefist assault boats to conduct surface operations or launch devastating boarding actions."
+}
