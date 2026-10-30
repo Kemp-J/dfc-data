@@ -18,7 +18,7 @@ Within each fleet folder is a file `_fleet.json` which provides an entry point t
 - "SourceVersion": The version of the fleet PDF (taken from the PDF filename). This is a date formatted as YYMMDD.
 - "Abilities": The abilities available to Fleet and Famous Admirals. This is a list of dictionaries with keys of "Cost" (string - see 'Ability cost format'), "Name" (string), and "Effect" (string).
 - "FleetAdmirals": The Fleet Admirals available to the fleet. This is a list of dictionaries with keys of "Name" (string), "Level" (integer), "Cost" (integer), "FleetAbilities" (integer), and "Abilities" (list of dictionaries with content as per the "Abilities" key above).
-- "LaunchAssets": A list of Launch Asset stat line dictionaries. Each dictionary has one of two sets of keys. Fighter type launch assets have keys of "Load" (string), "Thrust" (integer), and "Rerolls" (integer). All other launch assets have keys of "Load" (string), "Thrust" (integer), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings).
+- "LaunchAssets": A list of Launch Asset stat line dictionaries. Each dictionary has one of three sets of keys. Fighter type launch assets have keys of "Load" (string), "Thrust" (integer), and "Rerolls" (integer). All other launch assets have keys of "Load" (string), "Thrust" (integer), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Targeted launch assets have keys of "Load" (string), "Target" (string), and "Range" (integer).
 - "Systems": A list of filenames for the data files containing ship systems lists. See 'Systems list' for more details.
 - "DeployableFeatures": A list of filenames for the data files containing Deployable Feature data.
 - "FamousAdmirals": A list of filenames for the data files containing Famous Admiral data.
@@ -38,7 +38,8 @@ Example:
     ],
     "LaunchAssets": [
         {"Load": "Light Torpedo", "Thrust": 6, "Att": 4, "Lock": "2+", "DMG": 1, "Type": "K", "Special": ["Penetrator"]},
-        {"Load": "Fighters", "Thrust": 13, "Rerolls": 1}
+        {"Load": "Fighters", "Thrust": 13, "Rerolls": 1},
+        {"Load": "Firefist Assault Boats", "Target": "Cities. Ships and Space stations in the same Orbital Layer.", "Range": 3}
     ],
     "Systems": [],
     "DeployableFeatures": [

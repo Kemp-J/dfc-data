@@ -104,11 +104,23 @@
                 "Rerolls": { "type": "integer" }
             }
         },
+        "LaunchAssetTargeted": {
+            "description": "A launch asset with a stated target and range rather than attack stats.",
+            "type": "object",
+            "required": ["Load", "Target", "Range"],
+            "additionalProperties": false,
+            "properties": {
+                "Load":   { "type": "string" },
+                "Target": { "type": "string" },
+                "Range":  { "type": "integer" }
+            }
+        },
         "LaunchAsset": {
-            "description": "A launch asset stat line: either a fighter or a non-fighter type.",
+            "description": "A launch asset stat line: a fighter, non-fighter, or targeted type.",
             "oneOf": [
                 { "$ref": "#/$defs/LaunchAssetNonFighter" },
-                { "$ref": "#/$defs/LaunchAssetFighter" }
+                { "$ref": "#/$defs/LaunchAssetFighter" },
+                { "$ref": "#/$defs/LaunchAssetTargeted" }
             ]
         }
     }

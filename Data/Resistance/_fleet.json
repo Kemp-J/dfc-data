@@ -121,6 +121,11 @@
             "Load": "Fighters",
             "Thrust": 16,
             "Rerolls": 3
+        },
+        {
+            "Load": "Firefist Assault Boats",
+            "Target": "Cities. Ships and Space stations in the same Orbital Layer.",
+            "Range": 3
         }
     ],
     "Systems": [
