@@ -1,13 +1,13 @@
 {
     "Class": "Strontium",
     "Type": "Monitor",
-    "Points": 58,
+    "Points": 54,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
-        "Thrust": 6,
+        "Thrust": 8,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 2,
         "Hull": 4,
         "ES": "4+",
         "KS": "4+",

@@ -1,7 +1,7 @@
 {
     "Class": "Tine",
     "Type": "Cutter",
-    "Points": 52,
+    "Points": 50,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -19,7 +19,7 @@
         {
             "Name": "Gravitic Stave",
             "Arc": "FN",
-            "Att": 3,
+            "Att": 4,
             "Lock": "4+",
             "DMG": 1,
             "Type": "C",

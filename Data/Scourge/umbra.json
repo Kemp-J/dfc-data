@@ -1,7 +1,7 @@
 {
     "Class": "Umbra",
     "Type": "Battlecruiser",
-    "Points": 235,
+    "Points": 225,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -41,6 +41,18 @@
                 "Fusillade-2",
                 "Scald-2"
             ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
         }
     ],
     "Load": [
@@ -53,7 +65,7 @@
     "Rules": [
         {
             "Name": "Oculus Booster",
-            "Text": "If this Ship is on an order that allows it to attack, this Ship may forgo one allowed Weapon use during its activation. If it does, at the end of this Ship's activation, you may place an Oculus token on an enemy Group in line of sight in this Ship's Front Arc. Unused Oculus tokens placed by this Ship persist between rounds and are only removed when this Ship would place another Oculus token or when a Ship with an Oculus token goes on the Silent Running order.\nWhen you assign \"Oculus\" weapons to a Group that has an Oculus Token and is within Scan range of the attacking Group, you may remove the token. If you do, one of the Group's \"Oculus\" Weapon Systems' Type becomes Core against that Group for that attack."
+            "Text": "If this Ship is on an order that allows it to attack, this Ship may forgo one allowed Weapon use during its activation. If it does, at the end of this Ship's activation, you may place an Oculus token on an enemy Group in line of sight in this Ship's Front Arc. Unused Oculus tokens placed by this Ship persist between rounds and are only removed when this Ship would place another Oculus token or when a Ship with an Oculus token goes on the Silent Running order.\nWhen you assign \"Oculus\" weapons to a Group that has an Oculus token and is within Scan range of the attacking Group, you may remove the Oculus token. If you do, choose one of the attacking Group's \"Oculus\" Weapon Systems. That Weapon System's Type becomes Core on each attacking Ship within Scan range of the defending Group. Weapons on Ships outside of Scan range of the defending Group are unaffected."
         }
     ],
     "KnownShips": [

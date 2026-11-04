@@ -11,7 +11,7 @@
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 8,
+        "Sig": 4,
         "Hull": 18,
         "ES": "4+",
         "KS": "3+",
@@ -43,7 +43,19 @@
             "DMG": 2,
             "Type": "C",
             "Special": [
-                "Critical-1"
+                "Critical-2",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "Harpoon Deluge",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
             ]
         }
     ],
@@ -57,10 +69,10 @@
     "Rules": [
         {
             "Name": "True Disintegration",
-            "Text": "When damage from this Flagship's Disintegrator Battery is part of an attack that causes a Ship to be destroyed, instead of rolling for explosion, all Ships in explosion range suffer 1 damage."
+            "Text": "Whenever an attack from this Ship would cause an enemy Ship of M or greater Tonnage to be destroyed, that Ship automatically scores a Reactor Overload Explosion Effect but reduces the Core hits caused to 2. Friendly Ships ignore Explosions caused by this rule."
         }
     ],
-    "FleetAdmiralAbilities": 1,
+    "FleetAdmiralAbilities": 4,
     "AdmiralAbilities": [
         {
             "Cost": "1AP",

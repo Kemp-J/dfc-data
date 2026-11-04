@@ -7,7 +7,7 @@
     "Profile": {
         "Thrust": 10,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 9,
         "ES": "5+",
         "KS": "4+",
@@ -35,10 +35,10 @@
             "Special": []
         },
         {
-            "Load": "Mines",
+            "Load": "Mines & Impel Mines",
             "Launch": 2,
             "Special": [],
-            "Cost": 10,
+            "Cost": 4,
             "Replaces": [
                 "Fighters & Bombers"
             ],
@@ -48,7 +48,7 @@
     "Rules": [
         {
             "Name": "Minelayer",
-            "Text": "This ship may replace its Fighters & Bombers with Mines for +10 pts."
+            "Text": "This ship may replace its Fighters & Bombers with Mines & Impel Mines for +4 pts."
         }
     ],
     "KnownShips": [

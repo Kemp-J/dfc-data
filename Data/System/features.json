@@ -1,0 +1,94 @@
+[
+    {
+        "Profile": {
+            "Type": "Military Outpost",
+            "ES": "3+",
+            "KS": "3+",
+            "Hull": 6,
+            "Special": []
+        },
+        "Weapons": [
+            {
+                "Name": "Missile Halo",
+                "Scan": 6,
+                "Att": 1,
+                "Lock": "2+",
+                "DMG": 2,
+                "Type": "K",
+                "Special": [
+                    "Close Action",
+                    "Escape Velocity"
+                ]
+            }
+        ],
+        "Load": [],
+        "Rules": ""
+    },
+    {
+        "Profile": {
+            "Type": "Orbital Defence Gun",
+            "ES": "5+",
+            "KS": "5+",
+            "Hull": 5,
+            "Special": []
+        },
+        "Weapons": [
+            {
+                "Name": "Orbital Gun",
+                "Scan": 6,
+                "Att": 3,
+                "Lock": "3+",
+                "DMG": 1,
+                "Type": "E",
+                "Special": [
+                    "Burnthrough-1",
+                    "Escape Velocity"
+                ]
+            }
+        ],
+        "Load": [],
+        "Rules": ""
+    },
+    {
+        "Profile": {
+            "Type": "Comms Station",
+            "ES": "4+",
+            "KS": "4+",
+            "Hull": 5,
+            "Special": []
+        },
+        "Weapons": [],
+        "Load": [],
+        "Rules": "Comms Uplink: If you control this Dropsite, increase the amount of Ability Points you generate by 1. You can only be affected by Comms Uplink once each round."
+    },
+    {
+        "Profile": {
+            "Type": "Power Plant",
+            "ES": "5+",
+            "KS": "5+",
+            "Hull": 5,
+            "Special": []
+        },
+        "Weapons": [],
+        "Load": [],
+        "Rules": "Volatile: When this Feature is destroyed, all Groups within 3\" gain a Spike and this Feature's Dropsite takes an additional 2D3 damage."
+    },
+    {
+        "Profile": {
+            "Type": "Hangar",
+            "ES": "4+",
+            "KS": "4+",
+            "Hull": null,
+            "Special": []
+        },
+        "Weapons": [],
+        "Load": [
+            {
+                "Load": "Fighters & Bombers",
+                "Launch": 2,
+                "Special": []
+            }
+        ],
+        "Rules": "This Feature's Fighters & Bombers use the Controlling players' Fighters & Bombers."
+    }
+]

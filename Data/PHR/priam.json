@@ -19,28 +19,15 @@
     },
     "Weapons": [
         {
-            "Name": "Light Calibre Broadside",
+            "Name": "Light Calibre Double Broadside",
             "Arc": "B",
-            "Att": 6,
+            "Att": 12,
             "Lock": "5+",
             "DMG": 1,
             "Type": "K",
             "Special": [
                 "Calibre-L",
-                "Re-Entry",
-                "Volley-2"
-            ]
-        },
-        {
-            "Name": "Light Calibre Broadside",
-            "Arc": "B",
-            "Att": 6,
-            "Lock": "5+",
-            "DMG": 1,
-            "Type": "K",
-            "Special": [
-                "Calibre-L",
-                "Re-Entry",
+                "Reave-1",
                 "Volley-2"
             ]
         }

@@ -43,11 +43,11 @@
     "Rules": [
         {
             "Name": "Repair Bay",
-            "Text": "Friendly Ships within 6\" of this Ship that roll to repair Crippling Effects during the Repair step of the End Phase repair those effects on a roll of a 2+ instead of a 4+.\nFriendly Ships that end their activation within 6\" of this Ship on the same Orbital Layer recover 2 lost Hull Points."
+            "Text": "Friendly Ships within 6\" and on the same Orbital Layer that roll to repair Crippling Effects improve the result of the roll to repair those Crippling Effects by 2.\nFriendly Ships that end their activation within 6\" of this Ship on the same Orbital Layer recover 2 lost Hull Points."
         },
         {
             "Name": "Box Of Scraps",
-            "Text": "At the end of this ship's activation, pick one friendly ship within 6\" in line of sight (including this one). Place a Box Of Scraps token next to that ship. The next time that ship would be destroyed, it isn't. Instead, before continuing to inflict damage, remove the Box of Scraps token and that ship remains in play with D3 Hull Points remaining, then continue inflicting damage as normal. Box Of Scraps tokens persist through rounds but a ship may only have 1 Box Of Scraps token."
+            "Text": "At the end of this ship's activation, pick one friendly ship within 6\" in line of sight (including this one). Place a Box Of Scraps token next to that ship. The next time that ship would be destroyed due to damage, it isn't. Instead, before continuing to inflict damage, remove the Box of Scraps token and that ship remains in play with D3 Hull Points remaining, then continue inflicting damage as normal. Box Of Scraps tokens persist through rounds but a ship may only have 1 Box Of Scraps token."
         }
     ],
     "KnownShips": [],

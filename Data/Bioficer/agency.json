@@ -4,8 +4,8 @@
     "Class": "Bastion",
     "Type": "Battleship",
     "AdmiralPoints": 65,
-    "ShipPoints": 245,
-    "Points": 310,
+    "ShipPoints": 225,
+    "Points": 290,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -31,7 +31,9 @@
             "Type": "C",
             "Special": [
                 "Arrest-4",
-                "Bloom-2"
+                "Bloom-2",
+                "Focused",
+                "Fusillade-2"
             ]
         },
         {
@@ -43,7 +45,7 @@
             "Type": "E",
             "Special": [
                 "Overcharge",
-                "Scald-1"
+                "Scald-2"
             ]
         }
     ],
@@ -56,7 +58,7 @@
             ]
         }
     ],
-    "FleetAdmiralAbilities": 1,
+    "FleetAdmiralAbilities": 3,
     "AdmiralAbilities": [
         {
             "Cost": "2AP",

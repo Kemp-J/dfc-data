@@ -1,7 +1,7 @@
 {
     "Class": "Teucer",
     "Type": "Cruiser",
-    "Points": 130,
+    "Points": 122,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -31,8 +31,8 @@
         {
             "Name": "Heavy Calibre Broadside",
             "Arc": "B",
-            "Att": 1,
-            "Lock": "3+",
+            "Att": 2,
+            "Lock": "4+",
             "DMG": 3,
             "Type": "K",
             "Special": [

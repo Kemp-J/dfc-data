@@ -1,7 +1,7 @@
 {
     "Class": "PRK-91 Provenance Ark",
     "Type": "Terraformer",
-    "Points": 410,
+    "Points": 400,
     "Tonnage": "C",
     "BaseSize": 60,
     "Profile": {
@@ -15,7 +15,8 @@
         "G": "1",
         "Special": [
             "Boardable",
-            "Civilian Transport"
+            "Civilian Transport",
+            "Mercenary (All)"
         ]
     },
     "Weapons": [
@@ -89,8 +90,8 @@
             "Text": "At the start of this Ship's activation, remove two Spikes from it."
         },
         {
-            "Name": "Mercenary",
-            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules. This ship's Fighters & Bombers use the stats of its parent fleet (if you included this ship in a Scourge fleet, its Fighters & Bombers would follow the Scourge Fighters & Bombers rules)."
+            "Name": "Acquired Fighters & Bombers",
+            "Text": "This ship's Fighters & Bombers use the stats of its parent fleet (if you included this ship in a Scourge fleet, its Fighters & Bombers would follow the Scourge Fighters & Bombers rules)."
         }
     ],
     "UsableIn": [

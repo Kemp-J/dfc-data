@@ -1,7 +1,7 @@
 {
     "Class": "Coloniser",
     "Type": "Interstellar Dreadnought",
-    "Points": 265,
+    "Points": 255,
     "Tonnage": "C",
     "BaseSize": 60,
     "Profile": {

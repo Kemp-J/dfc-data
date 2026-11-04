@@ -1,7 +1,7 @@
 {
     "Class": "Lysander",
     "Type": "Stealth Lighter",
-    "Points": 25,
+    "Points": 36,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -17,7 +17,7 @@
             "Descent",
             "Cloak-1",
             "Rare",
-            "Vanguard-6\""
+            "Vanguard-7\""
         ]
     },
     "Weapons": [
@@ -42,8 +42,8 @@
     ],
     "Rules": [
         {
-            "Name": "Stealth Drop",
-            "Text": "When this Group launches its Dropships, 2 Dropships are needed to place 1 Battalion. If this Group contains a single ship, each Dropship only places a Battalion on a roll of a 4+."
+            "Name": "Surgical Strike",
+            "Text": "When you deploy Battalions from this Group to a Feature that does not contain any enemy Battalions, you may have each Battalion deployed to that Feature inflict it 1 damage before being placed."
         }
     ],
     "KnownShips": [

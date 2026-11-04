@@ -1,7 +1,7 @@
 {
     "Class": "Revenant",
     "Type": "Destroyer",
-    "Points": 66,
+    "Points": 61,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -44,7 +44,16 @@
         {
             "Load": "Fighters & Bombers",
             "Launch": 1,
-            "Special": []
+            "Special": [
+                "Alt-1"
+            ]
+        },
+        {
+            "Load": "Mines",
+            "Launch": 2,
+            "Special": [
+                "Alt-1"
+            ]
         }
     ],
     "Rules": [

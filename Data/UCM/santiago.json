@@ -1,7 +1,7 @@
 {
     "Class": "Santiago",
     "Type": "Corvette",
-    "Points": 20,
+    "Points": 23,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -10,7 +10,7 @@
         "Sig": 2,
         "Hull": 2,
         "ES": "5+",
-        "KS": "6+",
+        "KS": "5+",
         "BS": "-",
         "G": "2-4",
         "Special": [

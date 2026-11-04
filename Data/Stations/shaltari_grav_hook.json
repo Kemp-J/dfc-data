@@ -5,7 +5,7 @@
     "Points": 75,
     "BaseSize": 30,
     "Profile": {
-        "Scan": 4,
+        "Scan": 8,
         "Sig": 6,
         "Hull": 10,
         "ES": "4+",
@@ -32,6 +32,26 @@
         }
     ],
     "Load": [],
+    "Hardpoints": {
+        "Features": [
+            {
+                "Name": "Life Support",
+                "Count": 1
+            },
+            {
+                "Name": "Weapons Control",
+                "Count": 2
+            }
+        ],
+        "AdditionalFeatures": {
+            "Min": 0,
+            "Max": 0
+        },
+        "Armaments": {
+            "Min": 0,
+            "Max": 0
+        }
+    },
     "Rules": [
         {
             "Name": "Gravity Manipulator",

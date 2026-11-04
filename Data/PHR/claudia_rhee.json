@@ -21,14 +21,40 @@
     },
     "Weapons": [
         {
-            "Name": "Heavy Calibre Triple Broadside",
+            "Name": "Heavy Calibre Broad-side",
             "Arc": "B",
-            "Att": 3,
-            "Lock": "3+",
+            "Att": 2,
+            "Lock": "4+",
             "DMG": 3,
             "Type": "K",
             "Special": [
-                "Calibre-H/C",
+                "Calibre-H",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Heavy Calibre Broad-side",
+            "Arc": "B",
+            "Att": 2,
+            "Lock": "4+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H",
+                "Penetrator",
+                "Volley-2"
+            ]
+        },
+        {
+            "Name": "Heavy Calibre Broad-side",
+            "Arc": "B",
+            "Att": 2,
+            "Lock": "4+",
+            "DMG": 3,
+            "Type": "K",
+            "Special": [
+                "Calibre-H",
                 "Penetrator",
                 "Volley-2"
             ]
@@ -43,6 +69,7 @@
             "Special": [
                 "Crippling",
                 "Critical-1",
+                "High Power",
                 "Penetrator"
             ]
         },
@@ -59,10 +86,10 @@
         }
     ],
     "Load": [],
-    "FleetAdmiralAbilities": 2,
+    "FleetAdmiralAbilities": 3,
     "AdmiralAbilities": [
         {
-            "Cost": "2AP",
+            "Cost": "1AP",
             "Name": "High-G Manouevre",
             "Effect": "When a friendly Group is given a Max Thrust order, it may turn as if it was on General Quarters."
         }

@@ -1,7 +1,7 @@
 {
     "Class": "Otera",
     "Type": "Light Cruiser",
-    "Points": 80,
+    "Points": 88,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -36,7 +36,7 @@
             "Type": "K",
             "Special": [
                 "Calibre-L",
-                "Re-entry",
+                "Reave-1",
                 "Volley-2"
             ]
         }

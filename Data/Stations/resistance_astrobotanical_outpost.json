@@ -2,7 +2,7 @@
     "Fleet": "Resistance",
     "Name": "Astrobotanical Outpost",
     "Size": "Medium",
-    "Points": 85,
+    "Points": 80,
     "BaseSize": 40,
     "Profile": {
         "Scan": 6,
@@ -31,6 +31,22 @@
         }
     ],
     "Load": [],
+    "Hardpoints": {
+        "Features": [
+            {
+                "Name": "Life Support",
+                "Count": 1
+            }
+        ],
+        "AdditionalFeatures": {
+            "Min": 2,
+            "Max": 3
+        },
+        "Armaments": {
+            "Min": 0,
+            "Max": 0
+        }
+    },
     "Rules": [
         {
             "Name": "Signature Bloom",

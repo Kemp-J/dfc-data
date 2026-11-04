@@ -2,7 +2,7 @@
     "Hero": "Anode",
     "Ship": "The Melter",
     "Type": "Heavy Destroyer",
-    "Points": 93,
+    "Points": 89,
     "Tonnage": "L",
     "BaseSize": 40,
     "Profile": {
@@ -33,7 +33,7 @@
                     "Special": [
                         "Alt-1",
                         "Overcharge",
-                        "Scald-2"
+                        "Reave-1"
                     ]
                 },
                 {

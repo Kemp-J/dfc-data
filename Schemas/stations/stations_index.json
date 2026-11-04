@@ -7,10 +7,7 @@
     "additionalProperties": false,
     "properties": {
         "SourceVersion":   { "type": "string" },
-        "Features": {
-            "type": "array",
-            "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Rule" }
-        },
+        "Features":         { "type": "string" },
         "GenericStations": {
             "type": "array",
             "items": { "type": "string" }

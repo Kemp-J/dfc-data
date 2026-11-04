@@ -5,8 +5,8 @@
     "Points": 65,
     "BaseSize": 30,
     "Profile": {
-        "Scan": 6,
-        "Sig": 4,
+        "Scan": 10,
+        "Sig": 0,
         "Hull": 8,
         "ES": "3+",
         "KS": "4+",
@@ -28,5 +28,25 @@
             ]
         }
     ],
-    "Load": []
+    "Load": [],
+    "Hardpoints": {
+        "Features": [
+            {
+                "Name": "Life Support",
+                "Count": 1
+            },
+            {
+                "Name": "Weapons Control",
+                "Count": 2
+            }
+        ],
+        "AdditionalFeatures": {
+            "Min": 0,
+            "Max": 0
+        },
+        "Armaments": {
+            "Min": 0,
+            "Max": 0
+        }
+    }
 }

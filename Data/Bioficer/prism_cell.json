@@ -1,7 +1,7 @@
 {
     "Class": "Prism Cell",
     "Type": "Cell",
-    "Points": 10,
+    "Points": 15,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -11,7 +11,7 @@
         "Hull": 2,
         "ES": "4+",
         "KS": "4+",
-        "BS": "6+",
+        "BS": "5+",
         "G": "-",
         "Special": [
             "Aegis-1",
@@ -22,12 +22,29 @@
     "Weapons": [
         {
             "Name": "Prism",
-            "Arc": "F/S/R",
-            "Att": 4,
-            "Lock": "3+",
-            "DMG": 1,
-            "Type": "E",
-            "Special": []
+            "Profiles": [
+                {
+                    "Name": "Deployed",
+                    "Arc": "F/S/R",
+                    "Att": 7,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "E",
+                    "Special": []
+                },
+                {
+                    "Name": "Attached",
+                    "Arc": "F/S/R",
+                    "Att": 3,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "E",
+                    "Special": [
+                        "Close Action",
+                        "Fusillade-2"
+                    ]
+                }
+            ]
         }
     ],
     "Load": [],
@@ -35,6 +52,10 @@
         {
             "Name": "Limited Aegis Bandwidth",
             "Text": "Friendly Ships with this rule may combine their Aegis values as if they were the same Group. When these Ships combine their Aegis value, only those within 6\" of the Group using the benefits of Aegis are counted. A Ship with this rule cannot gain the benefit of Aegis from another Ship with this rule."
+        },
+        {
+            "Name": "Prism (Attached)",
+            "Text": "This Weapon System can only be used by the Porter Ship carrying this Payload Ship and counts towards the amount of Weapon Systems that Porter Ship has. Only one of this Ship's Prism weapons can be used each round."
         }
     ],
     "KnownShips": [],

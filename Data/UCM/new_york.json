@@ -1,7 +1,7 @@
 {
     "Class": "New York",
     "Type": "Battleship",
-    "Points": 245,
+    "Points": 235,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -41,7 +41,7 @@
         {
             "Name": "Cobra Heavy Laser Pair",
             "Arc": "FN",
-            "Att": 6,
+            "Att": 8,
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",
@@ -50,7 +50,7 @@
                 "Flash-2",
                 "Focused"
             ],
-            "Cost": 5,
+            "Cost": 10,
             "Replaces": [
                 "UF-4200 Mass Driver Turrets",
                 "UF-4200 Mass Driver Turrets"
@@ -68,8 +68,17 @@
         },
         {
             "Load": "Fighters & Bombers",
-            "Launch": 4,
-            "Special": []
+            "Launch": 5,
+            "Special": [
+                "Alt-1"
+            ]
+        },
+        {
+            "Load": "Heavy Bombers",
+            "Launch": 3,
+            "Special": [
+                "Alt-1"
+            ]
         }
     ],
     "Rules": [
@@ -79,7 +88,7 @@
         },
         {
             "Name": "Laser Refit",
-            "Text": "This Ship may take a Laser Refit for +5 points, replacing both of its UF-4200 Mass Driver Turrets with a single Cobra Heavy Laser Pair."
+            "Text": "This Ship may take a Laser Refit for +10 points, replacing both of its UF-4200 Mass Driver Turrets with a single Cobra Heavy Laser Pair."
         }
     ],
     "Upgrades": [

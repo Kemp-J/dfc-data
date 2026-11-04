@@ -37,7 +37,7 @@
                     "DMG": 1,
                     "Type": "E",
                     "Special": [
-                        "Calibre-L",
+                        "Calibre-L/M",
                         "Close Action",
                         "Fusillade-5"
                     ]
@@ -55,7 +55,8 @@
                     "Type": "C",
                     "Special": [
                         "Arrest-2",
-                        "Bloom-2"
+                        "Bloom-2",
+                        "Focused"
                     ]
                 }
             }
@@ -73,7 +74,7 @@
                     "Type": "E",
                     "Special": [
                         "Overcharge",
-                        "Scald-1"
+                        "Scald-2"
                     ]
                 }
             },
@@ -90,7 +91,7 @@
                     "Special": [
                         "Anti Wing",
                         "Fusillade-3",
-                        "Reave-1"
+                        "Burnthrough-1"
                     ]
                 }
             }

@@ -41,13 +41,33 @@
         },
         {
             "Name": "Glaive Lance",
-            "Arc": "FN",
-            "Att": 3,
-            "Lock": "2+",
-            "DMG": 2,
-            "Type": "E",
-            "Special": [
-                "Overcharge"
+            "Profiles": [
+                {
+                    "Name": "Pulse",
+                    "Arc": "F",
+                    "Att": 3,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Reave-2"
+                    ]
+                },
+                {
+                    "Name": "Beam",
+                    "Arc": "FN",
+                    "Att": 3,
+                    "Lock": "3+",
+                    "DMG": 4,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Focused",
+                        "High Power",
+                        "Penetrator"
+                    ]
+                }
             ]
         }
     ],

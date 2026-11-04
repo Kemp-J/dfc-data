@@ -1,0 +1,35 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://dfc/schemas/system/features_list.json",
+    "title": "DFC Rulebook Features",
+    "description": "The standard Features from the rulebook, in rulebook order. Laid out like a fleet Deployable Feature, but with no points.",
+    "type": "array",
+    "minItems": 1,
+    "items": { "$ref": "#/$defs/Feature" },
+    "$defs": {
+        "Feature": {
+            "type": "object",
+            "required": ["Profile", "Weapons", "Load", "Rules"],
+            "additionalProperties": false,
+            "properties": {
+                "Profile": { "$ref": "#/$defs/FeatureProfile" },
+                "Weapons": { "type": "array", "items": { "$ref": "https://dfc/schemas/fleet/deployable_feature.json#/$defs/DeployWeapon" } },
+                "Load":    { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/LoadEntry" } },
+                "Rules":   { "description": "Rule paragraphs separated by '\n', including any footnote on the Feature's tables; empty when none.", "type": "string" }
+            }
+        },
+        "FeatureProfile": {
+            "description": "The stat-line of a rulebook Feature.",
+            "type": "object",
+            "required": ["Type", "ES", "KS", "Hull", "Special"],
+            "additionalProperties": false,
+            "properties": {
+                "Type":    { "description": "The name of the Feature.", "type": "string", "minLength": 1 },
+                "ES":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
+                "KS":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
+                "Hull":    { "description": "Hull value, or null when the rulebook shows a dash.", "type": ["integer", "null"] },
+                "Special": { "type": "array", "items": { "type": "string" } }
+            }
+        }
+    }
+}

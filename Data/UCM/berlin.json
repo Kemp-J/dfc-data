@@ -1,7 +1,7 @@
 {
     "Class": "Berlin",
     "Type": "Cruiser",
-    "Points": 80,
+    "Points": 78,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -19,7 +19,7 @@
         {
             "Name": "Cobra Heavy Laser",
             "Arc": "FN",
-            "Att": 4,
+            "Att": 5,
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",

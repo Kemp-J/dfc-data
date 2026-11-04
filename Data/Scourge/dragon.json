@@ -1,7 +1,7 @@
 {
     "Class": "Dragon",
     "Type": "Battleship",
-    "Points": 245,
+    "Points": 235,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {

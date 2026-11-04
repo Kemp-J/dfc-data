@@ -77,6 +77,30 @@
                     }
                 ],
                 "Max": 1
+            },
+            {
+                "Pts": 0,
+                "Type": "Structure",
+                "Profile": {
+                    "Name": "Defensive Garrison",
+                    "Effect": "This Structure does not cost points and can only be taken by a player that is the Defender in a scenario, choosing the scenario and agreeing with your opponent ahead of time. This Space Station starts the game with 2/3/4 Battalions on it for Small/Medium/Large Space Stations respectively. A Space Station that takes a Defensive Garrison cannot take any other Structures."
+                },
+                "Effects": [],
+                "Max": 1,
+                "ScenarioRole": "Defender",
+                "ExcludesGroup": true
+            },
+            {
+                "Pts": 0,
+                "Type": "Structure",
+                "Profile": {
+                    "Name": "Forward Operating Base",
+                    "Effect": "This Feature does not cost points and can only be taken by a player that is the Attacker in a scenario, choosing the scenario and agreeing with your opponent ahead of time. This Space Station may launch a single Bomber each round in addition to its normal launch (following Launch timing, restrictions, and your faction's Bombers rules). Instead of attacking normally, you may remove this Bomber to place 2 Battalions on a Ship or Space Station in base contact with it. A Space Station that takes a Forward Operating Base cannot take any other Structures."
+                },
+                "Effects": [],
+                "Max": 1,
+                "ScenarioRole": "Attacker",
+                "ExcludesGroup": true
             }
         ]
     }

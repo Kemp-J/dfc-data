@@ -1,7 +1,7 @@
 {
     "Class": "M-Type Barge",
     "Type": "Civilian Hauler",
-    "Points": 95,
+    "Points": 90,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -16,6 +16,7 @@
         "Special": [
             "Boardable",
             "Civilian Transport",
+            "Mercenary (All)",
             "Monitor"
         ]
     },
@@ -43,25 +44,20 @@
             ]
         }
     ],
-    "Load": [
-        {
-            "Load": "Military Outpost",
-            "Launch": 1,
-            "Special": [
-                "Limited-1"
-            ]
-        }
-    ],
+    "Load": [],
     "Rules": [
         {
             "Name": "Feature Carrier",
             "Text": "This Ship starts the game carrying a Military Outpost as a Deployable Feature."
-        },
-        {
-            "Name": "Mercenary",
-            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
         }
     ],
+    "FeatureCarrier": {
+        "Count": 1,
+        "Free": true,
+        "ValidDeployableFeatures": [
+            "Military Outpost"
+        ]
+    },
     "UsableIn": [
         {
             "Fleet": "*",

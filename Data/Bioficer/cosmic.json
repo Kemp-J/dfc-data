@@ -21,22 +21,25 @@
         {
             "Name": "Barb Launcher",
             "Arc": "FN",
-            "Att": 1,
+            "Att": 2,
             "Lock": "2+",
-            "DMG": 4,
+            "DMG": 2,
             "Type": "K",
             "Special": [
+                "Critical-1",
+                "Focused",
                 "Reave-2"
             ]
         },
         {
             "Name": "Barb Stinger",
             "Arc": "FN",
-            "Att": 1,
+            "Att": 2,
             "Lock": "2+",
-            "DMG": 2,
+            "DMG": 1,
             "Type": "K",
             "Special": [
+                "Focused",
                 "Reave-2"
             ]
         }

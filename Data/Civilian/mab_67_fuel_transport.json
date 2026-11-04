@@ -16,6 +16,7 @@
         "Special": [
             "Boardable",
             "Civilian Transport",
+            "Mercenary (All)",
             "Vectored"
         ]
     },
@@ -52,10 +53,6 @@
         {
             "Name": "Fuel Transporter",
             "Text": "While a Ship with this rule is on the table, you have access to the following Ability:\nFully Fuelled (2AP): At the start of a friendly Group's activation, if that Group is within 3\" and on the same Orbital Layer as a Ship with the Fuel Transporter rule, the friendly Group increases its total movement (after Orders) by 3\" this round. If that Group is on the Max Thrust order, it increases its total movement (after Orders) by 6\" this round instead. If the friendly Group is C Tonnage, that Group must be within 3\" and on the same Orbital Layer as two Ships with the Fuel Transporter rule instead. Ships with the Fuel Transporter rule are unaffected by this Ability."
-        },
-        {
-            "Name": "Mercenary",
-            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
         }
     ],
     "AdmiralAbilities": [

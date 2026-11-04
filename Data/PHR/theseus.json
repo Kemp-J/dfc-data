@@ -1,7 +1,7 @@
 {
     "Class": "Theseus",
     "Type": "Light Cruiser",
-    "Points": 88,
+    "Points": 84,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -25,7 +25,7 @@
             "Type": "K",
             "Special": [
                 "Calibre-L",
-                "Re-entry",
+                "Reave-1",
                 "Volley-2"
             ]
         },

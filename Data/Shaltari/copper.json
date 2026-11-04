@@ -7,7 +7,7 @@
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 8,
+        "Sig": 4,
         "Hull": 18,
         "ES": "4+",
         "KS": "3+",
@@ -21,19 +21,20 @@
         {
             "Name": "Mega Thermal Lance Cannon",
             "Arc": "FN",
-            "Att": 5,
+            "Att": 6,
             "Lock": "2+",
             "DMG": 2,
             "Type": "E",
             "Special": [
-                "Burnthrough-1",
-                "Bloom-2"
+                "Burnthrough-2",
+                "Bloom-2",
+                "Focused"
             ]
         },
         {
             "Name": "Microwave Array Bank",
             "Arc": "S",
-            "Att": 4,
+            "Att": 5,
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",

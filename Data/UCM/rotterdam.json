@@ -1,7 +1,7 @@
 {
     "Class": "Rotterdam",
     "Type": "Pocket Battleship",
-    "Points": 195,
+    "Points": 185,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -26,6 +26,7 @@
             "DMG": 1,
             "Type": "E",
             "Special": [
+                "Critical-1",
                 "Scald-2"
             ]
         },
@@ -37,6 +38,7 @@
             "DMG": 1,
             "Type": "E",
             "Special": [
+                "Critical-1",
                 "Scald-2"
             ]
         },
@@ -56,13 +58,19 @@
     "Rules": [
         {
             "Name": "Feature Carrier",
-            "Text": "At the start of the game, before players deploy, choose one Deployable Feature from the UCM Deployable Features List. This Ship starts the game carrying that Deployable Feature."
+            "Text": "When building your fleet, this Ship must be assigned a Deployable Feature from the UCM Deployable Features list, paying points for this Feature. This Ship starts the game carrying that Deployable Feature."
         },
         {
             "Name": "UCMA Battlenet",
-            "Text": "An Admiral assigned to this ship gains the following Command Abilities:\nDouble Time Bulk Line (2AP): When you activate another friendly Group in Orbit, until the end of its activation, that Group may launch its Bulk Landers as if the target Dropsite has no enemy Battalions.\nFeet First into Hell (2AP): When you activate another friendly Group in atmosphere, until the end of its activation, that Group can launch its Dropships or Drop Pods with a range of 6\". Drop Pods launched due to this rule ignore the Alt-Launch rule."
+            "Text": "An Admiral assigned to this ship gains the following Command Abilities:\nDouble Time Bulk Line (2AP): When you activate another friendly Group in Orbit, until the end of its activation, that Group may launch its Bulk Landers as if the target Dropsite has no enemy Battalions.\nFeet First into Hell (2AP): When you activate another friendly Group in atmosphere, until the end of its activation, that Group can launch its Dropships or Drop Pods with a range of 6\". Drop Pods launched due to this rule ignore the Alt-X rule."
         }
     ],
+    "FeatureCarrier": {
+        "Count": 1,
+        "ValidDeployableFeatures": [
+            "*"
+        ]
+    },
     "AdmiralAbilities": [
         {
             "Cost": "2AP",
@@ -72,7 +80,7 @@
         {
             "Cost": "2AP",
             "Name": "Feet First into Hell",
-            "Effect": "When you activate another friendly Group in atmosphere, until the end of its activation, that Group can launch its Dropships or Drop Pods with a range of 6\". Drop Pods launched due to this rule ignore the Alt-Launch rule."
+            "Effect": "When you activate another friendly Group in atmosphere, until the end of its activation, that Group can launch its Dropships or Drop Pods with a range of 6\". Drop Pods launched due to this rule ignore the Alt-X rule."
         }
     ],
     "KnownShips": [],

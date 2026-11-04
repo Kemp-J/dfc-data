@@ -64,7 +64,7 @@ Each Deployable Feature has its own data file in json format. The file is named 
 
 The file contains the following:
 
-- "Profile": A dictionary containing "PTS" (integer or null), "Type" (string, the name of the Deployable Feature), "ES" (string: "X+" where X is a number), "KS" (string: "X+" where X is a number), and "Special" (list of strings).
+- "Profile": A dictionary containing "PTS" (integer or null), "Type" (string, the name of the Deployable Feature), "ES" (string: "X+" where X is a number), "KS" (string: "X+" where X is a number), "Hull" (integer, or null when the PDF shows a dash), and "Special" (list of strings).
 - "AsIfSpecial": An optional list of strings, each the name of a ship Special rule (e.g. "Payload S-1") that the Deployable Feature is treated as having although it is not in the Profile's "Special". Anything that checks whether the Deployable Feature has a Special rule should check both "Special" and "AsIfSpecial". Only present when non-empty. Example: `["Payload S-1"]`.
 - "Weapons": A list of weapon entries. Each entry is one of:
   - A **single-profile weapon**: a dictionary containing "Name" (string), "Scan" (integer or null), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `{"Name": "Electrowave Caster", "Scan": 8, "Att": 3, "Lock": "2+", "DMG": 1, "Type": "E", "Special": ["Close Action", "Escape Velocity", "Status"]}`.
@@ -84,6 +84,7 @@ Example Deployable Feature data file for the UCM Torpedo Platform:
         "Type": "Torpedo Platform",
         "ES": "5+",
         "KS": "5+",
+        "Hull": 4,
         "Special": []
     },
     "Weapons": [],
@@ -125,9 +126,15 @@ The file contains the following:
   - A plain upgrade item: a dictionary containing "Name" (string, the name of the ship rule that grants the upgrade), "Cost" (integer), and "Effects" (list of profile modifiers, see 'Profile modifiers'). The ship may independently choose whether to take this item.
   - A choice group: a dictionary containing "Name" (string, the name of the ship rule that grants the choice), "Min" (integer), "Max" (integer), and "Options" (list of plain upgrade item dictionaries). The ship must pick at least "Min" and at most "Max" options from the group. Example: `{"Name": "Keel Refit", "Min": 0, "Max": 1, "Options": [{"Name": "Cloaking Keel", "Cost": 15, "Effects": [...]}, {"Name": "Engine Upgrade", "Cost": 25, "Effects": [...]}]}` means the ship may take at most one of the listed options.
 - "Rules": An optional list of dictionaries, each containing "Name" and "Text", both strings. Example: `[{"Name": "Stealth Drop", "Text": "When this Group launches its Dropships, 2 Dropships are needed to place 1 Battalion. If this Group contains a single ship, each Dropship only places a Battalion on a roll of a 4+."}]`.
+- "FeatureCarrier": An optional dictionary, present exactly when the ship has a "Feature Carrier" rule, giving the Deployable Features the ship starts the game carrying. It contains:
+  - "Count": Integer, how many Features the ship carries. Duplicates are allowed.
+  - "Free": An optional boolean. When true, the Features cost no points. Assumed to be false when not present; it is only present when true.
+  - "ValidDeployableFeatures": A non-empty list of strings, the Features the ship may carry. Each is a Feature's Profile "Type", looked up first in the ship's own fleet's Deployable Features, then in the rulebook Features (see the system data format). `["*"]` means any of the ship's own fleet's Deployable Features. It never includes the rulebook Features, which are only valid when named.
+
+  Examples: `{"Count": 1, "ValidDeployableFeatures": ["*"]}` (one Feature from the fleet's list, paid for), `{"Count": 2, "ValidDeployableFeatures": ["*"]}`, `{"Count": 1, "ValidDeployableFeatures": ["Gravitational Arc", "Ghost Orb Tower"]}`, and `{"Count": 1, "Free": true, "ValidDeployableFeatures": ["Hangar"]}` (a Civilian ship that always carries a free Hangar).
 - "Systems": An optional dictionary specifying the systems list and selection constraints for this ship. Only present on ships that have purchaseable systems (e.g. Bioficer Dreadnoughts, Resistance Cruisers). See 'Systems list' for more details.
 - "AdmiralAbilities": An optional list of dictionaries, each containing "Cost" (string — see 'Ability cost format'), "Name" (string), and "Effect" (string). Example: `[{"Cost": "2AP", "Name": "Telemetry Link", "Effect": "When you activate another friendly Group in Orbit, that Group increases its total movement (after orders) by 4\" this round."}]`.
-- "UsableIn": An optional list of dictionaries defining the fleets that this ship is usable in. The ship is assumed to be usable as given in the fleet the ship belong to regardless of this list, and the owning fleet will not be present in the list. Each dictionary has "Fleet" (the name of a fleet it can be used in, can also be "*" to indicate all fleets) and "Modifiers" (a list of profile modifiers that apply when used in the named fleet, see 'Profile modifiers'). If the list contains a "*" entry as well as entries naming specific fleets, it should be interpreted as available for all fleets with additional modifiers applicable to the named fleets. Example: `[{"Fleet": "UCM, "Modifiers": [{"Target": "Special", "Type": "append", "Value": "Rare"}]}]`.
+- "UsableIn": An optional list of dictionaries defining the fleets that this ship is usable in. The ship is assumed to be usable as given in the fleet the ship belong to regardless of this list, and the owning fleet will not be present in the list. Each dictionary has "Fleet" (the short name of a fleet it can be used in, can also be "*" to indicate all fleets), an optional "Except" (a non-empty list of short fleet names, only with "Fleet": "*", meaning all fleets except those named) and "Modifiers" (a list of profile modifiers that apply when used in the named fleet, see 'Profile modifiers'). If the list contains a "*" entry as well as entries naming specific fleets, it should be interpreted as available for all fleets with additional modifiers applicable to the named fleets. Example: `[{"Fleet": "UCM", "Modifiers": [{"Target": "Special", "Type": "append", "Value": "Rare"}]}]`. Each entry removes the `Boardable` and `Civilian Transport` Specials that the ship has. Example: `[{"Fleet": "*", "Except": ["Scourge", "Bioficer"], "Modifiers": [{"Target": "Special", "Type": "remove", "Value": "Boardable"}]}]`.
 - "KnownShips": A list of strings.
 - "Flavour": A string.
 

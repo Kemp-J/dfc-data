@@ -81,9 +81,9 @@
     "FleetAdmiralAbilities": 2,
     "AdmiralAbilities": [
         {
-            "Cost": "2AP",
+            "Cost": "1AP",
             "Name": "Backup Systems Engaged",
-            "Effect": "When a friendly ship would roll for Crippling Damage, roll a dice. On a 4+ that Ship does not roll on the Crippling Damage table but is still Crippled."
+            "Effect": "When a friendly Ship would roll for Crippling Damage, that Ship does not roll for Crippling Damage, but is still Crippled."
         }
     ],
     "Flavour": ""

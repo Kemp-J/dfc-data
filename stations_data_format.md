@@ -9,7 +9,7 @@ The station data is exported to a folder named `Stations`.
 Within the `Stations` folder is a file `_stations.json` providing an entry point to all station data. It contains:
 
 - "SourceVersion": The version of the stations PDF (taken from the PDF filename). A date formatted as YYMMDD.
-- "Features": A list of `{Name, Text}` dictionaries (identical structure to ship rules) representing the Fleet Space Station Features.
+- "Features": The filename of the Space Station Features data file (`space_station_features.json`).
 - "GenericStations": A list of filenames for generic Space Station data files.
 - "Armaments": The filename of the Space Station Armaments data file.
 - "StationUpgrades": A list of filenames for the generic Space Station Upgrade data files, e.g. Astrobotanical Lab and Defence Grid.
@@ -19,11 +19,8 @@ Example:
 
 ```json
 {
-    "SourceVersion": "250818",
-    "Features": [
-        {"Name": "Launch Control", "Text": "When all Launch Control features are removed from a Station, that station cannot launch Assets."},
-        {"Name": "Weapons Control", "Text": "When all Weapons Control features are removed from a Station, that station cannot use its Weapon Systems."}
-    ],
+    "SourceVersion": "261104",
+    "Features": "space_station_features.json",
     "GenericStations": [
         "small_space_station.json",
         "medium_space_station.json",
@@ -41,6 +38,29 @@ Example:
 }
 ```
 
+## Space Station Features Data File
+
+The Space Station Features file (`space_station_features.json`) is a list with one entry per row of the PDF's priced Features table, in PDF order. Each entry contains:
+
+- "Name": The Feature's name (the table's Type column), e.g. "Launch Control".
+- "Pts": The points cost (integer). A Feature a station has automatically is free; this is the price of buying one more.
+- "ES": The Feature's energy save (string, e.g. "4+").
+- "KS": The Feature's kinetic save (string, e.g. "4+").
+- "Hull": The Feature's hull (integer).
+- "Effect": The Effect text, with wrapped lines joined. "None" when the PDF prints None.
+- "Effects": A list of profile modifiers (see 'Profile modifiers' in fleet_data_format.md) applied to the station that has the Feature. Always present; an empty list when the Effect changes no profile stat. For example, Redundant Systems ("This Space Station gains a 6+ Backup Save.") has `[{"Target": "BS", "Type": "replace", "Value": "6+"}]`.
+
+Example:
+
+```json
+[
+    {"Name": "Launch Control", "Pts": 5, "ES": "4+", "KS": "4+", "Hull": 5, "Effect": "When all Launch Control Features are removed from a Space Station, that Station cannot Launch Assets", "Effects": []},
+    {"Name": "Reactor Core", "Pts": 0, "ES": "5+", "KS": "5+", "Hull": 6, "Effect": "When this Feature or a Space Station with this feature is destroyed, it explodes with a Reactor Overload Explosion Effect with a range of D6+3\".", "Effects": []},
+    {"Name": "Redundant Systems", "Pts": 10, "ES": "4+", "KS": "4+", "Hull": 7, "Effect": "This Space Station gains a 6+ Backup Save.", "Effects": [{"Target": "BS", "Type": "replace", "Value": "6+"}]},
+    {"Name": "Defensive Systems", "Pts": 20, "ES": "2+", "KS": "2+", "Hull": 3, "Effect": "None", "Effects": []}
+]
+```
+
 ## Generic Station Data File
 
 Each generic station has its own data file in JSON format, named after the station in lowercase with spaces replaced by underscores.
@@ -52,9 +72,9 @@ The file contains:
 - "Points": The points cost.
 - "BaseSize": The base size in mm.
 - "Profile": A dictionary containing "Scan" (integer), "Sig" (integer), "Hull" (integer), "ES" (string), "KS" (string), "BS" (string), "G" (string), and "Special" (list of strings).
-- "Hardpoints": A dictionary with "Armaments" (integer — number of options required from the Space Station Armaments list) and "Features" (integer — number of additional Fleet Space Station Features required beyond the base two).
+- "Hardpoints": What the station has and may take. See 'Hardpoints' below.
 - "MaxUpgrades": The maximum number of upgrades (e.g. Astrobotanical Lab or Defence Grid) the station may take.
-- "UpgradeOptions": A list of upgrade names the station may take. Each name corresponds to the "Name" field in a station upgrade data file.
+- "UpgradeOptions": A list of the upgrades the station may take. Each entry is either the "Name" field of a station upgrade data file, or the special entry "Space Station Features", meaning one option from the Space Station Features list. An option taken from that list counts as one of the station's "MaxUpgrades".
 
 Example:
 
@@ -75,19 +95,33 @@ Example:
         "Special": []
     },
     "Hardpoints": {
-        "Armaments": 1,
-        "Features": 0
+        "Features": [
+            {"Name": "Weapons Control", "Count": 1},
+            {"Name": "Life Support", "Count": 1}
+        ],
+        "AdditionalFeatures": {"Min": 0, "Max": 0},
+        "Armaments": {"Min": 0, "Max": 1}
     },
     "MaxUpgrades": 1,
-    "UpgradeOptions": ["Astrobotanical Lab", "Defence Grid"]
+    "UpgradeOptions": ["Astrobotanical Lab", "Defence Grid", "Space Station Features"]
 }
 ```
+
+## Hardpoints
+
+"Hardpoints" appears on generic stations (after "Profile") and on fleet stations (after "Load"). It always has all three parts:
+
+- "Features": A list of `{Name, Count}` entries for the Features the station has automatically (for free), e.g. two Weapons Control. Each "Name" matches an entry in the Space Station Features file.
+- "AdditionalFeatures": `{Min, Max}`, how many extra Features from the Space Station Features list the station must (Min) and may (Max) take, bought at their listed points. "Must take three" is 3/3, "may take one" is 0/1, and "must take two and may take one" is 2/3. `{"Min": 0, "Max": 0}` when none.
+- "Armaments": `{Min, Max}`, how many options from the Space Station Armaments list the station may take. `{"Min": 0, "Max": 0}` when none.
 
 ## Space Station Armaments Data File
 
 The Space Station Armaments file (`space_station_armaments.json`) is formatted identically to a fleet systems list file (see `fleet_data_format.md` — 'Systems list files').
 
 Weapon Systems entries never carry a "Max" field (multiple identical options may be taken). Structure entries always carry a "Max" of 1 (up to one of each may be taken).
+
+Two Structures, **Defensive Garrison** and **Forward Operating Base**, depend on the fleet's scenario role. They have "Pts" 0 (the PDF has "*") and carry "ScenarioRole" ("Defender" or "Attacker", the role the taking player must have) and "ExcludesGroup" (`true` means a station that takes the Structure cannot take any other Structures), both after "Effects" and only when set.
 
 ## Station Upgrade Data File
 
@@ -131,6 +165,7 @@ The file contains:
   - The "Arc" field may be "*" in addition to the standard arc values. ("*" is used by the Shaltari Shuriken's Disintegrator Bank weapon due to it not using standard arcs.)
   - The optional "Rule" field on a weapon may be present.
 - "Load": A list of load entries in the same format as fleet ship load entries.
+- "Hardpoints": As described in 'Hardpoints' above. The PDF's Hardpoints rule is not repeated in "Rules".
 - "Rules": An optional list of `{Name, Text}` rule dictionaries. Omitted when empty.
 
 Example:
@@ -155,6 +190,14 @@ Example:
     "Weapons": [],
     "Load": [
         {"Load": "Fighters & Bombers", "Launch": 2, "Special": []}
-    ]
+    ],
+    "Hardpoints": {
+        "Features": [
+            {"Name": "Life Support", "Count": 1},
+            {"Name": "Launch Control", "Count": 2}
+        ],
+        "AdditionalFeatures": {"Min": 0, "Max": 0},
+        "Armaments": {"Min": 0, "Max": 0}
+    }
 }
 ```

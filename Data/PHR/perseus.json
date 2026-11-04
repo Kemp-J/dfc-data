@@ -25,15 +25,15 @@
             "Type": "K",
             "Special": [
                 "Calibre-L",
-                "Re-entry",
+                "Reave-1",
                 "Volley-2"
             ]
         },
         {
             "Name": "Heavy Calibre Broadside",
             "Arc": "B",
-            "Att": 1,
-            "Lock": "3+",
+            "Att": 2,
+            "Lock": "4+",
             "DMG": 3,
             "Type": "K",
             "Special": [

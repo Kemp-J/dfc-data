@@ -1,7 +1,7 @@
 {
     "Class": "Ariadne",
     "Type": "Destroyer",
-    "Points": 60,
+    "Points": 57,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -19,7 +19,7 @@
         {
             "Name": "Twin Heavy Calibres",
             "Arc": "F",
-            "Att": 1,
+            "Att": 2,
             "Lock": "4+",
             "DMG": 3,
             "Type": "K",

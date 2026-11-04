@@ -1,7 +1,7 @@
 {
     "Class": "Pathfinder",
     "Type": "Interstellar Raft",
-    "Points": 190,
+    "Points": 180,
     "Tonnage": "H",
     "BaseSize": 60,
     "Profile": {

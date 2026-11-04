@@ -1,7 +1,7 @@
 {
     "Class": "Gremlin",
     "Type": "Light Cruiser",
-    "Points": 72,
+    "Points": 80,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -13,9 +13,7 @@
         "KS": "4+",
         "BS": "-",
         "G": "2-3",
-        "Special": [
-            "Vanguard-6\""
-        ]
+        "Special": []
     },
     "Weapons": [
         {

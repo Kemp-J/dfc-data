@@ -20,7 +20,7 @@
     "Weapons": [
         {
             "Name": "Heavy Lightvice",
-            "Arc": "F",
+            "Arc": "F/S",
             "Att": 5,
             "Lock": "2+",
             "DMG": 2,
@@ -39,7 +39,7 @@
             "Type": "E",
             "Special": [
                 "Overcharge",
-                "Scald-1"
+                "Scald-2"
             ]
         }
     ],

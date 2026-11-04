@@ -1,13 +1,13 @@
 {
     "Class": "Lanthanum",
     "Type": "Super Battleship",
-    "Points": 265,
+    "Points": 285,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 8,
+        "Sig": 6,
         "Hull": 18,
         "ES": "4+",
         "KS": "3+",
@@ -26,25 +26,27 @@
             "DMG": 2,
             "Type": "C",
             "Special": [
-                "Critical-1"
+                "Critical-2",
+                "Focused"
             ]
         },
         {
             "Name": "Mega Thermal Lance Cannon",
             "Arc": "FN",
-            "Att": 5,
+            "Att": 6,
             "Lock": "2+",
             "DMG": 2,
             "Type": "E",
             "Special": [
-                "Burnthrough-1",
-                "Bloom-2"
+                "Burnthrough-2",
+                "Bloom-2",
+                "Focused"
             ]
         },
         {
             "Name": "Electrosurge Projectors",
             "Arc": "B",
-            "Att": 3,
+            "Att": 4,
             "Lock": "4+",
             "DMG": 1,
             "Type": "E",

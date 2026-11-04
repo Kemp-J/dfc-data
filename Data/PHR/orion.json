@@ -1,7 +1,7 @@
 {
     "Class": "Orion",
     "Type": "Cruiser",
-    "Points": 105,
+    "Points": 110,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {

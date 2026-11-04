@@ -21,7 +21,7 @@
     },
     "Weapons": [
         {
-            "Name": "UF-9000 Mass Driver Turret",
+            "Name": "UF-9000 Mass Driver Turrets",
             "Arc": "F/S",
             "Att": 2,
             "Lock": "2+",
@@ -29,48 +29,25 @@
             "Type": "K",
             "Special": [
                 "Critical-1",
-                "Penetrator"
-            ]
-        },
-        {
-            "Name": "UF-9000 Mass Driver Turret",
-            "Arc": "F/S",
-            "Att": 2,
-            "Lock": "2+",
-            "DMG": 2,
-            "Type": "K",
-            "Special": [
-                "Critical-1",
-                "Penetrator"
-            ]
-        },
-        {
-            "Name": "UF-4200 Mass Driver Turret Core Battery",
-            "Arc": "F/S",
-            "Att": 6,
-            "Lock": "4+",
-            "DMG": 1,
-            "Type": "K",
-            "Special": [
-                "Fusillade-3",
+                "Penetrator",
                 "Volley-2"
             ]
         },
         {
-            "Name": "UF-4200 Mass Driver Turrets",
+            "Name": "UF-4200 Mass Driver Turret Battery",
             "Arc": "F/S",
-            "Att": 4,
+            "Att": 10,
             "Lock": "4+",
             "DMG": 1,
             "Type": "K",
             "Special": [
-                "Fusillade-2",
+                "Fusillade-5",
                 "Volley-2"
             ]
         },
         {
             "Name": "Leviathan Missile Bays",
-            "Arc": "F/S/R",
+            "Arc": "F/S",
             "Att": 8,
             "Lock": "3+",
             "DMG": 1,
@@ -83,7 +60,7 @@
     "Load": [
         {
             "Load": "Fighters & Bombers",
-            "Launch": 6,
+            "Launch": 8,
             "Special": [
                 "Alt-1"
             ]

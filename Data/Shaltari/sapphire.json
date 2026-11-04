@@ -7,7 +7,7 @@
     "Profile": {
         "Thrust": 10,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 13,
         "ES": "5+",
         "KS": "4+",
@@ -28,7 +28,7 @@
             "Type": "E",
             "Special": [
                 "Close Action",
-                "Scald-1"
+                "Scald-2"
             ]
         },
         {
@@ -46,12 +46,13 @@
         {
             "Name": "Gravity Coil Pair",
             "Arc": "FN",
-            "Att": 3,
+            "Att": 4,
             "Lock": "2+",
             "DMG": 1,
             "Type": "E",
             "Special": [
-                "Impel-2"
+                "Impel-2",
+                "Reave-1"
             ]
         }
     ],

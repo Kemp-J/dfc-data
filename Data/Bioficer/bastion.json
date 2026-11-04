@@ -27,7 +27,8 @@
             "Type": "C",
             "Special": [
                 "Arrest-2",
-                "Bloom-2"
+                "Bloom-2",
+                "Focused"
             ]
         },
         {
@@ -39,7 +40,7 @@
             "Type": "E",
             "Special": [
                 "Overcharge",
-                "Scald-1"
+                "Scald-2"
             ]
         }
     ],

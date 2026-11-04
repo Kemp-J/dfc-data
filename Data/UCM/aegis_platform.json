@@ -1,9 +1,10 @@
 {
     "Profile": {
-        "PTS": null,
+        "PTS": 5,
         "Type": "Aegis Platform",
-        "ES": "6+",
-        "KS": "4+",
+        "ES": "3+",
+        "KS": "3+",
+        "Hull": 4,
         "Special": [
             "Aegis-4"
         ]

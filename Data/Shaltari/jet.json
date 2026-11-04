@@ -7,7 +7,7 @@
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 11,
         "ES": "5+",
         "KS": "4+",
@@ -27,7 +27,7 @@
             "Type": "E",
             "Special": [
                 "Close Action",
-                "Scald-1"
+                "Scald-2"
             ]
         },
         {

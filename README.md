@@ -8,6 +8,8 @@ Formal schemas are located in the `Schemas` directory.
 
 The [master index](Data/_index.json) is the entry point for consuming the data.
 
+When transitioning from data derived from the 2.3.1 era PDFs to data from the 2.4 PDFs, refer to [DFC 2.4 format changes][format_changes_2.4.md] for guidance on the structural changes.
+
 <br/>
 
 ---

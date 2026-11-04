@@ -28,9 +28,9 @@
             ]
         },
         {
-            "Name": "Oculus Beams",
-            "Arc": "F/S",
-            "Att": 1,
+            "Name": "Oculus Beam Cluster",
+            "Arc": "F",
+            "Att": 2,
             "Lock": "3+",
             "DMG": 2,
             "Type": "E",
@@ -41,7 +41,7 @@
         {
             "Name": "Seekers",
             "Arc": "F/S/R",
-            "Att": 4,
+            "Att": 6,
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",

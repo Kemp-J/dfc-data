@@ -8,7 +8,7 @@
     "Systems": {
         "Broadside Hardpoint": [
             {
-                "Pts": 10,
+                "Pts": 9,
                 "Type": "Weapon",
                 "Profile": {
                     "Name": "N-31 Hybrid Gun Bank",
@@ -18,13 +18,15 @@
                     "DMG": 1,
                     "Type": "K",
                     "Special": [
+                        "Critical-1",
+                        "Fusillade-1",
                         "Volley-2"
                     ]
                 },
                 "SubGroup": "Weapons"
             },
             {
-                "Pts": 8,
+                "Pts": 7,
                 "Type": "Weapon",
                 "Profile": {
                     "Name": "N-8 Artillery Cannon Bank",
@@ -69,7 +71,7 @@
                 "SubGroup": "Launch"
             },
             {
-                "Pts": 35,
+                "Pts": 26,
                 "Type": "Load",
                 "Profile": {
                     "Load": "Mines",
@@ -133,7 +135,7 @@
                 "Max": 1
             },
             {
-                "Pts": 15,
+                "Pts": 12,
                 "Type": "Structure",
                 "Profile": {
                     "Name": "Drive Refit",
@@ -151,7 +153,7 @@
         ],
         "Turret Hardpoint": [
             {
-                "Pts": 6,
+                "Pts": 5,
                 "Type": "Weapon",
                 "Profile": {
                     "Name": "XN-31 Mass Driver Turret",
@@ -166,7 +168,7 @@
                 }
             },
             {
-                "Pts": 5,
+                "Pts": 4,
                 "Type": "Weapon",
                 "Profile": {
                     "Name": "N-11 Artillery Cannon Turret",
@@ -198,7 +200,7 @@
                 }
             },
             {
-                "Pts": 10,
+                "Pts": 8,
                 "Type": "Weapon",
                 "Profile": {
                     "Name": "Vent Cannon Turret",

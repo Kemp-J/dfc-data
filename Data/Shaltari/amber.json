@@ -1,13 +1,13 @@
 {
     "Class": "Amber",
     "Type": "Cruiser",
-    "Points": 100,
+    "Points": 96,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
         "Thrust": 10,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 9,
         "ES": "5+",
         "KS": "4+",

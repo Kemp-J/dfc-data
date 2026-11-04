@@ -1,7 +1,7 @@
 {
     "Class": "EX-7 Packet Runner",
     "Type": "Packet Runner",
-    "Points": 57,
+    "Points": 54,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -16,7 +16,9 @@
         "Special": [
             "Boardable",
             "Civilian Transport",
+            "Mercenary (All)",
             "Monitor",
+            "Rare",
             "Reinforced Armour"
         ]
     },
@@ -42,12 +44,15 @@
         {
             "Name": "Space Trucker",
             "Text": "This Ship's Hangar Deployable Feature can only be deployed to Space Stations (of any type)."
-        },
-        {
-            "Name": "Mercenary",
-            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
         }
     ],
+    "FeatureCarrier": {
+        "Count": 1,
+        "Free": true,
+        "ValidDeployableFeatures": [
+            "Hangar"
+        ]
+    },
     "UsableIn": [
         {
             "Fleet": "*",

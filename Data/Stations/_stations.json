@@ -1,15 +1,6 @@
 {
-    "SourceVersion": "250828",
-    "Features": [
-        {
-            "Name": "Launch Control",
-            "Text": "When all Launch Control features are removed from a Station, that station cannot launch Assets."
-        },
-        {
-            "Name": "Weapons Control",
-            "Text": "When all Weapons Control features are removed from a Station, that station cannot use its Weapon Systems."
-        }
-    ],
+    "SourceVersion": "261104",
+    "Features": "space_station_features.json",
     "GenericStations": [
         "small_space_station.json",
         "medium_space_station.json",

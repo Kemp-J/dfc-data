@@ -1,7 +1,7 @@
 {
     "Class": "Nereid",
     "Type": "Supercruiser",
-    "Points": 190,
+    "Points": 180,
     "Tonnage": "M",
     "BaseSize": 50,
     "Profile": {
@@ -28,6 +28,18 @@
             "Type": "E",
             "Special": [
                 "Scald-1"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
             ]
         }
     ],

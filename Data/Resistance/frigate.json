@@ -15,7 +15,19 @@
         "G": "2-6",
         "Special": []
     },
-    "Weapons": [],
+    "Weapons": [
+        {
+            "Name": "NC-1 Missiles",
+            "Arc": "F/S/R",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
     "Load": [],
     "Rules": [
         {

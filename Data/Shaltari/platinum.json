@@ -1,13 +1,13 @@
 {
     "Class": "Platinum",
     "Type": "Supercarrier",
-    "Points": 280,
+    "Points": 265,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 8,
+        "Sig": 4,
         "Hull": 18,
         "ES": "4+",
         "KS": "3+",
@@ -51,7 +51,7 @@
         },
         {
             "Load": "Fighters & Bombers",
-            "Launch": 5,
+            "Launch": 7,
             "Special": []
         }
     ],

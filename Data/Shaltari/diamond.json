@@ -7,7 +7,7 @@
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 8,
+        "Sig": 4,
         "Hull": 18,
         "ES": "4+",
         "KS": "3+",
@@ -39,7 +39,19 @@
             "DMG": 2,
             "Type": "C",
             "Special": [
-                "Critical-1"
+                "Critical-2",
+                "Focused"
+            ]
+        },
+        {
+            "Name": "Harpoon Deluge",
+            "Arc": "F/S/R",
+            "Att": 8,
+            "Lock": "4+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
             ]
         }
     ],

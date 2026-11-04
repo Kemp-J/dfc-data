@@ -1,7 +1,7 @@
 {
     "Class": "Amphion",
     "Type": "Battleship",
-    "Points": 230,
+    "Points": 250,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -18,26 +18,33 @@
     "Weapons": [
         {
             "Name": "Energy Glaives",
-            "Arc": "B",
-            "Att": 3,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "E",
-            "Special": [
-                "Overcharge",
-                "Volley-2"
-            ]
-        },
-        {
-            "Name": "Energy Glaives",
-            "Arc": "B",
-            "Att": 3,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "E",
-            "Special": [
-                "Overcharge",
-                "Volley-2"
+            "Profiles": [
+                {
+                    "Name": "Pulse",
+                    "Arc": "B",
+                    "Att": 4,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Reave-1",
+                        "Volley-2"
+                    ]
+                },
+                {
+                    "Name": "Beam",
+                    "Arc": "S",
+                    "Att": 2,
+                    "Lock": "3+",
+                    "DMG": 4,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Reave-2",
+                        "Fusillade-1"
+                    ]
+                }
             ]
         },
         {

@@ -31,3 +31,5 @@ Example:
 Each ship class has its own data file in json format. The file is named the same as the ship class name, in lowercase with spaces replaced by underscores and all characters that are invalid for filenames removed.
 
 The data files are identical in structure to those described in the "Ship data file" section in fleet_data_format.md. The only difference is that the points field may be null for scenario-only ships.
+
+Civilian ships belong to no fleet, so a civilian ship's "FeatureCarrier" only names rulebook Features (e.g. `{"Count": 1, "Free": true, "ValidDeployableFeatures": ["Hangar"]}`) and never uses `"*"`.

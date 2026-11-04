@@ -3,7 +3,7 @@
     "$id": "https://dfc/schemas/stations/fleet_station.json",
     "title": "DFC Fleet Space Station",
     "type": "object",
-    "required": ["Name", "Fleet", "Size", "Points", "BaseSize", "Profile", "Weapons", "Load"],
+    "required": ["Name", "Fleet", "Size", "Points", "BaseSize", "Profile", "Weapons", "Load", "Hardpoints"],
     "additionalProperties": false,
     "properties": {
         "Fleet":     { "type": "string" },
@@ -20,6 +20,7 @@
             "type": "array",
             "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/LoadEntry" }
         },
+        "Hardpoints": { "$ref": "https://dfc/schemas/stations/defs.json#/$defs/Hardpoints" },
         "Rules": {
             "type": "array",
             "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Rule" }

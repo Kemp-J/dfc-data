@@ -1,7 +1,7 @@
 {
     "Class": "Antony",
     "Type": "Pocket Battleship",
-    "Points": 200,
+    "Points": 195,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -25,7 +25,7 @@
             "Type": "K",
             "Special": [
                 "Calibre-L",
-                "Re-Entry",
+                "Reave-1",
                 "Volley-2"
             ]
         }
@@ -40,9 +40,15 @@
     "Rules": [
         {
             "Name": "Feature Carrier",
-            "Text": "At the start of the game, before players deploy, choose one Deployable Feature from the PHR Deployable Features List. This Ship starts the game carrying that Deployable Feature."
+            "Text": "When building your fleet, this Ship must be assigned a Deployable Feature from the PHR Deployable Features list, paying points for this Feature. This Ship starts the game carrying that Deployable Feature"
         }
     ],
+    "FeatureCarrier": {
+        "Count": 1,
+        "ValidDeployableFeatures": [
+            "*"
+        ]
+    },
     "KnownShips": [],
     "Flavour": ""
 }

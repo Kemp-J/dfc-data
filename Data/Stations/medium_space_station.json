@@ -1,7 +1,7 @@
 {
     "Name": "Medium Space Station",
     "Type": "Orbital Hub",
-    "Points": 55,
+    "Points": 45,
     "BaseSize": 40,
     "Profile": {
         "Scan": 6,
@@ -14,12 +14,25 @@
         "Special": []
     },
     "Hardpoints": {
-        "Armaments": 2,
-        "Features": 1
+        "Features": [
+            {
+                "Name": "Life Support",
+                "Count": 1
+            }
+        ],
+        "AdditionalFeatures": {
+            "Min": 3,
+            "Max": 3
+        },
+        "Armaments": {
+            "Min": 0,
+            "Max": 2
+        }
     },
     "MaxUpgrades": 1,
     "UpgradeOptions": [
         "Astrobotanical Lab",
-        "Defence Grid"
+        "Defence Grid",
+        "Space Station Features"
     ]
 }

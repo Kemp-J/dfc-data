@@ -4,8 +4,8 @@
     "Class": "Tribune",
     "Type": "Battlecruiser",
     "AdmiralPoints": 45,
-    "ShipPoints": 205,
-    "Points": 250,
+    "ShipPoints": 200,
+    "Points": 245,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {

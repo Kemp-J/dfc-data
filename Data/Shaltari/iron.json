@@ -7,7 +7,7 @@
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 8,
+        "Sig": 4,
         "Hull": 18,
         "ES": "4+",
         "KS": "3+",
@@ -45,7 +45,7 @@
         },
         {
             "Load": "Fighters & Bombers",
-            "Launch": 4,
+            "Launch": 6,
             "Special": []
         }
     ],

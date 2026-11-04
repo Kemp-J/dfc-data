@@ -1,7 +1,7 @@
 {
     "Class": "Devil",
     "Type": "Battleship",
-    "Points": 265,
+    "Points": 255,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {

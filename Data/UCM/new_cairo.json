@@ -19,7 +19,7 @@
         {
             "Name": "Cobra Heavy Laser",
             "Arc": "FN",
-            "Att": 4,
+            "Att": 5,
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",

@@ -1,7 +1,7 @@
 {
     "Class": "Caesar",
     "Type": "Super Battleship",
-    "Points": 270,
+    "Points": 295,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -40,6 +40,7 @@
             "Special": [
                 "Critical-1",
                 "Crippling",
+                "High Power",
                 "Penetrator"
             ]
         },

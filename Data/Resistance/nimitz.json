@@ -1,7 +1,7 @@
 {
     "Class": "Nimitz",
     "Type": "Grand Battleship",
-    "Points": 305,
+    "Points": 290,
     "Tonnage": "H",
     "BaseSize": 60,
     "Profile": {
@@ -26,7 +26,7 @@
             "Special": [
                 "Bloom-2",
                 "Overcharge",
-                "Reave-1"
+                "Reave-2"
             ]
         },
         {

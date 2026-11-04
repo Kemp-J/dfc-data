@@ -1,7 +1,7 @@
 {
     "Class": "Shade",
     "Type": "Pocket Battleship",
-    "Points": 225,
+    "Points": 210,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -54,13 +54,20 @@
     "Rules": [
         {
             "Name": "Feature Carrier",
-            "Text": "At the start of the game, before players deploy, choose from the Gravitational Arc or Ghost Orb Tower Deployable Feature. This Ship starts the game carrying the chosen Deployable Feature."
+            "Text": "When building your fleet, this Ship must be assigned a Gravitational Arc or Ghost Orb Tower, paying points for this Feature. This Ship starts the game carrying that Deployable Feature."
         },
         {
             "Name": "High Velocity Boarding Pods",
             "Text": "This Ship's Boarding Pods may be used against targets up to 6\" away."
         }
     ],
+    "FeatureCarrier": {
+        "Count": 1,
+        "ValidDeployableFeatures": [
+            "Gravitational Arc",
+            "Ghost Orb Tower"
+        ]
+    },
     "KnownShips": [],
     "Flavour": ""
 }

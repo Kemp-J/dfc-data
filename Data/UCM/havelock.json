@@ -4,8 +4,8 @@
     "Class": "New York",
     "Type": "Battleship",
     "AdmiralPoints": 85,
-    "ShipPoints": 245,
-    "Points": 330,
+    "ShipPoints": 235,
+    "Points": 320,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -53,14 +53,23 @@
         },
         {
             "Load": "Fighters & Bombers",
-            "Launch": 4,
-            "Special": []
+            "Launch": 5,
+            "Special": [
+                "Alt-1"
+            ]
+        },
+        {
+            "Load": "Heavy Bombers",
+            "Launch": 3,
+            "Special": [
+                "Alt-1"
+            ]
         }
     ],
     "Rules": [
         {
-            "Name": "Spearhead",
-            "Text": "While this Flagship is within 12\" of your opponent's deployment zone, you may re-roll its failed Backup saves."
+            "Name": "Tip of the Spear",
+            "Text": "At the start of the game, choose one of your deployment zones or a single board edge. While this Ship is further than 12\" away from the chosen deployment zone or board edge, you may re-roll its failed Backup Saves."
         },
         {
             "Name": "Drive Refit",
@@ -71,7 +80,7 @@
             "Text": "This ship cannot take a Laser Refit."
         }
     ],
-    "FleetAdmiralAbilities": 1,
+    "FleetAdmiralAbilities": 2,
     "AdmiralAbilities": [
         {
             "Cost": "2AP",

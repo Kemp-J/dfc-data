@@ -8,25 +8,37 @@
     "additionalProperties": false,
     "properties": {
         "Tonnage": {
-            "description": "Limits keyed by ship tonnage.",
-            "type": "object",
-            "minProperties": 1,
-            "additionalProperties": { "$ref": "#/$defs/limit_entry" }
+            "description": "List of limits that apply to ship tonnages. One entry is one limit; a tonnage may be covered by several entries.",
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$defs/tonnage_limit_entry" }
         },
         "Rule": {
             "description": "Limits keyed by ship special rule name.",
             "type": "object",
             "minProperties": 1,
-            "additionalProperties": { "$ref": "#/$defs/limit_entry" }
+            "additionalProperties": { "$ref": "#/$defs/limit_entry", "not": { "required": ["Tonnages"] } }
         }
     },
     "$defs": {
+        "tonnage_limit_entry": {
+            "description": "A limit entry that applies to the listed tonnages.",
+            "$ref": "#/$defs/limit_entry",
+            "required": ["Tonnages"]
+        },
         "limit_entry": {
             "description": "Exactly one limit form, plus the scope it applies over.",
             "type": "object",
             "required": ["Scope"],
             "additionalProperties": false,
             "properties": {
+                "Tonnages": {
+                    "description": "Tonnage entries only: the tonnages this limit applies to.",
+                    "type": "array",
+                    "items": { "enum": ["Light", "Medium", "Heavy", "Colossal"] },
+                    "minItems": 1,
+                    "uniqueItems": true
+                },
                 "MaxPointsFrom": {
                     "description": "Points limit equal to the combined points of these tonnages.",
                     "type": "array",

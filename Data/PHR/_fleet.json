@@ -1,25 +1,25 @@
 {
-    "SourceVersion": "260828",
+    "SourceVersion": "261104",
     "Abilities": [
         {
-            "Cost": "1AP",
+            "Cost": "2AP",
             "Name": "Countermeasures Hack",
-            "Effect": "At the start of a friendly Group's activation, target an enemy Group that a friendly Admiral can draw line of sight to. Until the end of the activation, that Group cannot use its Backup Save, cannot gain the benefits of Aegis, and cannot gain the benefits of Fighters' Close Protection. If this Ability targets a H or C tonnage Group, this Ability costs 2AP."
+            "Effect": "At the start of a friendly Group's activation, choose an enemy Ship in line of sight of a friendly Admiral. Until the end of the activation, that Ship counts as having a Defences Offline token. If this Ability targets a H or C tonnage Group, this Ability costs 3AP."
         },
         {
             "Cost": "2AP",
             "Name": "Weapons Hack",
-            "Effect": "Once per round, at the start of an enemy Group's activation, choose one of that Group's Weapon Systems. Until the end of that Group's activation, each of that Weapon System's attack dice results of a 1 causes the attacking Ship to lose the weapon's unmodified Damage value in hull points."
+            "Effect": "When an opponent assigns weapons to friendly Ships, choose one of the attacking Group's Weapon Systems. Until the end of the attacking Ships' activation, that Weapon System automatically misses on rolls of a 2 or less and your opponent cannot use abilities on those weapons. This can cause that opponent's unresolved abilities on that Weapon System to be negated."
         },
         {
             "Cost": "1AP",
             "Name": "Ship Of The Line",
-            "Effect": "When you assign targets to a Group's weapons, that Group's Broadside Arc weapons that have the Fusillade-X special rule gain the benefit of their Fusillade rule regardless of the Group's Order for its attacks this activation. If the attacking Group is on the Weapons Free order, it instead doubles the Fusillade value of those weapons for that attack."
+            "Effect": "When you assign targets to a Group's weapons, that Group's Broadside Arc weapons that have the Fusillade-X special rule gain the benefit of their Fusillade rule regardless of the Group's Order for its attacks this activation. If the attacking Group is on the Weapons Free order, improve the lock of Broadside Arc weapons with Fusillade-X by 1 for this attack sequence."
         },
         {
             "Cost": "2AP",
             "Name": "Drive Hack",
-            "Effect": "Once per round, at the end of the Planning Phase, target an enemy Group that a friendly Admiral can draw line of sight to. At the start of that Group's activation, it must make a single Backup save. If it fails (or has no) Backup save, that Group cannot go on the Course Change and Max Thrust orders."
+            "Effect": "Once per round, at the start of an enemy Group's activation, if that Group is in a friendly Admiral's line of sight, the enemy Group makes a single Backup save. If it fails its (or has no) Backup save, that Group reduces its Thrust value by half this activation."
         },
         {
             "Cost": "1AP",
@@ -28,8 +28,8 @@
         },
         {
             "Cost": "2AP",
-            "Name": "Elite Ground Forces",
-            "Effect": "At the start of the Battalion Combat step of the Asset Phase, choose a Feature containing friendly Battalions. Until the end of the Battalion Combat step, those Battalions remove 2 enemy Battalions instead of 1 and may also be used to remove enemy Battalions from anywhere on that Dropsite in the 3rd step of the combat sequence."
+            "Name": "Hull Tanking",
+            "Effect": "After an opponent assigns weapons to friendly targets, choose one of those friendly Groups. That Group gains Reinforced Armour until the end of the Activation. If the friendly Group is H or C tonnage, this Ability costs 3AP."
         }
     ],
     "FleetAdmirals": [
@@ -55,12 +55,12 @@
                 {
                     "Cost": "1AP",
                     "Name": "Re-route Systems",
-                    "Effect": "At the start of a friendly Group's activation, remove one Crippling Effect token (of any type) from that Group."
+                    "Effect": "At the start of a friendly Group's activation, choose a Ship in that Group. That Ship attempts to repair a repairable Crippling Effect."
                 },
                 {
                     "Cost": "3AP",
                     "Name": "Ranked Fire",
-                    "Effect": "When you assign targets to Broadside Arc weapons, select one of those weapons with the Volley-X special rule. That weapon does not need to alternate arcs due to its Volley-X special rule (so can attack the same target in the same arc using each Volley attack)for that attack."
+                    "Effect": "When you assign targets to Broadside Arc weapons, select one of those weapons with the Volley-X special rule. That weapon does not need to alternate arcs due to its Volley-X special rule (so can attack the same target in the same arc using each Volley attack) for that attack."
                 }
             ]
         }

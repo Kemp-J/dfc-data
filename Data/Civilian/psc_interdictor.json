@@ -15,6 +15,7 @@
         "G": "2-4",
         "Special": [
             "Boardable",
+            "Mercenary (All)",
             "Rapid Drop",
             "Rare",
             "Vectored"
@@ -40,12 +41,6 @@
             "Load": "Boarding Pods",
             "Launch": 1,
             "Special": []
-        }
-    ],
-    "Rules": [
-        {
-            "Name": "Mercenary",
-            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
         }
     ],
     "UsableIn": [

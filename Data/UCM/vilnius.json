@@ -21,22 +21,18 @@
             "Arc": "F/S",
             "Att": 4,
             "Lock": "3+",
-            "DMG": 1,
+            "DMG": 2,
             "Type": "K",
-            "Special": [
-                "Critical-1"
-            ]
+            "Special": []
         },
         {
             "Name": "UF-6400 Mass Driver Turrets",
             "Arc": "F/S",
             "Att": 4,
             "Lock": "3+",
-            "DMG": 1,
+            "DMG": 2,
             "Type": "K",
-            "Special": [
-                "Critical-1"
-            ]
+            "Special": []
         },
         {
             "Name": "UF-4200 Mass Driver Turrets",

@@ -1,7 +1,7 @@
 {
     "Class": "Diode",
     "Type": "Destroyer",
-    "Points": 75,
+    "Points": 73,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {

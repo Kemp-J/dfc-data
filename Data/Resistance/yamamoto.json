@@ -1,7 +1,7 @@
 {
     "Class": "Yamamoto",
     "Type": "Grand Battleship",
-    "Points": 300,
+    "Points": 290,
     "Tonnage": "H",
     "BaseSize": 60,
     "Profile": {
@@ -26,7 +26,7 @@
             "Special": [
                 "Bloom-2",
                 "Overcharge",
-                "Reave-1"
+                "Reave-2"
             ]
         },
         {

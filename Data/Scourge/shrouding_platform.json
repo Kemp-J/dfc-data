@@ -1,12 +1,13 @@
 {
     "Profile": {
-        "PTS": null,
+        "PTS": 5,
         "Type": "Shrouding Platform",
-        "ES": "5+",
-        "KS": "5+",
+        "ES": "4+",
+        "KS": "4+",
+        "Hull": 4,
         "Special": []
     },
     "Weapons": [],
     "Load": [],
-    "Rules": "This Dropsite has a Signature of 0\" and cannot gain Spikes.\nFriendly Groups within 6\" of this Dropsite count as having one fewer Spike when an opponent is determining potential targets and assigning Weapons to targets."
+    "Rules": "This Dropsite has a Signature of 0\" and cannot gain Spikes. While you have friendly Battalions assigned to this Feature, enemy Ships attacking this Dropsite reduce their Lock by 1\nFriendly Groups within 6\" of this Dropsite count as having one fewer Spike when an opponent is determining potential targets and assigning Weapons to targets.\nWhile you control this Dropsite, you have access to the Silent Killer Ability but can only use it on friendly Groups within 6\" of this Dropsite."
 }

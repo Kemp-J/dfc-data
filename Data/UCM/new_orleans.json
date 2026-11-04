@@ -1,7 +1,7 @@
 {
     "Class": "New Orleans",
     "Type": "Strike Carrier",
-    "Points": 45,
+    "Points": 42,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -10,7 +10,7 @@
         "Sig": 3,
         "Hull": 4,
         "ES": "4+",
-        "KS": "3+",
+        "KS": "4+",
         "BS": "-",
         "G": "1-2",
         "Special": [

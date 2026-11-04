@@ -1,13 +1,13 @@
 {
     "Class": "Natrolite",
     "Type": "Supercruiser",
-    "Points": 184,
+    "Points": 172,
     "Tonnage": "M",
     "BaseSize": 50,
     "Profile": {
         "Thrust": 10,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 12,
         "ES": "5+",
         "KS": "4+",
@@ -35,9 +35,15 @@
     "Rules": [
         {
             "Name": "Feature Carrier",
-            "Text": "At the start of the game, before players deploy, choose two Deployable Features from the Shaltari Deployable Features List (duplicates are allowed). This Ship starts the game carrying those Deployable Features."
+            "Text": "When building your fleet, this Ship must be assigned two deployable features from the Shaltari Deployable Features list (duplicates are allowed) paying points for each. This Ship starts the game carrying those Deployable Features."
         }
     ],
+    "FeatureCarrier": {
+        "Count": 2,
+        "ValidDeployableFeatures": [
+            "*"
+        ]
+    },
     "KnownShips": [
         "Barque Solar",
         "Doombringer",

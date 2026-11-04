@@ -1,0 +1,74 @@
+{
+    "Class": "Kronos Barge",
+    "Type": "Boarding Barge",
+    "Points": 57,
+    "Tonnage": "L",
+    "BaseSize": 30,
+    "Profile": {
+        "Thrust": 10,
+        "Scan": 6,
+        "Sig": 3,
+        "Hull": 6,
+        "ES": "5+",
+        "KS": "5+",
+        "BS": "-",
+        "G": "1-2",
+        "Special": [
+            "Impetuous",
+            "Rapid Drop",
+            "Rare",
+            "Mercenary (UCM, PHR, Resistance)"
+        ]
+    },
+    "Weapons": [
+        {
+            "Name": "NC-1 Missiles",
+            "Arc": "F/S/R",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
+    "Load": [
+        {
+            "Load": "Boarding Pods",
+            "Launch": 2,
+            "Special": []
+        }
+    ],
+    "Rules": [
+        {
+            "Name": "High Velocity Boarding Pods",
+            "Text": "This Ship's Boarding Pods may be used against targets up to 6\" away."
+        },
+        {
+            "Name": "Thermal Wake",
+            "Text": "This weapon can only be used on Ships and Space Stations up to 6\" away on the same Orbital layer."
+        }
+    ],
+    "UsableIn": [
+        {
+            "Fleet": "UCM",
+            "Modifiers": []
+        },
+        {
+            "Fleet": "PHR",
+            "Modifiers": []
+        },
+        {
+            "Fleet": "Resistance",
+            "Modifiers": []
+        }
+    ],
+    "KnownShips": [
+        "Guttural Yell",
+        "Bellyache",
+        "Meathook",
+        "Kidney Shot"
+    ],
+    "Flavour": "As part of the Eightfold Syndicate's flesh trade, the Kronos Barge excels in close action boarding assaults. Contained within its hull is a legion of psychotic criminals, trained in both void warfare and frenetic combat deep in the bowels of unfortunate ships. Tasked with acquiring precious new resources for the Syndicate to peddle and press gang into servitude, there is no bargaining with them once they have their targets. The hardened fighters cram themselves into boarding pods already overloaded with fuel, jettisoned into the cold of space towards their unfortunate targets.\nAny captured souls are returned to the boarding pods, jettisoned once again from the insides of the victim ship for the Kronos Barge to come and collect at a later date. Any exceptional enemy combatants are brought in alive whenever possible. When recovered these fighters are sent into the bowels of the ship and are only ever seen again once they have pledged absolute loyalty to the syndicate.\nThanks to the barge's oversized engines, it is capable of exceptional speeds, matching that of more advanced or maintained adversaries. These engines run both hot and dirty, however. A canny captain can use this to their advantage by executing \"fly-by's\" against enemy ships, searing hulls and imparting enough thermal energy that the enemy ship becomes much more visible to the rest of the barge's fleet."
+}

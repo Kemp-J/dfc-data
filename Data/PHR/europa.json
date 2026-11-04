@@ -18,21 +18,14 @@
     "Weapons": [
         {
             "Name": "Medium Calibre Bank",
-            "Arc": "SL",
+            "Arc": "B",
             "Att": 2,
             "Lock": "4+",
             "DMG": 2,
             "Type": "K",
-            "Special": []
-        },
-        {
-            "Name": "Medium Calibre Bank",
-            "Arc": "SR",
-            "Att": 2,
-            "Lock": "4+",
-            "DMG": 2,
-            "Type": "K",
-            "Special": []
+            "Special": [
+                "Volley-2"
+            ]
         }
     ],
     "Load": [],

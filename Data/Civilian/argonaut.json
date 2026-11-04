@@ -29,10 +29,11 @@
             "DMG": 2,
             "Type": "E",
             "Special": [
+                "Point Blank",
                 "Scald-2",
                 "Sustained Fire"
             ],
-            "Rule": "This weapon can only be used against targets in base contact.\nWhen you inflict damage with this weapon, you may remove a Spike from this Group, if you do, the defending Group gains a Spike."
+            "Rule": "When you inflict damage with this weapon, you may remove a Spike from this Group, if you do, the defending Group gains a Spike."
         },
         {
             "Name": "Force Wave",

@@ -1,13 +1,13 @@
 {
     "Class": "Azurite",
     "Type": "Light Cruiser",
-    "Points": 76,
+    "Points": 70,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
         "Thrust": 12,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 7,
         "ES": "5+",
         "KS": "4+",

@@ -1,7 +1,7 @@
 {
     "Class": "Heavy Cruiser",
     "Type": "Heavy Cruiser",
-    "Points": 75,
+    "Points": 68,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -15,7 +15,19 @@
         "G": "1",
         "Special": []
     },
-    "Weapons": [],
+    "Weapons": [
+        {
+            "Name": "NC-1 Missile Rack",
+            "Arc": "F/S/R",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
     "Load": [],
     "Rules": [
         {

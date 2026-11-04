@@ -1,7 +1,7 @@
 {
     "Class": "LKS Dredger",
     "Type": "Mining Dredge",
-    "Points": 65,
+    "Points": 61,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -15,12 +15,13 @@
         "G": "1-2",
         "Special": [
             "Boardable",
+            "Mercenary (All)",
             "Vectored"
         ]
     },
     "Weapons": [
         {
-            "Name": "Mining Laser",
+            "Name": "Mining Maser",
             "Arc": "F",
             "Att": 3,
             "Lock": "2+",
@@ -37,10 +38,6 @@
         {
             "Name": "Industrial Design",
             "Text": "Improve this Group's Backup save by 2 when rolling to save hits due to Debris Fields."
-        },
-        {
-            "Name": "Mercenary",
-            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
         }
     ],
     "UsableIn": [

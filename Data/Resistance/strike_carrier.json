@@ -1,7 +1,7 @@
 {
     "Class": "Strike Carrier",
     "Type": "Strike Carrier",
-    "Points": 35,
+    "Points": 32,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -17,7 +17,19 @@
             "Descent"
         ]
     },
-    "Weapons": [],
+    "Weapons": [
+        {
+            "Name": "NC-1 Missiles",
+            "Arc": "F/S/R",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
     "Load": [
         {
             "Load": "Dropships",

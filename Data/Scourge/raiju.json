@@ -1,7 +1,7 @@
 {
     "Class": "Raiju",
     "Type": "Heavy Cruiser",
-    "Points": 125,
+    "Points": 120,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {

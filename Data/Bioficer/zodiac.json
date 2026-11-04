@@ -14,6 +14,7 @@
         "BS": "5+",
         "G": "1",
         "Special": [
+            "Command Ship-1",
             "Marines-1",
             "Reinforced Armour"
         ]
@@ -27,7 +28,7 @@
             "DMG": 1,
             "Type": "E",
             "Special": [
-                "Reave-2",
+                "Penetrator",
                 "Volley-2"
             ]
         }
@@ -40,7 +41,7 @@
         },
         {
             "Load": "Boarding Pods",
-            "Launch": 1,
+            "Launch": 2,
             "Special": []
         }
     ],

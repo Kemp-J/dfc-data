@@ -7,7 +7,7 @@
     "Profile": {
         "Thrust": 12,
         "Scan": 2,
-        "Sig": 2,
+        "Sig": 1,
         "Hull": 3,
         "ES": "5+",
         "KS": "5+",
@@ -16,7 +16,7 @@
         "Special": [
             "Descent",
             "Gateship-2",
-            "Shield-5+"
+            "Shield-4+"
         ]
     },
     "Weapons": [],
@@ -24,7 +24,7 @@
     "Rules": [
         {
             "Name": "Open Network",
-            "Text": "In a round this Group is deployed, it activates following the normal activation, group, and deployment rules. In subsequent rounds all of your Open Network Ships count as being part of a single Group. Ships in this single Group choose their orders individually when it activates. From the second round onwards, all friendly Open Network Groups count as a single Group when generating Pass Tokens.\nOpen Network Ships ignore Coherency rules (and do not gain Formation Benefits), have no Lead Ship, are targeted by attacks individually, and these attacks can only damage and affect the targeted Open Network Ship.\nCrippling Effects, Spikes, and other rules that affect an entire Group only affect the targeted Open Network Ship."
+            "Text": "In a round this Group is deployed, it activates following the normal activation, group, and deployment rules. In subsequent rounds all of your Open Network Ships count as being part of a single Group. Ships in this single Group choose their orders and whether to raise their shields individually when the Group activates. From the second round onwards, all friendly Open Network Groups count as a single Group when generating Pass Tokens.\nOpen Network Ships ignore Coherency rules (and do not gain Formation Benefits), have no Lead Ship, are targeted by attacks individually, and these attacks can only damage and affect the targeted Open Network Ship.\nCrippling Effects, Spikes, and other rules that affect an entire Group only affect the targeted Open Network Ship."
         }
     ],
     "KnownShips": [],

@@ -1,9 +1,10 @@
 {
     "Profile": {
-        "PTS": null,
+        "PTS": 16,
         "Type": "Ghost Orb Tower",
         "ES": "4+",
         "KS": "4+",
+        "Hull": 5,
         "Special": []
     },
     "Weapons": [
@@ -23,5 +24,5 @@
         }
     ],
     "Load": [],
-    "Rules": "When you activate this Feature, remove 1 enemy Battalion from each Feature on this Dropsite, then remove 1 enemy Battalion from anywhere on this Dropsite.\nThis feature requires 5 or more Battalions to be removed due to Battalion Combat and 5 damage to remove due to Group/Asset attacks."
+    "Rules": "When you activate this Feature, remove 1 enemy Battalion from each Feature on this Dropsite, then remove 1 enemy Battalion from anywhere on this Dropsite.\nWhen a Ship carrying this Feature attacks, you may have one of its weapons gain Status for that attack."
 }

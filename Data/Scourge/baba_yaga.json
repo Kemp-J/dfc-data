@@ -4,8 +4,8 @@
     "Class": "Daemon",
     "Type": "Battleship",
     "AdmiralPoints": 55,
-    "ShipPoints": 210,
-    "Points": 265,
+    "ShipPoints": 215,
+    "Points": 270,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -61,7 +61,7 @@
     "Rules": [
         {
             "Name": "Death Mistress",
-            "Text": "Whenever an enemy group is destroyed, roll a dice. On a 4+ gain 1AP."
+            "Text": "Whenever an enemy Group is destroyed, roll a dice. On a 5+, gain 1AP."
         },
         {
             "Name": "No Keel Refit",

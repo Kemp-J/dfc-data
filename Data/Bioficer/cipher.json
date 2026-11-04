@@ -1,7 +1,7 @@
 {
     "Class": "Cipher",
     "Type": "Light Cruiser",
-    "Points": 70,
+    "Points": 68,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -27,7 +27,7 @@
             "Type": "E",
             "Special": [
                 "Overcharge",
-                "Scald-1"
+                "Scald-2"
             ]
         }
     ],

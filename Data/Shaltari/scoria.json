@@ -1,13 +1,13 @@
 {
     "Class": "Scoria",
     "Type": "Heavy Cruiser",
-    "Points": 175,
+    "Points": 160,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 11,
         "ES": "5+",
         "KS": "4+",
@@ -19,25 +19,15 @@
     },
     "Weapons": [
         {
-            "Name": "Particle Lance",
+            "Name": "Particle Lance Pair",
             "Arc": "FN",
-            "Att": 1,
+            "Att": 2,
             "Lock": "3+",
             "DMG": 2,
             "Type": "C",
             "Special": [
-                "Critical-1"
-            ]
-        },
-        {
-            "Name": "Particle Lance",
-            "Arc": "FN",
-            "Att": 1,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "C",
-            "Special": [
-                "Critical-1"
+                "Critical-2",
+                "Focused"
             ]
         },
         {

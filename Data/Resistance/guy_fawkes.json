@@ -6,7 +6,7 @@
     "Tonnage": "L",
     "BaseSize": 40,
     "Profile": {
-        "Thrust": 9,
+        "Thrust": 11,
         "Scan": 6,
         "Sig": 4,
         "Hull": 6,
@@ -23,14 +23,15 @@
         {
             "Name": "Explosive Detonation",
             "Arc": "F/S/R",
-            "Att": 8,
+            "Att": 3,
             "Lock": "3+",
             "DMG": 1,
             "Type": "C",
             "Special": [
+                "Close Action",
                 "Critical-1"
             ],
-            "Rule": "When attacking with this weapon, skip the assign weapons to targets step and proceed to roll to hit instead. When rolling to hit with this weapon, for each result of a 6 (including rolls from this rule), roll an additional dice. After rolling to hit, assign hits as equally as possible to each other Ship and Space Station on the same Orbital Layer within 6\" until no hits remain. Then continue the attack sequence as normal."
+            "Rule": "After completing an attack with this weapon, this Ship explodes with a range of 6\" and an amount of Fuel Detonation effects equal to the amount of hits this weapon scored in its attack, counting each hit result of a 6 as two hits."
         }
     ],
     "Load": [],

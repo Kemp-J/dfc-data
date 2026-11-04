@@ -9,7 +9,7 @@
     },
     {
         "Name": "Long Shot",
-        "Text": "Nominate one Feature in a Dropsite within 12\" of an opponent's Deployment Zone before the game. If you have destroyed it, at the end of the game, gain 2VP. Each Feature can only be nominated once but a Dropsite can have more than one nominated Feature."
+        "Text": "Nominate one Feature in a Dropsite within 12\" of an opponent's Deployment Zone before the game. If you have destroyed it, or a deployed enemy Deployable Feature within 12\" of their Deployment Zone at the end of the game, gain 2VP. Each Feature can only be nominated once but a Dropsite can have more than one nominated Feature."
     },
     {
         "Name": "Annihilate",
@@ -25,7 +25,7 @@
     },
     {
         "Name": "Decapitate",
-        "Text": "You are awarded 2VP if you kill your opponent's highest-Level Admiral (or one of if there are multiple with the same Level)."
+        "Text": "You are awarded 2VP if an opponent's highest-level Admiral has been killed for any reason (or one of if there are multiple with the same Level)."
     },
     {
         "Name": "Objectives Beyond",

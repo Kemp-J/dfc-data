@@ -1,7 +1,7 @@
 {
     "Class": "Jah'tar Startrader",
     "Type": "Startrader",
-    "Points": 113,
+    "Points": 108,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -14,9 +14,10 @@
         "BS": "6+",
         "G": "1",
         "Special": [
+            "Aegis-4",
             "Boardable",
             "Civilian Transport",
-            "Aegis-4",
+            "Mercenary (Non-Scourge, Non-Bioficer)",
             "Rare"
         ]
     },
@@ -25,61 +26,16 @@
     "Rules": [
         {
             "Name": "Purchased Power",
-            "Text": "This Ship starts the game with 5 wares tokens.\nAt the start of each round, if you control this Ship, you may spend a number of wares tokens on one of the following effects until the end of the round:\nDefence Harmonics - 2 Tokens: Friendly Groups within 6\" improve their Energy and Kinetic saves by 1, to a maximum of a 3+.\nEnergy Dissipators - 1 Tokens: Friendly Groups within 9\" count as having 2 fewer Spikes.\nGuardian Schoal - 1 Token: Friendly Assets within 9\" cannot be the target of enemy weapons with the Anti Wing special rule."
-        },
-        {
-            "Name": "Startrader",
-            "Text": "This Ship may be used in UCM, PHR, Shaltari, and Resistance fleets. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
+            "Text": "This Ship starts the game with 5 wares tokens.\nAt the start of each round, if you control this Ship, you may spend a number of wares tokens on one of the following effects until the end of the round:\nDefence Harmonics - 2 Tokens: Friendly Groups within 6\" improve their Energy and Kinetic saves by 1, to a maximum of a 3+.\nEnergy Dissipators - 1 Tokens: Friendly Groups within 9\" count as having 2 fewer Spikes.\nGuardian Shoal - 1 Token: Friendly Assets within 9\" cannot be the target of enemy weapons."
         }
     ],
     "UsableIn": [
         {
-            "Fleet": "UCM",
-            "Modifiers": [
-                {
-                    "Target": "Special",
-                    "Type": "remove",
-                    "Value": "Boardable"
-                },
-                {
-                    "Target": "Special",
-                    "Type": "remove",
-                    "Value": "Civilian Transport"
-                }
-            ]
-        },
-        {
-            "Fleet": "PHR",
-            "Modifiers": [
-                {
-                    "Target": "Special",
-                    "Type": "remove",
-                    "Value": "Boardable"
-                },
-                {
-                    "Target": "Special",
-                    "Type": "remove",
-                    "Value": "Civilian Transport"
-                }
-            ]
-        },
-        {
-            "Fleet": "Shaltari",
-            "Modifiers": [
-                {
-                    "Target": "Special",
-                    "Type": "remove",
-                    "Value": "Boardable"
-                },
-                {
-                    "Target": "Special",
-                    "Type": "remove",
-                    "Value": "Civilian Transport"
-                }
-            ]
-        },
-        {
-            "Fleet": "Resistance",
+            "Fleet": "*",
+            "Except": [
+                "Scourge",
+                "Bioficer"
+            ],
             "Modifiers": [
                 {
                     "Target": "Special",

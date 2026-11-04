@@ -28,7 +28,7 @@
             "Special": [
                 "Anti Wing",
                 "Fusillade-3",
-                "Reave-1"
+                "Burnthrough-1"
             ]
         }
     ],
@@ -42,7 +42,7 @@
             "Load": "Mines",
             "Launch": 2,
             "Special": [],
-            "Cost": 10,
+            "Cost": 4,
             "Replaces": [
                 "Fighters & Bombers"
             ],
@@ -52,7 +52,7 @@
     "Rules": [
         {
             "Name": "Minelayer",
-            "Text": "This ship may replace its Fighters & Bombers with Mines for +10 pts."
+            "Text": "This ship may replace its Fighters & Bombers with Mines for +4 pts."
         }
     ],
     "KnownShips": [],

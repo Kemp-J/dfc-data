@@ -1,7 +1,7 @@
 {
     "Class": "Leonnatus",
     "Type": "Supercruiser",
-    "Points": 190,
+    "Points": 178,
     "Tonnage": "M",
     "BaseSize": 50,
     "Profile": {
@@ -19,8 +19,8 @@
         {
             "Name": "Heavy Calibre Double Broadside",
             "Arc": "B",
-            "Att": 2,
-            "Lock": "3+",
+            "Att": 4,
+            "Lock": "4+",
             "DMG": 3,
             "Type": "K",
             "Special": [
@@ -38,7 +38,7 @@
             "Type": "K",
             "Special": [
                 "Calibre-L",
-                "Re-Entry",
+                "Reave-1",
                 "Volley-2"
             ]
         }

@@ -12,7 +12,7 @@
         "ES": "4+",
         "KS": "6+",
         "BS": "-",
-        "G": "1-2",
+        "G": "1",
         "Special": [
             "Detector",
             "Monitor",
@@ -28,7 +28,7 @@
         },
         {
             "Name": "Telescope Token",
-            "Text": "When you assign weapons to a Group that has a Telescope token, you may remove the token. If you do, one of the Group's Weapon Systems lowers the result required to score a critical against that Group by 1 for that attack (so a weapon that would crit on a 5+ crits on a 4+ instead).\nUnused Telescope tokens placed by this Ship persist between rounds and are only removed when this Ship would place another Telescope token or when a Ship with a Telescope token goes on the Silent Running order."
+            "Text": "When you assign any number of weapons to a Group that has a Telescope token, you may remove a Telescope token. If you do, choose one of the attacking Group's Weapon Systems. That Weapon System lowers the result required to score a critical against the assigned Group by 1 for that attack (so a weapon that would crit on a 5+ crits on a 4+ instead).\nTelescope tokens placed by this Ship persist between rounds and are only removed when this Ship would place another Telescope token or when a Ship with a Telescope token goes on the Silent Running order."
         }
     ],
     "KnownShips": [

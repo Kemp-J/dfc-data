@@ -1,7 +1,7 @@
 {
     "Class": "Cacophony",
     "Type": "Heavy Cruiser",
-    "Points": 132,
+    "Points": 126,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -28,7 +28,7 @@
             "Special": [
                 "Anti Wing",
                 "Fusillade-3",
-                "Reave-1"
+                "Burnthrough-1"
             ]
         },
         {
@@ -41,7 +41,7 @@
             "Special": [
                 "Anti Wing",
                 "Fusillade-3",
-                "Reave-1"
+                "Burnthrough-1"
             ]
         }
     ],

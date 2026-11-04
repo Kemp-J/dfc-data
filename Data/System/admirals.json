@@ -23,14 +23,14 @@
     ],
     "Abilities": [
         {
-            "Cost": "*AP",
-            "Name": "AP Re-roll",
-            "Effect": "Once per Group, Asset, or Dropsite activation, after you roll any dice, you can re-roll any number of those dice. You may re-roll multiple dice in a single roll this way but must re-roll at least one dice, spending 1AP for each dice re-rolled."
+            "Cost": "1AP",
+            "Name": "AP Dice Bonus",
+            "Effect": "Once per Group, Asset, or Dropsite activation, or during the Repair step of the End Phase, after you roll any dice, you can add 1 to the result of one of those dice. This Ability cannot be used on D3s or dice results of a 1, and dice modified by this ability cannot score criticals."
         },
         {
-            "Cost": "2AP",
+            "Cost": "1AP",
             "Name": "Brace for Impact",
-            "Effect": "When a player would roll for Crippling Effects, instead of rolling, make the result of a Crippling Effect roll (for you or your opponent) a 4."
+            "Effect": "After you roll for Crippling Effects, re-roll the Crippling Effect roll."
         },
         {
             "Cost": "2AP",

@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "261030",
+    "SourceVersion": "261104",
     "Abilities": [
         {
             "Cost": "2AP",
@@ -12,24 +12,24 @@
             "Effect": "When a friendly Ship of M, H, or C tonnage is destroyed by damage from an opponent's attack (including any Crippling or Explosion Effects), it remains in play until the start of the End Phase. At the start of the End Phase, roll for explosion and remove that Ship from play. That Ship counts as destroyed."
         },
         {
-            "Cost": "1AP",
+            "Cost": "*AP",
             "Name": "Redundant Ship Systems",
-            "Effect": "When you would Roll for Crippling Effects for a friendly Ship (for any reason), roll 1D6 instead of 2D6 for that Ship's Crippling Effect. Count a result of a 1 as a result of a 2."
+            "Effect": "When you would roll for Crippling Effects for a friendly Ship (for any reason), after rolling, you may pay up to 3AP. Add or subtract 1 (to a minimum of 2) from the result of the roll for each AP paid this way"
         },
         {
             "Cost": "1AP",
-            "Name": "Final Mission",
-            "Effect": "When you attack with Fire Ships, one of those attacking Wings gains Corruptor-2 for that attack."
+            "Name": "Big Guns a' Blazing",
+            "Effect": "When you assign a Group's Weapon System with Damage 2 or higher to targets, double the Attack value of that Weapon System and that Weapon System has an unmodifiable Lock Value of 4+ and only causes criticals on a 6+ for this attack and cannot have its dice rolls modified in any way. If this Ability affects a Weapon System with an Arc of B, it costs an additional 1AP. If this Ability affects a Weapon System on a Ship of H or C Tonnage, this Ability costs an additional 1AP (additional costs are cumulative)."
         },
         {
             "Cost": "1AP",
             "Name": "Never Tell Me The Odds",
-            "Effect": "When you move a Group through Scenery or move/place a Wing of Assets through Scenery, that Group/Wing ignores the effects of that Scenery piece until the end of the movement."
+            "Effect": "When you move a Group through Scenery you may re-roll any Kinetic or Energy saves for that movement. When you move/place a Wing through Scenery, you may re-roll the dice when rolling to remove those Assets."
         },
         {
-            "Cost": "2AP",
-            "Name": "Sabotage",
-            "Effect": "At the end of the Activation Phase, before activating Dropsites, pick one Dropsite controlled by an enemy player within 6\" of a friendly Group. That Dropsite takes D3+1 Core Hits. After rolling, you may spend an additional 1AP to re-roll the D3 and treat this ability as an attack for the purposes of removing a feature."
+            "Cost": "1AP",
+            "Name": "Missile Storm",
+            "Effect": "At the start of a friendly Group's activation, choose a Weapon System with \"Missile\" in its name. That Weapon System gains Fusillade-2 and Anti-Wing until the end of the Activation.\""
         }
     ],
     "FleetAdmirals": [
@@ -109,7 +109,7 @@
         {
             "Load": "Bombardment Torpedo",
             "Thrust": 6,
-            "Att": 3,
+            "Att": 4,
             "Lock": "5+",
             "DMG": 2,
             "Type": "K",

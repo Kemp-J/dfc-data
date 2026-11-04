@@ -18,13 +18,14 @@
         "DeployProfile": {
             "description": "The stat-line of a Deployable Feature.",
             "type": "object",
-            "required": ["PTS", "Type", "ES", "KS", "Special"],
+            "required": ["PTS", "Type", "ES", "KS", "Hull", "Special"],
             "additionalProperties": false,
             "properties": {
                 "PTS":     { "description": "Points cost, or null if variable.", "type": ["integer", "null"] },
                 "Type":    { "description": "The name of the Deployable Feature.", "type": "string" },
                 "ES":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
                 "KS":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
+                "Hull":    { "description": "Hull value, or null when the PDF shows a dash.", "type": ["integer", "null"] },
                 "Special": { "type": "array", "items": { "type": "string" } }
             }
         },

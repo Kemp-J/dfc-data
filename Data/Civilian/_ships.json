@@ -1,9 +1,9 @@
 {
-    "SourceVersion": "261001",
+    "SourceVersion": "261104",
     "ShipRules": [
         {
             "Name": "Civilian Transport",
-            "Text": "This Ship can only choose the General Quarters order.\nThis Ship cannot be attacked unless it is controlled by a player. Players cannot attack a friendly Civilian Transport.\nThis Ship cannot be the target of Abilities."
+            "Text": "This Ship can only choose the General Quarters order.\nThis Ship cannot be attacked unless it is controlled by a player. Players cannot attack a friendly Civilian Transport.\nThe Controlling player cannot target this Ship with Abilities."
         },
         {
             "Name": "Boardable",
@@ -30,6 +30,7 @@
         "slm9_resupply_hauler.json",
         "ttype_tugboat.json",
         "ex7_packet_runner.json",
+        "kronos_barge.json",
         "affluence_liner.json",
         "dhtype_penal_transport.json",
         "jahtar_startrader.json",

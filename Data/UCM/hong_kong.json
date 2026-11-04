@@ -1,7 +1,7 @@
 {
     "Class": "Hong Kong",
     "Type": "Pocket Battleship",
-    "Points": 185,
+    "Points": 175,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -19,7 +19,7 @@
         {
             "Name": "Viper Super Heavy Laser",
             "Arc": "FN",
-            "Att": 8,
+            "Att": 9,
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",
@@ -69,9 +69,15 @@
     "Rules": [
         {
             "Name": "Feature Carrier",
-            "Text": "At the start of the game, before players deploy, choose one Deployable Feature from the UCM Deployable Features List. This Ship starts the game carrying that Deployable Feature."
+            "Text": "When building your fleet, this Ship must be assigned a Deployable Feature from the UCM Deployable Features list, paying points for this Feature. This Ship starts the game carrying that Deployable Feature."
         }
     ],
+    "FeatureCarrier": {
+        "Count": 1,
+        "ValidDeployableFeatures": [
+            "*"
+        ]
+    },
     "KnownShips": [],
     "Flavour": ""
 }

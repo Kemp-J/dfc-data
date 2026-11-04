@@ -1,30 +1,30 @@
 {
-    "SourceVersion": "260925",
+    "SourceVersion": "261104",
     "Abilities": [
         {
-            "Cost": "1AP",
+            "Cost": "*AP",
             "Name": "Impel Mines",
-            "Effect": "When a friendly Carrier with H or C Tonnage launches assets, it may launch a single Impel Mine in addition to its normal Assets this round."
-        },
-        {
-            "Cost": "1AP",
-            "Name": "Advanced Picket Ships",
-            "Effect": "When you use a Group's Shield-X special rule, roll a dice. On a 4+ do not gain a Spike from that use of the Shield-X special rule (other uses are unaffected)."
-        },
-        {
-            "Cost": "1AP",
-            "Name": "Misdirection",
-            "Effect": "At the start of the Asset Phase, pick a Dropsite. You may redistribute the allocation of all friendly Assets in that Dropsite and its Features."
-        },
-        {
-            "Cost": "1AP",
-            "Name": "Navigational Mastery",
-            "Effect": "At the start of a friendly Group's activation, that Group increases its Thrust by D3\" until the end of its activation."
+            "Effect": "Once per game, at the start of the Activation Phase, choose up to three different friendly Ships within 18\" of a friendly Ship with the Mothership special rule. Those Ships gain 1 Impel Mine Launch Asset until the end of the game. This Ability costs 1AP for each chosen Ship."
         },
         {
             "Cost": "2AP",
+            "Name": "Advanced Picket Ships",
+            "Effect": "When you raise a group's shields, until the start of its next activation, it does not triple its signature value. If that group is H or C tonnage, this ability costs 3AP."
+        },
+        {
+            "Cost": "1AP",
+            "Name": "Launch Gate",
+            "Effect": "When a friendly Carrier launches Fighters or Bombers, those Launch Assets may be launched through a Gateship chain, counting as a Dropship for the purposes of the Gateship-X special rule."
+        },
+        {
+            "Cost": "1-2AP",
+            "Name": "Navigational Mastery",
+            "Effect": "At the start of a friendly Group's activation, until the end of its activation, that Group gains Vectored and increases its Thrust by twice the AP paid to use this ability."
+        },
+        {
+            "Cost": "1AP",
             "Name": "Power to the Weapons",
-            "Effect": "At the start of a friendly Group's activation that Group may fire any number of its Weapons on General Quarters but may not use Shield Saves until the end of the round."
+            "Effect": "At the start of a friendly Group's activation, if that Group has the Shield-X+ special rule, that Group may attack with any number of its weapons on General Quarters, but cannot raise its Shields or gain a shields token. If this ability is used on a Group with 4 or more Weapon Systems, this Ability costs 2AP."
         },
         {
             "Cost": "*AP",
@@ -69,9 +69,9 @@
         {
             "Load": "Torpedo",
             "Thrust": 6,
-            "Att": 3,
+            "Att": 9,
             "Lock": "4+",
-            "DMG": 3,
+            "DMG": 1,
             "Type": "C",
             "Special": [
                 "Flash-2"

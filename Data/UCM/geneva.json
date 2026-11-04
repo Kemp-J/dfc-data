@@ -33,6 +33,12 @@
         }
     ],
     "Load": [],
+    "Rules": [
+        {
+            "Name": "UCM Battlenet",
+            "Text": "A UCM or Generic (from 4.2.1) Admiral assigned to this Ship may take 1 additional Ability from the UCM Abilities table."
+        }
+    ],
     "KnownShips": [],
     "Flavour": ""
 }

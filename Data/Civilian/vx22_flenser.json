@@ -1,7 +1,7 @@
 {
     "Class": "VX-22 Flenser",
     "Type": "Salvage Corvette",
-    "Points": 50,
+    "Points": 45,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -14,6 +14,7 @@
         "BS": "6+",
         "G": "-",
         "Special": [
+            "Mercenary (All)",
             "Payload F-1",
             "Vectored"
         ]
@@ -27,10 +28,9 @@
             "DMG": 2,
             "Type": "C",
             "Special": [
-                "Close Action",
+                "Point Blank",
                 "Bloom-1"
-            ],
-            "Rule": "This weapon can only be used against targets in base contact."
+            ]
         }
     ],
     "Load": [],
@@ -46,22 +46,12 @@
         {
             "Name": "Industrial Design",
             "Text": "Improve this Group's Backup save by 2 when rolling to save hits due to Debris Fields."
-        },
-        {
-            "Name": "Mercenary",
-            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
         }
     ],
     "UsableIn": [
         {
             "Fleet": "*",
-            "Modifiers": [
-                {
-                    "Target": "Special",
-                    "Type": "remove",
-                    "Value": "Boardable"
-                }
-            ]
+            "Modifiers": []
         }
     ],
     "KnownShips": [

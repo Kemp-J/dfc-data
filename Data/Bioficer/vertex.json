@@ -1,7 +1,7 @@
 {
     "Class": "Vertex",
     "Type": "Corvette",
-    "Points": 30,
+    "Points": 33,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -26,7 +26,8 @@
             "DMG": 1,
             "Type": "E",
             "Special": [
-                "Air to Air"
+                "Air to Air",
+                "Penetrator"
             ]
         }
     ],

@@ -2,7 +2,7 @@
     "Fleet": "Shaltari",
     "Name": "Shuriken",
     "Size": "Large",
-    "Points": 150,
+    "Points": 140,
     "BaseSize": 50,
     "Profile": {
         "Scan": 12,
@@ -18,17 +18,34 @@
     },
     "Weapons": [
         {
-            "Name": "Disintegrator Bank",
+            "Name": "Station Disintegrator Bank",
             "Arc": "*",
             "Att": 8,
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",
             "Special": [
+                "Penetrator",
                 "Volley-5"
             ],
             "Rule": "Instead of the normal Arcs, Shaltari Shurikens have their own Arcs. A Shuriken has 5 Arcs, each 72 degrees. The easiest way to define these Arcs is to follow the lines of adjacent vertical vanes, measured from the flight stand as normal. Follow these arcs when attacking instead of the normal rules for Arcs.\nWhen you assign targets to this weapon, you may only use each Arc once."
         }
     ],
-    "Load": []
+    "Load": [],
+    "Hardpoints": {
+        "Features": [
+            {
+                "Name": "Life Support",
+                "Count": 1
+            }
+        ],
+        "AdditionalFeatures": {
+            "Min": 2,
+            "Max": 3
+        },
+        "Armaments": {
+            "Min": 0,
+            "Max": 0
+        }
+    }
 }

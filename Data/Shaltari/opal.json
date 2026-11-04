@@ -1,13 +1,13 @@
 {
     "Class": "Opal",
     "Type": "Shielding Frigate",
-    "Points": 45,
+    "Points": 49,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
         "Thrust": 12,
         "Scan": 10,
-        "Sig": 4,
+        "Sig": 3,
         "Hull": 4,
         "ES": "5+",
         "KS": "4+",
@@ -35,7 +35,7 @@
     "Rules": [
         {
             "Name": "Shield Booster",
-            "Text": "While this Ship's Group is in coherency, when another friendly Group within 6\" of this Ship uses its Shield Save, you may improve that Group's Shield-X special rule by 1 for that Save, to a maximum of 3+ (so Shield-6+ would become Shield-5+). If you do, this Ship's Group gains a Spike. Each Shield Save can only be affected by this rule once and Ships with this special rule are unaffected.\nThis rule can only be used while this Ship's Group has fewer than 4 Spikes."
+            "Text": "While this Group has a shield token, other friendly Groups in coherency within 6\" of a Ship with this rule improve their Shield-X+ rule by 1 to a maximum of 3+. Ships with this rule are unaffected."
         }
     ],
     "KnownShips": [

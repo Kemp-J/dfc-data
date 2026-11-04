@@ -23,5 +23,25 @@
                 "Limited-4"
             ]
         }
-    ]
+    ],
+    "Hardpoints": {
+        "Features": [
+            {
+                "Name": "Life Support",
+                "Count": 1
+            },
+            {
+                "Name": "Launch Control",
+                "Count": 2
+            }
+        ],
+        "AdditionalFeatures": {
+            "Min": 0,
+            "Max": 0
+        },
+        "Armaments": {
+            "Min": 0,
+            "Max": 0
+        }
+    }
 }

@@ -6,7 +6,7 @@
     "BaseSize": 50,
     "Profile": {
         "Thrust": 6,
-        "Scan": 12,
+        "Scan": 14,
         "Sig": 6,
         "Hull": 19,
         "ES": "3+",
@@ -14,6 +14,7 @@
         "BS": "5+",
         "G": "1",
         "Special": [
+            "Command Ship-1",
             "Marines-1",
             "Porter L-1"
         ]
@@ -28,7 +29,8 @@
             "Type": "C",
             "Special": [
                 "Arrest-2",
-                "Bloom-2"
+                "Bloom-2",
+                "Focused"
             ]
         },
         {
@@ -41,7 +43,7 @@
             "Special": [
                 "Anti Wing",
                 "Fusillade-3",
-                "Reave-1"
+                "Burnthrough-1"
             ]
         },
         {
@@ -53,14 +55,14 @@
             "Type": "E",
             "Special": [
                 "Overcharge",
-                "Scald-1"
+                "Scald-2"
             ]
         }
     ],
     "Load": [
         {
             "Load": "Boarding Pods",
-            "Launch": 1,
+            "Launch": 2,
             "Special": []
         },
         {

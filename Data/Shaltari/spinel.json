@@ -1,13 +1,13 @@
 {
     "Class": "Spinel",
     "Type": "Pocket Battleship",
-    "Points": 225,
+    "Points": 215,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 4,
         "Hull": 14,
         "ES": "5+",
         "KS": "4+",
@@ -26,7 +26,8 @@
             "DMG": 2,
             "Type": "C",
             "Special": [
-                "Critical-1"
+                "Critical-2",
+                "Focused"
             ]
         },
         {
@@ -45,9 +46,15 @@
     "Rules": [
         {
             "Name": "Feature Carrier",
-            "Text": "At the start of the game, before players deploy, choose two Deployable Features from the Shaltari Deployable Features List (duplicates are allowed). This Ship starts the game carrying those Deployable Features."
+            "Text": "When building your fleet, this Ship must be assigned two deployable features from the Shaltari Deployable Features list (duplicates are allowed) paying points for each. This Ship starts the game carrying those Deployable Features."
         }
     ],
+    "FeatureCarrier": {
+        "Count": 2,
+        "ValidDeployableFeatures": [
+            "*"
+        ]
+    },
     "KnownShips": [
         "Lance of Ra",
         "Eons to Dust",

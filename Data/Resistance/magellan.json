@@ -18,7 +18,8 @@
         "BS": "4+",
         "G": "1",
         "Special": [
-            "Command Ship-2"
+            "Command Ship-2",
+            "Vanguard-3\""
         ]
     },
     "Weapons": [
@@ -106,7 +107,7 @@
             "Text": "This ship must take two 10k Mass Drivers, two Heavy Vent Cannons, a Drive Refit (that's been heavily jury-rigged and does not take up a hardpoint or points), and the following Launch Assets:"
         }
     ],
-    "FleetAdmiralAbilities": 1,
+    "FleetAdmiralAbilities": 2,
     "AdmiralAbilities": [
         {
             "Cost": "2AP",

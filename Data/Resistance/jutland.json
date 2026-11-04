@@ -1,7 +1,7 @@
 {
     "Class": "Jutland",
     "Type": "Supercruiser",
-    "Points": 144,
+    "Points": 138,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -34,9 +34,15 @@
     "Rules": [
         {
             "Name": "Feature Carrier",
-            "Text": "At the start of the game, before players deploy, choose one Deployable Feature from the Resistance Deployable Features List. This Ship starts the game carrying that Deployable Feature."
+            "Text": "When building your fleet, this Ship must be assigned a Deployable Feature from the Resistance Deployable Features list, paying points for this Feature. This Ship starts the game carrying that Deployable Feature"
         }
     ],
+    "FeatureCarrier": {
+        "Count": 1,
+        "ValidDeployableFeatures": [
+            "*"
+        ]
+    },
     "KnownShips": [],
     "Flavour": ""
 }

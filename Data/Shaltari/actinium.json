@@ -7,7 +7,7 @@
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 8,
+        "Sig": 4,
         "Hull": 18,
         "ES": "4+",
         "KS": "3+",
@@ -32,20 +32,40 @@
         },
         {
             "Name": "Gravitic Beamer",
-            "Arc": "F/S",
-            "Att": 5,
-            "Lock": "4+",
-            "DMG": 1,
-            "Type": "E",
-            "Special": [
-                "Impel-1",
-                "Re-Entry"
+            "Profiles": [
+                {
+                    "Name": "Leading",
+                    "Arc": "F/S",
+                    "Att": 6,
+                    "Lock": "4+",
+                    "DMG": 1,
+                    "Type": "C",
+                    "Special": [
+                        "Alt-1",
+                        "Calibre-L/M",
+                        "Impel-2",
+                        "Re-Entry"
+                    ]
+                },
+                {
+                    "Name": "Trailing",
+                    "Arc": "F/S",
+                    "Att": 4,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "C",
+                    "Special": [
+                        "Alt-1",
+                        "Arrest-3",
+                        "Calibre-H/C"
+                    ]
+                }
             ]
         },
         {
             "Name": "Electrosurge Projectors",
             "Arc": "B",
-            "Att": 3,
+            "Att": 4,
             "Lock": "4+",
             "DMG": 1,
             "Type": "E",

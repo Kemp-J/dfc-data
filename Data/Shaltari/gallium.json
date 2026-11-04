@@ -1,13 +1,13 @@
 {
     "Class": "Gallium",
     "Type": "Bio-Hazard Cutter",
-    "Points": 60,
+    "Points": 55,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
         "Thrust": 20,
         "Scan": 8,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 3,
         "ES": "6+",
         "KS": "4+",

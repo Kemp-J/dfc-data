@@ -1,7 +1,7 @@
 {
     "Class": "Choral",
     "Type": "Cruiser",
-    "Points": 80,
+    "Points": 78,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -22,11 +22,13 @@
         {
             "Name": "Barb Launcher",
             "Arc": "FN",
-            "Att": 1,
+            "Att": 2,
             "Lock": "2+",
-            "DMG": 4,
+            "DMG": 2,
             "Type": "K",
             "Special": [
+                "Critical-1",
+                "Focused",
                 "Reave-2"
             ]
         }

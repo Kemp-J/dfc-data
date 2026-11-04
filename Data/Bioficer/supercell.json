@@ -22,12 +22,29 @@
     "Weapons": [
         {
             "Name": "Concussion Prism",
-            "Arc": "F/S/R",
-            "Att": 6,
-            "Lock": "3+",
-            "DMG": 1,
-            "Type": "E",
-            "Special": []
+            "Profiles": [
+                {
+                    "Name": "Deployed",
+                    "Arc": "F/S/R",
+                    "Att": 9,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "E",
+                    "Special": []
+                },
+                {
+                    "Name": "Attached",
+                    "Arc": "F/S",
+                    "Att": 5,
+                    "Lock": "3+",
+                    "DMG": 1,
+                    "Type": "E",
+                    "Special": [
+                        "Close Action",
+                        "Fusillade-2"
+                    ]
+                }
+            ]
         }
     ],
     "Load": [],
@@ -35,6 +52,10 @@
         {
             "Name": "Limited Aegis Bandwidth",
             "Text": "Friendly Ships with this rule may combine their Aegis values as if they were the same Group. When these Ships combine their Aegis value, only those within 6\" of the Group using the benefits of Aegis are counted. A Ship with this rule cannot gain the benefit of Aegis from another Ship with this rule."
+        },
+        {
+            "Name": "Concussion Prism (Attached)",
+            "Text": "This Weapon System can only be used by the Porter Ship carrying this Payload Ship and counts towards the amount of Weapon Systems that Porter Ship has. Only one of this Ship's Concussion Prism weapons can be used each round."
         }
     ],
     "KnownShips": [],

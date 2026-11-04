@@ -19,14 +19,35 @@
                 "Special": { "type": "array", "items": { "type": "string" } }
             }
         },
-        "Hardpoints": {
-            "description": "Required selection counts for a generic station.",
+        "MinMax": {
             "type": "object",
-            "required": ["Armaments", "Features"],
+            "required": ["Min", "Max"],
             "additionalProperties": false,
             "properties": {
-                "Armaments": { "type": "integer", "minimum": 0 },
-                "Features":  { "type": "integer", "minimum": 0 }
+                "Min": { "type": "integer", "minimum": 0 },
+                "Max": { "type": "integer", "minimum": 0 }
+            }
+        },
+        "Hardpoints": {
+            "description": "What a station has automatically and what it may add. Features are free and each Name matches an entry in space_station_features.json. AdditionalFeatures counts extra Features bought from that file. Armaments counts options from space_station_armaments.json.",
+            "type": "object",
+            "required": ["Features", "AdditionalFeatures", "Armaments"],
+            "additionalProperties": false,
+            "properties": {
+                "Features": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": ["Name", "Count"],
+                        "additionalProperties": false,
+                        "properties": {
+                            "Name":  { "type": "string" },
+                            "Count": { "type": "integer", "minimum": 1 }
+                        }
+                    }
+                },
+                "AdditionalFeatures": { "$ref": "#/$defs/MinMax" },
+                "Armaments":          { "$ref": "#/$defs/MinMax" }
             }
         }
     }

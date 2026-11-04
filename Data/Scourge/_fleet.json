@@ -1,10 +1,10 @@
 {
-    "SourceVersion": "261030",
+    "SourceVersion": "261104",
     "Abilities": [
         {
             "Cost": "1AP",
             "Name": "For the Species",
-            "Effect": "At the end of a friendly Groups' activation, pick a Crippled Ship in that Group and target an enemy Ship within 3\" of it on the same Orbital Layer. Roll a dice for each of the friendly Ship's remaining Hull Points. The target Ship is inflicted 1 Damage for each result of a 3+. The friendly Ship is destroyed and does not roll for explosion."
+            "Effect": "At the end of a friendly Group's activation, pick a Crippled Ship in that Group. That Ship explodes with a Reactor Overload effect. If the exploding Ship is H tonnage, it explodes with a Reactor Overload effect twice. If that Ship is C tonnage, it explodes twice with a Foldspace Catastrophe instead. Remove the exploding Ship after resolving its explosions."
         },
         {
             "Cost": "3AP",
@@ -13,13 +13,13 @@
         },
         {
             "Cost": "2AP",
-            "Name": "Abandon all Hope",
-            "Effect": "At the end of the Planning Phase, target an opponent. That opponent discards D3 Ability Points."
+            "Name": "Point Blank Death",
+            "Effect": "After rolling to hit an enemy Group in base contact with an attacking friendly Group, re-roll the hit roll for all weapons assigned to that enemy Group."
         },
         {
             "Cost": "1AP",
-            "Name": "Assimilated Bioforms",
-            "Effect": "At the start of the Battalion Combat step of the Asset Phase, pick a City with friendly Battalions on it. Deploy D3 Assimilated Battalions to that City. At the end of the Battalion Combat step, remove any remaining Assimilated Battalions from the Dropsite."
+            "Name": "Out of Sight, Out of Mind",
+            "Effect": "At the start of an enemy Group's activation, choose a friendly Group with 0 Spikes or the Stealth special rule. That Group cannot be targeted this Activation if the Weapon targeting it could target another friendly Group on the same Orbital Layer of the same or larger tonnage, and that other Group is closer to the attacking Group."
         },
         {
             "Cost": "2AP",
@@ -28,8 +28,8 @@
         },
         {
             "Cost": "1AP",
-            "Name": "Expert Defence Crews",
-            "Effect": "At the start of the Asset Phase, pick a friendly Group. That Group gains Marines-2D3 until the end of the round."
+            "Name": "Silent Killer",
+            "Effect": "When a friendly Group is given the Silent Running Order, that Group cannot gain Spikes due to your opponent's weapons, special rules, and Abilities until the end of the round."
         }
     ],
     "FleetAdmirals": [
@@ -42,7 +42,7 @@
                 {
                     "Cost": "1AP",
                     "Name": "Reaving Gaze",
-                    "Effect": "When you assign a Group's weapons to a target, pick one of the attacking Group's Weapon Systems with \"Oculus\" in its name. That Weapon System replaces its Scald-X rule with Reave-X (of the same value) for that attack. If the attacking Group has 2 or more Ships, this Ability costs 2AP."
+                    "Effect": "When you assign a Group's weapons to a target, pick one of the attacking Group's Weapon Systems with \"Oculus\" in its name. That Weapon System replaces its Scald-X value with Reave-X+1 for that attack. If the attacking Group has 2 or more Ships, this Ability costs 2AP."
                 }
             ]
         },

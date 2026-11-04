@@ -15,7 +15,19 @@
         "G": "1-2",
         "Special": []
     },
-    "Weapons": [],
+    "Weapons": [
+        {
+            "Name": "NC-1 Missile Pod",
+            "Arc": "F/S/R",
+            "Att": 2,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
     "Load": [],
     "Rules": [
         {

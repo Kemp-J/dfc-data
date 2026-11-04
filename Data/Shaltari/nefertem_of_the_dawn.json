@@ -8,7 +8,7 @@
     "Profile": {
         "Thrust": 12,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 7,
         "ES": "5+",
         "KS": "4+",
@@ -37,6 +37,12 @@
         }
     ],
     "Load": [],
+    "Rules": [
+        {
+            "Name": "Silent Shielding",
+            "Text": "This Group can have shields tokens while on Silent Running and does not lose shields tokens when going on Silent Running"
+        }
+    ],
     "KnownShips": [
         "Invisible Light"
     ],

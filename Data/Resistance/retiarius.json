@@ -1,7 +1,7 @@
 {
     "Class": "Retiarius",
     "Type": "Grand Cruiser",
-    "Points": 134,
+    "Points": 130,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -32,9 +32,9 @@
         {
             "Name": "NL-9 Laser Turret",
             "Arc": "F/S",
-            "Att": 2,
-            "Lock": "3+",
-            "DMG": 2,
+            "Att": 4,
+            "Lock": "2+",
+            "DMG": 1,
             "Type": "E",
             "Special": [
                 "Flash-1",

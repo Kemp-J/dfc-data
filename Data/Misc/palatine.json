@@ -14,7 +14,7 @@
         "BS": "5+",
         "G": "1",
         "Special": [
-            "Command Ship-1",
+            "Command Ship-3",
             "Detector",
             "Rare"
         ]
@@ -34,7 +34,7 @@
     "Rules": [
         {
             "Name": "Advanced Artillery",
-            "Text": "While on the Max Thrust or Silent Running Orders, this Ship may attack with its N-12 Artillery Cannon Turrets.\nWhile on the Weapons Free Order, this Ship counts as having an additional weapon for its Detector rule."
+            "Text": "While on the Max Thrust or Silent Running Orders, this Ship may attack with its N-12 Artillery Cannons.\nWhile on the Weapons Free Order, this Ship counts as having an additional weapon for its Detector rule."
         },
         {
             "Name": "Magellan Lifeboats",

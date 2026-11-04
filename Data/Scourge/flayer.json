@@ -25,7 +25,7 @@
         {
             "Name": "Oculus Beam Array",
             "Arc": "F",
-            "Att": 2,
+            "Att": 3,
             "Lock": "3+",
             "DMG": 2,
             "Type": "E",
@@ -57,6 +57,18 @@
             "Special": [
                 "Close Action",
                 "Fusillade-2",
+                "Scald-2"
+            ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
                 "Scald-2"
             ]
         }

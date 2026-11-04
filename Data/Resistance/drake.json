@@ -1,7 +1,7 @@
 {
     "Class": "Drake",
     "Type": "Grand Battleship",
-    "Points": 245,
+    "Points": 255,
     "Tonnage": "H",
     "BaseSize": 60,
     "Profile": {
@@ -19,7 +19,7 @@
         {
             "Name": "Spinal Mass Annihilator",
             "Arc": "FN",
-            "Att": 2,
+            "Att": 3,
             "Lock": "2+",
             "DMG": 3,
             "Type": "C",

@@ -1,7 +1,7 @@
 {
     "Class": "Pollux",
     "Type": "Escort Frigate",
-    "Points": 65,
+    "Points": 61,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -38,7 +38,7 @@
             "DMG": 1,
             "Type": "E",
             "Special": [
-                "Anti-Wing",
+                "Anti Wing",
                 "Close Action",
                 "Fusillade-1"
             ]

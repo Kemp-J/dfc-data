@@ -1,7 +1,7 @@
 {
     "Class": "Actium",
     "Type": "Battle Carrier",
-    "Points": 180,
+    "Points": 175,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -59,9 +59,15 @@
     "Rules": [
         {
             "Name": "Feature Carrier",
-            "Text": "At the start of the game, before players deploy, choose two Deployable Features from the Resistance Deployable Features List (duplicates are allowed). This Ship starts the game carrying those Deployable Features."
+            "Text": "When building your fleet, this Ship must be assigned two deployable features from the Resistance Deployable Features list (duplicates are allowed) paying points for each. This Ship starts the game carrying those Deployable Features."
         }
     ],
+    "FeatureCarrier": {
+        "Count": 2,
+        "ValidDeployableFeatures": [
+            "*"
+        ]
+    },
     "KnownShips": [],
     "Flavour": ""
 }

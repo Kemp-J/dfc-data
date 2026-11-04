@@ -1,7 +1,7 @@
 {
     "Class": "Seattle",
     "Type": "Fleet Carrier",
-    "Points": 116,
+    "Points": 108,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -21,11 +21,9 @@
             "Arc": "F/S",
             "Att": 4,
             "Lock": "3+",
-            "DMG": 1,
+            "DMG": 2,
             "Type": "K",
-            "Special": [
-                "Critical-1"
-            ]
+            "Special": []
         }
     ],
     "Load": [
@@ -38,7 +36,7 @@
             "Load": "Mines",
             "Launch": 2,
             "Special": [],
-            "Cost": 10,
+            "Cost": 4,
             "Replaces": [
                 "Fighters & Bombers"
             ],
@@ -48,7 +46,7 @@
     "Rules": [
         {
             "Name": "Minelayer",
-            "Text": "This ship may replace its Fighters & Bombers with Mines for +10 pts."
+            "Text": "This ship may replace its Fighters & Bombers with Mines for +4 pts."
         }
     ],
     "KnownShips": [

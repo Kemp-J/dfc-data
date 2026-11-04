@@ -1,7 +1,7 @@
 {
     "Class": "Fulcrum",
     "Type": "Frigate",
-    "Points": 37,
+    "Points": 34,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -19,11 +19,12 @@
         {
             "Name": "Barb Spiker",
             "Arc": "FN",
-            "Att": 1,
+            "Att": 2,
             "Lock": "2+",
-            "DMG": 2,
+            "DMG": 1,
             "Type": "K",
             "Special": [
+                "Focused",
                 "Reave-2"
             ]
         }

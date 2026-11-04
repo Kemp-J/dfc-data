@@ -40,5 +40,25 @@
             "Rule": "When you attack with this weapon, roll once and apply the roll to all enemy Groups within range."
         }
     ],
-    "Load": []
+    "Load": [],
+    "Hardpoints": {
+        "Features": [
+            {
+                "Name": "Life Support",
+                "Count": 1
+            },
+            {
+                "Name": "Weapons Control",
+                "Count": 2
+            }
+        ],
+        "AdditionalFeatures": {
+            "Min": 0,
+            "Max": 0
+        },
+        "Armaments": {
+            "Min": 0,
+            "Max": 0
+        }
+    }
 }

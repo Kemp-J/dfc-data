@@ -26,7 +26,7 @@
             "DMG": 1,
             "Type": "E",
             "Special": [
-                "Calibre-L",
+                "Calibre-L/M",
                 "Close Action",
                 "Fusillade-5"
             ]
@@ -41,7 +41,7 @@
             "Special": [
                 "Anti Wing",
                 "Fusillade-1",
-                "Reave-1"
+                "Burnthrough-1"
             ]
         },
         {
@@ -54,7 +54,7 @@
             "Special": [
                 "Anti Wing",
                 "Fusillade-1",
-                "Reave-1"
+                "Burnthrough-1"
             ]
         }
     ],

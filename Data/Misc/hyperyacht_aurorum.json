@@ -1,7 +1,7 @@
 {
     "Class": "Hyperyacht Aurorum",
     "Type": "Destroyer for Hire",
-    "Points": 80,
+    "Points": 76,
     "Tonnage": "L",
     "BaseSize": 40,
     "Profile": {
@@ -15,6 +15,8 @@
         "G": "1",
         "Special": [
             "Marines-2",
+            "Mercenary (All)",
+            "Hero",
             "Stealth",
             "Unique"
         ]
@@ -41,8 +43,8 @@
     ],
     "Rules": [
         {
-            "Name": "Mercenary",
-            "Text": "This ship may be used in any fleet regardless of Faction. This ship's Fighters & Bombers use the stats of its parent fleet (if you included this ship in a Scourge fleet, its Fighters & Bombers would follow the Scourge Fighters & Bombers rules)."
+            "Name": "Acquired Fighters & Bombers",
+            "Text": "This ship's Fighters & Bombers use the stats of its parent fleet (if you included this ship in a Scourge fleet, its Fighters & Bombers would follow the Scourge Fighters & Bombers rules)."
         }
     ],
     "UsableIn": [
@@ -54,5 +56,5 @@
     "KnownShips": [
         "Hyperyacht Aurorum"
     ],
-    "Flavour": "Hyperyacht Aurorum, launched 2493, was commissioned by Caesar Dun,boss of the East Eden Syndicate. She was uniquely built to impeccable standards, riddled with unregistered spaces, and armed far beyond EAA-sanctioned levels. While using her peerless stealth capabilities to evade justice, he unwittingly dodged the Scourge invasion. After months of shadowing a survivor flotilla, Caesar was garrotted by his lieutenant, who took Aurorum to join the refugees.\nToday, Aurorum serves as the flagship of Karl Stieglitz, head of the galaxy's most infamous mercenaries: The Decapitators. This privateer flotilla earned dark renown during the Battle of Earth in the vanguard of the Vega Scrapfleet but is now a gun for hire. Stieglitz has already been approached by Kalium and, it is rumoured, the PHR. The UCM has yet to decide how to respond."
+    "Flavour": "Hyperyacht Aurorum, launched 2493, was commissioned by Caesar Dun, boss of the East Eden Syndicate. She was uniquely built to impeccable standards, riddled with unregistered spaces, and armed far beyond EAA-sanctioned levels. While using her peerless stealth capabilities to evade justice, he unwittingly dodged the Scourge invasion. After months of shadowing a survivor flotilla, Caesar was garrotted by his lieutenant, who took Aurorum to join the refugees.\nToday, Aurorum serves as the flagship of Karl Stieglitz, head of the galaxy's most infamous mercenaries: The Decapitators. This privateer flotilla earned dark renown during the Battle of Earth in the vanguard of the Vega Scrapfleet but is now a gun for hire. Stieglitz has already been approached by Kalium and, it is rumoured, the PHR. The UCM has yet to decide how to respond."
 }

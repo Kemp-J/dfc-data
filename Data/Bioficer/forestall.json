@@ -1,7 +1,7 @@
 {
     "Class": "Forestall",
     "Type": "Frigate",
-    "Points": 38,
+    "Points": 35,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -26,7 +26,7 @@
             "Special": [
                 "Anti Wing",
                 "Fusillade-2",
-                "Reave-1"
+                "Burnthrough-1"
             ]
         }
     ],

@@ -26,6 +26,7 @@
             "DMG": 1,
             "Type": "E",
             "Special": [
+                "Critical-1",
                 "Scald-2"
             ]
         },

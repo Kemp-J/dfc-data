@@ -1,5 +1,5 @@
 {
-    "Hero": "Frances Mendoza",
+    "Hero": "Francis Mendoza",
     "Ship": "Flying Dutchman",
     "Type": "Heavy Cruiser",
     "Points": 136,
@@ -24,7 +24,7 @@
         {
             "Name": "Cobra Heavy Laser Pair",
             "Arc": "FN",
-            "Att": 6,
+            "Att": 8,
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",
@@ -61,7 +61,7 @@
     ],
     "Load": [],
     "KnownShips": [
-        "- Flying Dutchman"
+        "Flying Dutchman"
     ],
-    "Flavour": "Captain Frances Mendoza has destroyed more enemy tonnage in his career than any other colonial officer of his rank. He famously captained the light cruiser Crimson Heart throughout the 1st Battle of Olympus to nine capital ship kills before his vessel was crippled. Before and since he has built a reputation for single-minded, ruthless lethality. His steely disregard for the wider fleet has precluded any further promotion, but the Admiralty has now recognised his stellar record with a new, experimental command.\nThe Flying Dutchman is a heavy cruiser of currently unique design. She was envisioned as a short mission duration ship-killer to be brought in under dire circumstances. With additional engines she is much faster than any other current UCMF vessel of her tonnage while offering a suite of aggressive gunnery at the expense of ammunition, fuel, and consumables storage. Her ultra-short endurance might preclude the design from wider adoption, but the Admiralty could find no captain more suitable for this experimental vessel than Mendoza."
+    "Flavour": "Captain Francis Mendoza has destroyed more enemy tonnage in his career than any other colonial officer of his rank. He famously captained the light cruiser Crimson Heart throughout the 1st Battle of Olympus to nine capital ship kills before his vessel was crippled. Before and since he has built a reputation for single-minded, ruthless lethality. His steely disregard for the wider fleet has precluded any further promotion, but the Admiralty has now recognised his stellar record with a new, experimental command.\nThe Flying Dutchman is a heavy cruiser of currently unique design. She was envisioned as a short mission duration ship-killer to be brought in under dire circumstances. With additional engines she is much faster than any other current UCMF vessel of her tonnage while offering a suite of aggressive gunnery at the expense of ammunition, fuel, and consumables storage. Her ultra-short endurance might preclude the design from wider adoption, but the Admiralty could find no captain more suitable for this experimental vessel than Mendoza."
 }

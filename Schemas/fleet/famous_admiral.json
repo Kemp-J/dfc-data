@@ -38,6 +38,7 @@
         "Load":                    { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/LoadEntry" } },
         "Upgrades":                { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/UpgradeEntry" } },
         "Rules":                   { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Rule" } },
+        "FeatureCarrier":          { "$ref": "https://dfc/schemas/defs.json#/$defs/FeatureCarrier" },
         "FleetAdmiralAbilities":   { "description": "Number of fleet abilities this admiral may take.", "type": "integer" },
         "AdmiralAbilities":        { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/Ability" } },
         "UsableIn":                { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/UsableInEntry" } },

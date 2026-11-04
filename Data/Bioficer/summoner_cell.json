@@ -1,7 +1,7 @@
 {
     "Class": "Summoner Cell",
     "Type": "Cell",
-    "Points": 70,
+    "Points": 77,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -29,7 +29,7 @@
     "Rules": [
         {
             "Name": "Summoning Cell",
-            "Text": "When you activate a Wing within 4\" of this Ship, instead of moving them normally, you may remove them from the table, then place them anywhere within 18\" of this Ship. Wings placed this way suffer the effects of any scenery they are placed on but ignore intervening scenery. Wings placed this way may form and divide into Wings as if they had moved normally."
+            "Text": "When you activate a Wing within 2\" of this Ship, instead of moving them normally, you may remove them from the table, then place them anywhere within 18\" of this Ship. Wings placed this way suffer the effects of any scenery they are placed on but ignore intervening scenery. Wings placed this way may form and divide into Wings as if they had moved normally. Wings placed this way cannot be the target of your Abilities until the end of the round (other players may target them with Abilities as normal)."
         }
     ],
     "KnownShips": [],

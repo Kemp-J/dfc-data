@@ -3,8 +3,8 @@
     "AdmiralLevel": 4,
     "Class": "Olympus",
     "Type": "Grand Battleship",
-    "AdmiralPoints": 85,
-    "ShipPoints": 330,
+    "AdmiralPoints": 75,
+    "ShipPoints": 340,
     "Points": 415,
     "Tonnage": "H",
     "BaseSize": 60,
@@ -90,7 +90,7 @@
             "Text": "If Hull points lost due to its Vent Cannon Batteries' Overcharge rule would cause this Ship to be destroyed, it rolls 3D3 for its explosion and that explosion also affects Ships in other Orbital Layers."
         }
     ],
-    "FleetAdmiralAbilities": 1,
+    "FleetAdmiralAbilities": 2,
     "AdmiralAbilities": [
         {
             "Cost": "2AP",

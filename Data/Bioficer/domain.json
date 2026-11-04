@@ -1,7 +1,7 @@
 {
     "Class": "Domain",
     "Type": "Destroyer",
-    "Points": 65,
+    "Points": 63,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -23,7 +23,9 @@
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",
-            "Special": []
+            "Special": [
+                "Penetrator"
+            ]
         }
     ],
     "Load": [],

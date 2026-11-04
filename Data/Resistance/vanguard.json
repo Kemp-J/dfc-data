@@ -1,14 +1,14 @@
 {
     "Class": "Vanguard",
     "Type": "Old Battleship",
-    "Points": 230,
+    "Points": 220,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
-        "Thrust": 7,
-        "Scan": 6,
+        "Thrust": 5,
+        "Scan": 4,
         "Sig": 8,
-        "Hull": 15,
+        "Hull": 18,
         "ES": "3+",
         "KS": "5+",
         "BS": "5+",

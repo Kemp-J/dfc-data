@@ -25,7 +25,10 @@
             "Lock": "3+",
             "DMG": 2,
             "Type": "K",
-            "Special": []
+            "Special": [
+                "Focused",
+                "Penetrator"
+            ]
         }
     ],
     "Load": [],

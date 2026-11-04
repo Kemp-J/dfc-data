@@ -1,12 +1,12 @@
 {
     "Class": "Istanbul",
     "Type": "Monitor",
-    "Points": 50,
+    "Points": 57,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
         "Thrust": 6,
-        "Scan": 6,
+        "Scan": 10,
         "Sig": 4,
         "Hull": 4,
         "ES": "3+",
@@ -29,7 +29,9 @@
                     "DMG": 2,
                     "Type": "K",
                     "Special": [
-                        "Alt-1"
+                        "Alt-1",
+                        "Focused",
+                        "Penetrator"
                     ]
                 },
                 {
@@ -41,7 +43,8 @@
                     "Type": "K",
                     "Special": [
                         "Alt-1",
-                        "Bombardment"
+                        "Bombardment",
+                        "Penetrator"
                     ]
                 }
             ]

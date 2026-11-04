@@ -1,13 +1,13 @@
 {
     "Class": "Citrine",
     "Type": "Mothership",
-    "Points": 130,
+    "Points": 122,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
         "Thrust": 10,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 9,
         "ES": "5+",
         "KS": "4+",

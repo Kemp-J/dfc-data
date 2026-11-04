@@ -1,13 +1,13 @@
 {
     "Class": "Amethyst",
     "Type": "Frigate",
-    "Points": 43,
+    "Points": 39,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
         "Thrust": 12,
         "Scan": 10,
-        "Sig": 4,
+        "Sig": 3,
         "Hull": 4,
         "ES": "5+",
         "KS": "4+",

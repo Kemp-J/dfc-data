@@ -1,7 +1,7 @@
 {
     "Class": "Construct",
     "Type": "Cruiser",
-    "Points": 96,
+    "Points": 92,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -28,17 +28,18 @@
             "Special": [
                 "Anti Wing",
                 "Fusillade-3",
-                "Reave-1"
+                "Burnthrough-1"
             ]
         },
         {
             "Name": "Barb Stinger",
             "Arc": "FN",
-            "Att": 1,
+            "Att": 2,
             "Lock": "2+",
-            "DMG": 2,
+            "DMG": 1,
             "Type": "K",
             "Special": [
+                "Focused",
                 "Reave-1"
             ]
         }

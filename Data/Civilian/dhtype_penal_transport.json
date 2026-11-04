@@ -17,6 +17,7 @@
             "Boardable",
             "Civilian Transport",
             "Marines-1",
+            "Mercenary (All)",
             "Unique"
         ]
     },
@@ -63,12 +64,8 @@
     ],
     "Rules": [
         {
-            "Name": "Mercenary",
-            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
-        },
-        {
             "Name": "Penal Legions",
-            "Text": "When taken as part of your fleet, this Ship starts the game with 2 friendly Battalions on it. When any number of enemy Battalions are removed due to Boarding Actions or Battalion Combat on a Space Station within 6\" of this Ship, place a single friendly Battalion on this Ship. This Ship's Boarding Pods and Drop Pods can only be used while it has friendly Battalions on it and each Boarding Pod or Drop Pod launched causes one friendly Battalion on this Ship to be removed."
+            "Text": "When taken as part of your fleet, this Ship starts the game with 2 friendly Battalions on it. At the start of this Ship's activation and when any number of enemy Battalions are removed due to Boarding Actions or Battalion Combat on a Space Station within 6\" of this Ship, place a single friendly Battalion on this Ship. This Ship's Boarding Pods and Drop Pods can only be used while it has friendly Battalions on it and each Boarding Pod or Drop Pod launched causes one friendly Battalion on this Ship to be removed."
         }
     ],
     "UsableIn": [

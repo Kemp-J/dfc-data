@@ -14,6 +14,7 @@
         "BS": "5+",
         "G": "1",
         "Special": [
+            "Command Ship-1",
             "Marines-1",
             "Reinforced Armour"
         ]
@@ -21,7 +22,7 @@
     "Weapons": [
         {
             "Name": "Giga Lightvice",
-            "Arc": "F",
+            "Arc": "F/S",
             "Att": 8,
             "Lock": "2+",
             "DMG": 3,
@@ -43,7 +44,7 @@
         },
         {
             "Load": "Boarding Pods",
-            "Launch": 1,
+            "Launch": 2,
             "Special": []
         }
     ],

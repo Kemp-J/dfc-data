@@ -29,6 +29,7 @@
             "Type": "E",
             "Special": [
                 "Close Action",
+                "Critical-1",
                 "Penetrator"
             ]
         },

@@ -1,12 +1,12 @@
 {
     "Class": "Sarpedon",
     "Type": "Battleship",
-    "Points": 235,
+    "Points": 230,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
         "Thrust": 6,
-        "Scan": 10,
+        "Scan": 16,
         "Sig": 10,
         "Hull": 22,
         "ES": "3+",

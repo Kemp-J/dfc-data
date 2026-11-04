@@ -1,11 +1,11 @@
 {
     "Class": "Type-87 Terminus Harvester",
     "Type": "Salvage Juggernaut",
-    "Points": 210,
+    "Points": 200,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
-        "Thrust": 6,
+        "Thrust": 7,
         "Scan": 6,
         "Sig": 6,
         "Hull": 18,
@@ -17,6 +17,7 @@
             "Boardable",
             "Porter F-2",
             "Reinforced Armour",
+            "Mercenary (All)",
             "Monitor"
         ]
     },
@@ -29,10 +30,9 @@
             "DMG": 3,
             "Type": "C",
             "Special": [
-                "Close Action",
-                "Bloom-3"
-            ],
-            "Rule": "This weapon can only be used against targets in base contact."
+                "Bloom-3",
+                "Point Blank"
+            ]
         }
     ],
     "Load": [],
@@ -48,10 +48,6 @@
         {
             "Name": "Industrial Design",
             "Text": "Improve this Group's Backup save by 2 when rolling to save hits due to Debris Fields."
-        },
-        {
-            "Name": "Mercenary",
-            "Text": "This Ship may be used in any Fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable rule."
         }
     ],
     "UsableIn": [

@@ -1,9 +1,10 @@
 {
     "Profile": {
-        "PTS": null,
+        "PTS": 5,
         "Type": "Heavy Calibre Orbital Gun",
         "ES": "5+",
-        "KS": "3+",
+        "KS": "5+",
+        "Hull": 4,
         "Special": []
     },
     "Weapons": [

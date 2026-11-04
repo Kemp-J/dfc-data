@@ -1,7 +1,7 @@
 {
     "Class": "Las Vegas",
     "Type": "Command Carrier",
-    "Points": 145,
+    "Points": 155,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -25,11 +25,9 @@
             "Arc": "F/S",
             "Att": 4,
             "Lock": "3+",
-            "DMG": 1,
+            "DMG": 2,
             "Type": "K",
-            "Special": [
-                "Critical-1"
-            ]
+            "Special": []
         }
     ],
     "Load": [

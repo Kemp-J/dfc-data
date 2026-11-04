@@ -34,7 +34,16 @@
         {
             "Load": "Fighters & Bombers",
             "Launch": 1,
-            "Special": []
+            "Special": [
+                "Alt-1"
+            ]
+        },
+        {
+            "Load": "Mines",
+            "Launch": 1,
+            "Special": [
+                "Alt-1"
+            ]
         }
     ],
     "KnownShips": [

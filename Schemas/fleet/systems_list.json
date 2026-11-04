@@ -29,6 +29,8 @@
                 "Profile":  true,
                 "SubGroup": { "type": "string" },
                 "Max":      { "type": "integer", "minimum": 1 },
+                "ScenarioRole":  { "type": "string", "enum": ["Defender", "Attacker"] },
+                "ExcludesGroup": { "const": true },
                 "Effects":  { "type": "array", "items": { "$ref": "https://dfc/schemas/defs.json#/$defs/StatModifier" } }
             },
             "if":   { "required": ["Type"], "properties": { "Type": { "const": "Weapon" } } },

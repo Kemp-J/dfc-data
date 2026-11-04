@@ -1,9 +1,10 @@
 {
     "Profile": {
-        "PTS": null,
+        "PTS": 10,
         "Type": "ICBM Silo",
         "ES": "5+",
         "KS": "5+",
+        "Hull": 4,
         "Special": []
     },
     "Weapons": [],

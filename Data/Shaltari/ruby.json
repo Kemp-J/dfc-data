@@ -7,7 +7,7 @@
     "Profile": {
         "Thrust": 10,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 13,
         "ES": "5+",
         "KS": "4+",
@@ -39,7 +39,8 @@
             "DMG": 2,
             "Type": "C",
             "Special": [
-                "Critical-1"
+                "Critical-2",
+                "Focused"
             ]
         }
     ],

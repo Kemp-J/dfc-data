@@ -5,9 +5,9 @@
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
-        "Thrust": 6,
+        "Thrust": 8,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 2,
         "Hull": 4,
         "ES": "4+",
         "KS": "4+",
@@ -22,16 +22,22 @@
         {
             "Name": "Quad Ion Cannon",
             "Arc": "F",
-            "Att": 2,
+            "Att": 4,
             "Lock": "3+",
-            "DMG": 2,
+            "DMG": 1,
             "Type": "E",
             "Special": [
                 "Crippling-Navigation Offline"
             ]
         }
     ],
-    "Load": [],
+    "Load": [
+        {
+            "Load": "Boarding Pod",
+            "Launch": 1,
+            "Special": []
+        }
+    ],
     "KnownShips": [
         "Euthaniser",
         "Benevolent Mercy",

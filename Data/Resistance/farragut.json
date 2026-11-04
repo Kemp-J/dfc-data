@@ -1,7 +1,7 @@
 {
     "Class": "Farragut",
     "Type": "Grand Battleship",
-    "Points": 215,
+    "Points": 210,
     "Tonnage": "H",
     "BaseSize": 60,
     "Profile": {

@@ -19,47 +19,22 @@
     },
     "Weapons": [
         {
-            "Name": "Light Calibre Broadside",
+            "Name": "Light Calibre Double Broadside",
             "Arc": "B",
-            "Att": 6,
+            "Att": 12,
             "Lock": "5+",
             "DMG": 1,
             "Type": "K",
             "Special": [
                 "Calibre-L",
-                "Re-Entry",
+                "Reave-1",
                 "Volley-2"
             ]
         },
         {
-            "Name": "Light Calibre Broadside",
+            "Name": "Medium Calibre Double Broadside",
             "Arc": "B",
             "Att": 6,
-            "Lock": "5+",
-            "DMG": 1,
-            "Type": "K",
-            "Special": [
-                "Calibre-L",
-                "Re-Entry",
-                "Volley-2"
-            ]
-        },
-        {
-            "Name": "Medium Calibre Broadside",
-            "Arc": "B",
-            "Att": 3,
-            "Lock": "4+",
-            "DMG": 2,
-            "Type": "K",
-            "Special": [
-                "Fusillade-1",
-                "Volley-2"
-            ]
-        },
-        {
-            "Name": "Medium Calibre Broadside",
-            "Arc": "B",
-            "Att": 3,
             "Lock": "4+",
             "DMG": 2,
             "Type": "K",

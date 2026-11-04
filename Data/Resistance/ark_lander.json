@@ -1,9 +1,10 @@
 {
     "Profile": {
-        "PTS": null,
+        "PTS": 5,
         "Type": "Ark Lander",
         "ES": "4+",
         "KS": "4+",
+        "Hull": 4,
         "Special": []
     },
     "Weapons": [],

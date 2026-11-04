@@ -5,7 +5,7 @@
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
-        "Thrust": 6,
+        "Thrust": 8,
         "Scan": 12,
         "Sig": 3,
         "Hull": 4,
@@ -14,7 +14,7 @@
         "BS": "5+",
         "G": "1-2",
         "Special": [
-            "Monitor"
+            "Rapid Drop"
         ]
     },
     "Weapons": [
@@ -33,6 +33,12 @@
             "Load": "Boarding Pods",
             "Launch": 2,
             "Special": []
+        }
+    ],
+    "Rules": [
+        {
+            "Name": "High Velocity Boarding Pods",
+            "Text": "This Ship's Boarding Pods may be used against targets up to 6\" away."
         }
     ],
     "KnownShips": [],

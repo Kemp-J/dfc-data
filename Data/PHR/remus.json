@@ -9,7 +9,7 @@
         "Scan": 12,
         "Sig": 14,
         "Hull": 25,
-        "ES": "2+",
+        "ES": "3+",
         "KS": "3+",
         "BS": "5+",
         "G": "1",
@@ -31,27 +31,65 @@
             ]
         },
         {
-            "Name": "Energy Glaive Battery",
-            "Arc": "B",
-            "Att": 6,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "E",
-            "Special": [
-                "Overcharge",
-                "Volley-2"
+            "Name": "Energy Glaives",
+            "Profiles": [
+                {
+                    "Name": "Pulse",
+                    "Arc": "B",
+                    "Att": 4,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Reave-1",
+                        "Volley-2"
+                    ]
+                },
+                {
+                    "Name": "Beam",
+                    "Arc": "S",
+                    "Att": 2,
+                    "Lock": "3+",
+                    "DMG": 4,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Reave-2",
+                        "Fusillade-1"
+                    ]
+                }
             ]
         },
         {
-            "Name": "Energy Glaive Battery",
-            "Arc": "B",
-            "Att": 6,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "E",
-            "Special": [
-                "Overcharge",
-                "Volley-2"
+            "Name": "Energy Glaives",
+            "Profiles": [
+                {
+                    "Name": "Pulse",
+                    "Arc": "B",
+                    "Att": 4,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-2",
+                        "Reave-1",
+                        "Volley-2"
+                    ]
+                },
+                {
+                    "Name": "Beam",
+                    "Arc": "S",
+                    "Att": 2,
+                    "Lock": "3+",
+                    "DMG": 4,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-2",
+                        "Reave-2",
+                        "Fusillade-1"
+                    ]
+                }
             ]
         },
         {

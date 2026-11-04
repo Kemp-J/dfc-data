@@ -42,7 +42,7 @@
         ],
         "Turret Hardpoint": [
             {
-                "Pts": 25,
+                "Pts": 35,
                 "Type": "Weapon",
                 "Profile": {
                     "Name": "10K Mass Driver Turret",
@@ -60,7 +60,7 @@
                 }
             },
             {
-                "Pts": 40,
+                "Pts": 35,
                 "Type": "Weapon",
                 "Profile": {
                     "Name": "Heavy Dual Vent Cannon Turret",

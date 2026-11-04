@@ -1,13 +1,13 @@
 {
     "Class": "Silver",
     "Type": "Battleship",
-    "Points": 250,
+    "Points": 240,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
         "Thrust": 8,
         "Scan": 12,
-        "Sig": 8,
+        "Sig": 4,
         "Hull": 18,
         "ES": "4+",
         "KS": "3+",
@@ -34,7 +34,7 @@
         {
             "Name": "Microwave Array Bank",
             "Arc": "S",
-            "Att": 4,
+            "Att": 5,
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",
@@ -46,14 +46,34 @@
         },
         {
             "Name": "Gravitic Beamer",
-            "Arc": "F/S",
-            "Att": 5,
-            "Lock": "4+",
-            "DMG": 1,
-            "Type": "E",
-            "Special": [
-                "Impel-1",
-                "Re-Entry"
+            "Profiles": [
+                {
+                    "Name": "Leading",
+                    "Arc": "F/S",
+                    "Att": 6,
+                    "Lock": "4+",
+                    "DMG": 1,
+                    "Type": "C",
+                    "Special": [
+                        "Alt-1",
+                        "Calibre-L/M",
+                        "Impel-2",
+                        "Re-Entry"
+                    ]
+                },
+                {
+                    "Name": "Trailing",
+                    "Arc": "F/S",
+                    "Att": 4,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "C",
+                    "Special": [
+                        "Alt-1",
+                        "Arrest-3",
+                        "Calibre-H/C"
+                    ]
+                }
             ]
         }
     ],

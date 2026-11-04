@@ -1,7 +1,7 @@
 {
     "Class": "Heavy Frigate",
     "Type": "Heavy Frigate",
-    "Points": 32,
+    "Points": 34,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -17,7 +17,19 @@
             "Reinforced Armour"
         ]
     },
-    "Weapons": [],
+    "Weapons": [
+        {
+            "Name": "NC-1 Missiles",
+            "Arc": "F/S/R",
+            "Att": 1,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action"
+            ]
+        }
+    ],
     "Load": [],
     "Rules": [
         {

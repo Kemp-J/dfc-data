@@ -26,7 +26,8 @@
             "DMG": 1,
             "Type": "K",
             "Special": [
-                "Close Action"
+                "Close Action",
+                "Scald-1"
             ]
         }
     ],

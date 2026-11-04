@@ -1,7 +1,7 @@
 {
     "Class": "Orpheus",
     "Type": "Assault Troopship",
-    "Points": 170,
+    "Points": 166,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -25,7 +25,7 @@
             "Type": "K",
             "Special": [
                 "Calibre-L",
-                "Re-entry",
+                "Reave-1",
                 "Volley-2"
             ]
         },
@@ -38,7 +38,7 @@
             "Type": "K",
             "Special": [
                 "Calibre-L",
-                "Re-entry",
+                "Reave-1",
                 "Volley-2"
             ]
         },

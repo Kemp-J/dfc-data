@@ -1,9 +1,10 @@
 {
     "Profile": {
-        "PTS": null,
+        "PTS": 10,
         "Type": "Electrosurge Torus",
         "ES": "4+",
         "KS": "4+",
+        "Hull": 3,
         "Special": []
     },
     "Weapons": [
@@ -23,5 +24,5 @@
         }
     ],
     "Load": [],
-    "Rules": "This feature only requires 3 or more Battalions to be removed during Battalion Combat and 3 damage to remove due to attacks."
+    "Rules": ""
 }

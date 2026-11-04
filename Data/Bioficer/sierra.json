@@ -1,7 +1,7 @@
 {
     "Class": "Sierra",
     "Type": "Pocket Battleship",
-    "Points": 185,
+    "Points": 170,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -37,7 +37,9 @@
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",
-            "Special": []
+            "Special": [
+                "Penetrator"
+            ]
         },
         {
             "Name": "Decon Blaster",
@@ -46,16 +48,25 @@
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",
-            "Special": []
+            "Special": [
+                "Penetrator"
+            ]
         }
     ],
     "Load": [],
     "Rules": [
         {
             "Name": "Feature Carrier",
-            "Text": "At the start of the game, before players deploy, choose from the Gravitational Arc or Ghost Orb Tower Deployable Feature. This Ship starts the game carrying the chosen Deployable Feature."
+            "Text": "When building your fleet, this Ship must be assigned a Gravitational Arc or Ghost Orb Tower, paying points for this Feature. This Ship starts the game carrying that Deployable Feature."
         }
     ],
+    "FeatureCarrier": {
+        "Count": 1,
+        "ValidDeployableFeatures": [
+            "Gravitational Arc",
+            "Ghost Orb Tower"
+        ]
+    },
     "KnownShips": [],
     "Flavour": ""
 }

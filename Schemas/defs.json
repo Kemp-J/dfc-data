@@ -6,9 +6,9 @@
     "$defs": {
 
         "AbilityCost": {
-            "description": "AP cost for an ability. 'NAP' for a fixed cost, 'NAP*' for a conditional cost, or '*AP' for a variable cost defined by context.",
+            "description": "AP cost for an ability. 'NAP' for a fixed cost, 'N-MAP' for a ranged cost, 'NAP*' for a conditional cost, or '*AP' for a variable cost defined by context.",
             "type": "string",
-            "pattern": "^(\\d+AP\\*?|\\*AP)$"
+            "pattern": "^(\\d+(-\\d+)?AP\\*?|\\*AP)$"
         },
 
         "Ability": {
@@ -248,9 +248,18 @@
             "required": ["Fleet", "Modifiers"],
             "additionalProperties": false,
             "properties": {
-                "Fleet":     { "type": "string" },
+                "Fleet":     { "description": "A fleet short name, or '*' for any fleet.", "enum": ["*", "UCM", "PHR", "Shaltari", "Scourge", "Resistance", "Bioficer"] },
+                "Except":    {
+                    "description": "Fleets excluded from a '*' entry. Only present when Fleet is '*'.",
+                    "type": "array",
+                    "items": { "enum": ["UCM", "PHR", "Shaltari", "Scourge", "Resistance", "Bioficer"] },
+                    "minItems": 1,
+                    "uniqueItems": true
+                },
                 "Modifiers": { "type": "array", "items": { "$ref": "#/$defs/StatModifier" } }
-            }
+            },
+            "if": { "required": ["Except"] },
+            "then": { "properties": { "Fleet": { "const": "*" } } }
         },
 
         "AsIfSpecial": {
@@ -259,6 +268,34 @@
             "items": { "type": "string", "minLength": 1 },
             "minItems": 1,
             "uniqueItems": true
+        },
+
+        "FeatureCarrier": {
+            "description": "The Deployable Features a ship with the Feature Carrier rule starts the game carrying. Only present on ships with that rule.",
+            "type": "object",
+            "required": ["Count", "ValidDeployableFeatures"],
+            "additionalProperties": false,
+            "properties": {
+                "Count": {
+                    "description": "How many Deployable Features the ship carries (duplicates allowed).",
+                    "type": "integer",
+                    "minimum": 1
+                },
+                "Free": {
+                    "description": "True when the Features cost no points. Only present when true.",
+                    "const": true,
+                    "default": false
+                },
+                "ValidDeployableFeatures": {
+                    "description": "Feature names (a Feature's Profile Type) the ship may carry: the ship's own fleet's Deployable Features first, then the rulebook Features in System. ['*'] means any of the ship's own fleet's Deployable Features, never the rulebook Features.",
+                    "type": "array",
+                    "items": { "type": "string", "minLength": 1 },
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "if": { "contains": { "const": "*" } },
+                    "then": { "maxItems": 1 }
+                }
+            }
         },
 
         "ShipProfile": {

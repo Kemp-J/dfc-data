@@ -21,7 +21,7 @@
         {
             "Name": "Twin Heavy Calibres",
             "Arc": "F",
-            "Att": 1,
+            "Att": 2,
             "Lock": "4+",
             "DMG": 3,
             "Type": "K",

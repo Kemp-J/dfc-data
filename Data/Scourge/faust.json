@@ -1,7 +1,7 @@
 {
     "Class": "Faust",
     "Type": "Super Battleship",
-    "Points": 265,
+    "Points": 255,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -21,11 +21,13 @@
             "Arc": "F",
             "Att": 3,
             "Lock": "3+",
-            "DMG": 2,
+            "DMG": 1,
             "Type": "E",
             "Special": [
                 "Close Action",
-                "Penetrator"
+                "Critical-1",
+                "Penetrator",
+                "Volley-2"
             ]
         },
         {

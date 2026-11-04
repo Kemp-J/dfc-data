@@ -1,13 +1,13 @@
 {
     "Class": "Granite",
     "Type": "Cruiser",
-    "Points": 115,
+    "Points": 110,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
         "Thrust": 10,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 9,
         "ES": "5+",
         "KS": "4+",
@@ -19,25 +19,15 @@
     },
     "Weapons": [
         {
-            "Name": "Particle Lance",
+            "Name": "Particle Lance Pair",
             "Arc": "FN",
-            "Att": 1,
+            "Att": 2,
             "Lock": "3+",
             "DMG": 2,
             "Type": "C",
             "Special": [
-                "Critical-1"
-            ]
-        },
-        {
-            "Name": "Particle Lance",
-            "Arc": "FN",
-            "Att": 1,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "C",
-            "Special": [
-                "Critical-1"
+                "Critical-2",
+                "Focused"
             ]
         }
     ],

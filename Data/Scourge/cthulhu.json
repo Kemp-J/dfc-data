@@ -22,9 +22,9 @@
         {
             "Name": "Furnace Triad",
             "Arc": "FN",
-            "Att": 3,
+            "Att": 4,
             "Lock": "2+",
-            "DMG": 4,
+            "DMG": 3,
             "Type": "C",
             "Special": [
                 "Bloom-1",

@@ -1,13 +1,13 @@
 {
     "Class": "Goethite",
     "Type": "Battlecruiser",
-    "Points": 210,
+    "Points": 195,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
         "Thrust": 10,
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 3,
         "Hull": 13,
         "ES": "5+",
         "KS": "4+",

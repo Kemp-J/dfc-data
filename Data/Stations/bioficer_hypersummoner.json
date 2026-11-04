@@ -16,14 +16,30 @@
     },
     "Weapons": [],
     "Load": [],
+    "Hardpoints": {
+        "Features": [
+            {
+                "Name": "Supercontrol Node",
+                "Count": 1
+            }
+        ],
+        "AdditionalFeatures": {
+            "Min": 0,
+            "Max": 1
+        },
+        "Armaments": {
+            "Min": 0,
+            "Max": 0
+        }
+    },
     "Rules": [
         {
             "Name": "Summoned Ingress",
-            "Text": "From the 2nd round onwards, when a Group of L Tonnage not on the table deploys, you may treat this Space Stations front Arc up to 6\" away as that Group's deployment zone. If a Group deploys this way, roll a dice for each Ship in that Group and apply the corresponding Crippling Effect to the Group and the Group cannot attack or launch Assets this round."
+            "Text": "From the 2nd round onwards while you control this Space Station, when a Group of L Tonnage not on the table deploys, you may treat this Space Stations front Arc up to 6\" away as that Group's deployment zone. If a Group deploys this way, roll a dice for each Ship in that Group and apply the corresponding Crippling Effect to the Ship and the Group cannot attack or launch Assets this round."
         },
         {
             "Name": "Hypersummoning",
-            "Text": "When you launch a Wing from a friendly Bioficer Ship, instead of launching them normally, you may place them anywhere within 18\" of this Space Station. Wings placed this way suffer the effects of any scenery they are placed on but ignore intervening scenery. Wings placed this way count as having moved but may form and divide into Wings as if they had moved normally but cannot move or form and divide into Wings during the Asset Phase. Wings placed this way cannot be the target of your Abilities until the end of the round (other players may target them with Abilities as normal)."
+            "Text": "If you control this Space Station, when you launch a Wing from a friendly Bioficer Ship, instead of launching them normally, you may place them anywhere within 18\" of this Space Station. Wings placed this way suffer the effects of any scenery they are placed on but ignore intervening scenery. Wings placed this way count as having moved but may form and divide into Wings as if they had moved normally but cannot move or form and divide into Wings during the Asset Phase. Wings placed this way cannot be the target of your Abilities until the end of the round (other players may target them with Abilities as normal)."
         }
     ]
 }

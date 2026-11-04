@@ -1,7 +1,7 @@
 {
     "Class": "Rhadamanthus",
     "Type": "Battleship",
-    "Points": 220,
+    "Points": 205,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -17,10 +17,10 @@
     },
     "Weapons": [
         {
-            "Name": "Heavy Calibre Broadside",
+            "Name": "Heavy Calibre Broadside Array",
             "Arc": "B",
-            "Att": 1,
-            "Lock": "3+",
+            "Att": 3,
+            "Lock": "4+",
             "DMG": 3,
             "Type": "K",
             "Special": [

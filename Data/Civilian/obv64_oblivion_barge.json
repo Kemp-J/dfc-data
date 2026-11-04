@@ -16,6 +16,7 @@
         "Special": [
             "Boardable",
             "Civilian Transport",
+            "Mercenary (All)",
             "Rare",
             "Reinforced Armour"
         ]
@@ -31,7 +32,7 @@
             "Special": [
                 "Anti Wing"
             ],
-            "Rule": "This weapon can only be used against targets within Scan range and on the same Orbital Layer.\nWhile this Ship is below its starting Hull Points, for every 2 Hull Points lost from its starting Hull Points, increase the attack of this weapon by 1."
+            "Rule": "This weapon can only be used against targets within Scan range and on the same Orbital Layer.\nWhile this Ship is below its starting Hull Points, for every 2 Hull Points lost from its starting Hull Points, increase the attack of this weapon by 1.\nAt the start of the Repair step of the End Phase, if this Ship is not crippled, you may inflict 1 point of damage to it and up to one other Ship in base contact with it"
         }
     ],
     "Load": [
@@ -45,10 +46,6 @@
         {
             "Name": "Acquired Mines",
             "Text": "This Ship's Mines use the stats of its parent fleet."
-        },
-        {
-            "Name": "Mercenary",
-            "Text": "This Ship may be used in any fleet regardless of faction. When taken as part of your fleet, this Ship loses its Boardable and Civilian Transport rules."
         }
     ],
     "UsableIn": [

@@ -1,7 +1,7 @@
 {
     "Class": "Kulshedra",
     "Type": "Heavy Carrier",
-    "Points": 164,
+    "Points": 156,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -58,6 +58,22 @@
             "Load": "Fighters & Bombers",
             "Launch": 2,
             "Special": []
+        },
+        {
+            "Load": "Mines",
+            "Launch": 3,
+            "Special": [],
+            "Cost": 4,
+            "Replaces": [
+                "Fighters & Bombers"
+            ],
+            "RuleName": "Minelayer"
+        }
+    ],
+    "Rules": [
+        {
+            "Name": "Minelayer",
+            "Text": "This ship may replace its Fighters & Bombers with Mines for +4 pts."
         }
     ],
     "KnownShips": [

@@ -21,42 +21,16 @@
     },
     "Weapons": [
         {
-            "Name": "Artillery Cannon",
+            "Name": "Artillery Cannons",
             "Arc": "F",
-            "Att": 1,
+            "Att": 3,
             "Lock": "4+",
             "DMG": 2,
             "Type": "K",
             "Special": [
                 "Calibre-H/C",
-                "Fusillade-1",
-                "Low Power"
-            ]
-        },
-        {
-            "Name": "Artillery Cannon",
-            "Arc": "F",
-            "Att": 1,
-            "Lock": "4+",
-            "DMG": 2,
-            "Type": "K",
-            "Special": [
-                "Calibre-H/C",
-                "Fusillade-1",
-                "Low Power"
-            ]
-        },
-        {
-            "Name": "Artillery Cannon",
-            "Arc": "F",
-            "Att": 1,
-            "Lock": "4+",
-            "DMG": 2,
-            "Type": "K",
-            "Special": [
-                "Calibre-H/C",
-                "Fusillade-1",
-                "Low Power"
+                "Critical-1",
+                "Fusillade-3"
             ]
         }
     ],

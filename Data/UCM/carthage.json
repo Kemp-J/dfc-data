@@ -1,7 +1,7 @@
 {
     "Class": "Carthage",
     "Type": "Super Battleship",
-    "Points": 320,
+    "Points": 315,
     "Tonnage": "H",
     "BaseSize": 50,
     "Profile": {
@@ -19,12 +19,14 @@
         {
             "Name": "UF-12000 Twin Mass Driver",
             "Arc": "FN",
-            "Att": 2,
+            "Att": 3,
             "Lock": "2+",
-            "DMG": 4,
+            "DMG": 2,
             "Type": "C",
             "Special": [
-                "Crippling"
+                "Crippling",
+                "Critical-2",
+                "Focused"
             ]
         },
         {
@@ -52,7 +54,7 @@
         {
             "Name": "Cobra Heavy Laser Pair",
             "Arc": "FN",
-            "Att": 6,
+            "Att": 8,
             "Lock": "3+",
             "DMG": 1,
             "Type": "E",
@@ -61,7 +63,7 @@
                 "Flash-2",
                 "Focused"
             ],
-            "Cost": 5,
+            "Cost": 10,
             "Replaces": [
                 "UF-4200 Mass Driver Turrets",
                 "UF-4200 Mass Driver Turrets"
@@ -72,7 +74,7 @@
     "Load": [
         {
             "Load": "Fighters & Bombers",
-            "Launch": 4,
+            "Launch": 5,
             "Special": [
                 "Alt-1"
             ]
@@ -95,7 +97,7 @@
     "Rules": [
         {
             "Name": "Laser Refit",
-            "Text": "This Ship may take a Laser Refit for +5 points, replacing both of its UF-4200 Mass Driver Turrets with a single Cobra Heavy Laser Pair."
+            "Text": "This Ship may take a Laser Refit for +10 points, replacing both of its UF-4200 Mass Driver Turrets with a single Cobra Heavy Laser Pair."
         }
     ],
     "KnownShips": [

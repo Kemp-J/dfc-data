@@ -4,8 +4,8 @@
     "Class": "Raiju",
     "Type": "Heavy Cruiser",
     "AdmiralPoints": 45,
-    "ShipPoints": 125,
-    "Points": 170,
+    "ShipPoints": 120,
+    "Points": 165,
     "Tonnage": "M",
     "BaseSize": 40,
     "Profile": {
@@ -37,8 +37,8 @@
         {
             "Name": "Furnace Cannons",
             "Arc": "FN",
-            "Att": 4,
-            "Lock": "2+",
+            "Att": 6,
+            "Lock": "3+",
             "DMG": 1,
             "Type": "E",
             "Special": [
@@ -64,7 +64,7 @@
     "Rules": [
         {
             "Name": "Doomed",
-            "Text": "Whenever you capture an enemy Ship or an enemy Ship is destroyed due to the Fire Crippling Effect, gain 2AP."
+            "Text": "When you generate AP, for each enemy Ship in the previous round that you captured or that was destroyed due to the Fire Crippling Effect, increase the AP you generate this round by 2."
         }
     ],
     "FleetAdmiralAbilities": 2,

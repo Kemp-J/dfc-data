@@ -1,7 +1,7 @@
 {
     "Class": "Baleares",
     "Type": "Pocket Carrier",
-    "Points": 55,
+    "Points": 52,
     "Tonnage": "L",
     "BaseSize": 30,
     "Profile": {
@@ -28,6 +28,13 @@
         },
         {
             "Load": "Bombers",
+            "Launch": 1,
+            "Special": [
+                "Alt-1"
+            ]
+        },
+        {
+            "Load": "Mines",
             "Launch": 1,
             "Special": [
                 "Alt-1"

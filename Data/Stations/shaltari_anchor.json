@@ -2,7 +2,7 @@
     "Fleet": "Shaltari",
     "Name": "Anchor",
     "Size": "Large",
-    "Points": 120,
+    "Points": 100,
     "BaseSize": 50,
     "Profile": {
         "Scan": 12,
@@ -14,11 +14,27 @@
         "G": "1",
         "Special": [
             "Shield-4+",
-            "Gateship-0"
+            "Gateship-3"
         ]
     },
     "Weapons": [],
     "Load": [],
+    "Hardpoints": {
+        "Features": [
+            {
+                "Name": "Life Support",
+                "Count": 1
+            }
+        ],
+        "AdditionalFeatures": {
+            "Min": 2,
+            "Max": 3
+        },
+        "Armaments": {
+            "Min": 0,
+            "Max": 0
+        }
+    },
     "Rules": [
         {
             "Name": "Voidspace Anchor",

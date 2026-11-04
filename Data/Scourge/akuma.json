@@ -42,6 +42,18 @@
                 "Scald-1",
                 "Volley-2"
             ]
+        },
+        {
+            "Name": "Plasma Gale",
+            "Arc": "F/S",
+            "Att": 3,
+            "Lock": "3+",
+            "DMG": 1,
+            "Type": "K",
+            "Special": [
+                "Close Action",
+                "Scald-2"
+            ]
         }
     ],
     "Load": [],

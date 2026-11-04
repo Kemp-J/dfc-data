@@ -1,9 +1,10 @@
 {
     "Profile": {
-        "PTS": null,
+        "PTS": 10,
         "Type": "Shield Platform",
-        "ES": "4+",
-        "KS": "4+",
+        "ES": "3+",
+        "KS": "3+",
+        "Hull": 4,
         "Special": []
     },
     "Weapons": [],

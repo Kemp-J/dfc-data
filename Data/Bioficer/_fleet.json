@@ -1,35 +1,35 @@
 {
-    "SourceVersion": "260925",
+    "SourceVersion": "261104",
     "Abilities": [
         {
             "Cost": "1AP",
             "Name": "Good Fight, We Should Do It More Often",
-            "Effect": "If a friendly Group's attack would cause an enemy Group to be completely removed from the table, the friendly Group may immediately turn up to 45 degrees."
+            "Effect": "At the end of the Activation Phase, choose one friendly Group and one enemy Group of the same or greater Tonnage within Scan range of the friendly Group. Starting with the friendly Group, Both Groups attack with a single Weapon System as if on the General Quarters Order, following the sequence in 7.3 Attack until 7.3.5 Inflict Damage. Damage from these attacks is then inflicted simultaneously."
         },
         {
-            "Cost": "3AP",
-            "Name": "Maddening Communiqué",
-            "Effect": "At the start of the Activation Phase, pick an opponent. That opponent's Abilities cost 1 additional AP to use until the end of the round."
+            "Cost": "1AP",
+            "Name": "Esoteric Ammunition",
+            "Effect": "When you assign a Group's weapons to a target, each of the attacking Group's Weapon Systems with \"Barb\" in their name gain Bloom-1, Flash-1, and Critical-1 for that attack."
         },
         {
-            "Cost": "2AP",
-            "Name": "Forcing an Unfair Fight",
-            "Effect": "At the start of the Activation Phase, pick a Dropsite you contest. Add a friendly Battalion to each Feature on that Dropsite. At the beginning of the Cleanup step of the End Phase, remove a friendly Battalion from each Feature on that Dropsite."
+            "Cost": "1AP",
+            "Name": "Limited Sensor Profile",
+            "Effect": "When an enemy Group assigns weapons to a friendly Group, if that enemy Group's Lead Ship is in the Front or Rear Arc of the closest Ship to it in the friendly Group, reduce the Lock of the weapons targeting the friendly Group by 1."
         },
         {
             "Cost": "2AP",
             "Name": "Precision Strike",
-            "Effect": "When you assign a Group's weapons to targets, pick one of the attacking Group's Weapon Systems. Improve the Lock of that Weapon System by 1 for this attack sequence."
+            "Effect": "At the start of a friendly Group's activation, choose one weapon on a Ship in that Group. That weapon gains Crippling until the end of the Group's activation. Weapons with the Close Action special rule are unaffected."
         },
         {
             "Cost": "1AP",
             "Name": "Prismatic Surprise",
-            "Effect": "At the end of the Planning Phase, you may swap the attached Payloads of two Porter Ships with the same Porter value."
+            "Effect": "Once per round, when you assign targets to a weapon with \"Prism\" in its name, other friendly Ships with the same name as the attacking Ship and that are within 12\" of the target may contribute to the attack. For each Ship that contributes, the attacking \"Prism\" weapon increases its Attack by 1. If this causes the Attack of the attacking weapon to double or more, that weapon gains Penetrator for that attack."
         },
         {
-            "Cost": "3AP",
+            "Cost": "*AP",
             "Name": "Unsportsmanlike Behaviour",
-            "Effect": "During this round's Cleanup step of the End Phase, all players retain any unspent AP from this round into the next round. In the next round, only players that have used this Ability this round can generate AP from Admirals in the Planning Phase."
+            "Effect": "At the start of the Activation Phase, you may pay up to 3AP. If you do, roll twice that many dice and declare the unmodified results to your opponent. Until the end of the Activation Phase, after your opponent rolls to hit, for Crippling Effects, and for Explosion Effects, you may replace one of the dice in that roll with one of your declared dice, as if using an Ability. Any unused dice are lost at the end of the Activation Phase."
         }
     ],
     "FleetAdmirals": [
@@ -42,7 +42,7 @@
                 {
                     "Cost": "2AP",
                     "Name": "Backpedal",
-                    "Effect": "At the start of a friendly Group's activation, pick any friendly Group. You may move each Ship in that Group up to 3\" directly backwards."
+                    "Effect": "At the start of a friendly Group's activation, pick any friendly Group. You may move each Ship in that Group up to 3\" directly backwards, then turn any Ship that moved up to 22 degrees (the size of the FN or RN arc)."
                 }
             ]
         },
@@ -55,7 +55,7 @@
                 {
                     "Cost": "2AP",
                     "Name": "Gravitic Manoeuvring",
-                    "Effect": "When a friendly Group is given a Max Thrust Order, it may turn as if it was on General Quarters."
+                    "Effect": "When a friendly Group is given a Weapons Free or Max Thrust Order, it may turn as if it was on General Quarters."
                 },
                 {
                     "Cost": "1AP",

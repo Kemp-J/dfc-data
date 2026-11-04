@@ -13,6 +13,10 @@
         "Profile":        { "$ref": "https://dfc/schemas/stations/defs.json#/$defs/StationProfile" },
         "Hardpoints":     { "$ref": "https://dfc/schemas/stations/defs.json#/$defs/Hardpoints" },
         "MaxUpgrades":    { "type": "integer", "minimum": 0 },
-        "UpgradeOptions": { "type": "array", "items": { "type": "string" } }
+        "UpgradeOptions": {
+            "description": "Names of station upgrade files the station may take, plus the special entry \"Space Station Features\", meaning one option from the Space Station Features list.",
+            "type": "array",
+            "items": { "type": "string" }
+        }
     }
 }
