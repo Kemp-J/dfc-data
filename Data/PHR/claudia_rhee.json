@@ -21,40 +21,40 @@
     },
     "Weapons": [
         {
-            "Name": "Heavy Calibre Broad-side",
+            "Name": "Heavy Calibre Broadside",
             "Arc": "B",
             "Att": 2,
             "Lock": "4+",
             "DMG": 3,
             "Type": "K",
             "Special": [
-                "Calibre-H",
+                "Calibre-H/C",
                 "Penetrator",
                 "Volley-2"
             ]
         },
         {
-            "Name": "Heavy Calibre Broad-side",
+            "Name": "Heavy Calibre Broadside",
             "Arc": "B",
             "Att": 2,
             "Lock": "4+",
             "DMG": 3,
             "Type": "K",
             "Special": [
-                "Calibre-H",
+                "Calibre-H/C",
                 "Penetrator",
                 "Volley-2"
             ]
         },
         {
-            "Name": "Heavy Calibre Broad-side",
+            "Name": "Heavy Calibre Broadside",
             "Arc": "B",
             "Att": 2,
             "Lock": "4+",
             "DMG": 3,
             "Type": "K",
             "Special": [
-                "Calibre-H",
+                "Calibre-H/C",
                 "Penetrator",
                 "Volley-2"
             ]

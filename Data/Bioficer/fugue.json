@@ -19,7 +19,7 @@
         {
             "Name": "Lightvice",
             "Arc": "F/S",
-            "Att": 3,
+            "Att": 4,
             "Lock": "2+",
             "DMG": 1,
             "Type": "K",

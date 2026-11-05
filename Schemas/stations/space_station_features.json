@@ -3,6 +3,15 @@
     "$id": "https://dfc/schemas/stations/space_station_features.json",
     "title": "DFC Space Station Features",
     "description": "The priced Space Station Features table.",
+    "$defs": {
+        "FeatureSave": {
+            "description": "Save stat value: 'X+' where X is 2–6, or '*' when the Feature uses its Space Station's best available saves.",
+            "anyOf": [
+                { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
+                { "const": "*" }
+            ]
+        }
+    },
     "type": "array",
     "minItems": 1,
     "items": {
@@ -12,8 +21,8 @@
         "properties": {
             "Name":    { "type": "string", "minLength": 1 },
             "Pts":     { "type": "integer", "minimum": 0 },
-            "ES":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
-            "KS":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
+            "ES":      { "$ref": "#/$defs/FeatureSave" },
+            "KS":      { "$ref": "#/$defs/FeatureSave" },
             "Hull":    { "type": "integer", "minimum": 1 },
             "Effect":  { "type": "string", "minLength": 1 },
             "Effects": {

@@ -44,8 +44,8 @@ The Space Station Features file (`space_station_features.json`) is a list with o
 
 - "Name": The Feature's name (the table's Type column), e.g. "Launch Control".
 - "Pts": The points cost (integer). A Feature a station has automatically is free; this is the price of buying one more.
-- "ES": The Feature's energy save (string, e.g. "4+").
-- "KS": The Feature's kinetic save (string, e.g. "4+").
+- "ES": The Feature's energy save (string, e.g. "4+"), or "*" when the Feature uses its Space Station's best available saves (Launch Control, Weapons Control).
+- "KS": The Feature's kinetic save (string, e.g. "4+"), or "*" as for "ES".
 - "Hull": The Feature's hull (integer).
 - "Effect": The Effect text, with wrapped lines joined. "None" when the PDF prints None.
 - "Effects": A list of profile modifiers (see 'Profile modifiers' in fleet_data_format.md) applied to the station that has the Feature. Always present; an empty list when the Effect changes no profile stat. For example, Redundant Systems ("This Space Station gains a 6+ Backup Save.") has `[{"Target": "BS", "Type": "replace", "Value": "6+"}]`.
@@ -54,7 +54,7 @@ Example:
 
 ```json
 [
-    {"Name": "Launch Control", "Pts": 5, "ES": "4+", "KS": "4+", "Hull": 5, "Effect": "When all Launch Control Features are removed from a Space Station, that Station cannot Launch Assets", "Effects": []},
+    {"Name": "Launch Control", "Pts": 5, "ES": "*", "KS": "*", "Hull": 5, "Effect": "This feature uses its Space Station's best available saves. When all Launch Control Features are removed from a Space Station, that Station cannot Launch Assets", "Effects": []},
     {"Name": "Reactor Core", "Pts": 0, "ES": "5+", "KS": "5+", "Hull": 6, "Effect": "When this Feature or a Space Station with this feature is destroyed, it explodes with a Reactor Overload Explosion Effect with a range of D6+3\".", "Effects": []},
     {"Name": "Redundant Systems", "Pts": 10, "ES": "4+", "KS": "4+", "Hull": 7, "Effect": "This Space Station gains a 6+ Backup Save.", "Effects": [{"Target": "BS", "Type": "replace", "Value": "6+"}]},
     {"Name": "Defensive Systems", "Pts": 20, "ES": "2+", "KS": "2+", "Hull": 3, "Effect": "None", "Effects": []}

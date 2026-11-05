@@ -6,7 +6,7 @@
     "BaseSize": 50,
     "Profile": {
         "Scan": 12,
-        "Sig": 6,
+        "Sig": 2,
         "Hull": 24,
         "ES": "4+",
         "KS": "4+",

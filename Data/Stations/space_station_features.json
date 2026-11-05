@@ -2,19 +2,19 @@
     {
         "Name": "Launch Control",
         "Pts": 5,
-        "ES": "4+",
-        "KS": "4+",
+        "ES": "*",
+        "KS": "*",
         "Hull": 5,
-        "Effect": "When all Launch Control Features are removed from a Space Station, that Station cannot Launch Assets",
+        "Effect": "This feature uses its Space Station's best available saves. When all Launch Control Features are removed from a Space Station, that Station cannot Launch Assets",
         "Effects": []
     },
     {
         "Name": "Weapons Control",
         "Pts": 5,
-        "ES": "4+",
-        "KS": "4+",
+        "ES": "*",
+        "KS": "*",
         "Hull": 5,
-        "Effect": "When all Weapons Control Features are removed from a Space Station, that Station cannot use its Weapon Systems",
+        "Effect": "This feature uses its Space Station's best available saves. When all Weapons Control Features are removed from a Space Station, that Station cannot use its Weapon Systems",
         "Effects": []
     },
     {
@@ -23,7 +23,7 @@
         "ES": "5+",
         "KS": "5+",
         "Hull": 6,
-        "Effect": "When this Feature is removed, each player removes a Battaion from this Space Station, then at the end of each subsequent Cleanup step, each player removes a Battalion from this Space Station.",
+        "Effect": "When this Feature is removed, each player removes a Battalion from this Space Station. If this Space Station started with at least one Life Support Feature and has none remaining, at the end of each Cleanup step, each player removes a Battalion from this Space Station.",
         "Effects": []
     },
     {

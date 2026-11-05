@@ -35,8 +35,8 @@
     "Load": [],
     "Rules": [
         {
-            "Name": "Holo Deterrence Field",
-            "Text": "At the end of this Ship's activation, choose two different Arcs from F/SL/SR/R. Until the start of this Ship's next activation, enemy Launch Assets that start their move within 6\" in the chosen Arcs reduce their Thrust by 2\" for that move and cannot be placed in base contact with this Ship."
+            "Name": "Holo Interference Field",
+            "Text": "At the end of this ship's activation, you may place a Holo Interference Field within 4\" of this ship. These Holo Interference Fields are removed during the Cleanup step of the End Phase and are circular with a 4\" diameter (a D6 or custom template are perfect tokens to represent these). Enemy Ships ignore the target's Spikes and Signature when attacking through a Holo Interference Field. Enemy Fighters & Bombers underneath the Holo Interference Field when it is placed, or that move/are placed into the Holo Interference Field are removed on a 4+."
         },
         {
             "Name": "Feature Carrier",

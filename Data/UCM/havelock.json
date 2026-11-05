@@ -69,7 +69,7 @@
     "Rules": [
         {
             "Name": "Tip of the Spear",
-            "Text": "At the start of the game, choose one of your deployment zones or a single board edge. While this Ship is further than 12\" away from the chosen deployment zone or board edge, you may re-roll its failed Backup Saves."
+            "Text": "At the start of the game, choose one of your deployment zones. While this Ship is further than 12\" away from the chosen deployment zone, you may re-roll its failed Backup Saves."
         },
         {
             "Name": "Drive Refit",
