@@ -27,7 +27,7 @@
                 "Type":    { "description": "The name of the Feature.", "type": "string", "minLength": 1 },
                 "ES":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
                 "KS":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
-                "Hull":    { "description": "Hull value, or null when the rulebook shows a dash.", "type": ["integer", "null"] },
+                "Hull":    { "type": "integer" },
                 "Special": { "type": "array", "items": { "type": "string" } }
             }
         }

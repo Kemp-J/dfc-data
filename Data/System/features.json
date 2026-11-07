@@ -78,7 +78,7 @@
             "Type": "Hangar",
             "ES": "4+",
             "KS": "4+",
-            "Hull": null,
+            "Hull": 5,
             "Special": []
         },
         "Weapons": [],

@@ -134,7 +134,7 @@ The standard Features from the rulebook (e.g. Military Outpost, Hangar) are cont
 
 The file contains a list of Features in rulebook order. Each Feature has the same structure as a fleet Deployable Feature data file (see fleet_data_format.md), except that the rulebook gives Features no points, so the Profile has no "PTS":
 
-- "Profile": A dictionary containing "Type" (string, the Feature's name), "ES" (string), "KS" (string), "Hull" (integer, or null when the rulebook shows a dash), and "Special" (list of strings).
+- "Profile": A dictionary containing "Type" (string, the Feature's name), "ES" (string), "KS" (string), "Hull" (integer), and "Special" (list of strings).
 - "Weapons": A list of weapons, as for Deployable Features (each with "Scan" in place of "Arc").
 - "Load": A list of load entries.
 - "Rules": A string of rule paragraphs separated by `\n`, or an empty string. It includes a bespoke rule given in the table's Special column (e.g. "Comms Uplink: ...") and any footnote on the Feature's tables.
@@ -144,7 +144,7 @@ Example:
 ```json
 [
     {
-        "Profile": {"Type": "Hangar", "ES": "4+", "KS": "4+", "Hull": null, "Special": []},
+        "Profile": {"Type": "Hangar", "ES": "4+", "KS": "4+", "Hull": 5, "Special": []},
         "Weapons": [],
         "Load": [{"Load": "Fighters & Bombers", "Launch": 2, "Special": []}],
         "Rules": "This Feature's Fighters & Bombers use the Controlling players' Fighters & Bombers."

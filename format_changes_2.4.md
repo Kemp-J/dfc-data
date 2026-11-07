@@ -44,14 +44,14 @@ After:
 
 ```json
 {
-    "Profile": {"Type": "Hangar", "ES": "4+", "KS": "4+", "Hull": null, "Special": []},
+    "Profile": {"Type": "Hangar", "ES": "4+", "KS": "4+", "Hull": 5, "Special": []},
     "Weapons": [],
     "Load": [{"Load": "Fighters & Bombers", "Launch": 2, "Special": []}],
     "Rules": "This Feature's Fighters & Bombers use the Controlling players' Fighters & Bombers."
 }
 ```
 
-- `Hull` is `null` where the rulebook shows `-` (Hangar).
+- `Hull` is an integer. (Early 2.4 rulebooks printed `-` for the Hangar, exported as `null`; it is now 5.)
 - Comms Station and Power Plant print a bespoke rule in the Special column. That text is in `Rules` (`"Comms Uplink: …"`, `"Volatile: …"`), and `Special` is `[]`.
 - A footnote on a Feature's table, such as the Hangar's, is added to its `Rules`.
 
@@ -85,7 +85,7 @@ Every ship with a `Feature Carrier` rule gains a `FeatureCarrier` object, direct
 
 ### Deployable features
 
-- `Profile` gains `Hull`, directly after `KS`. It is an integer, or `null` where the PDF shows `-`. No 2.4 Deployable Feature currently does.
+- `Profile` gains `Hull`, directly after `KS`. It is an integer.
 
 UCM Torpedo Platform example:
 

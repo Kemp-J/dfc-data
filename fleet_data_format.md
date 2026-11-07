@@ -64,7 +64,7 @@ Each Deployable Feature has its own data file in json format. The file is named 
 
 The file contains the following:
 
-- "Profile": A dictionary containing "PTS" (integer or null), "Type" (string, the name of the Deployable Feature), "ES" (string: "X+" where X is a number), "KS" (string: "X+" where X is a number), "Hull" (integer, or null when the PDF shows a dash), and "Special" (list of strings).
+- "Profile": A dictionary containing "PTS" (integer or null), "Type" (string, the name of the Deployable Feature), "ES" (string: "X+" where X is a number), "KS" (string: "X+" where X is a number), "Hull" (integer), and "Special" (list of strings).
 - "AsIfSpecial": An optional list of strings, each the name of a ship Special rule (e.g. "Payload S-1") that the Deployable Feature is treated as having although it is not in the Profile's "Special". Anything that checks whether the Deployable Feature has a Special rule should check both "Special" and "AsIfSpecial". Only present when non-empty. Example: `["Payload S-1"]`.
 - "Weapons": A list of weapon entries. Each entry is one of:
   - A **single-profile weapon**: a dictionary containing "Name" (string), "Scan" (integer or null), "Att" (integer), "Lock" (string: either "X+" where X is a number between 1 and 6, or "*"), "DMG" (integer), "Type" (string: one of "K", "E", or "C"), and "Special" (list of strings). Example: `{"Name": "Electrowave Caster", "Scan": 8, "Att": 3, "Lock": "2+", "DMG": 1, "Type": "E", "Special": ["Close Action", "Escape Velocity", "Status"]}`.

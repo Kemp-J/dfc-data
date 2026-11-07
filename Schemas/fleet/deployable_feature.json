@@ -25,7 +25,7 @@
                 "Type":    { "description": "The name of the Deployable Feature.", "type": "string" },
                 "ES":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
                 "KS":      { "$ref": "https://dfc/schemas/defs.json#/$defs/SaveValue" },
-                "Hull":    { "description": "Hull value, or null when the PDF shows a dash.", "type": ["integer", "null"] },
+                "Hull":    { "type": "integer" },
                 "Special": { "type": "array", "items": { "type": "string" } }
             }
         },
