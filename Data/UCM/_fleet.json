@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "261104",
+    "SourceVersion": "261119",
     "Abilities": [
         {
             "Cost": "1AP",
@@ -19,7 +19,7 @@
         {
             "Cost": "2AP",
             "Name": "Mass Driver Volley",
-            "Effect": "When you assign a \"Mass Driver\" Weapon System to targets, that Weapon System improves its Lock by 1 for that attack sequence. If that Weapon System already has a Lock value of 2+, it causes criticals on a result of a 3+ for that attack sequence instead."
+            "Effect": "When you assign a \"Mass Driver\" Weapon System to targets, that Weapon System improves its Lock by 1 for that attack sequence. If that Weapon System already has a Lock value of 2+, instead lower the result required to score a critical by 1 for that attack."
         },
         {
             "Cost": "1AP",

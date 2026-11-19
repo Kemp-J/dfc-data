@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "261104",
+    "SourceVersion": "261119",
     "Abilities": [
         {
             "Cost": "2AP",
@@ -19,7 +19,7 @@
         {
             "Cost": "1AP",
             "Name": "Big Guns a' Blazing",
-            "Effect": "When you assign a Group's Weapon System with Damage 2 or higher to targets, double the Attack value of that Weapon System and that Weapon System has an unmodifiable Lock Value of 4+ and only causes criticals on a 6+ for this attack and cannot have its dice rolls modified in any way. If this Ability affects a Weapon System with an Arc of B, it costs an additional 1AP. If this Ability affects a Weapon System on a Ship of H or C Tonnage, this Ability costs an additional 1AP (additional costs are cumulative)."
+            "Effect": "When you assign a Group's Weapon System with Damage value of 2 or higher (before any special rules) to targets, double the Attack value of that Weapon System and that Weapon System has an unmodifiable Lock value of 4+ and only causes criticals on a 6+ for this attack and cannot have its dice rolls modified in any way. If this Ability affects a Weapon System with an Arc of B, it costs an additional 1AP. If this Ability affects a Weapon System on a Ship of H or C Tonnage, this Ability costs an additional 1AP (additional costs are cumulative)."
         },
         {
             "Cost": "1AP",

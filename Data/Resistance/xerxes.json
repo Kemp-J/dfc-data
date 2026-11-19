@@ -26,9 +26,9 @@
             "DMG": 1,
             "Type": "E",
             "Special": [
-                "Flash-2",
+                "Flash-1",
                 "Focused",
-                "Fusillade-2",
+                "Fusillade-1",
                 "Reave-1",
                 "Volley-2"
             ]

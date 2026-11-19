@@ -5,7 +5,7 @@
         "ES": "*",
         "KS": "*",
         "Hull": 5,
-        "Effect": "This feature uses its Space Station's best available saves. When all Launch Control Features are removed from a Space Station, that Station cannot Launch Assets",
+        "Effect": "This feature uses its Space Station's best available saves. When all Launch Control Features are removed from a Space Station, that Station cannot Launch Assets. Deployed Features may still be used.",
         "Effects": []
     },
     {
@@ -14,7 +14,7 @@
         "ES": "*",
         "KS": "*",
         "Hull": 5,
-        "Effect": "This feature uses its Space Station's best available saves. When all Weapons Control Features are removed from a Space Station, that Station cannot use its Weapon Systems",
+        "Effect": "This feature uses its Space Station's best available saves. When all Weapons Control Features are removed from a Space Station, that Station cannot use its Weapon Systems. Deployed Features may still be used.",
         "Effects": []
     },
     {

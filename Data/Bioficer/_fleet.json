@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "261104",
+    "SourceVersion": "261119",
     "Abilities": [
         {
             "Cost": "1AP",
@@ -9,7 +9,7 @@
         {
             "Cost": "1AP",
             "Name": "Esoteric Ammunition",
-            "Effect": "When you assign a Group's weapons to a target, each of the attacking Group's Weapon Systems with \"Barb\" in their name gain Bloom-1, Flash-1, and Critical-1 for that attack."
+            "Effect": "When you assign a Group's weapons to a target, each of the attacking Group's Weapon Systems with \"Barb\" in their name gain Bloom-1, Flash-1, and Critical-1 for that attack. Weapons with any of those special rules already increase that special rule's X value by 1 for that attack."
         },
         {
             "Cost": "1AP",

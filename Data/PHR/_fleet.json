@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "261104",
+    "SourceVersion": "261119",
     "Abilities": [
         {
             "Cost": "2AP",
@@ -9,7 +9,7 @@
         {
             "Cost": "2AP",
             "Name": "Weapons Hack",
-            "Effect": "When an opponent assigns weapons to friendly Ships, choose one of the attacking Group's Weapon Systems. Until the end of the attacking Ships' activation, that Weapon System automatically misses on rolls of a 2 or less and your opponent cannot use abilities on those weapons. This can cause that opponent's unresolved abilities on that Weapon System to be negated."
+            "Effect": "When an opponent assigns weapons to friendly Ships, choose one of the attacking Group's Weapon Systems. Until the end of the attacking Ships' activation, that Weapon System automatically misses on rolls of a 2 or less and your opponent cannot use Abilities (see 4.2.1.1. Abilities and Ability Points) on those weapons. This can cause that opponent's unresolved Abilities on that Weapon System to be negated."
         },
         {
             "Cost": "1AP",

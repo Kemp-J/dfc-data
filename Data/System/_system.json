@@ -1,5 +1,5 @@
 {
-    "SourceVersion": "2.4.0",
+    "SourceVersion": "2.4.1",
     "GameSizes": "game_sizes.json",
     "GroupLimits": "group_limits.json",
     "Admirals": "admirals.json",

@@ -66,7 +66,7 @@
     },
     {
         "Name": "High Power",
-        "Text": "Unless the attacking Ship is on the Weapons Free Order, attacking with this Weapon counts as attacking with two Weapons (though it only fires once).\nShips with only a single High Power Weapon can only attack with it while on the Weapons Free Order."
+        "Text": "Unless the attacking Ship is on the Weapons Free Order, attacking with this Weapon counts as attacking with two Weapons (though it only fires once).\nShips with only a single Weapon cannot attack with it if that Weapon is High Power, unless on the Weapons Free Order."
     },
     {
         "Name": "Impel-X",
@@ -125,7 +125,7 @@
     },
     {
         "Name": "Anti Wing",
-        "Text": "This weapon may target enemy Wings as if they were Ships (with a Sig of 0\") but reduces its Lock value by 1 for that attack. If it does, for each hit, remove 1 Fighter or 1 Bomber from that Wing or any other enemy Wing within 3\" of the target.\nWhen this weapon is assigned to a Torpedo, it reduces its Lock value by 1 instead of always hitting on a 6+.\""
+        "Text": "This weapon may target enemy Wings as if they were Ships (with a Sig of 0\") but reduces its Lock value by 1 for that attack. If it does, for each hit, remove 1 Fighter or 1 Bomber from that Wing or any other enemy Wing within 3\" of the target.\nWhen this weapon is assigned to a Torpedo or Mine, it reduces its Lock value by 1 instead of always hitting on a 6+. Hits from this attack may be used to remove Torpedoes and Mines within 3\" of the target."
     },
     {
         "Name": "Point Blank",

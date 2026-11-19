@@ -35,39 +35,96 @@
             ]
         },
         {
-            "Name": "Energy Glaive Battery",
-            "Arc": "B",
-            "Att": 6,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "E",
-            "Special": [
-                "Overcharge",
-                "Volley-2"
+            "Name": "Energy Glaives",
+            "Profiles": [
+                {
+                    "Name": "Pulse",
+                    "Arc": "B",
+                    "Att": 4,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Reave-1",
+                        "Volley-2"
+                    ]
+                },
+                {
+                    "Name": "Beam",
+                    "Arc": "S",
+                    "Att": 2,
+                    "Lock": "3+",
+                    "DMG": 4,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-1",
+                        "Reave-2",
+                        "Fusillade-1"
+                    ]
+                }
             ]
         },
         {
-            "Name": "Energy Glaive Battery",
-            "Arc": "B",
-            "Att": 6,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "E",
-            "Special": [
-                "Overcharge",
-                "Volley-2"
+            "Name": "Energy Glaives",
+            "Profiles": [
+                {
+                    "Name": "Pulse",
+                    "Arc": "B",
+                    "Att": 4,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-2",
+                        "Reave-1",
+                        "Volley-2"
+                    ]
+                },
+                {
+                    "Name": "Beam",
+                    "Arc": "S",
+                    "Att": 2,
+                    "Lock": "3+",
+                    "DMG": 4,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-2",
+                        "Reave-2",
+                        "Fusillade-1"
+                    ]
+                }
             ]
         },
         {
-            "Name": "Energy Glaive Battery",
-            "Arc": "B",
-            "Att": 6,
-            "Lock": "3+",
-            "DMG": 2,
-            "Type": "E",
-            "Special": [
-                "Overcharge",
-                "Volley-2"
+            "Name": "Energy Glaives",
+            "Profiles": [
+                {
+                    "Name": "Pulse",
+                    "Arc": "B",
+                    "Att": 4,
+                    "Lock": "4+",
+                    "DMG": 2,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-3",
+                        "Reave-1",
+                        "Volley-2"
+                    ]
+                },
+                {
+                    "Name": "Beam",
+                    "Arc": "S",
+                    "Att": 2,
+                    "Lock": "3+",
+                    "DMG": 4,
+                    "Type": "E",
+                    "Special": [
+                        "Alt-3",
+                        "Reave-2",
+                        "Fusillade-1"
+                    ]
+                }
             ]
         }
     ],
@@ -75,7 +132,7 @@
     "Rules": [
         {
             "Name": "Cutting Power",
-            "Text": "If you attack with and do not Overcharge any of this Flagship's Energy Glaive Batteries, they gain Reave-2 for their attacks this activation."
+            "Text": "If you do not attack with any of this Ship's Energy Glaive (Pulse) weapons, all of this ship's Energy Glaives (Beam) Weapons replace their Reave-2 with Burnthrough-2 for their attacks this activation."
         }
     ],
     "FleetAdmiralAbilities": 2,
